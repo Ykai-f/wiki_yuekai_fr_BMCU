@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T12:29:23.532Z
+date: 2025-03-19T12:31:25.382Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -21,8 +21,8 @@ Sadly, I lost one of my BMCUs and the printer's motherboard due to this mistake.
 During a recent round of BMCU testing, I unfortunately forgot this crucial precaution.  
 I performed a **hot-swap** between the BMCU mainboard and the **Molex 4-pin connector** while the printer was powered on.
 
-### �Consequences:
-- **BMCU mainboard** was **completely destroyed** (A spectacular "firework" moment).
+### Consequences:
+- My **BMCU mainboard** was **completely destroyed** (A spectacular "firework" moment).
 - Initially, I suspected the AMS connection board on the A1 was damaged.
 - After consulting the official Wiki and further investigation, it was confirmed that the **printer’s mainboard itself was damaged**.
 
