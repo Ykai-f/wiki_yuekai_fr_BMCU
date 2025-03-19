@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T14:47:57.874Z
+date: 2025-03-19T14:54:44.219Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -29,6 +29,7 @@ I performed a **hot-swap** between the BMCU mainboard and the **Molex 4-pin conn
 - The AMS interface may stop providing **24V power**.
 - The AMS interface may nolonger to recognize the **AMSL system** or any connected **BMCU**.
 - You may damage the BMCU mainboard, the AMS connection board (for A1) or the printer's motherboard, or more than one of them.
+- There are two AMS ports on the back of the A1, and in some cases only the port that is plugged at the time may be burned out
 
 
 
