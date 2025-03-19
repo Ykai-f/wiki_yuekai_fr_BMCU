@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T12:31:25.382Z
+date: 2025-03-19T12:31:49.767Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -15,8 +15,6 @@ Again **DO NOT hot-swap (disconnect or reconnect while powered on) the connectio
 Doing so **may cause irreversible damage** to both the BMCU and the printer.  
 Sadly, I lost one of my BMCUs and the printer's motherboard due to this mistake.
 
----
-
 ## Incident Summary
 During a recent round of BMCU testing, I unfortunately forgot this crucial precaution.  
 I performed a **hot-swap** between the BMCU mainboard and the **Molex 4-pin connector** while the printer was powered on.
@@ -26,14 +24,12 @@ I performed a **hot-swap** between the BMCU mainboard and the **Molex 4-pin conn
 - Initially, I suspected the AMS connection board on the A1 was damaged.
 - After consulting the official Wiki and further investigation, it was confirmed that the **printer’s mainboard itself was damaged**.
 
----
-
 ## Symptoms After Failure
 - The printer's other functions may still work normally.
 - The AMS interface may stop providing **24V power**.
 - The AMS interface may fail to recognize the **AMSL system** or any connected **BMCU**.
 
----
+
 
 ## ⚠️ Root Cause Analysis
 This issue is primarily related to the design of the **Molex 4-pin connector** used by Bambu Lab. Additionally, the BMCU mainboard lacks adequate protection against such incidents.
@@ -44,7 +40,6 @@ The official AMSL from Bambulab seems to have the same problem, a few users in C
 
 > *This is a rare but real risk. the author is currently designing a new BMCU board with improved protection to prevent this failure mode.*
 
----
 
 ## 🤔 Am I at Risk?
 Currently, the number of users affected by this issue is very small.  
@@ -52,7 +47,6 @@ Currently, the number of users affected by this issue is very small.
 
 If you have accidentally hot-swapped your BMCU before, **don't panic** — your system may still be fine. Just be aware of the risk and avoid doing it again in the future.
 
----
 
 ## Solution / Recovery Plan
 If you encounter this issue, follow the **official Wiki diagnostic guide** to check:
