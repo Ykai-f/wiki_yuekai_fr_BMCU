@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T13:42:04.591Z
+date: 2025-03-19T13:42:22.919Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -107,8 +107,3 @@ Some third party platforms such as `superbuy` can help you to place an order fro
 
 Reference price : 1kg package shipping to France/UK about $25 (import tax may apply)  
 BMCU complete assembly reference weight : less than 1.5 kg
-
-
-
-<iframe src="https://shop.yuekai.fr/products/bmcu-fully-assembled" 
-        width="400" height="600" style="border:none;"></iframe>
