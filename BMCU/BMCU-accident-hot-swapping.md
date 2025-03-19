@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T12:31:49.767Z
+date: 2025-03-19T12:36:25.489Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -57,7 +57,7 @@ If you encounter this issue, follow the **official Wiki diagnostic guide** to ch
 - **If your printer is still under warranty:** Contact Bambu Lab for support. (It might be safer not to mention the use of third-party devices through the AMS interface.)
 - **If out of warranty:** Screwed...
 
----
+If you are an A1 user and your warranty has expired, and if you have made any purchases from me before, and you confirm that it is your AMS connection board that is damaged, you can get an A1 AMS connection board from me for free (shipping fee not included).
 
 ## ✅ Recommendations
 - **ALWAYS power off the printer completely** before connecting or disconnecting the BMCU.
