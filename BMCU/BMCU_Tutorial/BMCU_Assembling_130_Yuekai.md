@@ -2,7 +2,7 @@
 title: BMCU Assembling 130 version Yuekai
 description: 
 published: true
-date: 2025-03-11T14:23:24.670Z
+date: 2025-03-19T10:09:26.248Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-03T08:46:10.580Z
@@ -15,7 +15,8 @@ The tutorials on this page are adapted to the following models posted on my make
 ## Model
 
 PLA/PETG or higher strength materials can be used.
-It is easier to print with PLA for higher precision, but please be careful not to use too much force when screwing.
+Printing with PETG is more recommended. As well as PETG being slicker and in some cases easier to install.
+It is easier to print with PLA for higher precision, but be careful not to use too much force when screwing.
 
 https://makerworld.com/zh/models/1162813-bmcu-130-version-an-optimized-extruder-search-comb#profileId-1169494
 
