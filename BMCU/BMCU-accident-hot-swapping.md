@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T10:42:30.256Z
+date: 2025-03-19T10:43:34.020Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -68,15 +68,4 @@ If you encounter this issue, follow the **official Wiki diagnostic guide** to ch
 - **ALWAYS power off both the BMCU and the printer completely** before connecting or disconnecting any cables.
 - Label the BMCU connection with a clear warning:  
   `"⚠️ DO NOT HOT-SWAP ⚠️"`
-- Avoid frequent plugging/unplugging of the BMCU unless absolutely necessary.
 
----
-
-## 📄 Version Control
-- **Document Version:** v1.1
-- **Date:** [Insert Date]
-- **Author:** [Your Name]
-
----
-
-Please share this notice with your team or anyone working with BMCUs to prevent costly accidents like mine.
