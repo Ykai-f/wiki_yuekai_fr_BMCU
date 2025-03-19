@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T15:33:32.035Z
+date: 2025-03-19T15:33:56.753Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -31,7 +31,7 @@ By mail : [contact@yuekai.fr](mailto:contact@yuekai.fr)
 
 ## Update of stock
 
-> I ran out of BMCU motherboards as well as springs for the 370 version, so will have to wait for the next one in stock
+> I ran out of BMCU motherboards as well as springs for the 370 version, so will have to wait for the next stock
 > Next batch arrive early April
 
 ## Disclaimer
