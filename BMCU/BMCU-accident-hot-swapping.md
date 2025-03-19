@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T10:40:00.690Z
+date: 2025-03-19T10:42:30.256Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -39,7 +39,7 @@ I performed a **hot-swap** between the BMCU mainboard and the **Molex 4-pin conn
 ## ⚠️ Root Cause Analysis
 This issue is primarily related to the design of the **Molex 4-pin connector** used by Bambu Lab. Additionally, the BMCU mainboard lacks adequate protection against such incidents.
 
-When performing a **hot-swap**, electrical arcing (tip discharge) may occur. This can cause **24V power to jump onto the signal line** instead of the ground line. As a result, a **3.3V circuit loop** is created, instantly frying both the control chip and the printer's mainboard.
+During a hot-swap, electrical arcing (tip discharge) may occur, causing 24V to be unintentionally applied to circuits designed for 3.3V operation. This overvoltage instantly damages the control chip and the printer's mainboard.
 
 > *This is a rare but real risk. the author is currently designing a new BMCU board with improved protection to prevent this failure mode.*
 
@@ -58,9 +58,9 @@ If you encounter this issue, follow the **official Wiki diagnostic guide** to ch
 - Is it the **AMS connection board** that's damaged?
 - Or is the **printer's mainboard** damaged?
 
-### ✅ Warranty Advice:
+### Warranty Advice:
 - **If your printer is still under warranty:** Contact Bambu Lab for support. (It might be safer not to mention the use of third-party devices through the AMS interface.)
-- **If out of warranty:** Unfortunately... you may need to replace the mainboard at your own expense.
+- **If out of warranty:** Screwed...
 
 ---
 
