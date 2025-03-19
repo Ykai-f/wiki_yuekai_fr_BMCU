@@ -2,7 +2,7 @@
 title: BMCU Tutorial Center
 description: 
 published: true
-date: 2025-03-19T10:13:03.451Z
+date: 2025-03-19T10:13:23.538Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -22,6 +22,8 @@ Please see multiple tutorials as there are many versions of the BMCU.
 - [BMCU Assembling 130 version by Yuekai](/BMCU/BMCU_Tutorial_Center/BMCU_Assembling_130_Yuekai)
 - [BMCU Assembling 370 version v1 by Yuekai](/BMCU/BMCU_Tutorial_Center/BMCU_Assembling_370_v1_Yuekai)
 {.links-list}
+
+
 
 
 An assembling video for 130 version (In chinese)
