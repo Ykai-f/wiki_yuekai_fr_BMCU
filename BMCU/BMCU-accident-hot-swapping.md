@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T10:43:34.020Z
+date: 2025-03-19T10:46:24.422Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -11,8 +11,7 @@ dateCreated: 2025-03-18T21:45:27.696Z
 # ⚠️ My Accident - A Serious Warning to All Users ⚠️
 
 ## ❗ NEVER Hot-Swap the BMCU Connection ❗
-**DO NOT hot-swap (disconnect or reconnect while powered on) the connection between the BMCU (Board Management Control Unit) and the printer's mainboard.**  
-
+**DO NOT hot-swap (disconnect or reconnect while powered on) the connection between the BMCU
 Doing so **may cause irreversible damage** to both the BMCU and the printer.  
 Sadly, I lost one of my BMCUs and the printer's motherboard due to this mistake.
 
