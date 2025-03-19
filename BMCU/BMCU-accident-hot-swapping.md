@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T14:47:42.190Z
+date: 2025-03-19T14:47:57.874Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -27,7 +27,7 @@ I performed a **hot-swap** between the BMCU mainboard and the **Molex 4-pin conn
 ## Symptoms After Failure
 - The printer's other functions may still work normally.
 - The AMS interface may stop providing **24V power**.
-- The AMS interface may fail to recognize the **AMSL system** or any connected **BMCU**.
+- The AMS interface may nolonger to recognize the **AMSL system** or any connected **BMCU**.
 - You may damage the BMCU mainboard, the AMS connection board (for A1) or the printer's motherboard, or more than one of them.
 
 
