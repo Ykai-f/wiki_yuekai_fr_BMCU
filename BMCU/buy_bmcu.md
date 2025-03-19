@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T14:05:33.649Z
+date: 2025-03-19T14:06:28.121Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -56,7 +56,7 @@ For stability, functionality and official support, we recommend purchasing an of
 - **Option "I AM THE ULTIMATE GEEK"** from 16€💶:  
 💡 Challenge your geek soul with the completely unsoldered version  
 This option includes unsoldered PCBs (1 main board + 4 sub-boards) and all the electronic patch components needed to solder.  
-<div id="product-component-1742393065754"></div>
+<div id="product-component-1742393065755"></div>
 ---
 
 - **Option PCB** from 30€💶
