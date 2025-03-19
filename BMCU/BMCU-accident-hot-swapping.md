@@ -2,7 +2,7 @@
 title: BMCU Accident Hot Swapping
 description: 
 published: true
-date: 2025-03-19T10:46:24.422Z
+date: 2025-03-19T12:28:13.495Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-18T21:45:27.696Z
@@ -11,7 +11,7 @@ dateCreated: 2025-03-18T21:45:27.696Z
 # ⚠️ My Accident - A Serious Warning to All Users ⚠️
 
 ## ❗ NEVER Hot-Swap the BMCU Connection ❗
-**DO NOT hot-swap (disconnect or reconnect while powered on) the connection between the BMCU
+Again **DO NOT hot-swap (disconnect or reconnect while powered on) the connection** between the BMCU and the printer.
 Doing so **may cause irreversible damage** to both the BMCU and the printer.  
 Sadly, I lost one of my BMCUs and the printer's motherboard due to this mistake.
 
@@ -39,6 +39,8 @@ I performed a **hot-swap** between the BMCU mainboard and the **Molex 4-pin conn
 This issue is primarily related to the design of the **Molex 4-pin connector** used by Bambu Lab. Additionally, the BMCU mainboard lacks adequate protection against such incidents.
 
 During a hot-swap, electrical arcing (tip discharge) may occur, causing 24V to be unintentionally applied to circuits designed for 3.3V operation. This overvoltage instantly damages the control chip and the printer's mainboard.
+
+The official AMSL from Bambulab seems to have the same problem, a few users in China have experienced AMSL failures due to hot swaping.
 
 > *This is a rare but real risk. the author is currently designing a new BMCU board with improved protection to prevent this failure mode.*
 
