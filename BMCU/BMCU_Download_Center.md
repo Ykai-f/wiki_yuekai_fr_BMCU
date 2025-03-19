@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-03-19T16:03:38.318Z
+date: 2025-03-19T16:04:19.358Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -30,8 +30,8 @@ dateCreated: 2025-01-28T14:08:05.158Z
 |1.26|[bmcu_firmware_1_26.zip](/bmcu_firmware_1_26.zip)||
 |2.06|[bmcu_firmware_2_06.zip](/bmcu_firmware_2_06.zip)|Recommended for 370 version. The p-series is supported from this release.|
 |2.22|[bmcu_firmware_2_22.zip](/bmcu_firmware_2_22.zip)| |
-|3.10| [bmcu_firmware_3-10.rar](/bmcu_firmware_3-10.rar)|Deprecated|[src-bmcu-3-10.zip](/src-bmcu-3-10.zip)
-|3.12|[bmcu_firmware_3_12.rar](/bmcu_firmware_3_12.rar)|Deprecated|
+|3.10| [bmcu_firmware_3-10.rar](/bmcu_firmware_3-10.rar)|Deprecated|[src-bmcu-3-10.zip](/src-bmcu-3-10.zip)|
+|3.12|[bmcu_firmware_3_12.rar](/bmcu_firmware_3_12.rar)|Deprecated||
 |3.14|[bmcu_firmware_3_14.zip](/bmcu_downloads/bmcu_firmware_3_14.zip)|Beta test||
 
 ### Changelog
