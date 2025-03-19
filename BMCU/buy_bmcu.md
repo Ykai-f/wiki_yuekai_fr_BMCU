@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T13:42:22.919Z
+date: 2025-03-19T13:42:49.072Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -107,3 +107,6 @@ Some third party platforms such as `superbuy` can help you to place an order fro
 
 Reference price : 1kg package shipping to France/UK about $25 (import tax may apply)  
 BMCU complete assembly reference weight : less than 1.5 kg
+
+
+<div id='product-component-1742390644458'></div>
