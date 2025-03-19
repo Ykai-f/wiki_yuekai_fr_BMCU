@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T13:27:57.064Z
+date: 2025-03-19T13:28:39.569Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -61,7 +61,7 @@ For stability, functionality and official support, we recommend purchasing an of
 ---
 
 -   **Option 1 💶€25** : The soldered PCBs included one main board + 4 sub-boards and connection cables  
-    ![bmcu_(4).jpg](/bmcu_(4).jpg)  
+    ![bmcu_(4).jpg](/bmcu_(4).jpg =x250)  
     *The PCB you receive may not always be the same as in the picture, there are blue/green/white/black styles, etc., depending on the diyer that sells it.*
 
 ---
@@ -69,13 +69,13 @@ For stability, functionality and official support, we recommend purchasing an of
 -   **Option 2 💶€60** ：PCBs in option 1 + all mechanical parts + 4 ptfe tubes + 1 câble  
     You have to print the structure and assemble them yourself
 
-Option 1 + ![mecanical_parts.jpg](/mecanical_parts.jpg) + 4 x tfpe tubes
+Option 1 + ![mecanical_parts.jpg](/mecanical_parts.jpg =x250) + 4 x tfpe tubes
 
 ---
 
 -   **Option 3 💶€80** ：Option 2 and fully assembled and tested, ready to use.
 
-/\*<!\[CDATA\[\*/ (function () { var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js'; if (window.ShopifyBuy) { if (window.ShopifyBuy.UI) { ShopifyBuyInit(); } else { loadScript(); } } else { loadScript(); } function loadScript() { var script = document.createElement('script'); script.async = true; script.src = scriptURL; (document.getElementsByTagName('head')\[0\] || document.getElementsByTagName('body')\[0\]).appendChild(script); script.onload = ShopifyBuyInit; } function ShopifyBuyInit() { var client = ShopifyBuy.buildClient({ domain: 'fm0tej-fh.myshopify.com', storefrontAccessToken: '114df0f41d68cd4f18e1b92e6f2d5f06', }); ShopifyBuy.UI.onReady(client).then(function (ui) { ui.createComponent('product', { id: '9976336056653', node: document.getElementById('product-component-1742390644458'), moneyFormat: '%E2%82%AC%7B%7Bamount\_with\_comma\_separator%7D%7D', options: { "product": { "styles": { "product": { "@media (min-width: 601px)": { "max-width": "calc(25% - 20px)", "margin-left": "20px", "margin-bottom": "50px" } }, "button": { "padding-left": "33px", "padding-right": "33px" } }, "buttonDestination": "modal", "contents": { "options": false }, "text": { "button": "View product" } }, "productSet": { "styles": { "products": { "@media (min-width: 601px)": { "margin-left": "-20px" } } } }, "modalProduct": { "contents": { "img": false, "imgWithCarousel": true, "button": false, "buttonWithQuantity": true }, "styles": { "product": { "@media (min-width: 601px)": { "max-width": "100%", "margin-left": "0px", "margin-bottom": "0px" } }, "button": { "padding-left": "33px", "padding-right": "33px" } }, "text": { "button": "Add to cart" } }, "option": {}, "cart": { "text": { "total": "Subtotal", "button": "Checkout" } }, "toggle": {} }, }); }); } })(); /\*\]\]>\*/
+
 
 ## This price **DOES NOT** include
 
