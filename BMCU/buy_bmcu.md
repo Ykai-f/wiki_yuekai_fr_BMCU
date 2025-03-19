@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T13:47:49.718Z
+date: 2025-03-19T13:59:16.062Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -53,28 +53,23 @@ For stability, functionality and official support, we recommend purchasing an of
 
 ## Price and options:
 
--   **Option 0 "I AM THE ULTIMATE GEEK" 💶€13.1415926** :  
-    💡 Challenge your geek soul with the completely unsoldered version  
-    This option includes unsoldered PCBs (1 main board + 4 sub-boards) and all the electronic patch components needed to solder.  
-    (I will indeed have this option in stock if you are sure you want it)
+- **Option "I AM THE ULTIMATE GEEK"** from 16€💶:  
+💡 Challenge your geek soul with the completely unsoldered version  
+This option includes unsoldered PCBs (1 main board + 4 sub-boards) and all the electronic patch components needed to solder.  
 
 ---
 
--   **Option 1 💶€25** : The soldered PCBs included one main board + 4 sub-boards and connection cables  
-    ![bmcu_(4).jpg](/bmcu_(4).jpg =x250)  
-    *The PCB you receive may not always be the same as in the picture, there are blue/green/white/black styles, etc., depending on the diyer that sells it.*
+- **Option PCB** from 30€💶
+The soldered PCBs included one main board + 4 sub-boards and connection cables.
+<div id="product-component-1742392676771"></div>
+
+
+- **Option Mechanical parts** from 30€💶
+All the mechanical parts accroding to the author's BOM sheet.
 
 ---
-
--   **Option 2 💶€60** ：PCBs in option 1 + all mechanical parts + 4 ptfe tubes + 1 câble  
-    You have to print the structure and assemble them yourself
-
-Option 1 + ![mecanical_parts.jpg](/mecanical_parts.jpg =x250) + 4 x tfpe tubes
-
----
-
--   **Option 3 💶€80** ：Option 2 and fully assembled and tested, ready to use.
-
+- **Option BMCU** from 85€💶 : BMCU fully assembled and tested, ready to use.
+<div id="product-component-1742390644458"></div>
 
 
 ## This price **DOES NOT** include
