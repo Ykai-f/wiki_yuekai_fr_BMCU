@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-03-19T14:39:33.262Z
+date: 2025-03-19T14:40:20.738Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -13,14 +13,6 @@ dateCreated: 2025-02-25T12:11:39.883Z
 >
 > Do not hot-plug or unplug the connection cable between the BMCU and the printer while the printer is powered on.
 {.is-warning}
-
-<span class="indicator indicator-blue">BLUE</span>
-<span class="indicator indicator-red">RED</span>
-<span class="indicator indicator-green">GREEN</span>
-<span class="indicator indicator-purple">PURPLE</span>
-<span class="indicator indicator-white">WHITE</span>
-
-
 
 # PCB
 If you build your own PCB, test it before connect to your computer or printer.
