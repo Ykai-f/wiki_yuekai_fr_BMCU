@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T14:18:55.144Z
+date: 2025-03-19T14:19:20.945Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -64,12 +64,14 @@ This option includes unsoldered PCBs (1 main board + 4 sub-boards) and all the e
 
 ## **Option PCB** from 30€💶
 The soldered PCBs included one main board + 4 sub-boards and connection cables.
+
   <div style="width: 100%; text-align: center;">
 <div id="product-component-1742392676771"></div></div>
 
 
 ## **Option Mechanical parts** from 30€💶
 All the mechanical parts accroding to the author's BOM sheet.
+
 <div style="width: 100%; text-align: center;">
 <div id="product-component-1742393487102"></div>
 </div>
