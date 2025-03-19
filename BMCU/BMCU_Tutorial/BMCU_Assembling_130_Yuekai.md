@@ -2,7 +2,7 @@
 title: BMCU Assembling 130 version Yuekai
 description: 
 published: true
-date: 2025-03-19T10:09:26.248Z
+date: 2025-03-19T10:10:56.637Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-03T08:46:10.580Z
