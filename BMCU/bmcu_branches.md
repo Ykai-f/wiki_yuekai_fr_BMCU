@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-03-21T10:32:32.926Z
+date: 2025-03-21T12:53:52.670Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -29,6 +29,8 @@ The author's next official release is a steel ball version of the 370, but it's 
 
 As of now, all BMCUs use the same PCB board, but different versions may require different firmware to be flashed.
 
+## Branches of the main structure of BMCU
+
 ```
 BMCU
 │
@@ -38,12 +40,27 @@ BMCU
 │    └── 180 version
 │
 └── 370
-     ├── 370 Original version （Same optoelectronic design as the original 130）
-     ├── 370 Steel ball version
-     └── Micro Button Version (Requires a completely different PCB)
+│    ├── 370 Original version （Same optoelectronic design as the original 130）
+│    ├── 370 Steel ball version
+│    └── Micro Button Version (Requires a completely different PCB)
+│
+└── Next version 370 or CMCU in the future
 ```
-
 There are a lot of developers releasing their modified versions of 370 at the moment, but iterations of 370 are very fast at the moment.
+
+## Branches of the PCB of BMCU
+```
+BMCU
+│
+├── Current BMCU motherboards (no specific version number but generally are this one today)
+│    └── Type-C version (uses a typec cable without the need for a serial adapter)
+│
+└── Next version PCB BMCU (Design and testing phase, will be updated later）
+     └── 370 Original version （Same optoelectronic design as the original 130）
+
+```
+The new version of PCB of BMCU compared with the previous generation of motherboards is now the main new 486 floating ground protection (using pmos), Hall buffer (from the previous generation of digital value buffer to analogue value buffer), this version is not yet stable.
+
 
 
 
