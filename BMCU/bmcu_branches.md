@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-03-21T12:53:52.670Z
+date: 2025-03-21T12:54:10.737Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -56,7 +56,6 @@ BMCU
 │    └── Type-C version (uses a typec cable without the need for a serial adapter)
 │
 └── Next version PCB BMCU (Design and testing phase, will be updated later）
-     └── 370 Original version （Same optoelectronic design as the original 130）
 
 ```
 The new version of PCB of BMCU compared with the previous generation of motherboards is now the main new 486 floating ground protection (using pmos), Hall buffer (from the previous generation of digital value buffer to analogue value buffer), this version is not yet stable.
