@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-03-19T09:17:52.344Z
+date: 2025-03-21T10:28:08.158Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -26,26 +26,22 @@ However, due to the scarcity of supply (even in China it is starting to be diffi
 
 The author expects to release a printout of the latest version of the 370 in 2 weeks (2 weeks from 25/02/2025)
 
-![bmcu_version_diagram240205.png](/bmcu_version_diagram240205.png =x500)
+BMCU
+│
+├── 130 version (Author's most original version)
+│        └── Many 130 Improved version （ Adjustable photoelectric block design, triangular clutch with spring, etc.）
+│        └── 130 Steel ball version
+│        └── 180 version
+│
+└── 370
+     ├── 370 Original version （Same optoelectronic design as the original 130）
+     ├── 370 Steel ball version
+     └── Micro Button Version (Requires a completely different PCB)
 
-```mermaid
-graph TD
-    BMCU["BMCU"]
-    
-    PCB_Choice{"Choose One: PCB"}
-    Motor_Choice{"Choose One: Motor"}
-    
-    BMCU --> PCB_Choice
-    BMCU --> Motor_Choice
-    
-    PCB_Choice --> TTL["⭐Classic TTL"]
-    PCB_Choice --> TypeC["Type-C Version"]
-    
-    Motor_Choice --> M130["⭐130 Version"]
-    Motor_Choice --> M370["370 Version"]
+There are a lot of developers releasing their modified versions of 370 at the moment, but iterations of 370 are very fast at the moment.
 
-    BMCU --> OtherParts["Other Parts"]
-```
+The author's next official release is a steel ball version of the 370, but it's not released yet (updared on 21/03/2025)
+
 
 ## Original 130 version
 ![130版本可视图.png](/130版本可视图.png)
