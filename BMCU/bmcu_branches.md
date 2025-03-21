@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-03-21T12:54:10.737Z
+date: 2025-03-21T12:54:44.677Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -53,7 +53,7 @@ There are a lot of developers releasing their modified versions of 370 at the mo
 BMCU
 │
 ├── Current BMCU motherboards (no specific version number but generally are this one today)
-│    └── Type-C version (uses a typec cable without the need for a serial adapter)
+│    └── Type-C version (Typec interface instead of ttl for flashing)
 │
 └── Next version PCB BMCU (Design and testing phase, will be updated later）
 
