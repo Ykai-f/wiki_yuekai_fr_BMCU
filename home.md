@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-03-20T14:40:54.435Z
+date: 2025-03-21T08:19:51.280Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -16,7 +16,7 @@ By mail : contact@yuekai.fr
 By vinted : https://www.vinted.fr/member/234363406
 
 > Please never hot-plug the cable between the BMCU and the printer, I have already fried my BMCU and printer 🥶. More details on : [BMCU-accident-hot-swapping](/BMCU/BMCU-accident-hot-swapping)
-{.is-danger}
+{.is-warning}
 
 # Table of contents
 
