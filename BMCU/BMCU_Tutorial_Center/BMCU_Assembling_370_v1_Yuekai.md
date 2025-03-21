@@ -2,7 +2,7 @@
 title: BMCU Assembling 370 v1 by Yuekai
 description: 
 published: true
-date: 2025-03-19T10:10:38.185Z
+date: 2025-03-21T10:49:32.908Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-15T20:41:04.262Z
@@ -105,7 +105,7 @@ Install the radial magnet into the hole in the centre frame and it should turn s
 
 ### Step 13 Do a test 1
 
-Supply about 9v to the secondary board and you should see the filament being moved steadily, reverse the supply and you should see the filament moving in the opposite direction.
+Supply about 9v to the motor and you should see the filament being moved steadily, reverse the supply and you should see the filament moving in the opposite direction.
 (I borrow the photo from 130 version, if you connect positive to red wire, filament should move towards right.)
 ![24.png](/130_yuekai/24.png =x300)
 
