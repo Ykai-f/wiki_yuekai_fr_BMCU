@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-19T15:33:56.753Z
+date: 2025-03-21T08:42:29.558Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -14,7 +14,7 @@ You can contact me by
 Reddit : u/Ok\_Design6972  
 By mail : [contact@yuekai.fr](mailto:contact@yuekai.fr)
 
-**Apparently leboncoin and vinted don't like these types of annouces or sell a lot the same products on their plateform. **
+**Apparently leboncoin and vinted don't like these types of annouces or sell a lot the same products on their plateform.**
 
 **If you want to buy BMCU related products through me, I invite you to place your order through my shop! through my shop [shop.yuekai.fr](http://shop.yuekai.fr).**
 
