@@ -2,7 +2,7 @@
 title: BMCU
 description: 
 published: true
-date: 2025-03-03T09:41:24.673Z
+date: 2025-03-21T15:39:11.825Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:13:01.224Z
@@ -124,4 +124,4 @@ https://youtube.com/shorts/GthoyZ_HDdk?feature=share
 
 # Installation instruction
 Check section BMCU Tutorials.
-[BMCU_Download_Guide_Center](/BMCU/BMCU_Download_Guide_Center)
+[BMCU_Tutorial_Center](/BMCU/BMCU_Tutorial_Center)
