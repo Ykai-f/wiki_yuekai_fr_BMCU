@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-21T08:42:41.113Z
+date: 2025-03-21T08:42:53.377Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-17T22:23:04.094Z
@@ -18,7 +18,7 @@ By mail : [contact@yuekai.fr](mailto:contact@yuekai.fr)
 
 **If you want to buy BMCU related products through me, I invite you to place your order through my shop [shop.yuekai.fr](http://shop.yuekai.fr).**
 
-**If you prefer to communicate with me in real time, feel free to contact me using reddit or vinted, I keep a link 500 euro BMCU to prevent being direct purchasesed.**
+**If you prefer to communicate with me in real time, feel free to contact me using reddit or vinted.**
 
 -   For French customers, you can contact me directly from leboncoin:  
     ~~😭 LEBONCOIN GIVES ME BACK MY ACCOUNT!!!!!~~  
