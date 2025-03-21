@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-03-21T10:28:08.158Z
+date: 2025-03-21T10:32:32.926Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -24,27 +24,31 @@ The CMCU is in the early stages of development by the authors and their team. Th
 For now, the most classic TTL version and the 130 motor are still standard.
 However, due to the scarcity of supply (even in China it is starting to be difficult to buy) and the lack of performance of the 130 motor, the author have shifted his development focus to the 370 version.
 
-The author expects to release a printout of the latest version of the 370 in 2 weeks (2 weeks from 25/02/2025)
+~~The author expects to release a printout of the latest version of the 370 in 2 weeks (2 weeks from 25/02/2025)~~
+The author's next official release is a steel ball version of the 370, but it's not released yet (updared on 21/03/2025)
 
+As of now, all BMCUs use the same PCB board, but different versions may require different firmware to be flashed.
+
+```
 BMCU
 │
 ├── 130 version (Author's most original version)
-│        └── Many 130 Improved version （ Adjustable photoelectric block design, triangular clutch with spring, etc.）
-│        └── 130 Steel ball version
-│        └── 180 version
+│    └── Many 130 Improved version （ Adjustable photoelectric block design, triangular clutch with spring, etc.）
+│    └── 130 Steel ball version
+│    └── 180 version
 │
 └── 370
      ├── 370 Original version （Same optoelectronic design as the original 130）
      ├── 370 Steel ball version
      └── Micro Button Version (Requires a completely different PCB)
+```
 
 There are a lot of developers releasing their modified versions of 370 at the moment, but iterations of 370 are very fast at the moment.
 
-The author's next official release is a steel ball version of the 370, but it's not released yet (updared on 21/03/2025)
 
 
-## Original 130 version
-![130版本可视图.png](/130版本可视图.png)
+## 130 version
+![130版本可视图.png](/130版本可视图.png =x500)
 > The model in this picture is the latest version (as of 25/02/2025) of the version 130 model, which in the extruder it uses a Split design and an adjustable photoelectric block (green part) to improve performance.
 
 The original version 130, the most classic and earliest version of the BMCU from the author, has since undergone several iterative updates from the author and other developers to optimise its prints.
