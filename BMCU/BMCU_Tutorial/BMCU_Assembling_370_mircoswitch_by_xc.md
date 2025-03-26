@@ -2,7 +2,7 @@
 title: BMCU_Assembling_370_mircoswitch_by_xc
 description: 
 published: true
-date: 2025-03-26T15:56:26.835Z
+date: 2025-03-26T16:06:17.190Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:20.556Z
@@ -10,7 +10,7 @@ dateCreated: 2025-03-26T11:09:20.556Z
 
 # 370 Motor Version x BMCU-Stardust Microswitch Modified Version Assembly Guide
 
-> This version is a modified edition by the community member `@Stardust`, and the content also comes from him.
+> This version is a modified edition by the community member `@星尘`, and the content also comes from him.
 
 
 ## Introduction
