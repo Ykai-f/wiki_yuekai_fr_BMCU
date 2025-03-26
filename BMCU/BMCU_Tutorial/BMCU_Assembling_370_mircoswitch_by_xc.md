@@ -2,7 +2,7 @@
 title: BMCU_Assembling_370_mircoswitch_by_xc
 description: 
 published: true
-date: 2025-03-26T15:56:13.333Z
+date: 2025-03-26T15:56:26.835Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:20.556Z
@@ -158,11 +158,3 @@ with this version of PCB we have two options
     ![image-39](/assets/images/build-370x/34.jpg =x350)
 43. Tighten four m2x8 self-tapping screws. Congratulations, you've completed one channel of the assembly!
     ![image-40](/assets/images/build-370x/35.jpg =x350)
-
-::: info Info
-The feeding assembly determines your multi-color channel count. For a meaningful setup, install 2-4 sets of feeding assemblies.
-:::
-
-## Final Assembly
-
-1. To be continued...
