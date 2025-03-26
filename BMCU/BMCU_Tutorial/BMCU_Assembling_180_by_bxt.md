@@ -2,7 +2,7 @@
 title: BMCU_Assembling_180_by_bxt
 description: 
 published: true
-date: 2025-03-26T11:19:15.813Z
+date: 2025-03-26T11:19:50.811Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:15.871Z
@@ -10,9 +10,9 @@ dateCreated: 2025-03-26T11:09:15.871Z
 
 # 180 BMCU Assembly Guide
 
-::: info Info
-This content is shared by group member `@白小淘`
-:::
+
+> This content is made by `@白小淘`
+
 
 #### Materials Preparation (excluding 3D printed parts):
 
