@@ -16,26 +16,26 @@ dateCreated: 2025-01-28T14:08:05.158Z
 ### Mainboard
 |    | **Classic Version**      | **Type C Version**    |
 |-----------|---------|---------------------|
-| PCB manufacturing files| [main board v0.4.zip](/assets/files/firmware_and_source_code/main_board_v0.4.zip) | [main_board_type_c_version.zip](/assets/files/firmware_and_source_code/main_board_type_c_version.zip)   
-|Soldering aids |[Soldering_aids.zip](/assets/files/firmware_and_source_code/3._welding_aids.zip) | |
+| PCB manufacturing files| [main board v0.4.zip](/assets/files/download_center/main_board_v0.4.zip) | [main_board_type_c_version.zip](/assets/files/download_center/main_board_type_c_version.zip)   
+|Soldering aids |[Soldering_aids.zip](/assets/files/download_center/3._welding_aids.zip) | |
 
 ### Extruder (sub-board)
-[extruder_(sub-board)v2.2.zip](/assets/files/firmware_and_source_code/extruder_(sub-board)v2.2.zip)
+[extruder_(sub-board)v2.2.zip](/assets/files/download_center/extruder_(sub-board)v2.2.zip)
 
 ### Firmwares
 | Version   | Firmware      |Note|Src|
 |-----------|---------|-----|---|
-|V0.2|[firmwarev0.2.zip](/assets/files/firmware_and_source_code/firmwarev0.2.zip)  | Recommended for 130 version|
-|1.21.2|[bmcu_firmware_1_21_2.zip](/assets/files/firmware_and_source_code/bmcu_firmware_1_21_2.zip)||
-|1.26|[bmcu_firmware_1_26.zip](/assets/files/firmware_and_source_code/bmcu_firmware_1_26.zip)||
-|2.06|[bmcu_firmware_2_06.zip](/assets/files/firmware_and_source_code/bmcu_firmware_2_06.zip)|For 370|
+|V0.2|[firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)  | Recommended for 130 version|
+|1.21.2|[bmcu_firmware_1_21_2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_21_2.zip)||
+|1.26|[bmcu_firmware_1_26.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_26.zip)||
+|2.06|[bmcu_firmware_2_06.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_06.zip)|For 370|
 Firmware from this version onwards is adapted to the 370 version, as well as all starting to support the P-Series recognising the BMCU as an AMS system. 
 | Version   | Firmware      |Note|Src|
 |-----------|---------|-----|---|
-|2.22|[bmcu_firmware_2_22.zip](/assets/files/firmware_and_source_code/bmcu_firmware_2_22.zip)| |
-|~~3.10~~| [~~bmcu_firmware_3-10.rar~~](/assets/files/firmware_and_source_code/bmcu_firmware_3-10.rar)|Deprecated|[src-bmcu-3-10.zip](/assets/files/firmware_and_source_code/src-bmcu-3-10.zip)|
-|~~3.12~~|[~~bmcu_firmware_3_12.rar~~](/assets/files/firmware_and_source_code/bmcu_firmware_3_12.rar)|Deprecated||
-|3.14|[bmcu_firmware_3_14.zip](/assets/files/firmware_and_source_code/bmcu_downloads/bmcu_firmware_3_14.zip)|Good feedback so far|[src-bmcu-3-14.zip](/assets/files/firmware_and_source_code/bmcu_downloads/src-bmcu-3-14.zip)|
+|2.22|[bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip)| |
+|~~3.10~~| [~~bmcu_firmware_3-10.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3-10.rar)|Deprecated|[src-bmcu-3-10.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-10.zip)|
+|~~3.12~~|[~~bmcu_firmware_3_12.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_12.rar)|Deprecated||
+|3.14|[bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/bmcu_firmware_3_14.zip)|Good feedback so far|[src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/src-bmcu-3-14.zip)|
 
 ### Changelog
 #### V3.10
