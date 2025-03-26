@@ -2,7 +2,7 @@
 title: BMCU Tutorial Center
 description: 
 published: true
-date: 2025-03-26T11:21:00.243Z
+date: 2025-03-26T14:43:32.753Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -19,12 +19,12 @@ dateCreated: 2025-02-25T12:56:58.306Z
 
 Please see multiple tutorials as there are many versions of the BMCU.
 
-- [BMCU Assembling 130 version by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
-- [BMCU Assembling 130 version by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
-- [BMCU Assembling 180 version by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
-- [BMCU Assembling 370 version v1 by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
-- [BMCU Assembling 370 steel ball version by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
-- [BMCU Assembling 370 mircoswitch by XC (Attention different PCB required)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
+- [130 version by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
+- [130 version by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
+- [180 version by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
+- [370 version v1 by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
+- [370 steel ball version by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
+- [370 mircoswitch by XC (！Attention different PCB required！)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
 {.links-list}
 
 
