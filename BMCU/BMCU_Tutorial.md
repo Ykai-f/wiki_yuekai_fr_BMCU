@@ -2,7 +2,7 @@
 title: BMCU Tutorial Center
 description: 
 published: true
-date: 2025-03-26T16:05:46.532Z
+date: 2025-03-26T16:05:57.734Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -24,7 +24,7 @@ Please see multiple tutorials as there are many versions of the BMCU.
 - [180 version edited by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
 - [370 version v1 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
 - [370 steel ball version edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
-- [370 mircoswitch edited by XC (！Attention different PCB required！)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
+- [370 mircoswitch edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
 {.links-list}
 
 
