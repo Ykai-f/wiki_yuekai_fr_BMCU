@@ -22,25 +22,25 @@ dateCreated: 2025-01-29T10:53:40.895Z
 2. **USB to Serial Adapter** 
 3. **Computer**.  
 4. **Software: WCHISPTool**  
-[wchisptool-v3.3.7z](/wchisptool-v3.3.7z)
+[wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
 
 ## **Flashing Tutorial**
 
 1. **Connect the BMCU Mainboard and USB Serial Tool According to the Wiring Instructions**  
    - <span style="color:red">**⚠️ DO NOT CONNECT THE BMCU TO THE PRINTER DURING WHOLE PROCESS!!!!!!** 🚨  
- ![1.png](/bmcu_flashing/1.png)  
+ ![1.png](/assets/images/bmcu_flashing/1.png)  
  
  2. **Connect the USB Serial Tool to the Computer**  
    - The computer should automatically recognize the serial port.  
    - Refer to the diagram for guidance, but note that **your serial port number may differ** from the one shown in the image.  
-![2.png](/bmcu_flashing/2.png)
-![3.png](/bmcu_flashing/3.png)
+![2.png](/assets/images/bmcu_flashing/2.png)
+![3.png](/assets/images/bmcu_flashing/3.png)
 
 3. **Press and Hold the B Button**  
    - **Use your left hand** to **press and hold the B button** (**Do not release it!**).  
    - **With your right hand**, press the **R button** once, then release it.  
    - **⚠️ The B button should ideally remain pressed throughout the process.**
-![4.png](/bmcu_flashing/4.png)
+![4.png](/assets/images/bmcu_flashing/4.png)
   
   If it goes well, you should see the word <font color="red">”unlocked“</font> in red in the software
   
@@ -52,14 +52,14 @@ dateCreated: 2025-01-29T10:53:40.895Z
    - Select the **corresponding MCU series**, **model**, **download method**, and check the necessary **download configuration** options.  
    - Follow the steps below to proceed.  
    - **If the message** `"Unlock read/write protection successful!"` **appears, the operation was successful.** ✅  
-![5.png](/bmcu_flashing/5.png)
+![5.png](/assets/images/bmcu_flashing/5.png)
   
   
 5. **Click the Download Button**  
    - **Be patient** while the download process completes.  
    - If the download is **successful**, it should look like the reference image.  
    - **⚠️ If the download fails, try selecting 115200 baud rate.**  
-![6.png](/bmcu_flashing/6.png)
+![6.png](/assets/images/bmcu_flashing/6.png)
 
 6. **Press the R Button**  
    - At this point, **press the R button**, and the **BMCU mainboard's red LED should light up**.  

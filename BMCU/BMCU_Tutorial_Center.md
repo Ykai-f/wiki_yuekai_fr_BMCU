@@ -20,8 +20,8 @@ dateCreated: 2025-02-25T12:56:58.306Z
 Please see multiple tutorials as there are many versions of the BMCU.
 
 - [BMCU Assembling 130 version by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial_Center/Assembling)
-- [BMCU Assembling 130 version by Yuekai](/BMCU/BMCU_Tutorial_Center/BMCU_Assembling_130_Yuekai)
-- [BMCU Assembling 370 version v1 by Yuekai](/BMCU/BMCU_Tutorial_Center/BMCU_Assembling_370_v1_Yuekai)
+- [BMCU Assembling 130 version by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
+- [BMCU Assembling 370 version v1 by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
 {.links-list}
 
 

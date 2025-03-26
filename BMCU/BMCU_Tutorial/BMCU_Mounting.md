@@ -43,14 +43,14 @@ https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileI
 1. Prepare 2 m3\*10 screws， 2 m3 nuts, bracket for A1 and uninstall the cable cover
 You can use the square nuts from the BMG gear set, in fact they fit the A1 bracket better
 
-![a1_bracket_1.jpg](/a1_bracket_1.jpg =x300)
+![a1_bracket_1.jpg](/assets/images/bmcu_bracket/a1_bracket_1.jpg =x300)
 
 2. Place the nut in the hole of the bracket
-![a1_bracket_2.jpg](/a1_bracket_2.jpg =x300)
+![a1_bracket_2.jpg](/assets/images/bmcu_bracket/a1_bracket_2.jpg =x300)
 
 3. Secure with two m3 screws from the inside of the cable cover to the bracket. Please note the direction of installation.
 
-![a1_bracket_3.jpg](/a1_bracket_3.jpg =x300)
+![a1_bracket_3.jpg](/assets/images/bmcu_bracket/a1_bracket_3.jpg =x300)
 
 
 ### 130/180 - A1 mini
@@ -60,17 +60,17 @@ You can use the square nuts from the BMG gear set, in fact they fit the A1 brack
 {.is-info}
 
 1. Prepare 2 m3\*10 screws， 2 m3 nuts, 4 K2\*8 screws bracket for A1 mini and uninstall the cable cover
-![mini_bracket_1.jpg](/mini_bracket_1.jpg =x300)
+![mini_bracket_1.jpg](/assets/images/bmcu_bracket/mini_bracket_1.jpg =x300)
 
 2. Place the nut in the hole of the bracket
-![mini_bracket_2.jpg](/mini_bracket_2.jpg =x300)
+![mini_bracket_2.jpg](/assets/images/bmcu_bracket/mini_bracket_2.jpg =x300)
 
 3. Use 4 ka2*8 screws to secure the small plate to the inside of the bracket.
-![mini_bracket_3.jpg](/mini_bracket_3.jpg =x300)
+![mini_bracket_3.jpg](/assets/images/bmcu_bracket/mini_bracket_3.jpg =x300)
 
 4. Secure with two m3 screws from the inside of the cable cover to the bracket. Please note the direction of installation.
-![mini_bracket_4.jpg](/mini_bracket_4.jpg =x300)
-![mini_bracket_5.jpg](/mini_bracket_5.jpg =x300)
+![mini_bracket_4.jpg](/assets/images/bmcu_bracket/mini_bracket_4.jpg =x300)
+![mini_bracket_5.jpg](/assets/images/bmcu_bracket/mini_bracket_5.jpg =x300)
 
 5. Install the bracket in this state to the a1 mini printer first, and then install the remaining bmcu body
 

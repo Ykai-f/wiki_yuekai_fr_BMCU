@@ -10,12 +10,12 @@ dateCreated: 2025-02-25T09:58:01.713Z
 
 > *Note：You will always need FOUR `6x2.5mm` radial magnets, they are in fact included with the AS5600 chips in the BOM sheet of the PCB, so the author didn't list them in the mechanical sheet.
 > Some of the finished PCBs do not come with this magnet. They are VERY important and BMCU can't work without them. You must purchase `RADIAL MAGNETS`.
->  ![magnet-axe.png](/magnet-axe.png =x100)  NO!!!       ![magnet-rad.png](/magnet-rad.png =x100)  YES!!!  
+>  ![magnet-axe.png](/assets/images/bom_sheet/magnet-axe.png =x100)  NO!!!       ![magnet-rad.png](/assets/images/bom_sheet/magnet-rad.png =x100)  YES!!!  
 {.is-warning}
 
 # BOM for PCB
 Currently, all BMCUs use the same PCB regardless of motor version.
-[PCB BOM sheet download](/pcb_bom.xlsx)
+[PCB BOM sheet download](/assets/files/bom_sheet/pcb_bom.xlsx)
 
 #### If you want to try the typec version you need to:
   - 4 additional 16p typec vertical components
@@ -24,7 +24,7 @@ Currently, all BMCUs use the same PCB regardless of motor version.
 
 # BOM for mecanical parts
 130 version :
-[Mechanical Components BOM sheet download](/mechanical_components_bom.xlsx)
+[Mechanical Components BOM sheet download](/assets/files/bom_sheet/mechanical_components_bom.xlsx)
 
 370 version :
 to do. for now see below

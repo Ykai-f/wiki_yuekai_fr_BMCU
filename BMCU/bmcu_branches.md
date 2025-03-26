@@ -64,7 +64,7 @@ The new version of PCB of BMCU compared with the previous generation of motherbo
 
 
 ## 130 version
-![130版本可视图.png](/130版本可视图.png =x500)
+![130版本可视图.png](/assets/images/bmcu_branch/130版本可视图.png =x500)
 > The model in this picture is the latest version (as of 25/02/2025) of the version 130 model, which in the extruder it uses a Split design and an adjustable photoelectric block (green part) to improve performance.
 
 The original version 130, the most classic and earliest version of the BMCU from the author, has since undergone several iterative updates from the author and other developers to optimise its prints.
@@ -84,7 +84,7 @@ The 180 version is a variant of the 130 version, which uses the 180 motor and ha
 
 ## 370 version
 The 370 version means that its motor uses a `370 motor(24v 6000rpm)` instead of the original FF-130sh motor
-![370版本可视图2.png](/370版本可视图2.png)
+![370版本可视图2.png](/assets/images/bmcu_branch/370版本可视图2.png)
   
 The 370 version will run theoretically faster, and improves on the original 130 version's potential problems of getting stuck at 99% and feed pressure.
 > The 370 version has a different noise aspect than the 130 version, and because the 370 motor has more torque, the BMG gears mesh better, and there is a certain amount of ‘filament chewing’.
@@ -96,7 +96,7 @@ Earlier versions of the 370 had the potential for five-pass explosion. The reaso
 > Author's opinion: For the 370 version, metal gears do not offer better conditions than plastic gears in terms of durability and ease of assembly.
 
 ## 370 steel ball version
-![bmcu_steel_ball_version.png](/bmcu_steel_ball_version.png)
+![bmcu_steel_ball_version.png](/assets/images/bmcu_branch/bmcu_steel_ball_version.png)
 
 The steel ball version is a future offshoot of the 370 version, which should improve the original structure.
 
