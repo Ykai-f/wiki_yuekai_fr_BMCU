@@ -2,7 +2,7 @@
 title: FAQ
 description: 
 published: true
-date: 2025-03-14T15:49:51.479Z
+date: 2025-03-26T10:58:28.462Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:07:42.834Z
@@ -22,9 +22,18 @@ Additionally, with extra DIY modifications, it can be adapted to work with the B
 ### 4. What is the difference between BMCU and the original AMS Lite?
 in terms of functionality，the main difference is that BMCU does not support RFID recognition.
 
-### 5. Should I get the 130 version or the 370 version?
+### 5. Should I get the 130/180 version or the 370 version?
 
-https://wiki.yuekai.fr/en/BMCU/bmcu_branches#should-i-get-a-130180-or-370
+
+| Feature              | 130/180 Version                           | 370 Version                               |
+|----------------------|---------------------------------|----------------------------------|
+| **Feeding Mechanism** | Passive feeding; remains quiet and stable as long as there is no resistance in filament feeding. | Active feeding; periodically pushes filament to the printer, which may generate some noise. However, many users report it is still quiet. |
+| **Noise Level**       | Generally quieter. Some noise during filament loading and unloading. | Potentially noisier due to active feeding, but user feedback indicates it is still relatively quiet. |
+| **Filament Loading/Unloading Speed** | Slower loading and unloading. With some noise. | Very fast loading and unloading but produces noticeable noise. |
+| **Assembly Difficulty** | Slightly more complex to assemble. | Easier to assemble. |
+| **Maintenance** | Risk of clutch wear over time. | Risk of cleaning of the filament hole. If using metal gears, may generate more black grease residue. |
+| **Disadvantages & Issues** | If not installed properly, it may cause the printer to get stuck at 99% after printing, continuously flushing material. | May push up the printer's five-way connector and could cause filament grinding, leading to clogging issues. |
+
 
 Version 130 is structurally complex and requires more hands-on skills. However, as the model improves, the current 130 version is very stable.
 Version 370 is not yet fully in the official version and is still in the process of iteration.
