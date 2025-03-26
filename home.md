@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-03-26T11:58:53.154Z
+date: 2025-03-26T12:00:47.355Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -36,7 +36,7 @@ By mail : contact@yuekai.fr
 
 ### While building
 - [🛠️ BMCU Download Center *Print files, Firmwares*](/BMCU/BMCU_Download_Center)
-- [🎓 BMCU Tutorial Center *Tutorials*](/BMCU/BMCU_Tutorial_Center)
+- [🎓 BMCU Tutorial Center *Tutorials*](/BMCU/BMCU_Tutorial)
 - [🔬 BMCU Testing *Before connect to printer you must..*](/BMCU/BMCU_testing)
 {.links-list}
 
