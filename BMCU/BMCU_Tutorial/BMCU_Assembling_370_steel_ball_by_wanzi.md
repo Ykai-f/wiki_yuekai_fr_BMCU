@@ -2,7 +2,7 @@
 title: BMCU_Assembling_370_steel_ball_by_wanzi
 description: 
 published: true
-date: 2025-03-26T16:02:59.625Z
+date: 2025-03-26T16:03:43.639Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:24.796Z
@@ -230,16 +230,16 @@ Radial magnets have stronger side pull and can spin freely when held sideways.
 
 ![Radial Magnet Example](/assets/images/build-370/components/径向磁铁.jpg =x350)
 
-::: info Tip
-At this stage, insert filament and power the motor with 12V~24V to test:
-- Can it pull filament?
-- Does the magnet spin correctly?
-- Does the grease distribute evenly?
-:::
 
-::: tip Optional
-You can insert an optical fiber into the small hole next to the buffer as a light guide.
-:::
+> At this stage, insert filament and power the motor with 12V~24V to test:
+> - Can it pull filament?
+> - Does the magnet spin correctly?
+> - Does the grease distribute evenly?
+
+
+
+> You can insert an optical fiber into the small hole next to the buffer as a light guide.
+> 
 
 ---
 
