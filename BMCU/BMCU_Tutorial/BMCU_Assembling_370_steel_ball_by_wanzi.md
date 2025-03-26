@@ -2,7 +2,7 @@
 title: BMCU Assembling 370 steel ball version by wanzi
 description: 
 published: true
-date: 2025-03-26T16:04:53.902Z
+date: 2025-03-26T16:29:12.552Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:24.796Z
@@ -72,7 +72,7 @@ For **Jiali motors**, press the worm gear all the way down. The length should al
 
 ### Assembling the Buffer Unit
 
-Combine the **Slider Post** and the **Slider**.
+Combine the **Buffer slider** and the **Slider bar**.
 
 ![Buffer Assembly Step 1](/assets/images/build-370/components/组装缓冲-1.jpg =x350)
 ![Buffer Assembly Step 2](/assets/images/build-370/components/组装缓冲-2.jpg =x350)
@@ -89,7 +89,7 @@ Ensure the spring hooks onto the edge of the back cover.
 
 ### Installing the Motor and Gear
 
-Place the motor and the gear into the back cover.
+Place the motor and the gear into the back frame.
 
 ![Insert Motor and Gear](/assets/images/build-370/components/把电机和齿轮放入后盖.jpg =x350)
 
@@ -101,7 +101,7 @@ Use a screwdriver through the bottom hole and secure the 370 motor with an **M3x
 
 ### Installing the Filament Break Detection Section
 
-Place the **steel ball** into the back cover.
+Place the **steel ball** into the back frame.
 
 ![Insert Steel Ball](/assets/images/build-370/components/把钢珠放入后盖.jpg =x350)
 
@@ -155,7 +155,7 @@ Install the **top bearing**, ensuring it sits flush against the gear.
 ![BMG Drive Gear Step 5 - Top Bearing](/assets/images/build-370/components/组装bmg主动轮-5-顶部轴承.jpg =x350)
 ![BMG Drive Gear Step 6 - Completed](/assets/images/build-370/components/组装bmg主动轮-6-完成.jpg =x350)
 
-Place the assembled **BMG drive gear** into the back cover, gear facing upward.
+Place the assembled **BMG drive gear** into the back frame, gear facing upward.
 
 ![Insert BMG Drive Gear](/assets/images/build-370/components/把bmg主动轮放入后盖.jpg =x350)
 
@@ -249,7 +249,7 @@ Radial magnets have stronger side pull and can spin freely when held sideways.
 ### Assembly
 
 - Place the **secondary board** (sensor side down) onto the middle frame and secure with **two M2x8 screws**.
-- Attach the **front cover** with **four M2x8 screws**.
+- Attach the **front frame** with **four M2x8 screws**.
 - Connect the secondary board to the main board via ribbon cable.
 - Connect the main board to your computer using a USB-to-TTL module (power and ground are enough). You can also wire it the same as during firmware flashing.
 
