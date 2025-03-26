@@ -2,7 +2,7 @@
 title: BMCU Assembling 370 steel ball version by wanzi
 description: 
 published: true
-date: 2025-03-26T16:04:06.514Z
+date: 2025-03-26T16:04:53.902Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:24.796Z
@@ -134,9 +134,10 @@ These are all the parts included in the BMG gear set:
 
 Take one **D5x22mm shaft** and two **MR85ZZ bearings**. Press the shaft into one bearing until flush.
 
-::: danger Important
-Apply even force during installation. Install the shaft vertically to avoid damaging the bearing. Check shaft precision before use—some may not be perfect.
-:::
+
+> Apply even force during installation. Install the shaft vertically to avoid damaging the bearing. Check shaft precision before use—some may not be perfect.
+{.is-warning}
+
 
 ![BMG Drive Gear Step 1 - Bottom Bearing](/assets/images/build-370/components/组装bmg主动轮-1-底部轴承.jpg =x350)
 ![BMG Drive Gear Step 2 - Bearing In Place](/assets/images/build-370/components/组装bmg主动轮-2-底部轴承安装到位.jpg =x350)
