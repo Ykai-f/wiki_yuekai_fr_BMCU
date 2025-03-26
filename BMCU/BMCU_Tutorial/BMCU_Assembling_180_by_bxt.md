@@ -2,7 +2,7 @@
 title: BMCU Assembling 180 by bxt
 description: 
 published: true
-date: 2025-03-26T11:20:19.820Z
+date: 2025-03-26T12:02:22.844Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:15.871Z
@@ -22,12 +22,12 @@ Changes in the materials list are minor, so only the differences from the 130 ve
 
 Material changes are as follows:
 
-1. The original 130 motor is replaced with a 180 motor. It is recommended to purchase 180 motors with a shaft length of 10mm-12mm. Most 180 motors rated at 12V-24V should work. Quantity: 4. Recommended models:
+1. The original `130 motor` is replaced with a `180 motor`. It is recommended to purchase 180 motors with a shaft length of 10mm-12mm. Most 180 motors rated at 12V-24V should work. Recommended link:
    1. PWN17VEE12JA1 https://item.taobao.com/item.htm?_u=qu6u6p3c2bf&id=650572440927&spm=a1z09.2.0.0.7c412e8dH0f2vw Price at the time of writing: 1.8 RMB.
    2. FK-180SH-12280 (significantly increased in price)
-2. Buffer spring changed to 0.5 x 6 x 15mm, quantity: 4. Purchase link: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&spm=a1z09.2.0.0.4d042e8dhdKyYV&skuId=4728198936063
-3. Added clutch spring, specification 0.4 x 3 x 5mm, quantity: 4. Purchase link: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&skuId=4686949972659&spm=a1z09.2.0.0.4d042e8dhdKyYV
-4. M2x5 countersunk self-tapping screws are used in the 180 assembly guide, quantity: 16. If not purchased, you can use M2x8 from the 130 guide as a substitute.
+2. Buffer spring changed to `0.5 x 6 x 15mm`, quantity: `4`. Purchase link: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&spm=a1z09.2.0.0.4d042e8dhdKyYV&skuId=4728198936063
+3. Added clutch spring, specification `0.4 x 3 x 5mm`, quantity: 4. Purchase link: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&skuId=4686949972659&spm=a1z09.2.0.0.4d042e8dhdKyYV
+4. `M2x5` countersunk self-tapping screws are used in the 180 assembly guide, quantity: 16. If not purchased, you can use M2x8 from the 130 guide as a substitute.
 
 #### 3D Printed Shell Files:
 
