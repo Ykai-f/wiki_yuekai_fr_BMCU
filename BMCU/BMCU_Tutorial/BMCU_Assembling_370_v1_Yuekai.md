@@ -2,10 +2,10 @@
 title: BMCU Assembling 370 v1 by Yuekai
 description: 
 published: true
-date: 2025-03-21T10:49:32.908Z
+date: 2025-03-26T14:49:33.755Z
 tags: 
 editor: markdown
-dateCreated: 2025-03-15T20:41:04.262Z
+dateCreated: 2025-03-19T10:14:24.946Z
 ---
 
 # Preamble
@@ -114,10 +114,14 @@ Install the sub plate into the centre frame and fix it using two M2\*6 screws.
 
 Solder the motor wires to the sub-board. Please note that you should connect the red wire to the negative terminal of the sub-board and the black wire to the positive terminal.
 
-- Motor <span style="background-color:#ffdddd; color:#b30000; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px;">Positive</span> Terminal -> <span style="background-color:#ffdddd; color:#b30000; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px;">RED</span> Wire -> <span style="background-color:#f5f5f5; color:#333333; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px; border: 1px solid #ddd;">Negative</span> of sub-board
-- Motor <span style="background-color:#f5f5f5; color:#333333; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px; border: 1px solid #ddd;">Negative</span> Terminal -> <span style="background-color:#f5f5f5; color:#333333; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px; border: 1px solid #ddd;">BLACK</span> Wire -> <span style="background-color:#ffdddd; color:#b30000; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px;">Positive</span> of sub-board
+- ~~Motor <span style="background-color:#ffdddd; color:#b30000; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px;">Positive</span> Terminal -> <span style="background-color:#ffdddd; color:#b30000; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px;">RED</span> Wire -> <span style="background-color:#f5f5f5; color:#333333; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px; border: 1px solid #ddd;">Negative</span> of sub-board~~
+- ~~Motor <span style="background-color:#f5f5f5; color:#333333; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px; border: 1px solid #ddd;">Negative</span> Terminal -> <span style="background-color:#f5f5f5; color:#333333; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px; border: 1px solid #ddd;">BLACK</span> Wire -> <span style="background-color:#ffdddd; color:#b30000; padding:4px 10px; border-radius:5px; font-weight:bold; font-size:18px;">Positive</span> of sub-board~~
 > Two 182 gears are used in this model, which will reverse the direction of rotation of the motor, so it is necessary to reverse the power supply
 {.is-info}
+
+> In version 3.14 of the firmware, the author has added the ability for the BMCU to actively detect the direction of rotation of the motor, eliminating the need to actively reverse the wiring to the motor. It is recommended to use this version or newer. And for the wiring just do what you want xD
+{.is-success}
+
 
 
 ![370_16.jpg](/assets/images/bmcu_assembly_370_yuekai/370_16.jpg =x300)
