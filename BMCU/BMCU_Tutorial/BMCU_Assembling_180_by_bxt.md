@@ -1,170 +1,197 @@
-# 180版BMCU组装教程
+---
+title: BMCU_Assembling_180_by_bxt
+description: 
+published: true
+date: 2025-03-26T11:19:15.813Z
+tags: 
+editor: markdown
+dateCreated: 2025-03-26T11:09:15.871Z
+---
 
-::: info 提示
-该内容来自群友`@白小淘`
+# 180 BMCU Assembly Guide
+
+::: info Info
+This content is shared by group member `@白小淘`
 :::
 
-#### 除3D打印文件外的其他物料准备:
+#### Materials Preparation (excluding 3D printed parts):
 
-180版本基于130版本修改而来, PCB完全一致, 关于PCB的信息, 请参照130教程完成. 
+The 180 version is modified from the 130 version, with an identical PCB. For PCB information, please refer to the 130 guide.
 
-物料清单变化也比较小, 所以在此只有相对于130的变化说明, 完整清单可以查看130教程.
+Changes in the materials list are minor, so only the differences from the 130 version are noted here. Please check the 130 guide for the full list.
 
-物料清单的变化如下:
+Material changes are as follows:
 
-1. 由原版130电机修改为180电机, 建议购买轴长在10mm-12mm的180电机, 大多数额定电压12V-24V的180电机应该都可以工作, 用量为4个, 推荐的型号有两款:
-   1. PWN17VEE12JA1 https://item.taobao.com/item.htm?_u=qu6u6p3c2bf&id=650572440927&spm=a1z09.2.0.0.7c412e8dH0f2vw 整理时的售价为1.8元.
-   2. FK-180SH-12280 (已大幅涨价)
-2. 修改了缓冲器弹簧, 规格为0.5 x 6 x 15mm, 用量为4个, 购买链接: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&spm=a1z09.2.0.0.4d042e8dhdKyYV&skuId=4728198936063
-3. 增加了离合弹簧, 规格为0.4 x 3 x 5mm, 用量为4个, 购买链接: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&skuId=4686949972659&spm=a1z09.2.0.0.4d042e8dhdKyYV
-4. 180组装教程中有使用到M2x5沉头自攻螺丝, 数量16个, 如果没有购买, 可以使用130教程中的M2x8替换.
+1. The original 130 motor is replaced with a 180 motor. It is recommended to purchase 180 motors with a shaft length of 10mm-12mm. Most 180 motors rated at 12V-24V should work. Quantity: 4. Recommended models:
+   1. PWN17VEE12JA1 https://item.taobao.com/item.htm?_u=qu6u6p3c2bf&id=650572440927&spm=a1z09.2.0.0.7c412e8dH0f2vw Price at the time of writing: 1.8 RMB.
+   2. FK-180SH-12280 (significantly increased in price)
+2. Buffer spring changed to 0.5 x 6 x 15mm, quantity: 4. Purchase link: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&spm=a1z09.2.0.0.4d042e8dhdKyYV&skuId=4728198936063
+3. Added clutch spring, specification 0.4 x 3 x 5mm, quantity: 4. Purchase link: https://detail.tmall.com/item.htm?_u=qu6u6p36069&id=649882524891&skuId=4686949972659&spm=a1z09.2.0.0.4d042e8dhdKyYV
+4. M2x5 countersunk self-tapping screws are used in the 180 assembly guide, quantity: 16. If not purchased, you can use M2x8 from the 130 guide as a substitute.
 
-#### 外壳3D打印文件:
+#### 3D Printed Shell Files:
 
-外壳进行了完整的修改, 需要全部打印.
+The shell has been completely redesigned and needs to be fully printed.
 
-第一版仅适用于全金属外壳的180电机, 如果购买了上面链接推荐的PWN17VEE12JA1电机, 需要打印第二版文件.
+Version 1 is only suitable for 180 motors with a full metal shell. If you purchased the recommended PWN17VEE12JA1 motor from the link above, you need to print Version 2.
 
-如果没有特殊要求或不知道两个版本的区别, 请打印第二个版本.
+If you have no specific requirements or don't know the difference between the two versions, please print Version 2.
 
-第一版: https://makerworld.com/zh/models/1132822#profileId-1133350
+Version 1: https://makerworld.com/zh/models/1132822#profileId-1133350
 
-第一版里有两个打印配置, 第一个配置是一套完整的组件模型, 需要打印4套, 第二个配置仅包含"离合器零件B-4mm厚242A", 适用于4mm的242A齿轮, 242A齿轮购买链接中的参数显示该齿轮厚度为4mm, 但实际收到的厚度为3.2mm. 如果真的有4mm的242A齿轮, 需要用第二个配置中的离合器零件B
+There are two print configurations in Version 1. The first configuration is a complete set of component models, print 4 sets. The second configuration contains only the "Clutch Part B - 4mm Thick 242A", suitable for 4mm 242A gears. The parameter in the 242A gear purchase link shows a 4mm thickness, but the actual received thickness is 3.2mm. If you do get a 4mm 242A gear, use the Clutch Part B from the second configuration.
 
-第二版: https://makerworld.com/zh/models/1152568#profileId-1156984
+Version 2: https://makerworld.com/zh/models/1152568#profileId-1156984
 
-第二版修改了外观, 以及切掉了阻挡塑料后盖180电机的一些特征, 可以兼容全金属与塑料后盖的180电机, 打印配置包含一套完整的组件以及一个安装辅助件.
+Version 2 updates the appearance and removes some features that block the plastic rear cover of the 180 motor, making it compatible with both full metal and plastic rear cover 180 motors. The print configuration includes a complete component set and an installation aid.
 
+If this is your first time assembling the BMCU, you will also need the base and bracket. Please use the base and bracket files from the group file "BMCU Integrated Package V1.1".
 
+---
 
-除组件外, 如果是第一次组装BMCU, 还需要底座和支架, 请使用群文件"BMCU整合打包-V1.1"里的底座和支架文件.
+#### Component Assembly:
 
-#### 组件组装:
+The buffer lengths of the two versions are different. The motor mount of Version 2 is larger than that of Version 1. Other aspects are the same. The tutorial uses Version 2.
 
-两个版本的缓冲器长度不同, 第二版电机安装位比第一版大, 其他一致, 教程使用了第二版.
+1. Take out the bottom cover and insert transparent filament into the LED hole. Cut both ends flush with the surface.
+> Text on the picture: Insert the filament flush with the housing
 
-1. 拿出底盖, 并在LED孔中穿上透明耗材, 之后将耗材两端切至与底盖表面平齐:
+   ![image](/assets/images/build-180/image-20250226183726770.jpg =x350)
 
-![image-20250226183726770](./assets/build-180/image-20250226183726770.jpg)
+2. Fix the filament channel cover to the bottom cover with M2x8 flat head screws.
 
-2. 拿出耗材流道盖, 并使用M2 x 8平头自攻螺丝锁到底盖上:
+   ![image](/assets/images/build-180/image-20250226184016509.jpg =x350)
 
-   ![image-20250226184016509](./assets/build-180/image-20250226184016509.jpg)
+3. Screw the M6 pneumatic connector onto the buffer.
 
-3. 将M6气动连接器拧到缓冲器上, 第一版与第二版的缓冲器长度不同, 但没有其他区别.
+   ![image](/assets/images/build-180/image-20250226184422163.jpg =x350)
 
-   ![image-20250226184422163](./assets/build-180/image-20250226184422163.jpg)
+4. Place a 0.5x6x15mm spring onto the buffer, then place a 62B bushing. Pinch them together and install onto the bottom cover.
 
-4. 拿出一个0.5x6x15mm规格的弹簧, 放到缓冲器上, 然后再放上一个62B轴套, 捏住之后安装到底盖上:
+   ![image](/assets/images/build-180/image-20250226184607738.jpg =x350)
+   ![image](/assets/images/build-180/image-20250226184618713.jpg =x350)
 
-   ![image-20250226184607738](./assets/build-180/image-20250226184607738.jpg)
+5. Place a 628 worm gear on the installation aid. Align the motor shaft with the worm gear hole and press down.
 
-   ![image-20250226184618713](./assets/build-180/image-20250226184618713.jpg)
+   ![image](/assets/images/build-180/image-20250226185717057.jpg =x350)
+   ![image](/assets/images/build-180/image-20250226185727169.jpg =x350)
 
-5. 拿一个628蜗杆, 放在辅助安装件上, 之后用电机轴对准蜗杆孔, 按到底.
+6. Solder 50mm wires to the motor. Pay attention to the direction.
 
-   ![image-20250226185717057](./assets/build-180/image-20250226185717057.jpg)
+   ![image](/assets/images/build-180/image-20250226185818360.jpg =x350)
 
-   ![image-20250226185727169](./assets/build-180/image-20250226185727169.jpg)
+7. Mount the entire motor assembly onto the bottom cover.
 
-6. 给电机焊接连接线, 线长建议50mm左右. 请注意连接线的方向!
+   ![image](/assets/images/build-180/image-20250226185849036.jpg =x350)
 
-   ![image-20250226185818360](./assets/build-180/image-20250226185818360.jpg)
+8. Install 4 x 62B bushings onto the bottom cover.
 
-7. 焊接完成后, 将整个电机部分安装到底盖上:
+   ![image](/assets/images/build-180/image-20250226191407778.jpg =x350)
 
-   ![image-20250226185849036](./assets/build-180/image-20250226185849036.jpg)
+9. Assemble two 182A gears with two 2x6mm shafts. Position the gear in the center using the installation aid.
 
-8. 取4个62B轴套, 安装在底盖上:
+   ![image](/assets/images/build-180/image-20250226191544718.jpg =x350)
 
-   ![image-20250226191407778](./assets/build-180/image-20250226191407778.jpg)
+10. Assemble one 242A gear with a 2x20mm shaft. Use the installation aid to press in. The thinner step side should be about 6.1mm from the shaft end.
 
-9. 取两个182A齿轮, 与两根2x6mm轴, 安装到一起, 齿轮应该位于轴的中间, 可以使用安装辅助件帮助安装.
+    ![image](/assets/images/build-180/image-20250226191813390.jpg =x350)
+    
+    Gears ready:
+    ![image](/assets/images/build-180/image-20250226191844492.jpg =x350)
 
-   ![image-20250226191544718](./assets/build-180/image-20250226191544718.jpg)
+11. Insert a 0.4x3x5mm spring into the side hole of Clutch Part B.
 
-10. 取一个242A齿轮和一根2x20mm轴, 安装到一起, 可以按图1方向使用辅助安装件按到底确定长度, 齿轮具有较薄台阶的一面离轴端面距离应该是6.1mm左右.
+    ![image](/assets/images/build-180/image-20250226191945796.jpg =x350)
 
-    ![image-20250226191813390](./assets/build-180/image-20250226191813390.jpg)
+12. Press the spring with a 3mm tool (a 3mm SL screwdriver shown), then insert the 242A gear into Clutch Part B (larger step down).
 
-    现在是已经安装好的3个齿轮:
+    ![image](/assets/images/build-180/image-20250226192109252.jpg =x350)
 
-    ![image-20250226191844492](./assets/build-180/image-20250226191844492.jpg)
+13. Insert two 182A gears into the other two holes of Clutch Part B. If not centered, insert the shorter side of the shaft.
 
-11. 拿出离合器零件B, 在侧面的孔中放入一个0.4x3x5mm的弹簧:
+    ![image](/assets/images/build-180/image-20250226192202684.jpg =x350)
 
-    ![image-20250226191945796](./assets/build-180/image-20250226191945796.jpg)
+14. Place Clutch Part A and lock with two M2x8 screws. The clutch gears should rotate with spring resistance.
 
-12. 使用一个3mm粗的工具压住弹簧(图中使用了3mmSL螺丝刀), 然后将242A齿轮按下图方向插入离合器零件B(齿轮有台阶较大的一面朝下, 台阶较小的一面朝上):
+    ![image](/assets/images/build-180/image-20250226192322737.jpg =x350)
 
-    ![image-20250226192109252](./assets/build-180/image-20250226192109252.jpg)
+15. Insert the clutch assembly into the bottom cover.
 
-13. 之后在另外两个孔中放上182A齿轮, 如果182A齿轮不完全在轴的正中间, 请把轴较短的一端放入离合器零件B:
+    ![image](/assets/images/build-180/image-20250226192441182.jpg =x350)
 
-    ![image-20250226192202684](./assets/build-180/image-20250226192202684.jpg)
+16. Install two 20082B gears and insert a 2x20mm shaft.
 
-14. 放上离合器零件A, 并锁上两颗M2x8螺丝, 完成这些后, 离合器齿轮应该可以转动, 但能明显感觉到弹簧带来的阻力:![image-20250226192322737](./assets/build-180/image-20250226192322737.jpg)
+    ![image](/assets/images/build-180/image-20250226192604200.jpg =x350)
 
-15. 将离合器按下图方向放入底盖:
+17. Assemble the extruder wheel from the BMG parts (screw hole type), two MR85 bearings, and a 5x22mm shaft.
+> A word of caution: please handle the combination of BMG gear set, D5*2 shaft and bearings with care, as the fit of the gears and shafts is sometimes very tight, and if it unfortunately gets stuck, it is very difficult to get it out again
+{.is-warning}
 
-    ![image-20250226192441182](./assets/build-180/image-20250226192441182.jpg)
+   - Gather the following parts:  
+     - **Extrusion wheel with <font color="red">screw hole</font> !!!!!! IMPORTANT**  
+     - **Black set screw**  
+     - **One thick axle (5 × 22mm)**  
+     - **Two bearings (MR85ZZ)**.
+     ![bmcu_installation_2.12.jpg](/assets/images/bmcu_assembly_130_qtbz/bmcu_installation_2.12.jpg =x250)
+     
+     
 
-16. 按下图顺序放入两个20082B齿轮, 并放入2x20mm轴:
+then **Assemble the Extrusion Wheel**
+   - Assemble as shown in the diagram, paying close attention to orientation.  
+   - One end of the **thick axle** must be flush with the bearing (to allow a flat surface for the magnet).  
+   - **Don’t forget** to install the black set screw.
+   ![bmcu_installation_2.13.jpg](/assets/images/bmcu_assembly_130_qtbz/bmcu_installation_2.13.jpg =x250)
 
-    ![image-20250226192604200](./assets/build-180/image-20250226192604200.jpg)
+18. Install the extruder wheel into the base and apply grease to all POM gears.
 
-17. 取出BMG零件包里带有螺丝孔的挤出轮, 两个MR85轴承, 以及一根5x22mm轴, 按以下顺序组装:![image-20250226193837934](./assets/build-180/image-20250226193837934.jpg)
+    ![image](/assets/images/build-180/image-20250226195811798.jpg =x350)
 
-18. 组装完成后将挤出轮放到底座上, 如果没有其他事项, 现在就可以给所有POM齿轮上润滑脂:
+19. Install 4 x 62B bushings onto the middle frame.
 
-     ![image-20250226195811798](./assets/build-180/image-20250226195811798.jpg)
+    ![image](/assets/images/build-180/image-20250226195925212.jpg =x350)
 
-19. 拿出中框和4个62B轴套, 将轴套安装在中框上:
+20. Place the middle frame on the base, align all shafts with the bushings.
 
-    ![image-20250226195925212](./assets/build-180/image-20250226195925212.jpg)
+    ![image](/assets/images/build-180/image-20250226200030982.jpg =x350)
 
-20. 将安装好轴套的中框放在底盖上, 将所有轴对准轴套, 装平:
+21. Flip the assembly and lock all 5 holes with M2x8 screws.
 
-    ![image-20250226200030982](./assets/build-180/image-20250226200030982.jpg)
+    ![image](/assets/images/build-180/image-20250226200133363.jpg =x350)
 
-21. 现在握住整个组件, 翻到反面, 将所有5个孔都锁螺丝, 螺丝的规格为M2x8:
+22. Flip back and install the magnet. The magnet should rotate with the extruder wheel.
 
-    ![image-20250226200133363](./assets/build-180/image-20250226200133363.jpg)
+    ![image](/assets/images/build-180/image-20250226200242179.jpg =x350)
 
-22. 再将组件翻过来, 安装磁铁, 磁铁应该能随着挤出轮转动:
+23. Place the PCB onto the middle frame and lock with M2x8 screws.
 
-    ![](./assets/build-180/image-20250226200242179.jpg)
+    ![image](/assets/images/build-180/image-20250226203101663.jpg =x350)
 
-23. 将组件PCB放到组件中框上, 然后锁上M2x8螺丝:
+24. Trim the motor wires and solder them onto the PCB.
 
-    ![image-20250226203101663](./assets/build-180/image-20250226203101663.jpg)
+    ![image](/assets/images/build-180/image-20250226203133549.jpg =x350)
 
-24. 将电机线修剪到合适长度, 然后焊接到组件板上:
+25. Insert two needle bearings into the extruder wheel without screw holes from the BMG kit. Install into the handle, minding the direction.
 
-    ![image-20250226203133549](./assets/build-180/image-20250226203133549.jpg)
+    ![image](/assets/images/build-180/image-20250226202007817.jpg =x350)
 
-25. 拿出手柄, 将BMG零件包里的2个滚针轴承放到没有螺丝孔的挤出轮中, 并将挤出轮放到手柄中间, 注意安装方向:
+26. Insert the shaft into the handle. After installation, the extruder wheel should spin smoothly.
 
-    ![image-20250226202007817](./assets/build-180/image-20250226202007817.jpg)
+    ![image](/assets/images/build-180/image-20250226202105818.jpg =x350)
 
-26. 将BMG零件包里的轴取出, 安装到手柄上, 安装完成后, 挤出轮应该可以在手柄上顺滑转动:
+27. Mount the handle onto the assembly. Place a 0.5x6x10mm spring into the middle spring hole.
 
-    ![image-20250226202105818](./assets/build-180/image-20250226202105818.jpg)
+    ![image](/assets/images/build-180/image-20250226202203793.jpg =x350)
 
-27. 将手柄放到组件上, 在中间弹簧孔上放置好0.5x6x10弹簧:
+28. Press the handle and insert a 2x6mm shaft from the right side.
 
-    ![image-20250226202203793](./assets/build-180/image-20250226202203793.jpg)
+    ![image](/assets/images/build-180/image-20250226202344792.jpg =x350)
 
-28. 压紧手柄, 然后从右侧穿入2x6轴:
+29. Hold the handle and insert a 2x20mm shaft from the other side until fully seated.
 
-    ![image-20250226202344792](./assets/build-180/image-20250226202344792.jpg)
+    ![image](/assets/images/build-180/image-20250226202506970.jpg =x350)
 
-29. 压住手柄并转到另一边, 放入2x20mm轴, 并压到底, 压到底后, 轴应该会突出一些(像图中一样):
+30. Finally, install the back cover and lock all 4 M2x8 screws. One module is complete.
 
-    ![image-20250226202506970](./assets/build-180/image-20250226202506970.jpg)
+    ![image](/assets/images/build-180/image-20250226202616802.jpg =x350)
 
-30. 现在可以装上后盖, 锁上全部4颗螺丝(M2x8), 一个组件就已经安装完成了.
-
-    ![image-20250226202616802](./assets/build-180/image-20250226202616802.jpg)
-
-31. 另外3个也是同样的安装方法, 安装完成后, 请查看130教程测试组件是否正常.
+31. Repeat the same steps for the other three modules. After completion, refer to the 130 guide to test the modules.
