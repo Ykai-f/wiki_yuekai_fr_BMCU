@@ -2,7 +2,7 @@
 title: BMCU_Assembling_370_mircoswitch_by_xc
 description: 
 published: true
-date: 2025-03-26T14:27:23.446Z
+date: 2025-03-26T14:33:54.823Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:20.556Z
@@ -30,20 +30,47 @@ dateCreated: 2025-03-26T11:09:20.556Z
 
 ## PCB Notes
 
-For any issues, first refer to the left-side menu - [[FAQ]](../prepare/prepare.md).
-
 ### Mainboard Soldering Section
 
 1. Pay attention to the diode direction.
    ![potect](/assets/images/build-370x/pcb/potect.jpg =x350)
+- RED : *Default: Not soldered, redundant design*  
+- Purple : *Check the diode direction*, there’s another one on the top side
+
 2. Solder the back side as needed.
    ![Myback](/assets/images/build-370x/pcb/Myback.png =x350)
+ *For debugging output only, no soldering required*  
+- *If you want the mainboard LED on the backside*:  
+  - Solder the WS2812 LED on the backside  
+  - Bridge to SYS  
+- *This area usually doesn’t require soldering*   
+   
 3. Choose and solder the motor voltage.
    ![motor](/assets/images/build-370x/pcb/motor.png =x350)
+- *Motor voltage selection by solder bridge:*  
+  - Short **red area** for 12V motor  
+  - Short **purple area** for 24V motor  
+- *12V step-down circuit area*  
+- When using a 24V motor, **the green area is optional to solder**
+   
 4. Switch the slave part back to dual optocouplers (130 basic version).
    ![motor](/assets/images/build-370x/pcb/light.jpg =x350)
+with this version of PCB we have two options
+	1.*Original dual-optical design* (Not recommended, requires bridging the pad on the other side when in use)  
+  2.*Recommended:* Use surface-mount micro switch  
+- Be careful with the micro switch direction.  
+- **Do not press the switch during soldering**, it may deform due to high temperature. Test after cooling.
+
+
 5. Slave part - Functionality
    ![motor](/assets/images/build-370x/pcb/light_1.jpg =x350)
+**Suggested English:**  
+- *Jiali Motor*: Red dot = +; **Other motors are likely reversed** (Red dot = -)  
+- *External micro switch* works the same as the surface-mounted one  
+- **If using dual optical sensors on the other side**, bridge here. Keep open when using the micro switch.  
+- *Test points*: Not used  
+- *Buffer indicator LED*: ON for 370 motors, OFF for 130 motors (Color can be changed, green is not recommended)  
+- *Filament detection indicator*: Should light up only when filament is present
 
 ## Component Assembly
 
