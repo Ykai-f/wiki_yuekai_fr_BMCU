@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-03-19T14:40:20.738Z
+date: 2025-03-26T14:56:49.291Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -20,9 +20,7 @@ If you build your own PCB, test it before connect to your computer or printer.
 ## Reference voltage value of the motherboard to ground
 [pcb_voltage_to_ground](/BMCU/pcb_voltage_to_ground)
 
-
-# After making PCB & Before assembling
-## PCB lighting testing
+# PCB lighting testing
 
 Possible indicator colors of BMCU ：
 <span class="indicator indicator-blue">BLUE</span>  <span class="indicator indicator-red">RED</span>  <span class="indicator indicator-green">GREEN</span>  <span class="indicator indicator-purple">PURPLE</span>  <span class="indicator indicator-white">WHITE</span>
