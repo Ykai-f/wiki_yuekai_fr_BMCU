@@ -1,8 +1,8 @@
 ---
-title: BMCU_Assembling_180_by_bxt
+title: BMCU Assembling 180 by bxt
 description: 
 published: true
-date: 2025-03-26T11:19:50.811Z
+date: 2025-03-26T11:20:19.820Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:15.871Z
