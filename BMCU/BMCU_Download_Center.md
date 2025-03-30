@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-03-30T14:15:53.012Z
+date: 2025-03-30T14:52:41.131Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -50,6 +50,7 @@ Firmware from this version onwards is adapted to the 370 version, as well as all
 ### 130 version
 - STL files provided by the author 
 [https://makerworld.com/zh/models/1147522#profileId-1151118](https://makerworld.com/zh/models/1147522#profileId-1151118)
+
 
 - QTBZ version, adjustable photoelectric block, optimised delta clutch
 [https://makerworld.com/zh/models/1147006#profileId-1150436](https://makerworld.com/zh/models/1147006#profileId-1150436)
