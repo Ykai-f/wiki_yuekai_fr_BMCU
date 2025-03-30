@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-03-28T13:36:00.170Z
+date: 2025-03-30T14:15:53.012Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -51,8 +51,10 @@ Firmware from this version onwards is adapted to the 370 version, as well as all
 - STL files provided by the author 
 [https://makerworld.com/zh/models/1147522#profileId-1151118](https://makerworld.com/zh/models/1147522#profileId-1151118)
 
-- Latest improved 130 version 
+- QTBZ version, adjustable photoelectric block, optimised delta clutch
 [https://makerworld.com/zh/models/1147006#profileId-1150436](https://makerworld.com/zh/models/1147006#profileId-1150436)
+
+- An optimised version collected by Yuekai, almost the author's original design, with the addition of a triangular clutch using springs
 
 - Brackets for A1 and A1 mini
 [https://makerworld.com/zh/models/1147116#profileId-1150582](https://makerworld.com/zh/models/1147116#profileId-1150582)
