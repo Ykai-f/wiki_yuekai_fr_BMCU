@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-03-31T11:04:02.391Z
+date: 2025-03-31T11:06:46.587Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -31,7 +31,7 @@ to do. for now see below
 
 #### If you want to try the 370 version you need:
 - 4 x `370 motors` (6000 rpm at 24v) instad of original ff130 motor
-- 4 x `0.6x4x15` springs
+- 4 x `0.6x4x10` springs
 - 4 x `0.6x10x30` springs （Some developers have increased the length of the buffering to minimise five-way jacking out, so you can also try buy longer springs for example `0.6x10x35` or `0.6x10x50`）
 - M3x16 or M3x18 self-tapping screws
 - 242A gears no longer required
