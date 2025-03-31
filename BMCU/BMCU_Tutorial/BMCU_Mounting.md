@@ -2,7 +2,7 @@
 title: BMCU_Mounting
 description: 
 published: true
-date: 2025-03-14T15:44:34.267Z
+date: 2025-03-31T08:33:54.026Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-03T11:15:34.711Z
@@ -18,7 +18,7 @@ The hole spacing is different between the 130 and 370 versions of the bracket, s
 
 #### Original version bracket from author : 
 
-https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130#profileId-1150582
+https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130-and-version-370#profileId-1289021
 
 #### Third Party Brackets ： 
 For A1:
@@ -33,8 +33,7 @@ For dry box:
 
 
 ### 370 version : 
-Original version bracket from author is included in this model : 
-https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559
+https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130-and-version-370#profileId-1289021
 
 ## Installation
 
