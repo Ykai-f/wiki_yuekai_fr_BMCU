@@ -35,9 +35,18 @@ Firmware from this version onwards is adapted to the 370 version, as well as all
 |2.22|[bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip)| |
 |~~3.10~~| [~~bmcu_firmware_3-10.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3-10.rar)|Deprecated|[src-bmcu-3-10.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-10.zip)|
 |~~3.12~~|[~~bmcu_firmware_3_12.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_12.rar)|Deprecated||
-|3.14|[bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/bmcu_firmware_3_14.zip)|Good feedback so far|[src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/src-bmcu-3-14.zip)|
+|3.14|[bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/bmcu_firmware_3_14.zip)|Good feedback, recommended for 370|[src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/src-bmcu-3-14.zip)|
+|3.31|[bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/bmcu_firmware_3_31.rar)|Note from author : Please be careful with five-way being jacked out, I haven't had time to test it yet||
 
 ### Changelog
+
+#### V3.31
+Now the BMCU will do a buffer jitter mode during the filament cut stage.
+
+#### V3.14
+From this version onwards there is no need to consider if we need to reverse the power supply of the motor (In iterations 130 to 370 we occasionally used a different number of gears causing occasionally we needed to reverse the power supply)
+The BMCU will perform a motor jitter to determine the rotation direction of motor when the firmware is first flashed and the first connection is made to the printer
+
 #### V3.10
 1. Repair motor direction judgement bug
 1. Repair the bug of rewind exit component.
