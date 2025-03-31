@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-03-31T11:32:47.388Z
+date: 2025-03-31T11:33:12.456Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -64,11 +64,11 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 [Link Makerworld](https://makerworld.com/zh/models/1147522#profileId-1151118)
 [Backup link](/assets/files/print_files/130%20Original%20version%20from%20author.3mf)
 
-- ❤️‍🔥QTBZ version, adjustable photoelectric block, optimised delta clutch
+- ❤️‍🔥QTBZ version, adjustable photoelectric block, optimised triangle clutch
 [Link Makerworld](https://makerworld.com/zh/models/1147006#profileId-1150436)
 [Backup link](/assets/files/print_files/BMCU%20130%20QTBZ版本.3mf)
 
-- ❤️‍🔥An optimised version collected by Yuekai, almost the author's original design, with the addition of a triangular clutch using springs
+- ❤️‍🔥An optimised version collected by Yuekai, almost the author's original design, with the addition of a triangle clutch using springs
 [Link Makerworld](https://makerworld.com/zh/models/1162813-bmcu-130-version-an-optimized-extruder-search-comb#profileId-1291386)
 [Backup link](/assets/files/print_files/BMCU%20Yuekai%20wiki.yuekai.fr%20.3mf)
 
