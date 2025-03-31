@@ -1,245 +1,288 @@
-# 370钢珠版制作教程
+---
+title: BMCU Assembling 370 steel ball version by wanzi
+description: 
+published: true
+date: 2025-03-26T16:29:12.552Z
+tags: 
+editor: markdown
+dateCreated: 2025-03-26T11:09:24.796Z
+---
 
-## 目前是初版教程 我刚打完还没审稿
+# 370 Steel Ball Version Assembly Guide
 
-## 前言
+This tutorial is made by `@丸子`
 
-这是适用于3-14版本的370钢珠版制作教程，对于其他钢珠版也一定程度的适用。
+## Introduction
 
-若还没有零件，请前往[材料清单](/doc/prepare/list)购买。
+This guide covers the assembly of the 3-14 version of the 370 Steel Ball model. It is also generally applicable to other steel ball versions.
 
-这篇教程是我发烧的时候做的，如果对您有所帮助，欢迎前往[支持wiki运行](../other/donate.md)赞赏我~
+## Preparation Before Assembly
 
-## 组装前需提前准备
+You will need a fully soldered BMCU circuit board. Please ensure there are no soldering defects such as cold joints, missed spots, solder bridges, or incorrect connections.
 
-您需要一套焊接完毕的BMCU电路板，确保没有任何焊接缺陷（如虚焊、漏焊、连锡、焊错等），然后对其进行固件刷写，固件烧录教程暂时请前往群文件查找。
+The firmware must be flashed before assembly. For the flashing guide, please refer to the group files.
 
-您需要刷入3-14版本的固件，该版本同时适用于A系列和P系列
+Use firmware version **3-14**, which supports both **A series** and **P series**.
 
-适用于本教程的整合包：[到这里下载3-14整合包](https://www.123912.com/s/qX7iVv-ZVxbv)，提取码：wanz
+✅ Model used in this guide:  
+[https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1272722](https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1272722)
 
-## 送料组件组装
+---
 
-### 组件名称介绍
+## Feeding Mechanism Assembly
 
-![组件名称序号](./assets/build-370/components/组件名称序号.png)
+### Component Overview
 
-- ①后盖
-- ②中框
-- ③前盖
-- ④扳手
-- ⑤滑块柱（缓冲器）
-- ⑥钢珠滑块/断料滑块
-- ⑦螺母塞
-- ⑧滑块（缓冲器）
+![Component Overview](/assets/images/build-370/components/组件名称序号.png =x350)
 
-### 安装轴套
+- ① Back Frame
+- ② Middle Frame
+- ③ Front Frame
+- ④ Lever
+- ⑤ Buffer Slider Bar
+- ⑥ Steel Ball Slider / Filament Break Sensor Slider
+- ⑦ Nut block
+- ⑧ Buffer slider
 
-按照下图将62B轴套塞入后盖以及中框中
+---
 
-![安装轴套](./assets/build-370/components/安装轴套.jpg)
+### Installing the Bushings
 
-### 组装182A齿轮和2\*20轴
+Insert the 62B bushings into the back cover and middle frame as shown below:
 
-把轴按照下图压入齿轮中，使两端露出的长度相近即可
+![Install Bushings](/assets/images/build-370/components/安装轴套.jpg =x350)
 
-![给182a齿轮装轴](./assets/build-370/components/给182a齿轮装轴.jpg)
+---
 
-### 给370电机安装蜗杆
+### Assembling the 182A Gear and 2x20 Shaft
 
-对于`佳立电机`购买的电机，把蜗杆压倒底，长度正好
+Press the shaft into the gear as shown, ensuring equal lengths extend from both sides.
 
-![给电机装蜗杆](./assets/build-370/components/给电机装蜗杆.jpg)
+![Install Shaft to 182A Gear](/assets/images/build-370/components/给182a齿轮装轴.jpg =x350)
 
-### 组装缓冲器
+---
 
-把`滑块柱`与`滑块`组装到一起
+### Installing the Worm Gear on the 370 Motor
 
-![组装缓冲-1](./assets/build-370/components/组装缓冲-1.jpg)
-![组装缓冲-2](./assets/build-370/components/组装缓冲-2.jpg)
+For **Jiali motors**, press the worm gear all the way down. The length should align perfectly.
 
-在组装好的缓冲器上套上`0.6*12x30mm弹簧`，并放入`后盖`中
+![Install Worm Gear](/assets/images/build-370/components/给电机装蜗杆.jpg =x350)
 
-![组装缓冲-3](./assets/build-370/components/组装缓冲-3.jpg)
+---
 
-让弹簧卡在后盖边缘
+### Assembling the Buffer Unit
 
-![组装缓冲-4](./assets/build-370/components/组装缓冲-4.jpg)
+Combine the **Buffer slider** and the **Slider bar**.
 
-### 安装电机和齿轮
+![Buffer Assembly Step 1](/assets/images/build-370/components/组装缓冲-1.jpg =x350)
+![Buffer Assembly Step 2](/assets/images/build-370/components/组装缓冲-2.jpg =x350)
 
-把前面做好的齿轮和电机放入后盖
+Slide the **0.6*12x30mm spring** over the buffer unit and place it into the **back cover**.
 
-![把电机和齿轮放入后盖](./assets/build-370/components/把电机和齿轮放入后盖.jpg)
+![Buffer Assembly Step 3](/assets/images/build-370/components/组装缓冲-3.jpg =x350)
 
-螺丝刀穿过底部的孔，使用`m3*5`平头螺丝固定370电机
+Ensure the spring hooks onto the edge of the back cover.
 
-![固定370电机](./assets/build-370/components/固定370电机.jpg)
+![Buffer Assembly Step 4](/assets/images/build-370/components/组装缓冲-4.jpg =x350)
 
-### 安装断料检测部分
+---
 
-按照下图把`钢珠`放入`后盖`
+### Installing the Motor and Gear
 
-![把钢珠放入后盖](./assets/build-370/components/把钢珠放入后盖.jpg)
+Place the motor and the gear into the back frame.
 
-然后再把`钢珠滑块`放入`后盖`
+![Insert Motor and Gear](/assets/images/build-370/components/把电机和齿轮放入后盖.jpg =x350)
 
-![把钢珠滑块放入后盖](./assets/build-370/components/把钢珠滑块放入后盖.jpg)
+Use a screwdriver through the bottom hole and secure the 370 motor with an **M3x5 flathead screw**.
 
-### 安装六角螺母
+![Secure 370 Motor](/assets/images/build-370/components/固定370电机.jpg =x350)
 
-3-14版把此处的自攻螺丝孔改为了机牙螺丝适用的螺母，以避免频繁拆装`送料组件`与`底座`导致的孔位滑丝
+---
 
-把`六角螺母`放入`后盖`
+### Installing the Filament Break Detection Section
 
-![把六角螺母放入后盖](./assets/build-370/components/把六角螺母放入后盖.jpg)
+Place the **steel ball** into the back frame.
 
-塞入`螺母塞`，以固定`六角螺母`
+![Insert Steel Ball](/assets/images/build-370/components/把钢珠放入后盖.jpg =x350)
 
-![放入螺母塞](./assets/build-370/components/放入螺母塞.jpg)
+Then insert the **steel ball slider**.
 
-![把螺母塞安装到位](./assets/build-370/components/把螺母塞安装到位.jpg)
+![Insert Steel Ball Slider](/assets/images/build-370/components/把钢珠滑块放入后盖.jpg =x350)
 
-### 安装bmg主动轮
+---
 
-下图是BMG齿轮组套装的所有零部件
+### Installing the Hex Nut
 
-![bmg齿轮套装](./assets/build-370/components/BMG齿轮套装.jpg)
+In version 3-14, self-tapping holes are replaced with nuts to prevent thread wear from frequent disassembly.
 
-取一个`D5x22mm轴`和两个`MR85ZZ轴承`，将轴压入其中一个轴承中，使底面齐平
+Insert the **hex nut** into the back cover.
 
-::: danger 注意
-安装时请均匀施力，水平竖直的安装，以免轴承卡住无法正常安装和调整，同时据说这个轴的精度不佳，请取用前自行评估
-:::
+![Insert Hex Nut](/assets/images/build-370/components/把六角螺母放入后盖.jpg =x350)
 
-![组装bmg主动轮-1-底部轴承](./assets/build-370/components/组装bmg主动轮-1-底部轴承.jpg)
+Secure it with the **nut insert**.
 
-![组装bmg主动轮-2-底部轴承安装到位](./assets/build-370/components/组装bmg主动轮-2-底部轴承安装到位.jpg)
+![Insert Nut Plug](/assets/images/build-370/components/放入螺母塞.jpg =x350)
+![Nut Plug Installed](/assets/images/build-370/components/把螺母塞安装到位.jpg =x350)
 
-按照图示方向放入带有顶丝孔的`bmg挤出轮`
+---
 
-![组装bmg主动轮-3-bmg](./assets/build-370/components/组装bmg主动轮-3-bmg.jpg)
+### Assembling the BMG Drive Gear
 
-用`内六角扳手`把`顶丝`安装到`bmg`的顶丝孔中
+These are all the parts included in the BMG gear set:
 
-![组装bmg主动轮-4-顶丝](./assets/build-370/components/组装bmg主动轮-4-顶丝.jpg)
+![BMG Gear Set](/assets/images/build-370/components/BMG齿轮套装.jpg =x350)
 
-安装顶部的轴承，使其和bmg挤出轮贴合
+Take one **D5x22mm shaft** and two **MR85ZZ bearings**. Press the shaft into one bearing until flush.
 
-![组装bmg主动轮-5-顶部轴承](./assets/build-370/components/组装bmg主动轮-5-顶部轴承.jpg)
 
-![组装bmg主动轮-6-完成](./assets/build-370/components/组装bmg主动轮-6-完成.jpg)
+> Apply even force during installation. Install the shaft vertically to avoid damaging the bearing. Check shaft precision before use—some may not be perfect.
+{.is-warning}
 
-将刚组装好的这个`bmg主动轮`按照图示方向，齿轮朝上放入`后盖`中
 
-![把bmg主动轮放入后盖](./assets/build-370/components/把bmg主动轮放入后盖.jpg)
+![BMG Drive Gear Step 1 - Bottom Bearing](/assets/images/build-370/components/组装bmg主动轮-1-底部轴承.jpg =x350)
+![BMG Drive Gear Step 2 - Bearing In Place](/assets/images/build-370/components/组装bmg主动轮-2-底部轴承安装到位.jpg =x350)
 
-### 组装bmg从动轮
+Place the **BMG gear with set screw hole** as shown:
 
-把两个`滚针轴承`放入剩下的不带顶丝孔的`bmg挤出轮`中
+![BMG Drive Gear Step 3 - Insert BMG Gear](/assets/images/build-370/components/组装bmg主动轮-3-bmg.jpg =x350)
 
-![组装bmg从动轮-1-放入滚针轴承](./assets/build-370/components/组装bmg从动轮-1-放入滚针轴承.jpg)
+Insert the **set screw** using a hex key.
 
-把它放到扳手里，**注意安装方向**，并插入`bmg齿轮包`中附带的轴
+![BMG Drive Gear Step 4 - Set Screw](/assets/images/build-370/components/组装bmg主动轮-4-顶丝.jpg =x350)
 
-![组装bmg从动轮-2-放入扳手-插入轴](./assets/build-370/components/组装bmg从动轮-2-放入扳手-插入轴.jpg)
+Install the **top bearing**, ensuring it sits flush against the gear.
 
-### 给齿轮上润滑
+![BMG Drive Gear Step 5 - Top Bearing](/assets/images/build-370/components/组装bmg主动轮-5-顶部轴承.jpg =x350)
+![BMG Drive Gear Step 6 - Completed](/assets/images/build-370/components/组装bmg主动轮-6-完成.jpg =x350)
 
-我使用的是虎头的“车门铰链与滑道润滑脂”，您可以选择其他`润滑脂`，但请注意**不要使用润滑油**
+Place the assembled **BMG drive gear** into the back frame, gear facing upward.
 
-![给齿轮上润滑](./assets/build-370/components/给齿轮上润滑.jpg)
+![Insert BMG Drive Gear](/assets/images/build-370/components/把bmg主动轮放入后盖.jpg =x350)
 
-### 放入钢珠弹簧
+---
 
-![放入钢珠弹簧](./assets/build-370/components/放入钢珠弹簧.jpg)
+### Assembling the BMG Idler Gear
 
-### 合上中框
+Insert two **needle bearings** into the **idler gear (no set screw hole)**.
 
-![合上中框](./assets/build-370/components/合上中框.jpg)
+![Idler Gear Step 1 - Insert Needle Bearings](/assets/images/build-370/components/组装bmg从动轮-1-放入滚针轴承.jpg =x350)
 
-用`m2*8`螺丝固定中框
+Place it into the **lever**, making sure the direction is correct, and insert the shaft from the BMG kit.
 
-![用螺丝固定中框](./assets/build-370/components/用螺丝固定中框.jpg)
+![Idler Gear Step 2 - Insert into Lever](/assets/images/build-370/components/组装bmg从动轮-2-放入扳手-插入轴.jpg =x350)
 
-### 安装扳手
+---
 
-把`扳手`放入刚才那一坨东西中，放入`0.6*4x10mm弹簧`
+### Lubricating the Gears
 
-![安装扳手-1-弹簧](./assets/build-370/components/安装扳手-1-弹簧.jpg)
+I used "Tiger Head" hinge and slideway grease. **Do not use oil**—only grease.
 
-用手压住扳手，并插入一根`2*20轴`以固定扳手
+![Apply Grease](/assets/images/build-370/components/给齿轮上润滑.jpg =x350)
 
-![安装扳手-2-轴](./assets/build-370/components/安装扳手-2-轴.jpg)
+---
 
-### 安装缓冲器气动接头
+### Insert the Steel Ball Spring
 
-把气动接头拧入缓冲器
+![Insert Steel Ball Spring](/assets/images/build-370/components/放入钢珠弹簧.jpg =x350)
 
-![安装缓冲器气动接头](./assets/build-370/components/安装缓冲器气动接头.jpg)
+---
 
-### 放入径向磁铁
+### Closing the Middle Frame
 
-把径向磁铁放到中框的磁铁洞中，使磁铁略低于中框
+![Close the Middle Frame](/assets/images/build-370/components/合上中框.jpg =x350)
 
-这个图是偷的370x的，都一样
+Secure the middle frame with **M2x8 screws**.
 
-![安装磁铁-偷的图](./assets/build-370/components/安装磁铁-偷的图.jpg)
+![Secure Middle Frame](/assets/images/build-370/components/用螺丝固定中框.jpg =x350)
 
-#### 如何区分轴向磁铁和径向磁铁
+---
 
-径向磁铁更容易横着吸，而且横着吸的磁力更大，横着吸的时候可以随意旋转。
+### Installing the Lever
 
-![径向磁铁](./assets/build-370/components/径向磁铁.jpg)
+Place the **lever** into the assembly and insert a **0.6*4x10mm spring**.
 
-::: info 建议
-在此时插入耗材，使用12v~24v电源接通电机以`测试是否可以拉动耗材`、`磁铁是否跟着转`以及`将润滑脂抹匀`
-:::
+![Lever Installation - Spring](/assets/images/build-370/components/安装扳手-1-弹簧.jpg =x350)
 
-::: tip
-可以塞入光纤到缓冲器旁边的小孔，塞到底剪断，用于导光
-:::
+Press the lever down and insert a **2x20 shaft** to lock it in place.
 
-## 安装电路板并测试
+![Lever Installation - Shaft](/assets/images/build-370/components/安装扳手-2-轴.jpg =x350)
 
-### 安装
+---
 
-把副板以光电朝下的方向放到中框上，**用两颗`m2*8`螺丝固定住**
+### Installing the Pneumatic Connector on the Buffer
 
-把前盖通过四颗`m2*8`螺丝固定到中框上
+Screw the connector into the buffer.
 
-把副板用排线接到主板
+![Install Pneumatic Connector](/assets/images/build-370/components/安装缓冲器气动接头.jpg =x350)
 
-主板通过USB转TTL模块连接电脑，只需要接入正负极即可，或者完全按照烧录固件时候的接线亦可
+---
 
-### 测试
+### Installing the Radial Magnet
 
-> 我的图是全套装好的成品拍的，效果一样，建议做好一个通道就测试，以避免不必要的麻烦
+Place the radial magnet into the slot on the middle frame. Ensure it sits slightly below the surface.
 
-上电什么都不做是这样的（主板没拍到，是红灯）
+*(Illustration borrowed from the 370X version, but it's the same process)*
 
-> 副板ws2812红色，缓冲灯亮起，耗材在线灯不亮 
+![Install Magnet](/assets/images/build-370/components/安装磁铁-偷的图.jpg =x350)
 
-![测试-原始状态](./assets/build-370/components/测试-原始状态.jpg)
+#### How to Identify Radial vs. Axial Magnets
 
-按下扳手，插入耗材丝，松开扳手，是这样的
+Radial magnets have stronger side pull and can spin freely when held sideways.
 
-> 副板ws2812红色，缓冲灯亮起，耗材在线灯亮起
+![Radial Magnet Example](/assets/images/build-370/components/径向磁铁.jpg =x350)
 
-![测试-插入耗材丝](./assets/build-370/components/测试-插入耗材丝.jpg)
 
-在上一步的基础上拉开缓冲器，是这样的
+> At this stage, insert filament and power the motor with 12V~24V to test:
+> - Can it pull filament?
+> - Does the magnet spin correctly?
+> - Does the grease distribute evenly?
 
-> 副板ws2812红色，缓冲灯不亮，耗材在线灯亮起
 
-![测试-拉开缓冲器](./assets/build-370/components/测试-拉开缓冲器.jpg)
 
-## 安装送料组件和电路板到底座
+> You can insert an optical fiber into the small hole next to the buffer as a light guide.
+> 
 
-很简单，按照下图看吧
+---
 
-![底座安装](./assets/build-370/底座安装.jpg)
+## Installing the Circuit Board and Final Testing
 
-使用三个`m2*8`自攻螺丝固定主板，使用四个同款螺丝固定主板盖
+### Assembly
 
-使用`m3*14`平头螺丝固定送料组件和底座
+- Place the **secondary board** (sensor side down) onto the middle frame and secure with **two M2x8 screws**.
+- Attach the **front frame** with **four M2x8 screws**.
+- Connect the secondary board to the main board via ribbon cable.
+- Connect the main board to your computer using a USB-to-TTL module (power and ground are enough). You can also wire it the same as during firmware flashing.
+
+### Testing
+
+> My pictures show the fully assembled unit, but I recommend testing after building one channel to avoid unnecessary trouble.
+
+Initial power-up status (main board not shown, red LED on main board):
+
+> Secondary board WS2812 red, buffer light ON, filament sensor OFF
+
+![Test - Initial State](/assets/images/build-370/components/测试-原始状态.jpg =x350)
+
+Press the lever, insert filament, then release:
+
+> Secondary board WS2812 red, buffer light ON, filament sensor ON
+
+![Test - Insert Filament](/assets/images/build-370/components/测试-插入耗材丝.jpg =x350)
+
+Now pull the buffer open:
+
+> Secondary board WS2812 red, buffer light OFF, filament sensor ON
+
+![Test - Pull Buffer](/assets/images/build-370/components/测试-拉开缓冲器.jpg =x350)
+
+---
+
+## Installing the Feeding Assembly and Circuit Board to the Base
+
+Very simple—refer to the image below:
+
+![Install to Base](/assets/images/build-370/底座安装.jpg =x350)
+
+- Secure the main board with **three M2x8 self-tapping screws**.
+- Use **four M2x8 screws** to secure the main board cover.
+- Fix the feeding assembly to the base using **M3x14 flathead screws**.

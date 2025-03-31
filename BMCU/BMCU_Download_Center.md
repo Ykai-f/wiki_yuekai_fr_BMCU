@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-03-21T15:55:11.641Z
+date: 2025-03-30T14:52:41.131Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -35,18 +35,9 @@ Firmware from this version onwards is adapted to the 370 version, as well as all
 |2.22|[bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip)| |
 |~~3.10~~| [~~bmcu_firmware_3-10.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3-10.rar)|Deprecated|[src-bmcu-3-10.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-10.zip)|
 |~~3.12~~|[~~bmcu_firmware_3_12.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_12.rar)|Deprecated||
-|3.14|[bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/bmcu_firmware_3_14.zip)|Good feedback, recommended for 370|[src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/src-bmcu-3-14.zip)|
-|3.31|[bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_downloads/bmcu_firmware_3_31.rar)|Note from author : Please be careful with five-way being jacked out, I haven't had time to test it yet||
+|3.14|[bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)|Good feedback so far|[src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip)|
 
 ### Changelog
-
-#### V3.31
-Now the BMCU will do a buffer jitter mode during the filament cut stage.
-
-#### V3.14
-From this version onwards there is no need to consider if we need to reverse the power supply of the motor (In iterations 130 to 370 we occasionally used a different number of gears causing occasionally we needed to reverse the power supply)
-The BMCU will perform a motor jitter to determine the rotation direction of motor when the firmware is first flashed and the first connection is made to the printer
-
 #### V3.10
 1. Repair motor direction judgement bug
 1. Repair the bug of rewind exit component.
@@ -57,30 +48,42 @@ The BMCU will perform a motor jitter to determine the rotation direction of moto
 ## Main structure 3D print files
 
 ### 130 version
-- STL files provided by the author 
-[https://makerworld.com/zh/models/1147522#profileId-1151118](https://makerworld.com/zh/models/1147522#profileId-1151118)
+- 130 Original version by the author 
+[Link Makerworld](https://makerworld.com/zh/models/1147522#profileId-1151118)
+[Backup link](/assets/files/print_files/130%20Original%20version%20from%20author.3mf)
 
-- Latest improved 130 version 
-[https://makerworld.com/zh/models/1147006#profileId-1150436](https://makerworld.com/zh/models/1147006#profileId-1150436)
+- QTBZ version, adjustable photoelectric block, optimised delta clutch
+[Link Makerworld](https://makerworld.com/zh/models/1147006#profileId-1150436)
+[Backup link](/assets/files/print_files/BMCU%20130%20QTBZ版本.3mf)
 
-- Brackets for A1 and A1 mini
-[https://makerworld.com/zh/models/1147116#profileId-1150582](https://makerworld.com/zh/models/1147116#profileId-1150582)
+- An optimised version collected by Yuekai, almost the author's original design, with the addition of a triangular clutch using springs
+[Link Makerworld](https://makerworld.com/zh/models/1162813-bmcu-130-version-an-optimized-extruder-search-comb#profileId-1291386)
+[Backup link](/assets/files/print_files/BMCU%20Yuekai%20wiki.yuekai.fr%20.3mf)
+
+- Brackets for A1 and A1 mini, also can be used for early version 370
+[Link Makerworld](https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130-and-version-370#profileId-1289021)
+[Backup link](/assets/files/print_files/Bracket%20for%20130%20and%20early%20370.3mf)
 {.grid-list}
 
+### 180 version
+[Link Makerworld](https://makerworld.com/zh/models/1152568-gk180v2-component-model-180bmcu-assembly#profileId-1207144)
+[Backup link](/assets/files/print_files/180%20version.3mf)
+{.grid-list}
 
 ### 370 version
+- 370 version official version V2.5:
+[Link Makerworld](https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559)
+[Backup link](/assets/files/print_files/370+v2.5+original.3mf)
 
-- 370 version v0.1：
-[https://makerworld.com/zh/models/1147008#profileId-1150439](https://makerworld.com/zh/models/1147008#profileId-1150439)
-{.grid-list}
-
-- 370 version official version V1:
-https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559
+- 370 version official v2.5 extented buffer version (require some longer springs 0.6\*10\*50 or longer)
+Link Makerworld not yet, if you printed this please send me some photos :p
+[Backup link](/assets/files/print_files/370%20v2.5%20extended%20version.3mf)
 
 - Brackets for A1 / A1 mini (included in this model):
-https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559
+[Link Makerworld](https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130-and-version-370#profileId-1289021)
+[Backup link](/assets/files/print_files/Brackets%20for%20BMCU.3mf)
+{.grid-list}
 
-### 
 
 
 

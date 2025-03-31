@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-26T10:49:18.506Z
+date: 2025-03-26T14:39:36.777Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T10:49:18.506Z
@@ -52,20 +52,20 @@ For stability, functionality and official support, we recommend purchasing an of
 
 # Price and options:
 
-- **Option "I AM THE ULTIMATE GEEK"** from 16€💶:  
+## **Option "I AM THE ULTIMATE GEEK"** from 16€💶:  
 💡 Challenge your geek soul with the completely unsoldered version  
 This option includes unsoldered PCBs (1 main board + 4 sub-boards) and all the electronic patch components needed to solder.  
-
+https://shop.yuekai.fr/products/bmcu-option-pcb
 <div id="product-component-1742393065755"></div>
 
 ## **Option PCB** from 30€💶
 The soldered PCBs included one main board + 4 sub-boards and connection cables.
-
+https://shop.yuekai.fr/products/bmcu-soldered-pcb-kit
 <div id="product-component-1742392676771"></div>
 
 ## **Option Mechanical parts** from 30€💶
 All the mechanical parts accroding to the author's BOM sheet.
-
+https://shop.yuekai.fr/products/mechanical-parts-only
 <div id="product-component-1742393487102"></div>
 
 ## **Option PCB + Mechanical parts bundle** from 60€💶
@@ -73,7 +73,7 @@ https://shop.yuekai.fr/products/bmcu-soldered-pcb-mechanical-parts-bundle
 
 ## **Option BMCU** from 85€💶 : 
 BMCU fully assembled and tested, ready to use.
-
+https://shop.yuekai.fr/products/bmcu-fully-assembled
 <div id="product-component-1742390644458"></div>
 
 
