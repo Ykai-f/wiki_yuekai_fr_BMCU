@@ -1,8 +1,8 @@
 ---
-title: BMCU Tutorial Center
+title: BMCU Tutorial
 description: 
 published: true
-date: 2025-03-26T16:05:57.734Z
+date: 2025-03-31T11:21:05.524Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
