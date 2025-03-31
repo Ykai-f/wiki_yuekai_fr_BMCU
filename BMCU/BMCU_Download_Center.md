@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-03-30T14:52:41.131Z
+date: 2025-03-31T11:31:06.583Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -91,9 +91,13 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 Link Makerworld not yet, if you printed this please send me some photos :p
 [Backup link](/assets/files/print_files/370%20v2.5%20extended%20version.3mf)
 
+- 370 steel ball version v3.14:
+[Link Makerworld](https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1288934)
+[Backup link](/assets/files/print_files/370+v2.5+original.3mf)
+
 - Brackets for A1 / A1 mini (included in this model):
 [Link Makerworld](https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130-and-version-370#profileId-1289021)
-[Backup link](/assets/files/print_files/Brackets%20for%20BMCU.3mf)
+[Backup link](/assets/files/print_files/370+steel+ball+version+3.14.3mf)
 {.grid-list}
 
 
