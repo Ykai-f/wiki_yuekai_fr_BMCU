@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-03-21T12:54:44.677Z
+date: 2025-03-31T10:55:56.926Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -71,7 +71,9 @@ The original version 130, the most classic and earliest version of the BMCU from
 
 The problem with the 130 is that it has a ‘triangular plate clutch’ part, which lacks subsequent durability. It is also prone to various problems during assembly, such as idling gears. But for now, the 130 version is more stable with good fitment
 
-But version 130 is still the most used version today.
+update 31/03/2025 - Since the release of the clutch with springs, the installation and commissioning of the 130 version has been considerably reduced ！
+
+Version 130 is still well used today.
 
 ## Type-c version
 [The original Type-c version page on JLC](https://oshwhub.com/bilibili233/bmcu0000)
@@ -98,9 +100,7 @@ Earlier versions of the 370 had the potential for five-pass explosion. The reaso
 ## 370 steel ball version
 ![bmcu_steel_ball_version.png](/assets/images/bmcu_branch/bmcu_steel_ball_version.png)
 
-The steel ball version is a future offshoot of the 370 version, which should improve the original structure.
-
-The principle is that when the filaments enter the extruder, the steel ball is lifted up, driving the slider to block the photoelectric detection interface, thereby sending the existence of filaments to the printer.
+The current steel ball version is an excellent version who better solves the problem of photoelectric sensors. It is usually recommended to assemble this version.
 
 # Should I get a 130/180 or 370?
 
