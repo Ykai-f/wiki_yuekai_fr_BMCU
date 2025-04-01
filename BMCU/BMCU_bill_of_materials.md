@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-01T18:20:51.587Z
+date: 2025-04-01T18:25:14.105Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -36,6 +36,14 @@ to do. for now see below
 - M3x16 or M3x18 self-tapping screws
 - 242A gears no longer required
 - (Optional) Metal gears : 8 x 0.5-mod 18-tooth metal gears, and 4 x 0.5-mod 8-tooth metal worm gears
+
+For 370 steel ball version you will still need :
+- 0.3×4×5 springs for steel balls x4
+- 5mm steel ball x4
+- 12 x 182A gears
+- m3 nuts x2
+- m3 machine thread screws x4
+
 
 
 
