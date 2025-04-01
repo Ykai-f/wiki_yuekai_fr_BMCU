@@ -70,7 +70,7 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 
 - ❤️‍🔥An optimised version collected by Yuekai, almost the author's original design, with the addition of a triangle clutch using springs
 [Link Makerworld](https://makerworld.com/zh/models/1162813-bmcu-130-version-an-optimized-extruder-search-comb#profileId-1291386)
-[Backup link](/assets/files/print_files/BMCU%20Yuekai%20wiki.yuekai.fr%20.3mf)
+[Backup link](/assets/files/print_files/BMCU%20Yuekai%20wiki.yuekai.fr.3mf)
 
 - Brackets for A1 and A1 mini, also can be used for early version 370
 [Link Makerworld](https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130-and-version-370#profileId-1289021)
