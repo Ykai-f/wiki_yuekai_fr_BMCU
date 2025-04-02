@@ -20,7 +20,7 @@ dateCreated: 2025-01-28T14:08:05.158Z
 |Soldering aids |[Soldering_aids.zip](/assets/files/download_center/3._welding_aids.zip) | |
 
 ### Extruder (sub-board)
-[extruder_(sub-board)v2.2.zip](/assets/files/download_center/extruder_sub_board_v2_2.zip)
+[extruder_(sub-board)v2.2.zip](/assets/files/download_center/sub_board_for_extruder_v2_2.zip)
 
 ### Firmwares
 | Version   | Firmware      |Note|Src|
