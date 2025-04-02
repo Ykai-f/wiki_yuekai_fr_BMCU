@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-03-31T11:33:12.456Z
+date: 2025-04-02T17:39:36.413Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -20,7 +20,7 @@ dateCreated: 2025-01-28T14:08:05.158Z
 |Soldering aids |[Soldering_aids.zip](/assets/files/download_center/3._welding_aids.zip) | |
 
 ### Extruder (sub-board)
-[extruder_(sub-board)v2.2.zip](/assets/files/download_center/extruder_(sub-board)v2.2.zip)
+[extruder_(sub-board)v2.2.zip](/assets/files/download_center/extruder_sub_board_v2_2.zip)
 
 ### Firmwares
 | Version   | Firmware      |Note|Src|
