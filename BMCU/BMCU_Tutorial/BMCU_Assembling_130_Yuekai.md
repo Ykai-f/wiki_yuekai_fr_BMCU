@@ -2,7 +2,7 @@
 title: BMCU Assembling 130 version Yuekai
 description: 
 published: true
-date: 2025-03-19T10:10:56.637Z
+date: 2025-04-03T22:24:00.514Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-03T08:46:10.580Z
@@ -64,7 +64,7 @@ Install all 62B bushings
 ![bmcu_installation_2.5.jpg](/assets/images/bmcu_assembly_130_qtbz/bmcu_installation_2.5.jpg =x350)
 
 ### Step 7 **Assemble the Gear Structure**  
-   - Take two **small gears (Gear 182A)** and one **short axle (2 × 10mm)**.  
+   - Take two **small gears (Gear 182A)** and two **short axle (2 × 10mm)**.  
    - Assemble them as shown in the diagram.  
    - Ensure the protruding sections on both sides of the axle are of equal length for proper alignment.  
 	![bmcu_installation_2.6.jpg](/assets/images/bmcu_assembly_130_qtbz/bmcu_installation_2.6.jpg =x350)
