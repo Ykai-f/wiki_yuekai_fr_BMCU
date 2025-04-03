@@ -36,7 +36,7 @@ By mail : contact@yuekai.fr
 
 ### While building
 - [🛠️ BMCU Download Center *Print files, Firmwares*](/BMCU/BMCU_Download_Center)
-- [🎓 BMCU Tutorial Center *Tutorials*](/BMCU/BMCU_Tutorial_Center)
+- [🎓 BMCU Tutorial Center *Tutorials*](/BMCU/BMCU_Tutorial)
 - [🔬 BMCU Testing *Before connect to printer you must..*](/BMCU/BMCU_testing)
 {.links-list}
 
