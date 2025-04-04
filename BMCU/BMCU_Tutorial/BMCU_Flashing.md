@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-04T18:47:32.013Z
+date: 2025-04-04T21:44:10.599Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -105,18 +105,7 @@ Click the **Download** button.
 - The **red LED on the mainboard** should now light up.
 - 🎉 **Congratulations! Firmware flashing is complete!** 🎉
 
----
-
-## 📬 Help Us Improve
-
-If you successfully flashed the firmware using the **English version** of WCHISPTool,  
-we’d love to include a screenshot in our wiki to help others – feel free to send it over!
-
-Let us know if you encounter any issues.
-  
-
-## **Troubleshooting**
-- Try Baud Rate **115200**.   
+--- 
   
 # Testing  
 
