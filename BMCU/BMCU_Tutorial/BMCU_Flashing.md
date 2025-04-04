@@ -2,13 +2,17 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-03-03T22:13:39.089Z
+date: 2025-04-04T18:47:32.013Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
 ---
 
 # **BMCU Flashing Tutorial (Serial Port Flashing)**
+
+
+> If you did **not** solder the motherboard yourself, flashing is usually **not required**. Unless you want to upgrade the firmware.  
+> All motherboards shipped from me come **pre-flashed** with firmware.  
 
 ## ⚠️ **WARNING**  
 <span style="color:red">🔥 **Before flashing, ensure there are no soldering issues!!!! Check for power short circuits!!!!** 🔥  
@@ -24,53 +28,95 @@ dateCreated: 2025-01-29T10:53:40.895Z
 4. **Software: WCHISPTool**  
 [wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
 
-## **Flashing Tutorial**
+## 🪛 **Step-by-Step Flashing Guide**
 
-1. **Connect the BMCU Mainboard and USB Serial Tool According to the Wiring Instructions**  
-   - <span style="color:red">**⚠️ DO NOT CONNECT THE BMCU TO THE PRINTER DURING WHOLE PROCESS!!!!!!** 🚨  
- ![1.png](/assets/images/bmcu_flashing/1.png)  
- 
- 2. **Connect the USB Serial Tool to the Computer**  
-   - The computer should automatically recognize the serial port.  
-   - Refer to the diagram for guidance, but note that **your serial port number may differ** from the one shown in the image.  
-![2.png](/assets/images/bmcu_flashing/2.png)
+### 1. **Connect the BMCU Mainboard and USB Serial Tool**
+
+- Connect wires according to the wiring instructions.
+- ⚠️ **DO NOT connect the BMCU to the printer during the entire process!**  
+![1.png](/assets/images/bmcu_flashing/1.png)
+
+---
+
+### 2. **Connect the USB Serial Tool to Your PC**
+
+- Your computer should recognize the serial port automatically.
+- The COM port number might differ from the example in the image.  
+![2.png](/assets/images/bmcu_flashing/2.png)  
 ![3.png](/assets/images/bmcu_flashing/3.png)
 
-3. **Press and Hold the B Button**  
-   - **Use your left hand** to **press and hold the B button** (**Do not release it!**).  
-   - **With your right hand**, press the **R button** once, then release it.  
-   - **⚠️ The B button should ideally remain pressed throughout the process.**
-![4.png](/assets/images/bmcu_flashing/4.png)
+---
   
-  If it goes well, you should see the word <font color="red">”unlocked“</font> in red in the software
-  
->   If it keeps failing, try swapping the T and R wires on the motherboard, which is the case with some chips.
-{.is-warning}
+  ### 3. **Configure WCHISPTool Settings**
 
-  
- 4. **Open the WCHISPTOOL Software**  
-   - Select the **corresponding MCU series**, **model**, **download method**, and check the necessary **download configuration** options.  
-   - Follow the steps below to proceed.  
-   - **If the message** `"Unlock read/write protection successful!"` **appears, the operation was successful.** ✅  
+Open the `WCHISPTool` software and set the following options:
+
+- **Chip Model:** `CH32V203`  
+- **Download Type:** `SerialPort`  
+- **DI – Baud Rate:** `1M`  
+- **SerialPort:** Auto-detected (your COM port)  
+- **User File:** Choose the firmware `.bin` file (available from our wiki)  
+
 ![5.png](/assets/images/bmcu_flashing/5.png)
-  
-  
-5. **Click the Download Button**  
-   - **Be patient** while the download process completes.  
-   - If the download is **successful**, it should look like the reference image.  
-   - **⚠️ If the download fails, try selecting 115200 baud rate.**  
+
+---
+
+### 4. **Unlock the Chip Protection**
+
+This is a **critical step** before flashing the firmware.
+
+#### ✅ Recommended Method:
+
+1. **Hold down the B button** (do **not** release it throughout).
+2. While holding B, **briefly press the R button** once.
+3. While **still holding B**, click the **"Remove Protect"** button in the WCHISPTool software.
+
+If successful, you’ll see a red **“Unlocked”** message in the tool.  
+![4.png](/assets/images/bmcu_flashing/4.png)
+
+> ⚠️ If it keeps failing:
+> - First, try again using the same button sequence carefully.
+> - Second, **double-click the “Download” button** to force the chip into response mode, then try "Remove Protect" again.
+> - （Rare but indeed some chips will perform like this) try **swapping the TX and RX wires** (i.e., TX-to-TX and RX-to-RX instead of cross).
+
+---
+
+
+
+### 5. **Flash the Firmware**
+
+Click the **Download** button.
+
+- Be patient during the process.
+- If flashing is successful, it should look like this:  
 ![6.png](/assets/images/bmcu_flashing/6.png)
 
-6. **Press the R Button**  
-   - At this point, **press the R button**, and the **BMCU mainboard's red LED should light up**.  
-   - 🎉 **Congratulations! The firmware flashing is successful!** 🎉  
+#### ⚠️ If Flashing Fails:
 
+- Try **pressing and holding the B button** while clicking “Download”.
+- Alternatively, try changing the **baud rate to 115200**.
+- In rare cases, try **reversing TX and RX** (TX-to-TX, RX-to-RX) if not already done.
+
+---
+
+### 6. **Reboot the Board**
+
+- Press the **R button** once.
+- The **red LED on the mainboard** should now light up.
+- 🎉 **Congratulations! Firmware flashing is complete!** 🎉
+
+---
+
+## 📬 Help Us Improve
+
+If you successfully flashed the firmware using the **English version** of WCHISPTool,  
+we’d love to include a screenshot in our wiki to help others – feel free to send it over!
+
+Let us know if you encounter any issues.
   
 
 ## **Troubleshooting**
-- Ensure the baud rate is set to **115200**.  
-- Check the **stability of the Dupont wire connections**.  
-- **Each time you download, you must click "Touch Protection" before proceeding.**  
+- Try Baud Rate **115200**.   
   
 # Testing  
 
