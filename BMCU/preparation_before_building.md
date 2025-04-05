@@ -2,7 +2,7 @@
 title: BMCU preparation before building
 description: 
 published: true
-date: 2025-02-27T14:06:34.102Z
+date: 2025-04-05T20:44:12.737Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T10:06:15.155Z
@@ -20,3 +20,6 @@ dateCreated: 2025-02-25T10:06:15.155Z
 | Phillips Screwdriver | Required |A 3mm screwdriver is recommended. |
 | Utility Knife / Craft Knife | Optional | Might have unexpected uses, such as clearing holes for optical sensors. |
 | Electric Drill / Rotary Tool | Required | Used for correcting misaligned holes in printed parts. |
+
+
+You may need a long thin screwdriver similar to the one pictured below, as some of the holes in the BMCU have smaller passages.
