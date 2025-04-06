@@ -10,6 +10,9 @@ dateCreated: 2025-01-29T10:53:40.895Z
 
 # **BMCU Flashing Tutorial (Serial Port Flashing)**
 
+> Thanks to **Lukas** and **David** for providing some context and photos for this page.
+
+
 
 > If you did **not** solder the motherboard yourself, flashing is usually **not required**. Unless you want to upgrade the firmware.  
 > All motherboards shipped from me come **pre-flashed** with firmware.  
