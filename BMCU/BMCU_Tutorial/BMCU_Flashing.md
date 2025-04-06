@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-06T23:05:41.356Z
+date: 2025-04-06T23:06:09.207Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -42,7 +42,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 
 
 - Connect wires according to the wiring instructions.
-  >You may receive a yellow jumper cap, do not use it.
+>You may receive a yellow jumper cap, do not use it.
 
 ![wiring_diagram_1.jpg](/assets/images/bmcu_flashing/wiring_diagram_1.jpg =x300)
 ![wiring_diagram_2.jpg](/assets/images/bmcu_flashing/wiring_diagram_2.jpg =x300)
