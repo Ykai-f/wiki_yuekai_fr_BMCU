@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-06T23:06:09.207Z
+date: 2025-04-06T23:35:02.630Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -50,7 +50,6 @@ dateCreated: 2025-01-29T10:53:40.895Z
 ---
 
 ### 2. **Connect the USB Serial Tool to Your PC**
-You may receive a yellow jumper cap, do not use it.
 
 - Your computer should recognize the serial port automatically.
 - The COM port number might differ from the example in the image.  
