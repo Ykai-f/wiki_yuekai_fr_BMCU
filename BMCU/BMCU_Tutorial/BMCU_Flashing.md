@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-04T21:44:10.599Z
+date: 2025-04-06T23:05:41.356Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -44,8 +44,8 @@ dateCreated: 2025-01-29T10:53:40.895Z
 - Connect wires according to the wiring instructions.
   >You may receive a yellow jumper cap, do not use it.
 
-![wiring_diagram_1.jpg](/assets/images/bmcu_flashing/wiring_diagram_1.jpg)
-![wiring_diagram_2.jpg](/assets/images/bmcu_flashing/wiring_diagram_2.jpg)
+![wiring_diagram_1.jpg](/assets/images/bmcu_flashing/wiring_diagram_1.jpg =x300)
+![wiring_diagram_2.jpg](/assets/images/bmcu_flashing/wiring_diagram_2.jpg =x300)
 
 ---
 
@@ -70,7 +70,7 @@ Open the `WCHISPTool` software and set the following options:
 - **SerialPort:** Auto-detected (your COM port)  
 - **User File:** Choose the firmware `.bin` file (available from our wiki)  
 
-![bmcu_flash.png](/assets/images/bmcu_flashing/bmcu_flash.png)
+![bmcu_flash.png](/assets/images/bmcu_flashing/bmcu_flash.png =x500)
 
 ---
 
@@ -84,10 +84,10 @@ This is a **critical step** before flashing the firmware.
 1. **Hold down the B button** (do **not** release it throughout).
 2. While holding B, **briefly press the R button** once.
 3. While **still holding B**, click the **"Remove Protect"** button in the WCHISPTool software.
-![4.png](/assets/images/bmcu_flashing/4.png)
+![4.png](/assets/images/bmcu_flashing/4.png )
 
 If successful, you’ll see a red **“Unlocked”** message in the tool.  
-![remove protect successful.png](/assets/images/bmcu_flashing/remove_protect_successful.png)
+![remove protect successful.png](/assets/images/bmcu_flashing/remove_protect_successful.png =x500)
 
 > ⚠️ If it keeps failing:
 > - First, try again using the same button sequence carefully.
@@ -104,7 +104,7 @@ Click the **Download** button.
 
 - Be patient during the process.
 - If flashing is successful, it should look like this:  
-![download_successful.png](/assets/images/bmcu_flashing/download_successful.png)
+![download_successful.png](/assets/images/bmcu_flashing/download_successful.png =x500)
 
 #### ⚠️ If Flashing Fails:
 
