@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-09T12:56:19.867Z
+date: 2025-04-09T12:57:19.525Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -12,11 +12,14 @@ dateCreated: 2025-02-25T12:08:58.045Z
 
 <details>
   <summary>Click to expend</summary>
-  Solution:
-  This issue is often caused by incorrect AB wire sequence in connecting cable. Try swapping the connections. If the problem persists, check for possible PCB issues, such as:
-  - Loose solder joints on components
-  - Faulty communication wiring (e.g., missing resistors in communication lines)
-  - Incorrect chip orientation or poor soldering causing virtual connections 
+Solution:
+This issue is often caused by incorrect AB wire sequence in connecting cable. Try swapping the connections. If the problem persists, check for possible PCB issues, such as:
+- Loose solder joints on components
+- Faulty communication wiring (e.g., missing resistors in communication lines)
+- Incorrect chip orientation or poor soldering causing virtual connections
+  
+  
+Worst case scenario, the AMS connector board or printer motherboard is damaged.
 </details>
 
 
