@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-09T12:54:50.492Z
+date: 2025-04-09T12:56:19.867Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -141,10 +141,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 <details>
   <summary>Click to expend</summary>
   Solution:
-  - Check for incorrect soldering of the main control chip.
-  - Look for virtual solder joints or short circuits.
-  - Incorrect DuPont wire order may cause issues.
-  - If C board prompts unlock failure, retry multiple times.  
+  https://wiki.yuekai.fr/BMCU/BMCU_Tutorial/BMCU_Flashing#h-5-flash-the-firmware
 </details>
 
 
