@@ -37,15 +37,23 @@ Version 1 is only suitable for 180 motors with a full metal shell. If you purcha
 
 If you have no specific requirements or don't know the difference between the two versions, please print Version 2.
 
+> Note from Yuekai : Please print version 2.
+{.is-success}
+
 Version 1: https://makerworld.com/zh/models/1132822#profileId-1133350
 
 There are two print configurations in Version 1. The first configuration is a complete set of component models, print 4 sets. The second configuration contains only the "Clutch Part B - 4mm Thick 242A", suitable for 4mm 242A gears. The parameter in the 242A gear purchase link shows a 4mm thickness, but the actual received thickness is 3.2mm. If you do get a 4mm 242A gear, use the Clutch Part B from the second configuration.
 
 Version 2: https://makerworld.com/zh/models/1152568#profileId-1156984
 
+> Note from Yuekai : Backup download link [180 version](/assets/files/print_files/180%20version.3mf)
+
 Version 2 updates the appearance and removes some features that block the plastic rear cover of the 180 motor, making it compatible with both full metal and plastic rear cover 180 motors. The print configuration includes a complete component set and an installation aid.
 
 If this is your first time assembling the BMCU, you will also need the base and bracket. Please use the base and bracket files from the group file "BMCU Integrated Package V1.1".
+
+> Note from Yuekai : For the base you can refer to this model, you can choose between the original version base in plate 2 or a newer version base similar to 370 version in plate 6
+https://makerworld.com/zh/models/1162813-bmcu-130-version-an-optimized-extruder-search-comb#profileId-1291386
 
 ---
 
