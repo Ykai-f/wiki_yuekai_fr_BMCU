@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-04-09T13:59:38.596Z
+date: 2025-04-09T14:04:44.668Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -20,11 +20,14 @@ The BMCU is the author's second-generation system, and the author's official dev
 The CMCU is in the early stages of development by the authors and their team. The CMCU is characterised by closed components similar to the AMS system, and the extruder mechanism will be integrated into a closed dryer box, but with a significant increase in the corresponding DIY cost.
 
 # New BMCU naming convention
-Currently, the authors `@4061N` have named the version iterations of the BMCU as follows.
+The authors `@4061N` have renamed the version iterations of the BMCUs as follows.
 
-BMCU-A :
-BMCU-B : 
-BMCU-C
+
+- **BMCU-A** : Version with 130 motors and Photoelectric sensors.
+- **BMCU-B** : Version with 370 motors and Photoelectric sensors.
+- **BMCU-C** : Version with 370 motors and Hall sensors.
+
+Where all versions can use the same motherboard, the **BMCU-C** requires a newer sub-board that uses Hall sensors
 
 # Current branches of BMCUs
 For now, the most classic TTL version and the 130 motor are still standard.
@@ -46,14 +49,15 @@ BMCU
 │    └── 180 version
 │
 ├── BMCU-B : 370 Motor/Photoelectric sensors
-│    ├── 370 Original version
+│    └── 370 Original version
 │    ├── 370 Steel ball version
 │    └── Micro Button Version (Requires a completely different PCB)
 │
 ├── BMCU-C : 370 Motor/Hall Sensor
+│    └── 09/04/2025 Currently the structure testpassed, firmware is still onging.
 │
 │
-└── Next version 370 or CMCU in the future
+└── CMCU in the future
 ```
 There are a lot of developers releasing their modified versions of 370 at the moment, but iterations of 370 are very fast at the moment.
 
