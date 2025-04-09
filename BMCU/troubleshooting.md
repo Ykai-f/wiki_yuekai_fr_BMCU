@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-09T12:48:12.687Z
+date: 2025-04-09T12:54:28.965Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -104,14 +104,35 @@ This setup will ensure that when the primary spool is depleted, the system can d
 </details>
 
 
-### 4️⃣ Firmware Not Recognized, Device Manager Cannot Detect Downloader (USB to TTL)
+### 4️⃣ Device Manager Cannot Detect MainBoard or Downloader (USB to TTL) 
 
 <details>
   <summary>Click to expend</summary>
-  Solution:
-  - Check if the mainboard is short-circuited (3.3V to GND).
-  - Ensure DuPont wires are connected in the correct order.
-  - Some downloads may trigger PC protection, preventing detection.  
+🛠️ Troubleshooting Steps
+
+  #### Verify Downloader Recognition
+
+First, connect the USB-to-TTL downloader alone to your computer (without connecting to the mainboard).
+
+- If it appears as a serial device (e.g., COMx) in Device Manager, the driver is properly installed.
+- If no device appears, install the CH340 USB-to-Serial driver (commonly used in many USB-TTL modules).
+
+#### Check for Short Circuits on the Mainboard
+
+If the downloader is detected when connected alone, but disappears or disconnects when attached to the mainboard, this often indicates a short circuit, typically between 3.3V and GND.
+
+Carefully inspect the circuitry around the CH32V microcontroller for any solder bridges or damaged components.
+
+#### Ensure Correct Wire Connections
+
+Double-check the DuPont wire order: TX ↔ RX, RX ↔ TX, GND ↔ GND, and 3.3V.
+
+
+####Disable USB Port Protection (if applicable)
+
+On some PCs, aggressive USB port protection or antivirus software may prevent the downloader from being recognized.
+
+Try switching to another USB port or temporarily disabling port protection if you're familiar with your system's settings.
 </details>
 
 
