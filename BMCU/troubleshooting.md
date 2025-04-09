@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-09T12:54:28.965Z
+date: 2025-04-09T12:54:50.492Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -128,7 +128,7 @@ Carefully inspect the circuitry around the CH32V microcontroller for any solder 
 Double-check the DuPont wire order: TX ↔ RX, RX ↔ TX, GND ↔ GND, and 3.3V.
 
 
-####Disable USB Port Protection (if applicable)
+#### Disable USB Port Protection (if applicable)
 
 On some PCs, aggressive USB port protection or antivirus software may prevent the downloader from being recognized.
 
