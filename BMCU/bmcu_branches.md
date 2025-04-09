@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-04-09T14:04:44.668Z
+date: 2025-04-09T14:11:57.490Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -65,10 +65,14 @@ There are a lot of developers releasing their modified versions of 370 at the mo
 ```
 BMCU
 │
-├── Current BMCU motherboards (no specific version number but generally are this one today)
-│    └── Type-C version (Typec interface instead of ttl for flashing)
+├── Mainboard
+│   ├── Default version (currently in use)
+│   ├── Type-C version (replaces TTL interface for flashing)
+│   └── Minor security patch version (small update with enhanced safety)
 │
-└── Next version PCB BMCU (Design and testing phase, will be updated later）
+└── Sub-board
+    ├── V1 Photoelectric sensors 
+    └── V2 Hall sensors
 
 ```
 The new version of PCB of BMCU compared with the previous generation of motherboards is now the main new 486 floating ground protection (using pmos), Hall buffer (from the previous generation of digital value buffer to analogue value buffer), this version is not yet stable.
