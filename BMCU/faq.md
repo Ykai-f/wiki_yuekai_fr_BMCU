@@ -2,7 +2,7 @@
 title: FAQ
 description: 
 published: true
-date: 2025-04-09T12:31:36.915Z
+date: 2025-04-09T12:36:53.518Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:07:42.834Z
@@ -16,7 +16,9 @@ No, BMCU is an open-source DIY project developed by a Chinese developer, 4061N.
 There is no guarantee, and future compatibility depends on Bambulab's policies and updates.
 > Currently a user has accidentally triggered the `"Unauthorised AMS system"` error on the `H2D`+`AMS2 PRO` combination, even though he is using the official devices.
 This means that Bambulab may be using an encryption programme on the newer device.
-So in the worst case, it may be necessary to keep the BMCU available by **not upgrading** the printer's firmware
+> So in the worst case, it may be necessary to keep the BMCU available by **not upgrading** the printer's firmware
+{.is-danger}
+
 
 ### 3. What 3D printers does BMCU support?
 BMCU natively supports Bambulab A Series printers as reconized as AMS Lite. 
