@@ -14,10 +14,10 @@ dateCreated: 2025-01-28T14:08:05.158Z
 ## PCB files
 
 ### Mainboard
-|    | **Classic Version**      | **Type C Version**    |
-|-----------|---------|---------------------|
-| PCB manufacturing files| [main board v0.4.zip](/assets/files/download_center/main_board_v0.4.zip) | [main_board_type_c_version.zip](/assets/files/download_center/main_board_type_c_version.zip)   
-|Soldering aids |[Soldering_aids.zip](/assets/files/download_center/3._welding_aids.zip) | |
+|                         | **Classic Version**                                                      | **Type C Version**                                                                           |
+| ----------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| PCB manufacturing files | [main board v0.4.zip](/assets/files/download_center/main_board_v0.4.zip) | [main_board_type_c_version.zip](/assets/files/download_center/main_board_type_c_version.zip) |
+| Soldering aids          | [Soldering_aids.zip](/assets/files/download_center/3._welding_aids.zip)  |                                                                                              |
 
 ### Extruder (sub-board)
 [extruder_sub_board_v2_2.zip](/assets/files/download_center/sub_board_for_extruder_v2_2.zip)
@@ -25,29 +25,37 @@ dateCreated: 2025-01-28T14:08:05.158Z
 ### Firmwares
 
 #### Firmwares for BMCU-A
-| Version   | Firmware      |Note|Src|
-|-----------|---------|-----|---|
-  |V0.2|[firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)  | ⭐⭐⭐Recommended for **BMCU-A**|
-|1.21.2|[bmcu_firmware_1_21_2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_21_2.zip)||
-|1.26|[bmcu_firmware_1_26.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_26.zip)||
-|2.06|[bmcu_firmware_2_06.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_06.zip)|For 370|
+| Version | Firmware                                                                                                    | Note                          | Src |
+| ------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------- | --- |
+| V0.2    | [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)           | ⭐⭐⭐Recommended for **BMCU-A** |
+| 1.21.2  | [bmcu_firmware_1_21_2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_21_2.zip) |                               |
+| 1.26    | [bmcu_firmware_1_26.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_26.zip)     |                               |
+| 2.06    | [bmcu_firmware_2_06.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_06.zip)     | For 370                       |
 
 #### Firmwares for BMCU-B
 Firmware from this version onwards is adapted to the BMCU-B aka 370 version aka,
 also starting to support the P-Series recognising the BMCU as an AMS system. 
-| Version   | Firmware      |Note|Src|
-|-----------|---------|-----|---|
-|2.22|[bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip)| |
-|~~3.10~~| [~~bmcu_firmware_3-10.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3-10.rar)|Deprecated|[src-bmcu-3-10.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-10.zip)|
-|~~3.12~~|[~~bmcu_firmware_3_12.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_12.rar)|Deprecated||
-|3.14|[bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)|⭐⭐⭐Good feedback, recommended for 370|[src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip)|
-|3.31|[bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_31.rar)|Note from author :possible five-way top-out problem, untested|
+| Version  | Firmware                                                                                                    | Note                                                          | Src                                                                                           |
+| -------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 2.22     | [bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip)     |                                                               |
+| ~~3.10~~ | [~~bmcu_firmware_3-10.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3-10.rar) | Deprecated                                                    | [src-bmcu-3-10.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-10.zip) |
+| ~~3.12~~ | [~~bmcu_firmware_3_12.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_12.rar) | Deprecated                                                    |                                                                                               |
+| 3.14     | [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)     | ⭐⭐⭐Recommended for **BMCU-B** aka 370 version                         | [src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip) |
+| 3.31     | [bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_31.rar)     | Note from author :possible five-way top-out problem, untested |
 
 #### Firmware for BMCU-C
-| Version   | Firmware      |Note|Src|
-|-----------|---------|-----|---|
-| | | | |
+Firmware from this version adapted to BMCU-C
+
+| Version | Firmware                                                                                                  | Note | Src |
+| ------- | --------------------------------------------------------------------------------------------------------- | ---- | --- |
+| 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar) |  test firmware    |     |
+
+
 ### Changelog
+
+#### V4.9
+BMCU-C is supported for the first time, and the secondary board uses Hall sensors to replace photoelectric sensors.
+Currently there is a known bug that all channels show material, regardless of whether the subboard is connected or not
 
 #### V3.31
 The BMCU will now performs buffer jittering at the stage where it cuts off the filament
