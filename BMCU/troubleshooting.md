@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-03-10T14:40:18.032Z
+date: 2025-04-09T12:48:12.687Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -37,10 +37,10 @@ This behavior is a **known limitation** of the BMCU design, which relies on an o
 
 False positives (i.e., filament always detected) may occur due to:
 
-- Slight variations in optical sensor mounting height during assembly  
-- Inaccurate positioning or printing of the detection hole  
-- Debris or dust blocking the optical path  
-- Steel ball misalignment in the mechanical slider  
+- Slight height inconsistency of the photoelectric sensor at the factory 
+- Slight height inconsistency of the photoelectric sensor at the time of soldering 
+- Shape deviation at the time of printing of the detection aperture 
+- Debris or dust blocking the optical path
 
 The steel ball version is designed to reduce the chance of this problem, but we have noticed that some users even with the steel ball version still encounter this situation.
 
@@ -62,6 +62,22 @@ If you'd like to improve sensor reliability, you may consider:
   ⚠️ *Do not exceed 1.2 mm*, or the sensor may incorrectly report "no filament" due to too easy for light passing through   
 - Re-soldering or re-aligning the optical sensor if visibly misaligned  
 - If you are using non-steel ball version, you can try upgrading -> need reprint almost everything and completely disassemble the BMG gear, and purchase additional parts
+  
+⚠️ Impact on Auto Refilling Function
+This issue can negatively affect the auto refilling feature. For example:
+
+- Suppose the filament detection on Channel 1 is faulty and always reports filament as present.
+- You are about to run out of filament on Channel 1
+- You have set up Channel 2 with the exact same material, expecting the printer to automatically refill from it.
+
+However, when the filament on Channel 1 runs out, the printer may fail to recognize the absence correctly.As a result, it might trigger a filament jam error instead of recognizing a normal runout and switching to Channel 2.
+
+If you're using the BMCU mainly for auto refilling purposes, we recommend the following setup:
+
+- Connect the spool that is likely to run out to a channel where filament detection is working correctly in this exemple channel 2.
+- Connect the backup spool (with enough material) to the channel affected by this issue in this case channel 1.
+
+This setup will ensure that when the primary spool is depleted, the system can detect it accurately and trigger the refilling process as expected.
 
 ---
 
