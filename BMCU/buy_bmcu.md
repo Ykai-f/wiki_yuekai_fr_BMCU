@@ -2,12 +2,11 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-03-26T14:39:36.777Z
+date: 2025-04-09T13:13:26.621Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T10:49:18.506Z
 ---
-
 
 # Buy for you - Service from me
 
@@ -15,19 +14,11 @@ You can contact me by
 Reddit : u/Ok\_Design6972  
 By mail : [contact@yuekai.fr](mailto:contact@yuekai.fr)
 
-**Apparently leboncoin and vinted don't like these types of annouces or sell a lot the same products on their plateform.**
 
 **If you want to buy BMCU related products through me, I invite you to place your order through my shop [shop.yuekai.fr](http://shop.yuekai.fr).**
+Sorry at the moment I can only ship to the EU and only customers in the EU can checkout.
 
-**If you prefer to communicate with me in real time, feel free to contact me using reddit or vinted.**
-
--   For French customers, you can contact me directly from leboncoin:  
-    ~~😭 LEBONCOIN GIVES ME BACK MY ACCOUNT!!!!!~~  
-    ~~[https://www.leboncoin.fr/ad/accessoires\_informatique/2922782382](https://www.leboncoin.fr/ad/accessoires_informatique/2922782382)~~
-    
--   For the customer from UK, some ebay sellers from United Kingdom also start selling BMCU related content, you can try to contact them. Additional taxes and fees may apply if you wish to purchase from me.
-    
--   For non-EU customers, sorry I won't be able to ship to you.
+**If you prefer to communicate with me in real time, feel free to contact me using reddit**
     
 
 ## Update of stock
