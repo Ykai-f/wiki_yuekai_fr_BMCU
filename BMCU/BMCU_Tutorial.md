@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-04-12T19:32:28.682Z
+date: 2025-04-12T19:34:22.044Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -30,10 +30,11 @@ Please see multiple tutorials as there are many versions of the BMCU.
 ## BMCU-B
 - [📝370 version v2.5 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
 - [📝370 steel ball version edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
-- [🎬An amazing assembleing video for the 370 steel ball version made by Lukas! https://www.youtube.com/watch?v=sP-fDCnXkro](https://www.youtube.com/watch?v=sP-fDCnXkro)
 - [📝370 mircoswitch edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
 {.links-list}
 
+🎬An amazing assembleing video for the 370 steel ball version made by Lukas!
+- https://www.youtube.com/watch?v=sP-fDCnXkro
 
   
 # BMCU Bracket Installation
