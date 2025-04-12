@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-04-12T19:30:39.450Z
+date: 2025-04-12T19:32:28.682Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -21,23 +21,17 @@ Please see multiple tutorials as there are many versions of the BMCU.
 
 ## BMCU-A:130 and 180
 
-- [130 version edited by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
-- [130 version edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
-- [180 version edited by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
+- [📝130 version edited by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
+- [📝130 version edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
+- [📝180 version edited by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
+- [🎬An assembling video for 130 version (In chinese)](https://www.bilibili.com/video/BV1PuPCehEP3/?vd_source=e9b8d46574a1915d5f3cd835b2b34359)
 {.links-list}
 
 ## BMCU-B
-- [370 version v1 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
-- [370 steel ball version edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
-- [An amazing assembleing video for the 370 steel ball version made by Lukas! https://www.youtube.com/watch?v=sP-fDCnXkro](https://www.youtube.com/watch?v=sP-fDCnXkro)
-- [370 mircoswitch edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
-{.links-list}
-
-
-
-
-An assembling video for 130 version (In chinese)
-- https://www.bilibili.com/video/BV1PuPCehEP3/?vd_source=e9b8d46574a1915d5f3cd835b2b34359
+- [📝370 version v2.5 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
+- [📝370 steel ball version edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
+- [🎬An amazing assembleing video for the 370 steel ball version made by Lukas! https://www.youtube.com/watch?v=sP-fDCnXkro](https://www.youtube.com/watch?v=sP-fDCnXkro)
+- [📝370 mircoswitch edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
 {.links-list}
 
 
