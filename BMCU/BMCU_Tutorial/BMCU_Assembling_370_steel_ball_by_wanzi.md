@@ -2,7 +2,7 @@
 title: BMCU Assembling 370 steel ball version by wanzi
 description: 
 published: true
-date: 2025-04-12T19:35:53.419Z
+date: 2025-04-12T19:36:03.991Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T11:09:24.796Z
@@ -12,7 +12,7 @@ dateCreated: 2025-03-26T11:09:24.796Z
 
 This tutorial is made by `@丸子`
 
-There's also an AMAZING video adapted to this release, made by `@Lukas`, [link to video](https://www.youtube.com/watch?v=sP-fDCnXkro)
+There's also an AMAZING video adapted to this release, made by `@Lukas`, [link to youtube](https://www.youtube.com/watch?v=sP-fDCnXkro)
 
 ## Introduction
 
