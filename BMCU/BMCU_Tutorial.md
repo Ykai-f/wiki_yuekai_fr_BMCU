@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-04-12T19:34:22.044Z
+date: 2025-04-12T19:34:48.255Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -14,6 +14,11 @@ dateCreated: 2025-02-25T12:56:58.306Z
 
 - [BMCU_Flashing](/BMCU/BMCU_Tutorial/BMCU_Flashing)
 {.links-list}
+
+# BMCU Bracket Installation
+- [BMCU Bracket Installation](/BMCU/BMCU_Tutorial/BMCU_Mounting)
+{.links-list}
+
 
 # BMCU Assembling
 
@@ -37,6 +42,3 @@ Please see multiple tutorials as there are many versions of the BMCU.
 - https://www.youtube.com/watch?v=sP-fDCnXkro
 
   
-# BMCU Bracket Installation
-- [BMCU Bracket Installation](/BMCU/BMCU_Tutorial/BMCU_Mounting)
-{.links-list}
