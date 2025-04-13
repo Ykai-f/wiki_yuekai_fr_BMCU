@@ -15,18 +15,14 @@ dateCreated: 2025-02-25T09:58:01.713Z
 
 
 
-# BOM for PCB
+# PCB - Mainboard
 
-This BOM sheet is compatible with the author's official PCB version V1. Most BMCU currently use this PCB.
-The author's next official version of PCB is not yet released.
+## Mainboard original version
+Most BMCU currently use this PCB.
 
-You can download the bom sheet in format excel:
-[PCB BOM sheet download](/assets/files/bom_sheet/pcb_bom.xlsx)
-
-or click here:
 <details>
 
-<summary>BOM for BMCU's PCB V1</summary>
+<summary>Click here to expend</summary>
 
 | No.    | Name                  | Package/Model              | Quantity |
 | ------ | --------------------- | -------------------------- | -------- |
@@ -80,17 +76,23 @@ or click here:
   - 1 additional 16p typec vertical components
   - 1 additional CH340X chip 
 
+### Mainboard with Enhanced Security Patch
 
+# PCB - Sub-board
 
-# BOM for mecanical parts
+## Original version Sub-board
 
-## 130 version :
+## Hall version Sub-board for BMCU-C
+
+# Mecanical parts
+
+## BMCU-A - 130 version:
 [Mechanical Components BOM sheet download](/assets/files/bom_sheet/mechanical_components_bom.xlsx)
 
 
 <details>
 
-<summary>BOM for 130 version</summary>
+<summary>Click here to expend</summary>
 
 Initial version of the BOM Sheet:
 
@@ -133,11 +135,12 @@ The 130 steel ball version is not an official version from the author, but in sh
 
 </details>
 
-## 370 version
+## BMCU-B - 370 motor + Photoelectric sensor
 
+### BOM for BMCU-B v2.5 370 motors without steel ball
 <details>
 
-<summary>BOM for 370 version v2.5 (Original version without steel ball)</summary>
+<summary>BOM for BMCU-B v2.5 370 motors without steel ball</summary>
 
 | No.    | Name                                | Quantity | Note                                                |
 | ------ | ----------------------------------- | -------- | --------------------------------------------------- |
@@ -162,7 +165,12 @@ The 130 steel ball version is not an official version from the author, but in sh
 
 </details>
 
-<summary>BOM for 370 version v3.14 - steel ball version</summary>
+
+### BOM for BMCU-B v3.14 370 motors + steel ball
+
+<details>
+
+<summary>BOM for BMCU-B version v3.14 - 370 motor + steel ball</summary>
 
 | No.    | Name                                | Quantity | Note                                        |
 | ------ | ----------------------------------- | -------- | ------------------------------------------- |
@@ -191,30 +199,10 @@ The 130 steel ball version is not an official version from the author, but in sh
 
 </details>
 
-to do. for now see below
-
-#### If you want to try the 370 version you need:
-- 4 x `370 motors` (6000 rpm at 24v) instad of original ff130 motor
-- 4 x `0.6x4x10` springs
-- 4 x `0.6x10x30` springs （Some developers have increased the length of the buffer to minimise five-way jacking out, so you can also try buy longer springs for example `0.6x10x35` or `0.6x10x50`）
-- M3x16 or M3x18 self-tapping screws
-- 242A gears no longer required
-- (Optional) Metal gears : 8 x 0.5-mod 18-tooth metal gears, and 4 x 0.5-mod 8-tooth metal worm gears
-
-For 370 steel ball version you will still need :
-- 0.3×4×5 springs for steel balls x4
-- 5mm steel ball x4
-- 12 x 182A gears
-- m3 nuts x2
-- m3 machine thread screws x4
+## BMCU-C - 370 motor + Hall sensor
 
 
 
-
-# Notes
-1. You will need 4 sections of ptfe tube for connecting BMCU and the printer extruder. Recommended length is 60cm/each , at least 50cm are needed.
-
-1. You will need some transparent, colorless filaments for light guiding, only 4 of approx. 10 cm are needed so maybe no need to buy a whole row.
 
 
 
