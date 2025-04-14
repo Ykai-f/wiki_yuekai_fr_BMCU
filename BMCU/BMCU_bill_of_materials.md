@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-14T09:00:41.104Z
+date: 2025-04-14T09:01:03.447Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -172,8 +172,6 @@ Most BMCU currently use this PCB.
 # Mecanical parts
 
 ## BMCU-A - 130 version:
-[Mechanical Components BOM sheet download](/assets/files/bom_sheet/mechanical_components_bom.xlsx)
-
 
 <details>
 
