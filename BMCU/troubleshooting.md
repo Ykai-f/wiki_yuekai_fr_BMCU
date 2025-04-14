@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-09T12:57:19.525Z
+date: 2025-04-14T12:08:02.313Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -73,7 +73,7 @@ This issue can negatively affect the auto refilling feature. For example:
 - You are about to run out of filament on Channel 1
 - You have set up Channel 2 with the exact same material, expecting the printer to automatically refill from it.
 
-However, when the filament on Channel 1 runs out, the printer may fail to recognize the absence correctly.As a result, it might trigger a filament jam error instead of recognizing a normal runout and switching to Channel 2.
+However, when the filament on Channel 1 runs out, the printer may fail to recognize the absence correctly. As a result, it might trigger a filament jam error instead of recognizing a normal runout and switching to Channel 2.
 
 If you're using the BMCU mainly for auto refilling purposes, we recommend the following setup:
 
