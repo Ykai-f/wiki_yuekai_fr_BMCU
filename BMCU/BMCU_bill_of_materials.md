@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-14T09:03:53.410Z
+date: 2025-04-14T14:56:22.312Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -203,18 +203,19 @@ Most BMCU currently use this PCB.
 | MEC-20 | MX3.0-4P Mirrored Cable              | 1        |                                      |
 | MEC-21 | M3*10 Standard Screw                 | 2        | For bracket                          |
 | MEC-22 | M3 Nut                               | 2        | For bracket                          |
+| MEC_23 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1*100mm + 3*80mm                                                          |
 
 Currently we prefer to use clutches with springs, for which you will additionally require:
 | No.      | Name               | Quantity | Note        |
 | -------- | ------------------ | -------- | ----------- |
-| 🟢➕MEC-23 | Spring 0.2\*3.5\*5 | 4        | For clutchs |
+| 🟢➕MEC-24 | Spring 0.2\*3.5\*5 | 4        | For clutchs |
 
 The 130 steel ball version is not an official version from the author, but in short, if you want to build the steel ball version, you will need additional:
 | No.      | Name             | Quantity | Note            |
 | -------- | ---------------- | -------- | --------------- |
-| 🟢➕MEC-7  | 4 more 182A Gear | 4        | total 4+8=12    |
-| 🟢➕MEC-24 | Spring 0.3\*4\*5 | 4        | For steel balls |
-| 🟢➕MEC-25 | 5mm steel balls  | 4        |                 |
+| 🟢➕MEC-4  | 4 more 182A Gear | 4        | total 4+8=12    |
+| 🟢➕MEC-25 | Spring 0.3\*4\*5 | 4        | For steel balls |
+| 🟢➕MEC-26 | 5mm steel balls  | 4        |                 |
 
 </details>
 
@@ -245,6 +246,7 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC-16 | M2\*4 or M2\*6 Self-tapping Screw     | 8        | For fixing sub-boards                               |
 | MEC-17 | M3\*14 or M3\*16 Self-tapping Screw   | 6        | 4 for fixing the extruder to the base,2 for bracket |
 | MEC-18 | MX3.0-4P Mirrored Cable             | 1        |                                                     |
+| MEC_19 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1*100mm + 3*80mm                                                          |
 
 </details>
 
@@ -279,6 +281,7 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC-23 | MX3.0-4P Mirrored Cable             | 1        |                                             |
 | MEC-24 | 5mm steel balls                   | 4        |                                             |
 | MEC-25 | Spring 0.3\*4\*5 - W0.3 OD4 L5 mm                  | 4        | For steel balls                             |
+| MEC_26 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1*100mm + 3*80mm                                                          |
 
 </details>
 
@@ -312,7 +315,7 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC_20 | M3*14 countersunk machine screw     | 4        |                                                            |
 | MEC_21 | M3 hex nut                          | 4        |                                                            |
 | MEC_22 | MX3.0-4P mirrored cable             | 1        |                                                            |
-
+| MEC_23 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1*100mm + 3*80mm                                                          |
 
 </details>
 
