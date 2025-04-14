@@ -14,17 +14,17 @@ dateCreated: 2025-01-28T14:08:05.158Z
 ## PCB files
 
 ### Mainboard
-| Version                                    | PCB manufacturing files                                                                                                  | Soldering aids                                                                     |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| **Mainboard Original Version**             | [main board v0.4.zip](/assets/files/download_center/pcb_files/main_board_v0.4.zip)                                       | [mainboard_v2.2.html](/assets/files/download_center/pcb_files/mainboard_v2.2.html) |
-| **Mainboard with Enhanced Security Patch** | [mainboard_enhanced_security_patch.html](/assets/files/download_center/pcb_files/mainboard_enhanced_security_patch.html) |                                                                                    |  |
+| Version                                    | PCB manufacturing files                                                                                                | Soldering aids                                                                                                           |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Mainboard Original Version**             | [pcb_gerber_main_board_v0.4.zip](/assets/files/download_center/pcb_files/pcb_gerber_main_board_v0.4.zip)                                     | [soldering_aids_mainboard_v0.4.rar](/assets/files/download_center/pcb_files/soldering_aids_mainboard_v0.4.rar)                                       |
+| **Mainboard with Enhanced Security Patch** | [pcb_gerber_mainboard_enhanced_security_patch.zip](/assets/files/download_center/pcb_files/pcb_gerber_mainboard_enhanced_security_patch.zip) | [soldering_aids_mainboard_enhanced_security_patch.rar](/assets/files/download_center/pcb_files/soldering_aids_mainboard_enhanced_security_patch.rar) |  |
 
 ### Extruder (sub-board)
 
-| version                 | PCB manufacturing files                                                                          | Soldering aids                                                                                             |
-| ----------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| **Original version**    | [sub_board_v2_2.zip](/assets/files/download_center/pcb_files/sub_board_v2_2.zip)                 | [sub_board_original_version.html](/assets/files/download_center/pcb_files/sub_board_original_version.html) |
-| **Hall sensor Version** | [sub_board_hall.zip](/assets/files/download_center/pcb_files/sub_board_hall_sensor_version.html) | [sub_board_v2_2.zip](/assets/files/download_center/pcb_files/sub_board_hall_sensor_version.html)           |
+| version                 | PCB manufacturing files                                                                          | Soldering aids                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| **Original version**    | [pcb_gerber_sub_board_v2_2.zip](/assets/files/download_center/pcb_files/pcb_gerber_sub_board_v2_2.zip)                 | [soldering_aids_sub_board_original_version.rar](/assets/files/download_center/pcb_files/soldering_aids_sub_board_original_version.rar) |
+| **Hall sensor Version** | [pcb_gerber_sub_board_hall.zip](/assets/files/download_center/pcb_files/pcb_gerber_sub_board_hall.zip) | [soldering_aids_sub_board_hall.rar](/assets/files/download_center/pcb_files/soldering_aids_sub_board_hall.rar)                         |
 
 
 ### Firmwares
