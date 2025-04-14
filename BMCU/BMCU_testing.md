@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-04-14T11:59:23.298Z
+date: 2025-04-14T12:00:17.758Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -55,7 +55,7 @@ You should also see AMS system is successful regonized by the printer in the fil
 > Since version 3.14, when the BMCU is powered on standby, there are two possible se for the indicator light on the sub board: 
 > <span class="indicator indicator-blue">BLUE</span> -> ok
 > 
-> <span class="indicator indicator-red">RED</span> -> magnet sensing failure
+> <span class="indicator indicator-red">RED</span> -> magnet sensing failure, check if the radial magnet is too far away from sub-board, or the as5600 chip not working nomolly.
 
 **When powered via the printer**
 1. Both the mainboard and sub-board RGB indicators should be <span class="indicator indicator-blue">BLUE</span>.
