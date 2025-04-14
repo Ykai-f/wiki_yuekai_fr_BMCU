@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-04-12T19:36:27.618Z
+date: 2025-04-14T12:42:42.265Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -41,4 +41,6 @@ Please see multiple tutorials as there are many versions of the BMCU.
 🎬An amazing assembleing video for the 370 steel ball version made by `@Lukas`!
 - https://www.youtube.com/watch?v=sP-fDCnXkro
 
+## BMCU-C
+nothing here yet to be updated.
   
