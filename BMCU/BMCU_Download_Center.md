@@ -14,13 +14,18 @@ dateCreated: 2025-01-28T14:08:05.158Z
 ## PCB files
 
 ### Mainboard
-|                         | **Classic Version**                                                      | **Type C Version**                                                                           |
-| ----------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| PCB manufacturing files | [main board v0.4.zip](/assets/files/download_center/main_board_v0.4.zip) | [main_board_type_c_version.zip](/assets/files/download_center/main_board_type_c_version.zip) |
-| Soldering aids          | [Soldering_aids.zip](/assets/files/download_center/3._welding_aids.zip)  |                                                                                              |
+| Version                                    | PCB manufacturing files                                                                                                  | Soldering aids                                                                     |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **Mainboard Original Version**             | [main board v0.4.zip](/assets/files/download_center/pcb_files/main_board_v0.4.zip)                                       | [mainboard_v2.2.html](/assets/files/download_center/pcb_files/mainboard_v2.2.html) |
+| **Mainboard with Enhanced Security Patch** | [mainboard_enhanced_security_patch.html](/assets/files/download_center/pcb_files/mainboard_enhanced_security_patch.html) |                                                                                    |  |
 
 ### Extruder (sub-board)
-[extruder_sub_board_v2_2.zip](/assets/files/download_center/sub_board_for_extruder_v2_2.zip)
+
+| version                 | PCB manufacturing files                                                                          | Soldering aids                                                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Original version**    | [sub_board_v2_2.zip](/assets/files/download_center/pcb_files/sub_board_v2_2.zip)                 | [sub_board_original_version.html](/assets/files/download_center/pcb_files/sub_board_original_version.html) |
+| **Hall sensor Version** | [sub_board_hall.zip](/assets/files/download_center/pcb_files/sub_board_hall_sensor_version.html) | [sub_board_v2_2.zip](/assets/files/download_center/pcb_files/sub_board_hall_sensor_version.html)           |
+
 
 ### Firmwares
 
@@ -37,20 +42,20 @@ Firmware from this version onwards is adapted to the BMCU-B aka 370 version aka,
 also starting to support the P-Series recognising the BMCU as an AMS system. 
 | Version  | Firmware                                                                                                    | Note                                                          | Src                                                                                           |
 | -------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 2.06    | [bmcu_firmware_2_06.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_06.zip)     | For 370                       |
+| 2.06     | [bmcu_firmware_2_06.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_06.zip)     | For 370                                                       |
 | 2.22     | [bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip)     |                                                               |
 | ~~3.10~~ | [~~bmcu_firmware_3-10.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3-10.rar) | Deprecated                                                    | [src-bmcu-3-10.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-10.zip) |
 | ~~3.12~~ | [~~bmcu_firmware_3_12.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_12.rar) | Deprecated                                                    |                                                                                               |
-| 3.14     | [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)     | ⭐⭐⭐Recommended for **BMCU-B** aka 370 version                         | [src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip) |
+| 3.14     | [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)     | ⭐⭐⭐Recommended for **BMCU-B** aka 370 version                 | [src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip) |
 | 3.31     | [bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_31.rar)     | Note from author :possible five-way top-out problem, untested |
 
 #### Firmware for BMCU-C
 Firmware from this version adapted to BMCU-C
 
-| Version | Firmware                                                                                                  | Note | Src |
-| ------- | --------------------------------------------------------------------------------------------------------- | ---- | --- |
-| 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar) |  test firmware    |     |
-| 4.13     | [bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar) |  test firmware    |     |
+| Version | Firmware                                                                                                    | Note          | Src |
+| ------- | ----------------------------------------------------------------------------------------------------------- | ------------- | --- |
+| 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)   | test firmware |     |
+| 4.13    | [bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar) | test firmware |     |
 
 ### Changelog
 
