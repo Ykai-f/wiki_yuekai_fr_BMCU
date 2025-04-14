@@ -2,24 +2,21 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-04-11T11:53:27.348Z
+date: 2025-04-14T13:30:56.503Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
 ---
 
-# BMCU Resources & Download center
+# PCB files
 
-
-## PCB files
-
-### Mainboard
+## Mainboard
 | Version                                    | PCB manufacturing files                                                                                                | Soldering aids                                                                                                           |
 | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Mainboard Original Version**             | [pcb_gerber_main_board_v0.4.zip](/assets/files/download_center/pcb_files/pcb_gerber_main_board_v0.4.zip)                                     | [soldering_aids_mainboard_v0.4.rar](/assets/files/download_center/pcb_files/soldering_aids_mainboard_v0.4.rar)                                       |
 | **Mainboard with Enhanced Security Patch** | [pcb_gerber_mainboard_enhanced_security_patch.zip](/assets/files/download_center/pcb_files/pcb_gerber_mainboard_enhanced_security_patch.zip) | [soldering_aids_mainboard_enhanced_security_patch.rar](/assets/files/download_center/pcb_files/soldering_aids_mainboard_enhanced_security_patch.rar) |  |
 
-### Extruder (sub-board)
+## Extruder (sub-board)
 
 | version                 | PCB manufacturing files                                                                          | Soldering aids                                                                                           |
 | ----------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
@@ -27,9 +24,9 @@ dateCreated: 2025-01-28T14:08:05.158Z
 | **Hall sensor Version** | [pcb_gerber_sub_board_hall.zip](/assets/files/download_center/pcb_files/pcb_gerber_sub_board_hall.zip) | [soldering_aids_sub_board_hall.rar](/assets/files/download_center/pcb_files/soldering_aids_sub_board_hall.rar)                         |
 
 
-### Firmwares
+# Firmwares
 
-#### Firmwares for BMCU-A
+## Firmwares for BMCU-A
 | Version | Firmware                                                                                                    | Note                          | Src |
 | ------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------- | --- |
 | V0.2    | [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)           | ⭐⭐⭐Recommended for **BMCU-A** |
@@ -37,7 +34,7 @@ dateCreated: 2025-01-28T14:08:05.158Z
 | 1.26    | [bmcu_firmware_1_26.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_26.zip)     |                               |
 
 
-#### Firmwares for BMCU-B
+## Firmwares for BMCU-B
 Firmware from this version onwards is adapted to the BMCU-B aka 370 version aka,
 also starting to support the P-Series recognising the BMCU as an AMS system. 
 | Version  | Firmware                                                                                                    | Note                                                          | Src                                                                                           |
@@ -49,7 +46,7 @@ also starting to support the P-Series recognising the BMCU as an AMS system.
 | 3.14     | [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)     | ⭐⭐⭐Recommended for **BMCU-B** aka 370 version                 | [src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip) |
 | 3.31     | [bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_31.rar)     | Note from author :possible five-way top-out problem, untested |
 
-#### Firmware for BMCU-C
+## Firmware for BMCU-C
 Firmware from this version adapted to BMCU-C
 
 | Version | Firmware                                                                                                    | Note          | Src |
@@ -80,7 +77,9 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 1. The motor will keep moving slowly at 3mm/s within 3s after feeding to prevent the feed from not reaching the extruder head.
 
 
-## Main structure 3D print files
+# 3D print files
+
+## BMCU-A
 
 ### 130 version
 - 130 Original version by the author 
@@ -106,7 +105,7 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 [Backup link](/assets/files/print_files/180%20version.3mf)
 {.grid-list}
 
-### 370 version
+## BMCU-B
 - 370 version official version V2.5:
 [Link Makerworld](https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559)
 [Backup link](/assets/files/print_files/370+v2.5+original.3mf)
@@ -123,6 +122,8 @@ Link Makerworld not yet, if you printed this please send me some photos :p
 [Link Makerworld](https://makerworld.com/zh/models/1147116-bracket-for-bmcu-version-130-and-version-370#profileId-1289021)
 [Backup link](/assets/files/print_files/370+steel+ball+version+3.14.3mf)
 {.grid-list}
+
+## BMCU-C
 
 
 
