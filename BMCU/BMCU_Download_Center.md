@@ -50,7 +50,7 @@ Firmware from this version adapted to BMCU-C
 | Version | Firmware                                                                                                  | Note | Src |
 | ------- | --------------------------------------------------------------------------------------------------------- | ---- | --- |
 | 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar) |  test firmware    |     |
-
+| 4.13     | [bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar) |  test firmware    |     |
 
 ### Changelog
 
