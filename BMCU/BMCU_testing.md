@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-04-14T11:54:26.497Z
+date: 2025-04-14T11:59:23.298Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -52,11 +52,17 @@ You should also see AMS system is successful regonized by the printer in the fil
 1. The two photoelectric sensor indicators should remain off.
 1. When an object blocks the photoelectric sensor, the corresponding backside indicator should light up as <span class="indicator indicator-red">RED</span>.
 
+> Since version 3.14, when the BMCU is powered on standby, there are two possible se for the indicator light on the sub board: 
+> <span class="indicator indicator-blue">BLUE</span> -> ok
+> 
+> <span class="indicator indicator-red">RED</span> -> magnet sensing failure
+
 **When powered via the printer**
 1. Both the mainboard and sub-board RGB indicators should be <span class="indicator indicator-blue">BLUE</span>.
 1. The two photoelectric sensor indicators should remain off.
 1. When an object blocks the photoelectric sensor, the corresponding backside indicator should light up as <span class="indicator indicator-red">RED</span>.
 1. The RGB indicator should remain <span class="indicator indicator-blue">BLUE</span>.
+
 
 ### BMCU Normal Material Feeding Light Sequence
 1. <span class="indicator indicator-blue">BLUE</span> light stays on (standby).
