@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-04-14T12:00:17.758Z
+date: 2025-04-14T12:03:39.385Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -48,9 +48,12 @@ You should also see AMS system is successful regonized by the printer in the fil
 ### Sub-board functioning test
 
 **When powered via TTL/USB, after connecting the sub-board to the mainboard:**
-1. The RGB indicator should be <span class="indicator indicator-blue">BLUE</span>, Ports 2-4: off; blinking is normal).
-1. The two photoelectric sensor indicators should remain off.
-1. When an object blocks the photoelectric sensor, the corresponding backside indicator should light up as <span class="indicator indicator-red">RED</span>.
+ 
+- **If you are running BMCU-A's firmware** : The RGB indicator should be <span class="indicator indicator-blue">BLUE</span>, Ports 2-4: off; blinking is normal).
+- **If you are running BMCU-B or BMCU-C's firmware** : All the RGB indicators should be <span class="indicator indicator-red">RED</span>.
+
+- The two photoelectric sensor indicators should remain off.
+- When an object blocks the photoelectric sensor, the corresponding backside indicator should light up as <span class="indicator indicator-red">RED</span>.
 
 > Since version 3.14, when the BMCU is powered on standby, there are two possible se for the indicator light on the sub board: 
 > <span class="indicator indicator-blue">BLUE</span> -> ok
