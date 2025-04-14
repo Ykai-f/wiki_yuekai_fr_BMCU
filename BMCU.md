@@ -2,7 +2,7 @@
 title: BMCU
 description: 
 published: true
-date: 2025-03-26T15:03:27.369Z
+date: 2025-04-14T12:41:42.789Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T10:50:06.359Z
@@ -119,7 +119,3 @@ BMCU with two color multi-color printing.
 {.is-danger}
 
 https://youtube.com/shorts/GthoyZ_HDdk?feature=share
-
-# Installation instruction
-Check section BMCU Tutorials.
-[BMCU_Tutorial_Center](/BMCU/BMCU_Tutorial_Center)
