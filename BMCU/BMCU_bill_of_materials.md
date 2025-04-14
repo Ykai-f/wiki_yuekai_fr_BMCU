@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-14T09:01:03.447Z
+date: 2025-04-14T09:03:33.529Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -121,6 +121,8 @@ Most BMCU currently use this PCB.
 
 # PCB - Sub-board
 
+> The number you see has been multiplied by four extruder channels.
+
 ## Original version Sub-board
 
 ![subboard_original_version_1.png](/assets/images/bmcu_branch/subboard_original_version_1.png =x200) ![subboard_original_version_2.png](/assets/images/bmcu_branch/subboard_original_version_2.png =x200) 
@@ -131,16 +133,16 @@ Most BMCU currently use this PCB.
 
 | No.    | Name                       | Package/Model                      | Quantity |
 | ------ | -------------------------- | ---------------------------------- | -------- |
-| PCB_1  | 100nF                      | C0603                              | 3        |
-| PCB_2  | PH2.0 Connector            | PH2.0/10P (Horizontal SMT)         | 1        |
-| PCB_3  | WS2812B                    | 5050                               | 1        |
-| PCB_4  | LED_0603-R                 | LED_0603                           | 2        |
-| PCB_5  | 470Ω                       | R0603                              | 2        |
-| PCB_6  | 1kΩ                        | R0603                              | 2        |
-| PCB_7  | 10kΩ                       | RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL | 2        |
-| PCB_8  | AS5600(with radial magnet) | SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL    | 1        |
-| PCB_9  | LM393DR2G                  | SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL    | 1        |
-| PCB_10 | ITR9606                    | OPTO-TH_4P_ITR9606                 | 2        |
+| PCB_1  | 100nF                      | C0603                              | 12        |
+| PCB_2  | PH2.0 Connector            | PH2.0/10P (Horizontal SMT)         | 4        |
+| PCB_3  | WS2812B                    | 5050                               | 4        |
+| PCB_4  | LED_0603-R                 | LED_0603                           | 8        |
+| PCB_5  | 470Ω                       | R0603                              | 8        |
+| PCB_6  | 1kΩ                        | R0603                              | 8        |
+| PCB_7  | 10kΩ                       | RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL | 8        |
+| PCB_8  | AS5600(with radial magnet) | SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL    | 4        |
+| PCB_9  | LM393DR2G                  | SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL    | 4        |
+| PCB_10 | ITR9606                    | OPTO-TH_4P_ITR9606                 | 8        |
 
 
 </details>
@@ -155,16 +157,16 @@ Most BMCU currently use this PCB.
 
 | No.    | Name                       | Package/Model                     | Quantity |
 | ------ | -------------------------- | --------------------------------- | -------- |
-| PCB_1  | 100nF                      | C0603                             | 7        |
-| PCB_2  | PH2.0 Connector            | PH2.0/10P (Horizontal SMT)        | 1        |
-| PCB_3  | WS2812B                    | 5050                              | 1        |
-| PCB_4  | WS2812B                    | 4020                              | 1        |
-| PCB_5  | 470Ω                       | R0603                             | 2        |
-| PCB_6  | 10kΩ                       | R0603                             | 4        |
-| PCB_7  | AS5600(with radial magnet) | SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL   | 1        |
-| PCB_8  | ITR9606                    | OPTO-TH_4P_ITR9606                | 1        |
-| PCB_9  | OH49E-S                    | SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR | 1        |
-| PCB_10 | LMV358                     | SOP-8_L4.9-W3.9-P1.27-LS6.0-BL    | 1        |
+| PCB_1  | 100nF                      | C0603                             | 28        |
+| PCB_2  | PH2.0 Connector            | PH2.0/10P (Horizontal SMT)        | 4        |
+| PCB_3  | WS2812B                    | 5050                              | 4        |
+| PCB_4  | WS2812B                    | 4020                              | 4|
+| PCB_5  | 470Ω                       | R0603                             | 8        |
+| PCB_6  | 10kΩ                       | R0603                             | 16        |
+| PCB_7  | AS5600(with radial magnet) | SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL   | 4        |
+| PCB_8  | ITR9606                    | OPTO-TH_4P_ITR9606                | 4        |
+| PCB_9  | OH49E-S                    | SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR | 4        |
+| PCB_10 | LMV358                     | SOP-8_L4.9-W3.9-P1.27-LS6.0-BL    | 4        |
 
 
 </details>
