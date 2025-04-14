@@ -2,18 +2,27 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-14T14:56:22.312Z
+date: 2025-04-14T15:30:46.144Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
 ---
 
+# Common components
 > *Note：You will always need FOUR `6x2.5mm` radial magnets, they are in fact included with the AS5600 chips in the BOM sheet of the PCB, so the author didn't list them in the mechanical sheet.
 > Some of the finished PCBs do not come with this magnet. They are VERY important and BMCU can't work without them. You must purchase `RADIAL MAGNETS`.
 >  ![magnet-axe.png](/assets/images/bom_sheet/magnet-axe.png =x100)  NO!!!       ![magnet-rad.png](/assets/images/bom_sheet/magnet-rad.png =x100)  YES!!!  
 {.is-warning}
 
+Just in case there are times when some common components are not recorded in the BOM table, please know that you will always need the following parts or tools for a complete BMCU
 
+| No.    | Name                  | Quantity | Note |
+| ------ | --------------------- |  -------- |----|
+| COM_1  | PH2.0 10pin cable 80mm  | 4        |Recommended 1\*100mm+3\*80mm |
+| COM_2  | MX3.0-4P Mirrored Cable   | 1        | |
+| COM_3  | Radial magnets 6\*2.5mm   | 4        | You can also use smaller ones such as 5\*2.5mm.|
+| COM_4  | Lubricating grease   | 1        |**DO NOT use liquid oil-based lubricants**. |
+| COM_5  | USB to TTL adapter   | 1        | |
 
 # PCB - Mainboard
 
