@@ -2,7 +2,7 @@
 title: BMCU preparation before building
 description: 
 published: true
-date: 2025-04-05T20:44:12.737Z
+date: 2025-04-14T13:00:32.414Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T10:06:15.155Z
@@ -23,4 +23,5 @@ dateCreated: 2025-02-25T10:06:15.155Z
 
 
 You may need a long thin screwdriver similar to the one pictured below, as some of the holes in the BMCU have smaller passages.
+
 [screwdriver.png](/assets/images/public/screwdriver.png)
