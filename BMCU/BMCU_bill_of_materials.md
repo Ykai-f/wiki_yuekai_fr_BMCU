@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-14T09:03:33.529Z
+date: 2025-04-14T09:03:53.410Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -123,7 +123,7 @@ Most BMCU currently use this PCB.
 
 > The number you see has been multiplied by four extruder channels.
 
-## Original version Sub-board
+## Original version Sub-board for BMCU-A and BMCU-B
 
 ![subboard_original_version_1.png](/assets/images/bmcu_branch/subboard_original_version_1.png =x200) ![subboard_original_version_2.png](/assets/images/bmcu_branch/subboard_original_version_2.png =x200) 
 
