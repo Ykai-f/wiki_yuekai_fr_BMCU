@@ -125,7 +125,10 @@ Link Makerworld not yet, if you printed this please send me some photos :p
 
 ## BMCU-C
 
-
+- BMCU-C model release date 11/04/2025:
+[Link Makerworld](https://makerworld.com/zh/models/1322913-bmcu-c-hall-sensor-version#profileId-1359453)
+[Backup link](/assets/files/print_files/BMCU_C.3mf)
+{.grid-list}
 
 
 
