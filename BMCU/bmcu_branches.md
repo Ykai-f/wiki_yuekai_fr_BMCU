@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-04-15T08:07:41.878Z
+date: 2025-04-15T11:39:23.585Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -107,7 +107,7 @@ The current steel ball version is an excellent version who better solves the pro
 ![hall_version.png](/assets/images/bmcu_branch/hall_version.png)
 
 The Hall version is an upgrade from the steel ball version of the BMCU-B, retaining the mechanism of using a steel ball to detect the presence of consumables and using a Hall sensor to detect the position of the buffer.
-This improvement was made to address the problem of ejected penta's that could occur with the original BMCU-B version.
+This improvement was made to address the problem of five way being poped out that could occur with the original BMCU-B version.
 
 Currently BMCU-C is on test.
 
