@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-14T15:30:46.144Z
+date: 2025-04-15T12:29:16.685Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -22,7 +22,8 @@ Just in case there are times when some common components are not recorded in the
 | COM_2  | MX3.0-4P Mirrored Cable   | 1        | |
 | COM_3  | Radial magnets 6\*2.5mm   | 4        | You can also use smaller ones such as 5\*2.5mm.|
 | COM_4  | Lubricating grease   | 1        |**DO NOT use liquid oil-based lubricants**. |
-| COM_5  | USB to TTL adapter   | 1        | |
+| COM_5  | USB to TTL adapter   | 1        |Optional |
+| COM_6  | Transparent PETF filament or optic fibre   | 20cm        |Optional, for guiding the led indicater |
 
 # PCB - Mainboard
 
