@@ -2,7 +2,7 @@
 title: FAQ
 description: 
 published: true
-date: 2025-04-15T15:25:30.712Z
+date: 2025-04-15T15:25:39.543Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:07:42.834Z
@@ -17,7 +17,7 @@ There is no guarantee, and future compatibility depends on Bambulab's policies a
 > Currently a user has accidentally triggered the **Unauthorised AMS systeme** error on the **H2D** + **AMS2 PRO** combination, even though he is using the official devices.
 This means that Bambulab may be using an encryption programme on the newer device.
 > So in the worst case, it may be necessary to keep the BMCU available by **not upgrading** the printer's firmware
-{.is-danger}
+{.is-warning}
 
 
 ### 3. What 3D printers does BMCU support?
