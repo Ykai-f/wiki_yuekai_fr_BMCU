@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-04-03T08:08:57.792Z
+date: 2025-04-15T08:27:17.543Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -15,6 +15,7 @@ Reddit : [u/Ok_Design6972](https://www.reddit.com/user/Ok_Design6972/)
 By mail : contact@yuekai.fr
 
 > Please never hot-plug the cable between the BMCU and the printer, I have already fried my BMCU and printer 🥶. More details on : [BMCU-accident-hot-swapping](/BMCU/BMCU-accident-hot-swapping)
+> 15/04/2025 A Chinese dude burned out his AMSL when connecting AMSL and BMCU at the same time and hotplugging the BMCU ..... So don't do that either.
 {.is-warning}
 
 # Table of contents
