@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-04-15T11:39:23.585Z
+date: 2025-04-15T13:20:14.491Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -66,7 +66,29 @@ BMCU
     └── V2 Hall sensors
 
 ```
-The new version of PCB of BMCU compared with the previous generation of motherboards is now the main new 486 floating ground protection (using pmos), Hall buffer (from the previous generation of digital value buffer to analogue value buffer), this version is not yet stable.
+
+### Mainboard
+
+Both versions of the mainboard are universal and can be used for all BMCU versions. 
+
+The difference is that the new version adds more protection to the circuits and reduces the possibility of burning in case of hot-plugging or other accidents (although hot-plugging is still not recommended).
+
+#### Original version
+![mainboard_origina_version.png](/assets/images/bmcu_branch/mainboard_origina_version.png =x300)
+
+#### With Enhanced Security Patch
+![mainboard_enhanced_security_patch.png](/assets/images/bmcu_branch/mainboard_enhanced_security_patch.png =x300)
+
+### Sub-board
+
+#### Original version - Dual photoelectric sensor
+
+![subboard_original_version_1.png](/assets/images/bmcu_branch/subboard_original_version_1.png =x200) ![subboard_original_version_2.png](/assets/images/bmcu_branch/subboard_original_version_2.png =x200) 
+
+
+#### Hall sensor version
+
+![subboard_hall_sensor.png](/assets/images/bmcu_branch/subboard_hall_sensor.png =x300)
 
 
 # BMCU-A
