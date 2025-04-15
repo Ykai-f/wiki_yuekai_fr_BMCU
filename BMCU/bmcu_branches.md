@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-04-09T14:11:57.490Z
+date: 2025-04-15T08:07:41.878Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -54,7 +54,7 @@ BMCU
 │    └── Micro Button Version (Requires a completely different PCB)
 │
 ├── BMCU-C : 370 Motor/Hall Sensor
-│    └── 09/04/2025 Currently the structure testpassed, firmware is still onging.
+│    └── On beta test, waiting for feedback.
 │
 │
 └── CMCU in the future
@@ -78,8 +78,7 @@ BMCU
 The new version of PCB of BMCU compared with the previous generation of motherboards is now the main new 486 floating ground protection (using pmos), Hall buffer (from the previous generation of digital value buffer to analogue value buffer), this version is not yet stable.
 
 
-
-
+# BMCU-A
 ## 130 version
 ![130版本可视图.png](/assets/images/bmcu_branch/130版本可视图.png =x500)
 > The model in this picture is the latest version (as of 25/02/2025) of the version 130 model, which in the extruder it uses a Split design and an adjustable photoelectric block (green part) to improve performance.
@@ -92,14 +91,10 @@ update 31/03/2025 - Since the release of the clutch with springs, the installati
 
 Version 130 is still well used today.
 
-## Type-c version
-[The original Type-c version page on JLC](https://oshwhub.com/bilibili233/bmcu0000)
-This TYPEC version is a small branch of the BMCU main-board, which cancels the original TTL serial and uses the TYPEC interface to burn firmware.
-
-The type-c version was developed by developer `yhr233` based on the author's original motherboard. Reduced complexity of writing firmware, no longer need a serial converter and the need to press a button to burn the program.
-
 ## 180 version
 The 180 version is a variant of the 130 version, which uses the 180 motor and has been modified to fit this motor. The rest is still identical to the 130 version, with a triangle plate clutch structure.
+
+# BMCU-B
 
 ## 370 version
 The 370 version means that its motor uses a `370 motor(24v 6000rpm)` instead of the original FF-130sh motor
@@ -118,6 +113,10 @@ Earlier versions of the 370 had the potential for five-pass explosion. The reaso
 ![bmcu_steel_ball_version.png](/assets/images/bmcu_branch/bmcu_steel_ball_version.png)
 
 The current steel ball version is an excellent version who better solves the problem of photoelectric sensors. It is usually recommended to assemble this version.
+
+# BMCU-C
+
+
 
 # Should I get a 130/180 or 370?
 
