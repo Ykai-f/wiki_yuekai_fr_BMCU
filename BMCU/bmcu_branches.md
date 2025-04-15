@@ -30,13 +30,6 @@ The authors `@4061N` have renamed the version iterations of the BMCUs as follows
 Where all versions can use the same motherboard, the **BMCU-C** requires a newer sub-board that uses Hall sensors
 
 # Current branches of BMCUs
-For now, the most classic TTL version and the 130 motor are still standard.
-However, due to the scarcity of supply (even in China it is starting to be difficult to buy) and the lack of performance of the 130 motor, the author have shifted his development focus to the 370 version.
-
-~~The author expects to release a printout of the latest version of the 370 in 2 weeks (2 weeks from 25/02/2025)~~
-The author's next official release is a steel ball version of the 370, but it's not released yet (updared on 21/03/2025)
-
-As of now, all BMCUs use the same PCB board, but different versions may require different firmware to be flashed.
 
 ## Branches of the main structure of BMCU
 
@@ -59,15 +52,13 @@ BMCU
 │
 └── CMCU in the future
 ```
-There are a lot of developers releasing their modified versions of 370 at the moment, but iterations of 370 are very fast at the moment.
 
 ## Branches of the PCB of BMCU
 ```
 BMCU
 │
 ├── Mainboard
-│   ├── Default version (currently in use)
-│   ├── Type-C version (replaces TTL interface for flashing)
+│   ├── Default version
 │   └── Minor security patch version (small update with enhanced safety)
 │
 └── Sub-board
@@ -107,18 +98,21 @@ The 370 version will run theoretically faster, and improves on the original 130 
   
 Earlier versions of the 370 had the potential for five-pass explosion. The reason was that when the selected print speed was higher than 100%, the BMCU fed the material faster than the extruder, resulting in abnormal operation. The authors and developers have now improved the situation with a different structure of BMCU, but for now the 370 version is still in beta.
 
-> Author's opinion: For the 370 version, metal gears do not offer better conditions than plastic gears in terms of durability and ease of assembly.
-
 ## 370 steel ball version
 ![bmcu_steel_ball_version.png](/assets/images/bmcu_branch/bmcu_steel_ball_version.png)
 
 The current steel ball version is an excellent version who better solves the problem of photoelectric sensors. It is usually recommended to assemble this version.
 
 # BMCU-C
+![hall_version.png](/assets/images/bmcu_branch/hall_version.png)
+
+The Hall version is an upgrade from the steel ball version of the BMCU-B, retaining the mechanism of using a steel ball to detect the presence of consumables and using a Hall sensor to detect the position of the buffer.
+This improvement was made to address the problem of ejected penta's that could occur with the original BMCU-B version.
+
+Currently BMCU-C is on test.
 
 
-
-# Should I get a 130/180 or 370?
+# Should I get a BMCU-A or BMCU-B?
 
 
 | Feature              | 130/180 Version                           | 370 Version                               |
