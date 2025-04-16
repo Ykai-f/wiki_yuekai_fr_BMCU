@@ -2,7 +2,7 @@
 title: BMCU Assembling 370 v1 by Yuekai
 description: 
 published: true
-date: 2025-03-26T14:49:33.755Z
+date: 2025-04-16T10:21:25.265Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T10:14:24.946Z
@@ -92,8 +92,13 @@ Installation of the two gear sets into the frame with the shorter part of the sh
    - Insert the BMG gear into the **base housing**.
 ![370_12.jpg](/assets/images/bmcu_assembly_370_yuekai/370_12.jpg =x300)
 
+> Before close the middle frame, lubricate all gears with grease.
+> Use a slightly viscous grease, not a liquid lubricant.
+{.is-warning}
+
+
 ### Step 11
-Install the centre frame, the two gear bushings should match the shafts.
+Install the middle frame, the two gear bushings should match the shafts.
 ![370_13.jpg](/assets/images/bmcu_assembly_370_yuekai/370_13.jpg =x300)
 
 Screw five M2\*8 screws on the back.
@@ -153,14 +158,14 @@ Use two D2*10 shafts, inserted through the sleeve on each side, to secure the le
 Connect the motherboard with a powerbank or a computer via ttl to usb adapter 
 
 and use a 10pin cable to connect the motherboard to the secondary board and you should see that the
-- Pressure indicator LED lights up
-- Filament indicator LED is off
+- `Pressure indicator` LED lights up
+- `Filament indicator` LED is off
 ![370_18.jpg](/assets/images/bmcu_assembly_370_yuekai/370_18.jpg =x300)
 
 Pull the buffer up and you should see the pressure indicator light go off.
 ![370_19.jpg](/assets/images/bmcu_assembly_370_yuekai/370_19.jpg =x300)
 
-Press the spanner and insert a section of filament, you should see the consumable indicator light up.
+Press the spanner and insert a section of filament, you should see the `filament indicator` light up.
 
 Move the filament back and forth and the filament indicator should remain lit steadily.
 ![370_20.jpg](/assets/images/bmcu_assembly_370_yuekai/370_20.jpg =x300)
@@ -173,14 +178,17 @@ Pass the 10pin cable through the hole in the base and secure the extruder unit f
 
 ### Step 18
 Connect the 10pin cable to the mainboard.
-> Please be careful, for channel 1, the length of this 10pin cable will be quite tight, please handle with care to avoid breaking the 1st cable in the left (red in the photo).
+> Please be careful, for channel 1, the length of this 10pin cable will be quite tight, please handle with care to avoid breaking the 1st cable in the left for this channel (red in the photo).
 {.is-warning}
 
 ![370_22.jpg](/assets/images/bmcu_assembly_370_yuekai/370_22.jpg =x300)
 
 ### Step 19
-Secure the base cover with m2*8 screws.
+
 You will need to cut a little off the top of the column for the button.
+
+Secure the base cover with m2*8 screws.
+
 
 
 ### Step 20
