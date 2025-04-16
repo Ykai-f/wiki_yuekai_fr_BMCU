@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-16T13:14:31.059Z
+date: 2025-04-16T13:14:40.072Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -27,7 +27,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 ## **Required Tools**
 1. **Multiple Dupont Wires** (To connect the flasher and the BMCU mainboard).  
 2. **USB to Serial Adapter** 
-3. **Computer** runs windows.  -> If you're using a Mac, flashing is possible, but I don't have any tutorials or resources for mac.
+3. **Computer** runs windows.  -> If you're using a Mac/Linux, flashing is possible, but I don't have any tutorials or resources for mac.
 4. **Software: WCHISPTool**  
 [wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
 
