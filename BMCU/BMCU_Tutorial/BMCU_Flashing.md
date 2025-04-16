@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-06T23:35:02.630Z
+date: 2025-04-16T13:10:31.583Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -15,7 +15,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 
 
 > If you did **not** solder the motherboard yourself, flashing is usually **not required**. Unless you want to upgrade the firmware.  
-> All motherboards shipped from me come **pre-flashed** with firmware.  
+
 
 ## ⚠️ **WARNING**  
 <span style="color:red">🔥 **Before flashing, ensure there are no soldering issues!!!! Check for power short circuits!!!!** 🔥  
