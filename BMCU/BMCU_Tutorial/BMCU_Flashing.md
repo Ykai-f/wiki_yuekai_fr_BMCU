@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-16T13:10:31.583Z
+date: 2025-04-16T13:14:31.059Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -27,7 +27,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 ## **Required Tools**
 1. **Multiple Dupont Wires** (To connect the flasher and the BMCU mainboard).  
 2. **USB to Serial Adapter** 
-3. **Computer**.  
+3. **Computer** runs windows.  -> If you're using a Mac, flashing is possible, but I don't have any tutorials or resources for mac.
 4. **Software: WCHISPTool**  
 [wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
 
@@ -46,6 +46,11 @@ dateCreated: 2025-01-29T10:53:40.895Z
 
 ![wiring_diagram_1.jpg](/assets/images/bmcu_flashing/wiring_diagram_1.jpg =x300)
 ![wiring_diagram_2.jpg](/assets/images/bmcu_flashing/wiring_diagram_2.jpg =x300)
+  
+> If you don't see a serial device here, please install the CH340 chip driver
+> https://www.arduined.eu/ch340-windows-10-driver-download/#google_vignette
+{.is-danger}
+
 
 ---
 
