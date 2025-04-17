@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-04-16T13:14:40.072Z
+date: 2025-04-17T09:25:18.986Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -94,7 +94,8 @@ If successful, you’ll see a red **“Unlocked”** message in the tool.
 ![remove protect successful.png](/assets/images/bmcu_flashing/remove_protect_successful.png =x500)
 
 > ⚠️ If it keeps failing:
-> - First, try again using the same button sequence carefully.
+> If you build your own PCB, please always check first for any soldering issues, such as solder bridges on resistor arrays, solder bridges on the CH32V chip, or short circuits in the circuit.
+> - First, try again using the same button sequence carefully, hold always the B button.
 > - Second, **double-click the “Download” button** to force the chip into response mode, then try "Remove Protect" again.
 > - （Rare but indeed some chips will perform like this) try **swapping the TX and RX wires** (i.e., TX-to-TX and RX-to-RX instead of cross).
 
