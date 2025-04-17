@@ -2,7 +2,7 @@
 title: BMCU Assembling 370 v1 by Yuekai
 description: 
 published: true
-date: 2025-04-17T13:36:22.125Z
+date: 2025-04-17T13:38:11.261Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-19T10:14:24.946Z
@@ -125,7 +125,8 @@ Solder the motor wires to the sub-board. Please note that you should connect the
 {.is-info}
 
 > In version 3.14 of the firmware, the author has added the ability for the BMCU to actively detect the direction of rotation of the motor, eliminating the need to actively reverse the wiring to the motor. It is recommended to use this version or newer. 
-{.is-success}
+> **It is known that this function may not be triggered in some cases, and for the time being it is still recommended that the motor be wired according to as indicated on top.**
+{.is-warning}
 
 
 
