@@ -2,7 +2,7 @@
 title: PCB reference voltage value of the motherboard to ground
 description: 
 published: true
-date: 2025-02-25T14:43:16.209Z
+date: 2025-04-17T13:26:17.228Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T13:06:32.193Z
@@ -118,7 +118,7 @@ If your measured values are identical to the reference values, confirming that w
 Only solder the essential components:
 
 - CH32 chip
-- RN3 resistor network
+- RN3 resistor array
 - Short the B-button solder pad
 
 Ensure minimal circuit conditions for TTL operation.
