@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-14T12:08:02.313Z
+date: 2025-04-17T19:44:21.865Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -12,14 +12,16 @@ dateCreated: 2025-02-25T12:08:58.045Z
 
 <details>
   <summary>Click to expend</summary>
-Solution:
-This issue is often caused by incorrect AB wire sequence in connecting cable. Try swapping the connections. If the problem persists, check for possible PCB issues, such as:
+After connecting to the printer the motherboard shows a red light meaning that the BMCU and printer communication is established, however power is successfully supplied to the BMCU.
+If you make your own data cable, check first if the AB wire sequence is wrong.
+
+Then check for possible PCB issues, such as:
 - Loose solder joints on components
 - Faulty communication wiring (e.g., missing resistors in communication lines)
 - Incorrect chip orientation or poor soldering causing virtual connections
   
   
-Worst case scenario, the AMS connector board or printer motherboard is damaged.
+Worst case scenario, the AMS connector board or printer motherboard is damaged. Or the 75176 chip on BMCU is damaged.
 </details>
 
 
