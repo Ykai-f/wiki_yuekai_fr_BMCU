@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-17T19:44:21.865Z
+date: 2025-04-17T19:45:00.978Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -12,7 +12,7 @@ dateCreated: 2025-02-25T12:08:58.045Z
 
 <details>
   <summary>Click to expend</summary>
-After connecting to the printer the motherboard shows a red light meaning that the BMCU and printer communication is established, however power is successfully supplied to the BMCU.
+After connecting to the printer the motherboard shows a red light meaning that the BMCU and printer communication is **not** established, however power is successfully supplied to the BMCU.
 If you make your own data cable, check first if the AB wire sequence is wrong.
 
 Then check for possible PCB issues, such as:
