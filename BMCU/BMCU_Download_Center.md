@@ -52,9 +52,13 @@ Firmware from this version adapted to BMCU-C
 | Version | Firmware                                                                                                    | Note          | Src |
 | ------- | ----------------------------------------------------------------------------------------------------------- | ------------- | --- |
 | 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)   | test firmware |     |
-| 4.13    | [bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar) | test firmware |     |
+| ~~4.13~~    | ~~[bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar)~~ | ~~test firmware~~ |     |
+| 4.20    | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.rar) | test firmware |     |
 
 ### Changelog
+
+#### V4.20
+Fixed a possible bug with refills.
 
 #### V4.9
 BMCU-C is supported for the first time, and the secondary board uses Hall sensors to replace photoelectric sensors.
