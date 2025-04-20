@@ -114,10 +114,6 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 [Link Makerworld](https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559)
 [Backup link](/assets/files/print_files/370+v2.5+original.3mf)
 
-- 370 version official v2.5 extented buffer version (require some longer springs 0.6\*10\*50 or longer)
-Link Makerworld not yet, if you printed this please send me some photos :p
-[Backup link](/assets/files/print_files/370%20v2.5%20extended%20version.3mf)
-
 - ❤️‍🔥370 steel ball version v3.14:
 [Link Makerworld](https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1288934)
 [Backup link](/assets/files/print_files/370+v2.5+original.3mf)
@@ -135,4 +131,29 @@ Link Makerworld not yet, if you printed this please send me some photos :p
 {.grid-list}
 
 
+# F3D files
 
+The F3D files of the original print files shared by the author are provided here, in case you wish to make additional modifications yourself to the model. Please note that some versions are missing their F3D files.
+
+
+## BMCU-A
+Missing
+
+## BMCU-B
+
+- 370 steel ball version v2.8 release date 28 Feb:
+[Extruder](/assets/files/print_files/f3d/BMCU_B_extruder_v2.8_date_2_28.f3d)
+{.grid-list}
+
+## BMCU-C
+
+- BMCU-C release date 11 Apr:
+[Extruder](/assets/files/print_files/f3d/BMCU_C_extruder_date_4_11.f3d)
+[Extruder with base](/assets/files/print_files/f3d/BMCU_C_full_date_4_11.f3d)
+{.grid-list}
+
+## Base
+
+- Base v0.8 - Two-piece base adapts to BMCU-B and BMCU-C:
+[Base](/assets/files/print_files/f3d/BMCU_base_v0.8.f3d)
+{.grid-list}
