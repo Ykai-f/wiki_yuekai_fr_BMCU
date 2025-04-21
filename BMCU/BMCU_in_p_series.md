@@ -2,19 +2,18 @@
 title: BMCU with P-series
 description: 
 published: true
-date: 2025-03-26T15:03:39.837Z
+date: 2025-04-21T21:01:56.303Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
 ---
-
 
 This page still in progress because I don't have all the information for BMCU on P series.
 {.is-warning}
 
 ## If using externe 5 way
 
-You will need a bambu 4-in-1 ptfe adapter.
+You will need a bambu 4-in-1 ptfe adapter or anything similar.
 ![4-in-1 adapter](/assets/images/p_series/4_in_1_adapter.png =x300)
 
 And you need a firmware to make the rejection behaviour longer so that the filament can always exit to the outside of the bambu 4-in-1 ptfe adapter.
