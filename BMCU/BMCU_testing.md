@@ -17,6 +17,11 @@ dateCreated: 2025-02-25T12:11:39.883Z
 # PCB
 If you build your own PCB, test it before connect to your computer or printer.
 
+Otherwise you might see...
+
+![pcb_voltage_to_ground](/assets/images/gif/1.gif)
+
+
 ## Reference voltage value of the motherboard to ground
 [pcb_voltage_to_ground](/BMCU/pcb_voltage_to_ground)
 
