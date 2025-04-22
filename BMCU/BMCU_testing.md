@@ -19,7 +19,7 @@ If you build your own PCB, test it before connect to your computer or printer.
 
 Otherwise you might see...
 
-![pcb_voltage_to_ground](/assets/images/gif/1.gif)
+![pcb_firework1](/assets/images/gif/1.gif) ![pcb_firework2](/assets/images/gif/2.gif)
 
 
 ## Reference voltage value of the motherboard to ground
