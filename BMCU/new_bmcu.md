@@ -2,7 +2,7 @@
 title: Just got a BMCU / How to start using BMCU
 description: 
 published: true
-date: 2025-04-23T15:18:23.614Z
+date: 2025-04-23T15:20:52.617Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-31T11:20:11.177Z
@@ -25,9 +25,9 @@ This option is recommended but not always required. If you are not experiencing 
 
 This option is a separate setting for filaments, which means you will need to set it for all your filaments multiple times.
 
-![deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png =x300)
+![deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png =x400)
 
-![deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png =x300)
+![deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png =x400)
 
 
 ### AMS - Disable unloading and flushing to save filaments
