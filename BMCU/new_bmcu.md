@@ -2,7 +2,7 @@
 title: Just got a BMCU / How to start using BMCU
 description: 
 published: true
-date: 2025-04-17T09:21:27.409Z
+date: 2025-04-23T15:18:23.614Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-31T11:20:11.177Z
@@ -16,20 +16,18 @@ do not hot plug / unplug
 
 Known defects - some channels will always show the presence of filament
 
-deactive Backdraw when cutting material -> Optional, only recommend if you have already encourded AMS Lite Hub pops up problem
-
-### If you are using BMCU-B and you found your 5way(AMS Lite Hub) pop up 
+### If you are using BMCU-B and you found your 5way(AMS Lite Hub) pops up 
 Like this:
-![5_way_pop_up.gif](/assets/images/gif/5way_pop_up.gif)
+![5_way_pop_up.gif](/assets/images/gif/5way_pop_up.gif =x300)
 
 One of the solutions is as follows.
 This option is recommended but not always required. If you are not experiencing problems with five-way it is usually not necessary to do this additionally.
 
 This option is a separate setting for filaments, which means you will need to set it for all your filaments multiple times.
 
-[deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png)
+![deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png =x300)
 
-[deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png)
+![deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png =x300)
 
 
 ### AMS - Disable unloading and flushing to save filaments
