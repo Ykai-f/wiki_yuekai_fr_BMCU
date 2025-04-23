@@ -22,6 +22,8 @@ This page still in progress because I don't have all the information for BMCU on
 You will need a bambu 4-in-1 ptfe adapter or anything similar.
 ![4-in-1 adapter](/assets/images/p_series/4_in_1_adapter.png =x300)
 
+![bmcu_p_ext_5way.png](/assets/images/p_series/bmcu_p_ext_5way.png =x300)
+
 And you need a firmware to make the rejection behaviour longer so that the filament can always exit to the outside of the bambu 4-in-1 ptfe adapter.
 
 ## if using internal 5 way
