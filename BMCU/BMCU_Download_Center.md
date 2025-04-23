@@ -54,8 +54,14 @@ Firmware from this version adapted to BMCU-C
 | 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)   | test firmware |     |
 | ~~4.13~~    | ~~[bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar)~~ | ~~test firmware~~ |     |
 | 4.20    | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.rar) | test firmware |     |
+| 4.23.3    | [bmcu_c_firmware_4_23_3.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_23_3.rar) | test firmware |     |
 
 ### Changelog
+
+#### V4.23.3
+Added P-Series support (still in beta)
+Fixed some anomalies that caused excessive resistance in the extrusion head
+Added function: press buffer and then the motor enters a short feeding mode to load consumables
 
 #### V4.20
 Fixed a possible bug with refills.
