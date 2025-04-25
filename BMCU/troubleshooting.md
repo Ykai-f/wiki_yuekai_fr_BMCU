@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-17T19:45:47.489Z
+date: 2025-04-25T09:19:44.328Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -199,7 +199,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 
 <details>
   <summary>Click to expend</summary>
-  The root cause of this problem is that there is a large resistance in the path of the consumable exit, causing the entire PETF tube to be pulled backwards.
+  The root cause of this problem is that there is a large resistance in the path of the consumable exit, causing the entire PTEF tube to be pulled backwards.
   This issue occur more offen on BMCU-B, particularly when using older firmware versions.
   Using updated firmware or firmware versions with extended buffer lengths can significantly reduce the likelihood of encountering this problem.
 
