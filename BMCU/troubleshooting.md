@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-25T09:19:44.328Z
+date: 2025-04-25T09:22:04.607Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -209,7 +209,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
   - If the issue persists, building an external buffer may further mitigate the problem. referce makersworld link : [Link 1](https://makerworld.com.cn/zh/models/1042461-bmcuwai-zhi-huan-chong?from=search#profileId-1076821) [Link 2](https://makerworld.com.cn/zh/models/1057356-29mmxing-cheng-wai-jie-huan-chong?from=search#profileId-1095144) [Link 3](https://makerworld.com.cn/zh/models/1144176-bmcu-370gang-zhu-ban-wai-zhi-huan-chong?from=search#profileId-1203810).
   - Additionally, verify whether the AMS Lite hub (five-way connector) is damaged — especially the square-shaped locking clip. If damaged, this module may need to be replaced and reinstalled with the application of interface grease.
   - Disabling retraction during filament cutting may also help reduce the occurrence of this issue.
-  [deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png)
-  [deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png)
+  ![deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png)
+  ![deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png)
 
 </details>
