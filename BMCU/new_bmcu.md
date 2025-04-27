@@ -2,7 +2,7 @@
 title: Just got a BMCU / How to start using BMCU
 description: 
 published: true
-date: 2025-04-23T15:20:52.617Z
+date: 2025-04-27T16:55:42.643Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-31T11:20:11.177Z
@@ -28,13 +28,15 @@ todo
 - some channels will always show the presence of filament, for more information check this section : 
 
 ### If you are using BMCU-B and you found your 5way(AMS Lite Hub) pops up 
+
 Like this:
 ![5_way_pop_up.gif](/assets/images/gif/5way_pop_up.gif =x300)
 
-One of the solutions is as follows.
-This option is recommended but not always required. If you are not experiencing problems with five-way it is usually not necessary to do this additionally.
+Check this section for more details: [5 way pop up with BMCU-B](https://wiki.yuekai.fr/en/BMCU/troubleshooting#h-10-ams-lite-hub-5-way-pop-up)
 
-This option is a separate setting for filaments, which means you will need to set it for all your filaments multiple times.
+One of the solutions is as follows:
+- This option is recommended but not always required. If you are not experiencing problems with five-way it is usually not necessary to do this additionally.
+- This option is a separate setting for filaments, which means you will need to set it for all your filaments multiple times.
 
 ![deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png =x400)
 
