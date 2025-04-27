@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-04-23T13:16:08.112Z
+date: 2025-04-27T16:52:28.927Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -43,6 +43,7 @@ By mail : contact@yuekai.fr
 {.links-list}
 
 ### After building
+- [🆕First time using BMCU](/BMCU/new_bmcu)
 - [⚙️ Troubleshooting](/BMCU/troubleshooting)
 {.links-list}
 
