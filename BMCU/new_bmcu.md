@@ -10,11 +10,22 @@ dateCreated: 2025-03-31T11:20:11.177Z
 
 todo
 
-drafts
+> <span style="color:red; font-size:30px;"><b>⚠️WARNING</b></span>
+> Do not hot-plug or unplug the connection cable between the BMCU and the printer while the printer is powered on.
+{.is-warning}
 
-do not hot plug / unplug
+### First use
 
-Known defects - some channels will always show the presence of filament
+1. Connect the BMCU to the AMS connector on the back of the printer with the **printer off**, for A1 you can choose either connector (they are the same)
+2. You should see all the lights on the main board of the BMCU and the extruder turn **blue**, and the presence of the AMS system should be displayed in the filament menu, or if there are no filament inserted, it should show that there are no consumables present for any channel.
+3. Press the lever on the BMCU channel and insert the filament until it passes through the other end. Unlike with an external spool, you should not insert the filament to reach inside the AMS Lite Hub, which will result in an error.
+    If you notice that the supplies are having trouble reaching the other end, which is common, here are a few tips:
+    1. Sharpen the top of the filament
+    2. Press the buffer or pull the buffer out and continue to try to insert the filament
+    3. Try removing the PTFE tube and reinstalling it after the filament comes out
+
+### Known defects
+- some channels will always show the presence of filament, for more information check this section : 
 
 ### If you are using BMCU-B and you found your 5way(AMS Lite Hub) pops up 
 Like this:
