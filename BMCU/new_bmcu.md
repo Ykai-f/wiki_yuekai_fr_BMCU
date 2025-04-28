@@ -2,7 +2,7 @@
 title: Just got a BMCU / How to start using BMCU
 description: 
 published: true
-date: 2025-04-28T19:57:31.704Z
+date: 2025-04-28T19:57:47.305Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-31T11:20:11.177Z
@@ -44,7 +44,7 @@ One of the option is diabling the **Long retraction when cut for filaments**
 ![deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png =x400)
 
 
-### AMS - Disable unloading and flushing to save filaments
+# AMS - Disable unloading and flushing to save filaments
 
 Some comment sections mention this option, but this is completely different from the option above.
 
