@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-25T09:22:31.184Z
+date: 2025-04-28T20:03:04.927Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -193,9 +193,9 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-### 10 AMS Lite Hub / 5-way pop up
+### 🔟 AMS Lite Hub / 5-way pop up
 
-![5_way_pop_up.gif](/assets/images/gif/5way_pop_up.gif)
+![5_way_pop_up.gif](/assets/images/gif/5way_pop_up.gif =x300)
 
 <details>
   <summary>Click to expend</summary>
@@ -211,5 +211,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
   - **Disabling** retraction during filament cutting may also help reduce the occurrence of this issue.
   ![deactive_retraction_when_cut_1.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_1.png)
   ![deactive_retraction_when_cut_2.png](/assets/images/start/retraction_when_cut/deactive_retraction_when_cut_2.png)
+  
+  
 
 </details>
