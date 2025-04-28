@@ -2,7 +2,7 @@
 title: Just got a BMCU / How to start using BMCU
 description: 
 published: true
-date: 2025-04-27T16:55:42.643Z
+date: 2025-04-28T19:52:36.083Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-31T11:20:11.177Z
@@ -25,7 +25,7 @@ todo
     3. Try removing the PTFE tube and reinstalling it after the filament comes out
 
 ### Known defects
-- some channels will always show the presence of filament, for more information check this section : 
+- some channels will always show the presence of filament, for more information check this section :  [no-material-inserted-but-system-shows-material-present-or-filament-led-keeps-on](https://wiki.yuekai.fr/en/BMCU/troubleshooting#h-2%EF%B8%8F%E2%83%A3-no-material-inserted-but-system-shows-material-present-or-filament-led-keeps-on)
 
 ### If you are using BMCU-B and you found your 5way(AMS Lite Hub) pops up 
 
