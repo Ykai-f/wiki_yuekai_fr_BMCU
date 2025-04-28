@@ -2,19 +2,19 @@
 title: Just got a BMCU / How to start using BMCU
 description: 
 published: true
-date: 2025-04-28T19:56:23.382Z
+date: 2025-04-28T19:57:31.704Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-31T11:20:11.177Z
 ---
 
-todo
+
 
 > <span style="color:red; font-size:30px;"><b>⚠️WARNING</b></span>
 > Do not hot-plug or unplug the connection cable between the BMCU and the printer while the printer is powered on.
 {.is-warning}
 
-### First use
+# First use
 
 1. Connect the BMCU to the AMS connector on the back of the printer with the **printer off**, for A1 you can choose either connector (they are the same)
 2. You should see all the lights on the main board of the BMCU and the extruder turn **blue**, and the presence of the AMS system should be displayed in the filament menu, or if there are no filament inserted, it should show that there are no consumables present for any channel.
@@ -24,17 +24,18 @@ todo
     2. Press the buffer or pull the buffer out and continue to try to insert the filament
     3. Try removing the PTFE tube and reinstalling it after the filament comes out
 
-### Known defects
+# Known defects
 - some channels will always show the presence of filament, for more information check this section :  [no-material-inserted-but-system-shows-material-present-or-filament-led-keeps-on](https://wiki.yuekai.fr/en/BMCU/troubleshooting#h-2%EF%B8%8F%E2%83%A3-no-material-inserted-but-system-shows-material-present-or-filament-led-keeps-on)
 
-### If you are using BMCU-B and you found your 5way(AMS Lite Hub) pops up 
+# If you are using BMCU-B and you found your 5way(AMS Lite Hub) pops up 
 
 Like this:
 ![5_way_pop_up.gif](/assets/images/gif/5way_pop_up.gif =x300)
 
 Check this section for more details: [5 way pop up with BMCU-B](https://wiki.yuekai.fr/en/BMCU/troubleshooting#h-10-ams-lite-hub-5-way-pop-up)
 
-One of the solutions is disabling the **Long retraction when cut**:
+## Disabling the **Long retraction when cut**:
+One of the option is diabling the **Long retraction when cut for filaments**
 - This option is recommended but not always required. If you are not experiencing problems with five-way it is usually not necessary to do this additionally.
 - This option is a separate setting for filaments, which means you will need to set it for all your filaments multiple times.
 
