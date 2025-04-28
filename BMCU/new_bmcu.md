@@ -2,7 +2,7 @@
 title: Just got a BMCU / How to start using BMCU
 description: 
 published: true
-date: 2025-04-28T19:52:36.083Z
+date: 2025-04-28T19:56:23.382Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-31T11:20:11.177Z
@@ -34,7 +34,7 @@ Like this:
 
 Check this section for more details: [5 way pop up with BMCU-B](https://wiki.yuekai.fr/en/BMCU/troubleshooting#h-10-ams-lite-hub-5-way-pop-up)
 
-One of the solutions is as follows:
+One of the solutions is disabling the **Long retraction when cut**:
 - This option is recommended but not always required. If you are not experiencing problems with five-way it is usually not necessary to do this additionally.
 - This option is a separate setting for filaments, which means you will need to set it for all your filaments multiple times.
 
