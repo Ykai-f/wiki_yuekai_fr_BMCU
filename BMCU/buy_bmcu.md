@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-04-09T13:13:26.621Z
+date: 2025-04-29T15:07:22.374Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T10:49:18.506Z
@@ -23,8 +23,7 @@ Sorry at the moment I can only ship to the EU and only customers in the EU can c
 
 ## Update of stock
 
-> I ran out of BMCU motherboards as well as springs for the 370 version, so will have to wait for the next stock
-> Next batch arrive early April
+> Vacation time! be back 10th May :)
 
 ## Disclaimer
 
