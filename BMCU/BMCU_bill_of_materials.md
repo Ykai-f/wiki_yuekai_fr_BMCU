@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-30T10:41:16.397Z
+date: 2025-04-30T10:41:54.304Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -236,7 +236,7 @@ The 130 steel ball version is not an official version from the author, but in sh
 
 ## BMCU-B - 370 motor + Photoelectric sensor
 
-### BOM for BMCU-B v2.5 370 motors without steel ball
+### BOM for BMCU-B v2.5 | 370 motors without steel ball
 <details>
 
 <summary>Click here to expend</summary>
@@ -266,7 +266,7 @@ The 130 steel ball version is not an official version from the author, but in sh
 </details>
 
 
-### BOM for BMCU-B v3.14 370 motors + steel ball
+### BOM for BMCU-B v3.14 | 370 motors + steel ball
 
 <details>
 
