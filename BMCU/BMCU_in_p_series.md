@@ -2,7 +2,7 @@
 title: BMCU with P-series
 description: 
 published: true
-date: 2025-04-30T07:19:47.934Z
+date: 2025-04-30T11:01:28.497Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -43,3 +43,19 @@ Externe 5 way:
 Internal 5 way:
 - [P1S_RetModified_BMCU370_3.14_4s_Int5Way.rar](/assets/files/download_center/p_series/P1S_RetModified_BMCU370_3.14_4s_Int5Way.rar)
 - [P1S_RetModified_BMCU370_3.14_3.5s_Int5Way.rar](/assets/files/download_center/p_series/P1S_RetModified_BMCU370_3.14_3.5s_Int5Way.rar)
+
+## Using AMS + BMCU or 2\*BMCU
+
+### AMS + BMCU
+
+The principle of the BMCU is to directly simulate the AMS device to communicate with the printer, it is possible to use AMS + BMCU on the P-Series, (I can't say for sure for newer devices like AMS 2)
+
+See the official Bambulab tutorial for using two AMS https://wiki.bambulab.com/en/x1/manual/Connect-AMS-Hub-and-multi-AMS
+
+Since the BMCU only has one 4pin connector, you need to connect the AMS directly to the AMS Hub, and then connect the BMCU to the AMS.
+
+### 2\*BMCU
+
+Please note that it is not possible to use two BMCUs directly on the P-Series.
+- **Software limitation**: You need to modify the firmware so that the two BMCUs get different addresses.
+- **Hardware limitations**：Not enough AMS interfaces
