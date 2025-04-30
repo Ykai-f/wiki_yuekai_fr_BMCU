@@ -2,7 +2,7 @@
 title: BMCU with P-series
 description: 
 published: true
-date: 2025-04-22T08:56:35.256Z
+date: 2025-04-30T07:19:47.934Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -34,7 +34,7 @@ And you need a firmware to make the rejection behaviour longer so that the filam
 
 ## Firmwares
 
-These firmwares is modified by XC `@星尘`
+These firmwares are modified by XC `@星尘`
 
 Externe 5 way:
 - [P1S_RetModified_BMCU370-3.14_15s_Ext5Way.rar](/assets/files/download_center/p_series/P1S_RetModified_BMCU370-3.14_15s_Ext5Way.rar)
