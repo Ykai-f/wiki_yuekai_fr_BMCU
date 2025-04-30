@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-04-30T11:07:35.262Z
+date: 2025-04-30T13:04:53.802Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -14,7 +14,8 @@ You can contact me by
 Reddit : [u/Ok_Design6972](https://www.reddit.com/user/Ok_Design6972/)
 By mail : contact@yuekai.fr
 
-The commenting system of this wiki is very basic and does not contain a notification system, if you have some other questions or ideas that you would like to share with other users, you can also visit the BMCU section of reddit! -> (Although it's empty for now)
+The commenting system of this wiki is very basic and does not contain a notification system,I'll reply when I notice your comment. 
+If you have some other questions or ideas that you would like to share with other users, you can also visit the BMCU section of reddit! -> (Although it's empty for now)
 https://www.reddit.com/r/BMCU/.
 
 > Please never hot-plug the cable between the BMCU and the printer, I have already fried my BMCU and printer 🥶. More details on : [BMCU-accident-hot-swapping](/BMCU/BMCU-accident-hot-swapping)
