@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-15T12:29:27.632Z
+date: 2025-04-30T10:39:41.241Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -77,6 +77,11 @@ Most BMCU currently use this PCB.
 </details>
 
 ### Mainboard with Enhanced Security Patch
+
+> It has been noticed that this Mainboard has a small chance of some unusual behaviour and the author is trying to fix these exceptions within the firmware. Building this board is not recommended at this time.
+If you wish to build the BMCU-C, you can also use the original Mainboard
+{.is-warning}
+
 
 ![mainboard_enhanced_security_patch.png](/assets/images/bmcu_branch/mainboard_enhanced_security_patch.png =x300)
 
