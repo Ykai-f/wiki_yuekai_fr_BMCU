@@ -1,8 +1,8 @@
 ---
-title: BMCU with P-series
+title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-05T22:22:39.466Z
+date: 2025-05-05T22:23:19.431Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
