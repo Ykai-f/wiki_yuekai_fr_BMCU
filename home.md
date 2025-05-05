@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-04-30T13:04:53.802Z
+date: 2025-05-05T14:45:49.312Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -13,14 +13,22 @@ dateCreated: 2025-01-26T21:11:08.155Z
 You can contact me by
 Reddit : [u/Ok_Design6972](https://www.reddit.com/user/Ok_Design6972/)
 By mail : contact@yuekai.fr
-
-The commenting system of this wiki is very basic and does not contain a notification system,I'll reply when I notice your comment. 
-If you have some other questions or ideas that you would like to share with other users, you can also visit the BMCU section of reddit! -> (Although it's empty for now)
-https://www.reddit.com/r/BMCU/.
+I also recommend asking your question directly in the Reddit forums to get responses from other enthusiasts: https://www.reddit.com/r/BMCU/.
 
 > Please never hot-plug the cable between the BMCU and the printer, I have already fried my BMCU and printer 🥶. More details on : [BMCU-accident-hot-swapping](/BMCU/BMCU-accident-hot-swapping)
 > 15/04/2025 A Chinese dude burned out his AMSL when connecting AMSL and BMCU at the same time and hotplugging the BMCU ..... So don't do that either.
 {.is-warning}
+
+> Update 5th May
+> In firmware versions :
+**01.08.00.00** for the **P series**
+**01.09.00.00 (20250429)** for the **X series**
+The **A-series** is not affected at the moment, according to Bambulab the adaptation programme for the newer AMS for the A-series is still a few months away.
+>
+>Bambulab has added support for the updated AMS model like AMS 2, which involved changes to the communication protocol between the AMS system and the printer. 
+>
+>As a result, BMCU currently does not function properly (e.g., unable to modify consumable settings). It is unclear how soon BMCU's author will respond to these changes. If you intend to keep your P/X printer updated with the latest firmware, we recommend not relying on BMCU at this time.
+{.is-danger}
 
 # Table of contents
 
