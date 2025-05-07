@@ -163,3 +163,13 @@ Missing
 - Base v0.8 - Two-piece base adapts to BMCU-B and BMCU-C:
 [Base](/assets/files/print_files/f3d/BMCU_base_v0.8.f3d)
 {.grid-list}
+
+
+# Printer firmware backups
+
+This section contains known working firmware versions for various Bambu Lab printers. These backups are provided for archival and reference purposes only.
+At present, there is no practical need to download or use them, but they are stored here in case Bambu Lab imposes stricter limitations in the future that could restrict third-party tools or modifications.
+
+- [P-series](/assets/files/download_center/printer_firmware_backup/p1-01.07.zip)
+- [A1](/assets/files/download_center/printer_firmware_backup/a1-01.04.zip)
+- [A1 mini](/assets/files/download_center/printer_firmware_backup/a1mini-01.04.zip)
