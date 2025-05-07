@@ -50,6 +50,9 @@ And you need a firmware to make the rejection behaviour longer so that the filam
 
 These firmwares are modified by XC `@星尘`
 
+### BMCU-B
+
+#### 3.14
 Externe 5 way:
 - [P1S_RetModified_BMCU370-3.14_15s_Ext5Way.rar](/assets/files/download_center/p_series/P1S_RetModified_BMCU370-3.14_15s_Ext5Way.rar)
 - [P1S_RetModified_BMCU370_3.14_14s_Ext5Way.rar](/assets/files/download_center/p_series/P1S_RetModified_BMCU370_3.14_14s_Ext5Way.rar)
@@ -57,6 +60,12 @@ Externe 5 way:
 Internal 5 way:
 - [P1S_RetModified_BMCU370_3.14_4s_Int5Way.rar](/assets/files/download_center/p_series/P1S_RetModified_BMCU370_3.14_4s_Int5Way.rar)
 - [P1S_RetModified_BMCU370_3.14_3.5s_Int5Way.rar](/assets/files/download_center/p_series/P1S_RetModified_BMCU370_3.14_3.5s_Int5Way.rar)
+
+### BMCU-C
+
+#### 4.24
+Internal 5 way:
+- [P_Hall_4_24_Int5Way.bin.zip](/assets/files/download_center/p_series/P_Hall_4_24_Int5Way.bin.zip)
 
 ## Using AMS + BMCU or 2\*BMCU
 
