@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-04-14T13:30:56.503Z
+date: 2025-05-07T00:11:52.784Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -11,6 +11,15 @@ dateCreated: 2025-01-28T14:08:05.158Z
 # PCB files
 
 ## Mainboard
+
+> Some users have reported that **new versions of the mainboard** may have issues, such as unexpected reboots or certain channels malfunctioning despite proper soldering.
+>
+>The developer is currently working on software-level fixes to address these problems.
+>
+>If you’d like to try the Hall sensor version, for now you can also try to use the **original version of the mainboard**  with the **Hall sensor sub-board**.
+{.is-warning}
+
+
 | Version                                    | PCB manufacturing files                                                                                                | Soldering aids                                                                                                           |
 | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Mainboard Original Version**             | [pcb_gerber_main_board_v0.4.zip](/assets/files/download_center/pcb_files/pcb_gerber_main_board_v0.4.zip)                                     | [soldering_aids_mainboard_v0.4.rar](/assets/files/download_center/pcb_files/soldering_aids_mainboard_v0.4.rar)                                       |

@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-04-15T13:20:14.491Z
+date: 2025-05-07T00:12:27.781Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -77,6 +77,14 @@ The difference is that the new version adds more protection to the circuits and 
 ![mainboard_origina_version.png](/assets/images/bmcu_branch/mainboard_origina_version.png =x300)
 
 #### With Enhanced Security Patch
+
+> Some users have reported that **new versions of the mainboard** may have issues, such as unexpected reboots or certain channels malfunctioning despite proper soldering.
+>
+>The developer is currently working on software-level fixes to address these problems.
+>
+>If you’d like to try the Hall sensor version, for now you can also try to use the **original version of the mainboard**  with the **Hall sensor sub-board**.
+{.is-warning}
+
 ![mainboard_enhanced_security_patch.png](/assets/images/bmcu_branch/mainboard_enhanced_security_patch.png =x300)
 
 ### Sub-board
