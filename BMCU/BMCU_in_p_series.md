@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-05T22:23:19.431Z
+date: 2025-05-08T21:03:39.483Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -64,8 +64,9 @@ Internal 5 way:
 ### BMCU-C
 
 #### 4.24
-Internal 5 way:
-- [P_Hall_4_24_Int5Way.bin.zip](/assets/files/download_center/p_series/P_Hall_4_24_Int5Way.bin.zip)
+Using internal 5 way:
+
+- [P_Hall_4_24_Int5Way.bin.zip](/assets/files/download_center/p_series/P_Hall_4_24_Int5Way.bin.zip) -  **Different springs required: `WD0.6 OD12 L30 mm` for buffer and `WD0.6 OD4 L15` for lever**
 
 ## Using AMS + BMCU or 2\*BMCU
 
