@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-04-30T10:41:54.304Z
+date: 2025-05-09T21:50:07.329Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -277,7 +277,6 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC-1  | MR85ZZ Bearing                      | 8        |                                             |
 | MEC-2  | BMG Gear Set                        | 4        |                                             |
 | MEC-3  | D5x22mm Shaft                       | 4        |                                             |
-| MEC-4  | D2x10mm Shaft                       | 8        | Better have >20                             |
 | MEC-5  | D2x20mm Shaft                     | 12       | Better have >20                             |
 | MEC-7  | 182A Gear                         | 12       | Updated to 12                               |
 | MEC-9  | 682A Worm Gear                      | 4        |                                             |
