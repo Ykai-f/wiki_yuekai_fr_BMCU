@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-08T21:03:39.483Z
+date: 2025-05-09T21:06:15.011Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -29,7 +29,7 @@ This page still in progress because I don't have all the information for BMCU on
 
 - **BMCU-A**: Not supported; no plans for future adaptation.
 - **BMCU-B**: Fully supported and running well on the P-Series.
-- **BMCU-C**: Currently not supported; adaptation planned for future updates.
+- **BMCU-C**: Testing.
 
 ## If using externe 5 way
 
