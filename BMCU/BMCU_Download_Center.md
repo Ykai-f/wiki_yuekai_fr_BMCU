@@ -13,10 +13,10 @@ dateCreated: 2025-01-28T14:08:05.158Z
 ## PCB project file
 Use EasyEDA to open .epro file
 
-| Version    | .epro     | Altium |
-| --- | ------- | ---------------- |
-| Original version | ------- | ---------------- |
-| Hall version | ------- | ---------------- |
+| Version          | .epro                                                                                  | Altium                                                                               |
+| ---------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Original version | ---                                                                                    | ---                                                                                  |
+| Hall version     | [PBMCU_C_Hall.epro](/assets/files/download_center/pcb_files/project/PBMCU_C_Hall.epro) | [PBMCU_C_Hall.zip](/assets/files/download_center/pcb_files/project/PBMCU_C_Hall.zip) |
 
 ## Mainboard
 
@@ -28,16 +28,16 @@ Use EasyEDA to open .epro file
 {.is-warning}
 
 
-| Version                                    | PCB manufacturing files                                                                                                | Soldering aids                                                                                                           |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Version                                    | PCB manufacturing files                                                                                                                      | Soldering aids                                                                                                                                       |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Mainboard Original Version**             | [pcb_gerber_main_board_v0.4.zip](/assets/files/download_center/pcb_files/pcb_gerber_main_board_v0.4.zip)                                     | [soldering_aids_mainboard_v0.4.rar](/assets/files/download_center/pcb_files/soldering_aids_mainboard_v0.4.rar)                                       |
 | **Mainboard with Enhanced Security Patch** | [pcb_gerber_mainboard_enhanced_security_patch.zip](/assets/files/download_center/pcb_files/pcb_gerber_mainboard_enhanced_security_patch.zip) | [soldering_aids_mainboard_enhanced_security_patch.rar](/assets/files/download_center/pcb_files/soldering_aids_mainboard_enhanced_security_patch.rar) |  |
 
 ## Extruder (sub-board)
 
-| version                 | PCB manufacturing files                                                                          | Soldering aids                                                                                           |
-| ----------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| **Original version**    | [pcb_gerber_sub_board_v2_2.zip](/assets/files/download_center/pcb_files/pcb_gerber_sub_board_v2_2.zip)                 | [soldering_aids_sub_board_original_version.rar](/assets/files/download_center/pcb_files/soldering_aids_sub_board_original_version.rar) |
+| version                 | PCB manufacturing files                                                                                | Soldering aids                                                                                                                         |
+| ----------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Original version**    | [pcb_gerber_sub_board_v2_2.zip](/assets/files/download_center/pcb_files/pcb_gerber_sub_board_v2_2.zip) | [soldering_aids_sub_board_original_version.rar](/assets/files/download_center/pcb_files/soldering_aids_sub_board_original_version.rar) |
 | **Hall sensor Version** | [pcb_gerber_sub_board_hall.zip](/assets/files/download_center/pcb_files/pcb_gerber_sub_board_hall.zip) | [soldering_aids_sub_board_hall.rar](/assets/files/download_center/pcb_files/soldering_aids_sub_board_hall.rar)                         |
 
 
@@ -66,13 +66,13 @@ also starting to support the P-Series recognising the BMCU as an AMS system.
 ## Firmware for BMCU-C
 Firmware from this version adapted to BMCU-C
 
-| Version | Firmware                                                                                                    | Note          | Src |
-| ------- | ----------------------------------------------------------------------------------------------------------- | ------------- | --- |
-| 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)   | test firmware |     |
-| ~~4.13~~    | ~~[bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar)~~ | ~~test firmware~~ |     |
-| 4.20    | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.rar) | test firmware |     |
-| 4.23.3    | [bmcu_c_firmware_4_23_3.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_23_3.rar) | test firmware |     |
-| 4.24    |  | test firmware |   [src-bmcu-c-4.24.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-c-4.24.zip)  |
+| Version  | Firmware                                                                                                        | Note              | Src                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------- |
+| 4.9      | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)       | test firmware     |                                                                                                   |
+| ~~4.13~~ | ~~[bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar)~~ | ~~test firmware~~ |                                                                                                   |
+| 4.20     | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.rar)     | test firmware     |                                                                                                   |
+| 4.23.3   | [bmcu_c_firmware_4_23_3.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_23_3.rar) | test firmware     |                                                                                                   |
+| 4.24     |                                                                                                                 | test firmware     | [src-bmcu-c-4.24.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-c-4.24.zip) |
 
 ### Changelog
 
