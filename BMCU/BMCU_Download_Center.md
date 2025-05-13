@@ -2,13 +2,21 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-05-07T00:11:52.784Z
+date: 2025-05-13T00:11:36.881Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
 ---
 
 # PCB files
+
+## PCB project file
+Use EasyEDA to open .epro file
+
+| Version    | .epro     | Altium |
+| --- | ------- | ---------------- |
+| Original version | ------- | ---------------- |
+| Hall version | ------- | ---------------- |
 
 ## Mainboard
 
