@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-04-28T20:14:01.753Z
+date: 2025-05-13T13:35:07.904Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -22,6 +22,10 @@ Then check for possible PCB issues, such as:
   
   
 Worst case scenario, the AMS connector board or printer motherboard is damaged. Or the 75176 chip on BMCU is damaged.
+  
+> You should not use the original AMS Lite 4Pin cable from Bambulab because the AMS Lite has the AB signals in the reverse order of the BMCU.
+{.is-warning}
+
 </details>
 
 
