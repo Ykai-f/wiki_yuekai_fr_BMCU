@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-05-18T01:01:33.034Z
+date: 2025-05-18T16:21:18.940Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -133,13 +133,11 @@ Click the **Download** button.
 Open the `WCHISPTool` software and set the following options:
 
 - **Chip Model:** `CH32V203`  
-- **Download Type:** `USB`  
+- **Download Type:** Still `Serial Port`  
 - **DI – Baud Rate:** `1M`  
 - **User File:** Choose the firmware `.bin` file (available from our wiki)  
+- Tick the "one-click download" box.
   
-> **Download Type:** `USB` - photo to update
-{.is-warning}
-
 ![bmcu_flash.png](/assets/images/bmcu_flashing/bmcu_flash.png =x500)
   
 ### Action sequence
