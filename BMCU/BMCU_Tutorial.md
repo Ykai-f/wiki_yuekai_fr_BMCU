@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-05-18T01:02:30.402Z
+date: 2025-05-18T01:02:39.725Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -18,8 +18,6 @@ dateCreated: 2025-02-25T12:56:58.306Z
 
 
 # BMCU Assembling
-
-Please see multiple tutorials as there are many versions of the BMCU.
 
 ## BMCU-C
 nothing here yet to be updated.
