@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-05-18T16:21:18.940Z
+date: 2025-05-18T16:22:00.227Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -136,7 +136,7 @@ Open the `WCHISPTool` software and set the following options:
 - **Download Type:** Still `Serial Port`  
 - **DI – Baud Rate:** `1M`  
 - **User File:** Choose the firmware `.bin` file (available from our wiki)  
-- Tick the "one-click download" box.
+- Tick the "Serial Auto DI" option.
   
 ![bmcu_flash.png](/assets/images/bmcu_flashing/bmcu_flash.png =x500)
   
