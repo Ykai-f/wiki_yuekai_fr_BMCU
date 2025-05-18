@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-05-18T01:00:15.091Z
+date: 2025-05-18T01:01:33.034Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -135,7 +135,6 @@ Open the `WCHISPTool` software and set the following options:
 - **Chip Model:** `CH32V203`  
 - **Download Type:** `USB`  
 - **DI – Baud Rate:** `1M`  
-- **SerialPort:** Auto-detected (your COM port)  
 - **User File:** Choose the firmware `.bin` file (available from our wiki)  
   
 > **Download Type:** `USB` - photo to update
@@ -145,7 +144,8 @@ Open the `WCHISPTool` software and set the following options:
   
 ### Action sequence
 
-  Click : Remove Protect -> Download -> Remove Protect
+  Click : `Remove Protect` -> `Download` -> `Remove Protect` Again -> `Download` Again
+  You might see some error messages during the first loop.
   
 # Testing  
 
