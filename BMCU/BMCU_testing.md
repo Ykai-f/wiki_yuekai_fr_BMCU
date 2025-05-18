@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-05-18T00:26:21.561Z
+date: 2025-05-18T00:59:51.689Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -15,7 +15,8 @@ dateCreated: 2025-02-25T12:11:39.883Z
 {.is-warning}
 
 > The status of the indicator is different in the ABC version, this page will be reset soon.
-{.is-info}
+{.is-danger}
+
 
 
 # PCB
