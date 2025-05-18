@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-05-16T08:08:36.842Z
+date: 2025-05-18T01:00:15.091Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -22,7 +22,6 @@ dateCreated: 2025-01-29T10:53:40.895Z
 🔥 **Before flashing, ensure there are no soldering issues!!!! Check for power short circuits!!!!** 🔥  
 🔥 **Before flashing, ensure there are no soldering issues!!!! Check for power short circuits!!!!** 🔥  
 
----
 
 ## **Required Tools**
 1. **Multiple Dupont Wires** (To connect the flasher and the BMCU mainboard).  
@@ -31,7 +30,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 4. **Software: WCHISPTool**  
 [wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
 
-## Step-by-Step Flashing Guide
+## For Mainboard with Serial Port 
 
 ### 1. **Connect the BMCU Mainboard and USB Serial Tool**
 
@@ -52,8 +51,6 @@ dateCreated: 2025-01-29T10:53:40.895Z
 > https://www.arduined.eu/ch340-windows-10-driver-download/#google_vignette
 {.is-danger}
 
-
----
 
 ### 2. **Connect the USB Serial Tool to Your PC**
 
@@ -125,8 +122,30 @@ Click the **Download** button.
 - Press the **R button** once.
 - The **red LED on the mainboard** should now light up.
 - 🎉 **Congratulations! Firmware flashing is complete!** 🎉
+  
+## For Mainboard with Type-C interface
+  
+### Open the software
+![1.png](/assets/images/bmcu_flashing/1.png)
+  
+### Configure WCHISPTool Settings
 
---- 
+Open the `WCHISPTool` software and set the following options:
+
+- **Chip Model:** `CH32V203`  
+- **Download Type:** `USB`  
+- **DI – Baud Rate:** `1M`  
+- **SerialPort:** Auto-detected (your COM port)  
+- **User File:** Choose the firmware `.bin` file (available from our wiki)  
+  
+> **Download Type:** `USB` - photo to update
+{.is-warning}
+
+![bmcu_flash.png](/assets/images/bmcu_flashing/bmcu_flash.png =x500)
+  
+### Action sequence
+
+  Click : Remove Protect -> Download -> Remove Protect
   
 # Testing  
 
