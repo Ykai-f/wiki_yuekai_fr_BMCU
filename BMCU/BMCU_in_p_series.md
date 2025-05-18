@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-09T21:06:15.011Z
+date: 2025-05-18T00:50:05.392Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -68,7 +68,7 @@ Using internal 5 way:
 
 - [P_Hall_4_24_Int5Way.bin.zip](/assets/files/download_center/p_series/P_Hall_4_24_Int5Way.bin.zip) -  **Different springs required: `WD0.6 OD12 L30 mm` for buffer and `WD0.6 OD4 L15` for lever**
 
-## Using AMS + BMCU or 2\*BMCU
+## Using AMS + BMCU or more than one BMCU
 
 ### AMS + BMCU
 
@@ -81,5 +81,5 @@ Since the BMCU only has one 4pin connector, you need to connect the AMS directly
 ### 2\*BMCU
 
 Please note that it is not possible to use two BMCUs directly on the P-Series.
-- **Software limitation**: You need to modify the firmware so that the two BMCUs get different addresses.
-- **Hardware limitations**：Not enough AMS interfaces
+
+Altertive : BMCU-Hub to connect 4 BMCUs-> to update
