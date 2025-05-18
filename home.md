@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-05-14T12:37:25.517Z
+date: 2025-05-18T01:27:29.374Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -61,8 +61,6 @@ The **A-series** is not affected at the moment, according to Bambulab the adapta
 
 
 # Content Sources & Acknowledgements
-> 📌 Source code for my wiki : https://github.com/Ykai-f/wiki_yuekai_fr_BMCU
-{.is-info}
 
 
 > **内容来源声明**
