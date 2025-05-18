@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-04-14T12:03:39.385Z
+date: 2025-05-18T00:26:21.561Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -13,6 +13,10 @@ dateCreated: 2025-02-25T12:11:39.883Z
 >
 > Do not hot-plug or unplug the connection cable between the BMCU and the printer while the printer is powered on.
 {.is-warning}
+
+> The status of the indicator is different in the ABC version, this page will be reset soon.
+{.is-info}
+
 
 # PCB
 If you build your own PCB, test it before connect to your computer or printer.
