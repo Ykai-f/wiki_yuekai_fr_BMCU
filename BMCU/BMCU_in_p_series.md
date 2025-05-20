@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-18T13:36:45.425Z
+date: 2025-05-20T22:21:00.398Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -69,6 +69,14 @@ Using internal 5 way:
 - [P_Hall_4_24_Int5Way.bin.zip](/assets/files/download_center/p_series/P_Hall_4_24_Int5Way.bin.zip) -  **Different springs required: `WD0.6 OD12 L30 mm` for buffer and `WD0.6 OD4 L15` for lever**
 
 ## Using AMS + BMCU or more than one BMCU
+
+> This is a theoretical assumption made by the developer and a few others. In reality, due to the less number of P-series users and even fewer who are interested in using AMS with BMCU—I have never received any feedback on this topic, especially regarding the connection of the BMCU to the AMS Hub and the conversion from a 4-pin to a 6-pin cable.
+>
+>I must warn you that attempting this is 100% at your own risk. I strongly advise against trying it without prior experience in electronics or circuit design.
+>
+> (Of course, if you do succeed, you're more than welcome to share your results with the community—it would help many others who are interested!)
+{.is-warning}
+
 
 ### AMS + BMCU
 
