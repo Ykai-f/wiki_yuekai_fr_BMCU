@@ -44,37 +44,38 @@ Use EasyEDA to open .epro file
 # Firmwares
 
 ## Firmwares for BMCU-A
-| Version | Firmware                                                                                                    | Note                          | Src |
-| ------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------- | --- |
-| V0.2    | [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)           | ⭐⭐⭐Recommended for **BMCU-A** |
-| 1.21.2  | [bmcu_firmware_1_21_2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_21_2.zip) |                               |
-| 1.26    | [bmcu_firmware_1_26.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_26.zip)     |                               |
+| Version  | Firmware                                                                                                    | Note                          | Src |
+| -------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------- | --- |
+| ⭐⭐⭐ V0.2 | [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)           | ⭐⭐⭐Recommended for **BMCU-A** |
+| 1.21.2   | [bmcu_firmware_1_21_2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_21_2.zip) |                               |
+| 1.26     | [bmcu_firmware_1_26.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_1_26.zip)     |                               |
 
 
 ## Firmwares for BMCU-B
 Firmware from this version onwards is adapted to the BMCU-B aka 370 version aka,
 also starting to support the P-Series recognising the BMCU as an AMS system. 
-| Version  | Firmware                                                                                                    | Note                                                          | Src                                                                                           |
-| -------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 2.06     | [bmcu_firmware_2_06.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_06.zip)     | For 370                                                       |
-| 2.22     | [bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip)     |                                                               |
-| ~~3.10~~ | [~~bmcu_firmware_3-10.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3-10.rar) | Deprecated                                                    | [src-bmcu-3-10.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-10.zip) |
-| ~~3.12~~ | [~~bmcu_firmware_3_12.rar~~](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_12.rar) | Deprecated                                                    |                                                                                               |
-| 3.14     | [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)     | ⭐⭐⭐Recommended for **BMCU-B** aka 370 version                 | [src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip) |
-| 3.31     | [bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_31.rar)     | Note from author :possible five-way top-out problem, untested |
+| Version | Firmware                                                                                                | Note                                          | Src                                                                                           |
+| ------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 2.06    | [bmcu_firmware_2_06.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_06.zip) | For 370                                       |
+| 2.22    | [bmcu_firmware_2_22.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_2_22.zip) |                                               |
+| ⭐⭐⭐3.14 | [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip) | ⭐⭐⭐Recommended for **BMCU-B** aka 370 version | [src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip) |
+| 3.31    | [bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_31.rar) |                                               |
 
 ## Firmware for BMCU-C
 Firmware from this version adapted to BMCU-C
 
-| Version  | Firmware                                                                                                        | Note              | Src                                                                                               |
-| -------- | --------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------- |
-| 4.9      | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)       | test firmware     |                                                                                                   |
-| ~~4.13~~ | ~~[bmcu_c_firmware_4_13.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_13.rar)~~ | ~~test firmware~~ |                                                                                                   |
-| 4.20     | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.rar)     | test firmware     |                                                                                                   |
-| 4.23.3   | [bmcu_c_firmware_4_23_3.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_23_3.rar) | test firmware     |                                                                                                   |
-| 4.24     |                                                                                                                 | test firmware     | [src-bmcu-c-4.24.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-c-4.24.zip) |
+| Version    | Firmware                                                                                                        | Note | Src                                                                                               |
+| ---------- | --------------------------------------------------------------------------------------------------------------- | ---- | ------------------------------------------------------------------------------------------------- |
+| 4.9        | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)       |      |                                                                                                   |
+| 4.20       | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.rar)     |      |                                                                                                   |
+| ⭐⭐⭐ 4.23.3 | [bmcu_c_firmware_4_23_3.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_23_3.rar) |      |                                                                                                   |
+| 4.24       |                                                                                                                 |      | [src-bmcu-c-4.24.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-c-4.24.zip) |
+| 0013       |                                                                                                                 |      | [src-BMCU-C-0013.zip](/assets/files/download_center/firmware_and_source_code/src-BMCU-C-0013.zip) |
 
 ### Changelog
+
+#### 0013
+Change Pid parametres
 
 #### V4.23.3
 Added P-Series support (still in beta)
