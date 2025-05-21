@@ -30,7 +30,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 4. **Software: WCHISPTool**  
 [wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
 
-## For Mainboard with Serial Port 
+## ForSerial Port 
 
 ### 1. **Connect the BMCU Mainboard and USB Serial Tool**
 
@@ -123,7 +123,7 @@ Click the **Download** button.
 - The **red LED on the mainboard** should now light up.
 - 🎉 **Congratulations! Firmware flashing is complete!** 🎉
   
-## For Mainboard with Type-C interface
+## For Type-C interface
   
 ### Open the software
 ![1.png](/assets/images/bmcu_flashing/1.png)
@@ -138,11 +138,11 @@ Open the `WCHISPTool` software and set the following options:
 - **User File:** Choose the firmware `.bin` file (available from our wiki)  
 - Tick the "Serial Auto DI" option.
   
-![bmcu_flash.png](/assets/images/bmcu_flashing/bmcu_flash.png =x500)
+![bmcu_flash_typec.png](/assets/images/bmcu_flashing/bmcu_flash_typec.png =x500)
   
 ### Action sequence
 
-  Click : `Remove Protect` -> `Download` -> `Remove Protect` Again -> `Download` Again
+  Click : `Remove Protect` -> `Download` -> `Remove Protect` Again -> `Download` Again -> Repeat this loop until done(normolly the second download will be successful, if not check if you done something wrong)
   You might see some error messages during the first loop.
   
 # Testing  
