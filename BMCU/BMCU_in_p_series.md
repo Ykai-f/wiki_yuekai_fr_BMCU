@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-22T11:55:35.278Z
+date: 2025-05-22T11:56:28.624Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -44,7 +44,7 @@ Under this default behavior, a rewinder is required to take up the slack, as the
 This also means that, provided you have a compatible rewinder setup, you are free to upgrade your BMCU to any firmware version.
 
 ## Without rewinder system
-For setups without a rewinder, a special firmware developed by @XC has been introduced. Unlike the original firmware which relies on filament detection (e.g., optical or steel ball sensors), this version uses a time-based retraction mechanism to define the unloading distance.
+For setups without a rewinder, a special firmware developed by `@XC` has been introduced. Unlike the original firmware which relies on filament detection (e.g., optical or steel ball sensors), this version uses a time-based retraction mechanism to define the unloading distance.
 
 This approach results in a **shorter** retraction distance.
 
