@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-22T11:40:38.554Z
+date: 2025-05-22T11:54:38.822Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -31,14 +31,35 @@ This page still in progress because I don't have all the information for BMCU on
 - **BMCU-B**: Fully supported and running well on the P-Series.
 - **BMCU-C**: Testing.
 
-## If using externe 5 way
+## Original BMCU firmware with P/X printer
+
+Starting from firmware version 2-6, the BMCU firmware is capable of identifying whether your printer belongs to the P/X series or A series. In the original firmware developed by `@4061N`, the logic for P/X series printers is as follows:
+
+- **Feeding**: Identical to the A series, no special handling.
+
+- **Unloading**: When unloading is triggered, the filament is retracted until the BMCU's filament detection mechanism (optical sensor or steel ball-based) no longer detects the filament. At that point, the unloading stops, the motor briefly reverses direction and feeds forward for 100ms to reinsert the filament slightly into the BMCU.
+
+Under this default behavior, a rewinder is required to take up the slack, as the filament will be pulled out by a significant length.
+
+This also means that, provided you have a compatible rewinder setup, you are free to upgrade your BMCU to any firmware version.
+
+## Without rewinder system
+For setups without a rewinder, a special firmware developed by @XC has been introduced. Unlike the original firmware which relies on filament detection (e.g., optical or steel ball sensors), this version uses a time-based retraction mechanism to define the unloading distance.
+
+This approach results in a **shorter** retraction distance.
+
+> Note: Previous documentation have inaccurately stated otherwise. In reality, the default behavior causes the filament to retract all the way until it exits the BMCU, whereas this modified firmware only retracts until it reaches the internal or external five-way connector.
+{.is-danger}
+
+
+## Using externe 5 way
 
 You will need a bambu 4-in-1 ptfe adapter or anything similar.
 ![4-in-1 adapter](/assets/images/p_series/4_in_1_adapter.png =x300)
 
 ![bmcu_p_ext_5way.png](/assets/images/p_series/bmcu_p_ext_5way.png =x300)
 
-## if using internal 5 way
+## Using internal 5 way
 
 ![internal 5 way 1](/assets/images/p_series/p1_int_5way_1.jpg =x300)
 ![internal 5 way 2](/assets/images/p_series/p1_int_5way_2.jpg =x300)
