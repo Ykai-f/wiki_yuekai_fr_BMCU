@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-05-25T15:42:39.052Z
+date: 2025-05-25T15:42:51.508Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -67,7 +67,7 @@ The **A-series** is not affected at the moment, according to Bambulab the adapta
 >本网站部分内容转载自作者的交流群，以及 BMCU WIKI 编辑部 其他成员的贡献内容。特此声明并向所有原作者及编辑部成员表示感谢。
 >📌 BMCU WIKI 编辑部中文网站: https://bmcu-cf.wanzii.cn
 >📌 BMCU WIKI 编辑部中文站点源码 (GitHub): https://github.com/xwzkj/bmcu-doc
->📌 BMCUz作者官方QQ交流群 ： 829433420
+>📌 BMCU 作者官方QQ交流群 ： 829433420
 {.is-info}
 
 > **Content Source Declaration**
