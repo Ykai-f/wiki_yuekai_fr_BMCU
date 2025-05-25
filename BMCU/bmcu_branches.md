@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-05-07T00:12:27.781Z
+date: 2025-05-25T15:29:14.299Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -26,8 +26,11 @@ The authors `@4061N` have renamed the version iterations of the BMCUs as follows
 - **BMCU-A** : Version with 130 motors and Photoelectric sensors.
 - **BMCU-B** : Version with 370 motors and Photoelectric sensors.
 - **BMCU-C** : Version with 370 motors and Hall sensors.
+- **BMCU-D** ：BMCU-A integrated with B1 rewind unit. (Updated 25/05/2025)
 
-Where all versions can use the same motherboard, the **BMCU-C** requires a newer sub-board that uses Hall sensors
+✅ The Mainboard can be used universally across all versions.
+⚠️ The **BMCU-C** requires a new sub-board with Hall sensor.
+⚠️ The **BMCU-D** will use the old sub-board (with two photoelectric sensors) and the B1 rewind unit motherboard.
 
 # Current branches of BMCUs
 
