@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-05-25T15:29:14.299Z
+date: 2025-05-25T15:41:36.396Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -50,8 +50,10 @@ BMCU
 │    └── Micro Button Version (Requires a completely different PCB)
 │
 ├── BMCU-C : 370 Motor/Hall Sensor
-│    └── On beta test, waiting for feedback.
+│    └── Been widly tested to verify its stability and is currently the most recommended version.
 │
+├── BMCU-D : BMCU-A integrated with B1 rewind unit. (Updated 25/05/2025)
+│    └── Very early alpha test.
 │
 └── CMCU in the future
 ```
