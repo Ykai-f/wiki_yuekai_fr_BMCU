@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-05-25T17:04:55.955Z
+date: 2025-05-25T17:06:41.718Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -47,8 +47,8 @@ dateCreated: 2025-01-29T10:53:40.895Z
   |---|---|
   |RX | TX|
   |TX | RX|
-  |+ | 3.3v|
-  |- ｜ GND|
+  | ➕ | 3.3v|
+  |  ➖｜ GND |
   
 >You may receive a yellow jumper cap, if it is similar to the converter on the right, no need to use it.
 > Connect 3.3V as VCC to the '+' pin on the BMCU mainboard.
