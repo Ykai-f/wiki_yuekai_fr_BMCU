@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-05-25T17:07:39.267Z
+date: 2025-05-26T09:04:43.627Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -21,7 +21,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 <span style="color:red">🔥 **Before flashing, ensure there are no soldering issues!!!! Check for power short circuits!!!!** 🔥  
 🔥 **Before flashing, ensure there are no soldering issues!!!! Check for power short circuits!!!!** 🔥  
 🔥 **Before flashing, ensure there are no soldering issues!!!! Check for power short circuits!!!!** 🔥  
-
+</span>
 
 ## **Required Tools**
 1. **Multiple Dupont Wires** (To connect the flasher and the BMCU mainboard).  
@@ -30,7 +30,7 @@ dateCreated: 2025-01-29T10:53:40.895Z
 4. **Software: WCHISPTool**  
 [wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
 
-## ForSerial Port 
+# ForSerial Port 
 
 ### 1. **Connect the BMCU Mainboard and USB Serial Tool**
 
@@ -132,7 +132,7 @@ Click the **Download** button.
 - The **red LED on the mainboard** should now light up.
 - 🎉 **Congratulations! Firmware flashing is complete!** 🎉
   
-## For Type-C interface
+# For Type-C interface
   
 ### Open the software
 ![1.png](/assets/images/bmcu_flashing/1.png)
