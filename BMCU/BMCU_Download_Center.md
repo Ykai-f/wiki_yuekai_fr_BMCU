@@ -51,14 +51,14 @@ Use EasyEDA to open .epro file
 <details>
   <summary>Click to view all releases</summary>
 
-## Firmwares for BMCU-A
+#### Firmwares for BMCU-A
 | Version | Firmware                                                                                          | Note                          | Src |
 | ------- | ------------------------------------------------------------------------------------------------- | ----------------------------- | --- |
 | V0.2    | [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip) | ⭐⭐⭐Recommended for **BMCU-A** |
 
 
 
-## Firmwares for BMCU-B
+#### Firmwares for BMCU-B
 Firmware from this version onwards is adapted to the BMCU-B aka 370 version aka,
 also starting to support the P-Series recognising the BMCU as an AMS system. 
 | Version | Firmware                                                                                                    | Note                                          | Src                                                                                           |
@@ -70,7 +70,7 @@ also starting to support the P-Series recognising the BMCU as an AMS system.
 | 3.14    | [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)     | ⭐⭐⭐Recommended for **BMCU-B** aka 370 version | [src-bmcu-3-14.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-3-14.zip) |
 | 3.31    | [bmcu_firmware_3_31.rar](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_31.rar)     |                                               |
 
-## Firmware for BMCU-C
+#### Firmware for BMCU-C
 Firmware from this version adapted to BMCU-C
 
 | Version | Firmware                                                                                                        | Note | Src                                                                                               |
