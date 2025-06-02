@@ -54,7 +54,7 @@ Use EasyEDA to open .epro file
 #### Firmwares for BMCU-A
 | Version | Firmware                                                                                          | Note                          | Src |
 | ------- | ------------------------------------------------------------------------------------------------- | ----------------------------- | --- |
-| V0.2    | [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip) | ⭐⭐⭐Recommended for **BMCU-A** |
+| V0.2    | [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip) | ⭐⭐⭐Recommended for **BMCU-A** |[src-bmcu-0-2.zip](/assets/files/download_center/firmware_and_source_code/src-bmcu-0-2.zip)|
 
 
 
