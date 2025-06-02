@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-06-02T11:25:30.836Z
+date: 2025-06-02T11:40:19.611Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -15,9 +15,6 @@ Reddit : [u/Ok_Design6972](https://www.reddit.com/user/Ok_Design6972/)
 By mail : contact@yuekai.fr
 I also recommend asking your question directly in the Reddit forums to get responses from other enthusiasts: https://www.reddit.com/r/BMCU/.
 
-> Please never hot-plug the cable between the BMCU and the printer, I have already fried my BMCU and printer 🥶. More details on : [BMCU-accident-hot-swapping](/BMCU/BMCU-accident-hot-swapping)
-> 15/04/2025 A Chinese dude burned out his AMSL when connecting AMSL and BMCU at the same time and hotplugging the BMCU ..... So don't do that either.
-{.is-warning}
 
 > Update 5th May
 > In firmware versions :
