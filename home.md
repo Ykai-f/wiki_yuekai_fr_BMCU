@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-05-25T15:55:52.765Z
+date: 2025-06-02T11:25:30.836Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -38,7 +38,6 @@ The **A-series** is not affected at the moment, according to Bambulab the adapta
 
 ### Introduction
 - [📖 What's BMCU](/BMCU)
-- [❓ FAQ](/BMCU/faq)
 - [🅿️ BMCU in P/X series](/BMCU/BMCU_in_p_series)
 {.links-list}
 
