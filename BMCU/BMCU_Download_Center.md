@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-06-04T11:31:32.634Z
+date: 2025-06-04T23:15:43.013Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -216,9 +216,17 @@ Missing
 
 ## Base
 
+130 similar to 370
+
 - Base v0.8 - Two-piece base adapts to BMCU-B and BMCU-C:
 [Base](/assets/files/print_files/f3d/BMCU_base_v0.8.f3d)
 {.grid-list}
+
+## Bracket
+
+todo
+
+https://makerworld.com.cn/models/1173680
 
 
 # Printer firmware backups
