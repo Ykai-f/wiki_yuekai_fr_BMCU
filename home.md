@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-06-04T07:34:15.329Z
+date: 2025-06-04T07:34:45.676Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -19,7 +19,7 @@ I also recommend asking your question directly in the Reddit forums to get respo
 >Update 4th June : 
 >📢 Firmware Update Notice –**A Series** - **01.05.00.00**
 >✅ This update does not affect the functionality of BMCU. You can safely update your printer without concerns regarding BMCU compatibility.
->⚠️ However, this firmware does impact third-party integrations such as Oracle Slicer and Home Assistant.
+>⚠️ However, this firmware does impact third-party integrations such as Orca Slicer and Home Assistant.
 {.is-success}
 
 
