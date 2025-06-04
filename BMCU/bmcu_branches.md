@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-05-25T15:41:36.396Z
+date: 2025-06-04T21:40:04.861Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -145,6 +145,10 @@ The Hall version is an upgrade from the steel ball version of the BMCU-B, retain
 This improvement was made to address the problem of five way being poped out that could occur with the original BMCU-B version.
 
 Currently BMCU-C is on test.
+
+# BMCU-D
+todo 
+https://makerworld.com/zh/models/1447789-bmcu-d-version-130#profileId-1507821
 
 
 # Should I get a BMCU-A or BMCU-B?
