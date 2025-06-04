@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-06-02T11:40:19.611Z
+date: 2025-06-04T07:34:15.329Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -14,6 +14,13 @@ You can contact me by
 Reddit : [u/Ok_Design6972](https://www.reddit.com/user/Ok_Design6972/)
 By mail : contact@yuekai.fr
 I also recommend asking your question directly in the Reddit forums to get responses from other enthusiasts: https://www.reddit.com/r/BMCU/.
+
+
+>Update 4th June : 
+>📢 Firmware Update Notice –**A Series** - **01.05.00.00**
+>✅ This update does not affect the functionality of BMCU. You can safely update your printer without concerns regarding BMCU compatibility.
+>⚠️ However, this firmware does impact third-party integrations such as Oracle Slicer and Home Assistant.
+{.is-success}
 
 
 > Update 5th May
