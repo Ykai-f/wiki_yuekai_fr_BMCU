@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-05-26T09:04:43.627Z
+date: 2025-06-05T22:49:33.392Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -28,7 +28,10 @@ dateCreated: 2025-01-29T10:53:40.895Z
 2. **USB to Serial Adapter** 
 3. **Computer** runs windows.  -> If you're using a Mac/Linux, flashing is possible, but I don't have any tutorials or resources for mac.
 4. **Software: WCHISPTool**  
-[wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
+The classic version used in this tutoriel : [wchisptool-v3.3.7z](/assets/files/wchisptool-v3.3.7z)
+A newer version : [download at WCH website](https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html)
+
+
 
 # ForSerial Port 
 
