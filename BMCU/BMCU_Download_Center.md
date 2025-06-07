@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-06-04T23:15:43.013Z
+date: 2025-06-07T14:07:39.087Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -26,6 +26,9 @@ Use EasyEDA to open .epro file
 >
 >If you’d like to try the Hall sensor version, for now you can also try to use the **original version of the mainboard**  with the **Hall sensor sub-board**.
 {.is-warning}
+
+> We have initially identified the source of the instability problem with the new version of the motherboard, we recommend not installing the SS54 diode at position D4, you can short it directly
+{.is-danger}
 
 
 | Version                                    | PCB manufacturing files                                                                                                                      | Soldering aids                                                                                                                                       |
