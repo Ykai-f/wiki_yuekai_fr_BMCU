@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-06-04T09:23:04.434Z
+date: 2025-06-13T12:31:35.319Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -85,4 +85,16 @@ I also recommend asking your question directly in the Reddit forums to get respo
 Special thanks to all the members of the WIKI editorial team and the authors!
 `@4061N`，`@括号`，`@苹果香蕉泥`，`@丸子`，`@高性能萝卜子`，`@星尘`，`@2333`，`@青铜扳子`，`@白小淘`，`@Carlos`，`@David`，`@独来独往独自言`，`@二月 喵～`，`@HC`，`@憨批`，`@花雨烟然、繁华乱了`，`@1064 aka 曼波 aka 朱孔明 aka 袁大头`，`@PULLUP ᕕ(◠ڼ◠)ᕗᯤ⁶ᴳ`，`@十`，`@神棍`，`@我是懒大王`，`@星玲可`，`@晓心乐子人`，`@心已死`，`@言`，`@知悟`，`@ `，`@。。。`，`@少年谈情不说爱`，`@.`
 
-<div id="commento"></div>
+# To do list for the updates
+
+- Hall version tutorials
+- BMCU videos
+- BMCU Hub for multiple BMCU
+- BMCU D info
+- update version branch info
+- troubleshooting rebuild
+- test rebuild
+- flashing -> linux and macos info
+- troubleshooting hall version -> squeezes / Mouse sounds
+- all versions -> update on motor fixiation
+- aliexpress list for parts -> note for gears !
