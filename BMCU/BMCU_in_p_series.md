@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-05-22T12:17:38.140Z
+date: 2025-06-16T08:47:30.722Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -98,6 +98,11 @@ Using internal 5 way:
 
 
 ### AMS + BMCU
+
+> Update 16th June -> Not working AMS + BMCU after test -> software,
+> to update
+{.is-danger}
+
 
 The principle of the BMCU is to directly simulate the AMS device to communicate with the printer, it is possible to use AMS + BMCU on the P-Series, (I can't say for sure for newer devices like AMS 2)
 
