@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-06-17T20:32:09.659Z
+date: 2025-06-17T20:33:06.473Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -326,9 +326,10 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC_17 | 1.5mm optical fiber                 | 20cm       | or transparant PETG filament                                   |
 | MEC_18 | N35 3*20mm cylindrical magnet       | 8        | You can also buy two 3*10 sucked together for future use with CMCUs |                                
 | MEC_19 | M3*14 machine screw     | 4        |                                                            |
-| MEC_20 | M3 hex nut                          | 4        |                                                            |
-| MEC_21 | MX3.0-4P mirrored cable             | 1        |                                                            |
-| MEC_22 | PH2.0 10pin cable 80mm             | 4        |   80mm                                                          |
+  | MEC_20 | M3*14 counter strike screw     | 2        |     For the bracket                                                       |
+| MEC_21 | M3 hex nut                          | 4        |                                                            |
+| MEC_22 | MX3.0-4P mirrored cable             | 1        |                                                            |
+| MEC_23 | PH2.0 10pin cable 80mm             | 4        |   80mm                                                          |
 
 </details>
 
