@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-06-17T14:12:34.210Z
+date: 2025-06-17T14:14:37.462Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -25,27 +25,29 @@ dateCreated: 2025-02-25T12:56:58.306Z
 
 ## BMCU-B
 
-- [📝370 steel ball version edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
-- [📝370 mircoswitch edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
+- [📝BMCU-B v3.14 edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
+- [📝370X edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
 {.links-list}
 
 🎬An amazing assembleing video for the 370 steel ball version made by `@Lukas`!
 - https://www.youtube.com/watch?v=sP-fDCnXkro
 
-## Outdated version
-<details>
+## Obsolete version
 
+We no longer recommend that you assemble or print these obsolete versions, except for specific reasons.
+
+<details>
 <summary>Click here to expend</summary>
 
 ### BMCU-B
-- [OUTDATED - 📝370 version v2.5 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
+- [Obsolete - 📝370 version v2.5 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
 {.links-list}
 ## BMCU-A:130 and 180
 
 ### BMCU-A
-- [OUTDATED - 📝130 version edited by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
-- [OUTDATED - 📝130 version edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
-- [OUTDATED - 📝180 version edited by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
+- [Obsolete - 📝130 version edited by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
+- [Obsolete - 📝130 version edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
+- [Obsolete - 📝180 version edited by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
 {.links-list}
 
 </details>
