@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-06-17T20:33:51.019Z
+date: 2025-06-17T20:34:35.895Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -18,7 +18,7 @@ Just in case there are times when some common components are not recorded in the
 
 | No.    | Name                  | Quantity | Note |
 | ------ | --------------------- |  -------- |----|
-| COM_1  | PH2.0 10pin cable 80mm  | 4        |Recommended 1\*100mm+3\*80mm |
+| COM_1  | PH2.0 10pin cable 80mm  | 4        |Recommended 80mm |
 | COM_2  | MX3.0-4P Mirrored Cable   | 1        | |
 | COM_3  | Radial magnets 6\*2.5mm   | 4        | You can also use smaller ones such as 5\*2.5mm.|
 | COM_4  | Lubricating grease   | 1        |**DO NOT use liquid oil-based lubricants**. |
