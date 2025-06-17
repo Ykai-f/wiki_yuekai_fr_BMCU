@@ -8,6 +8,9 @@ editor: markdown
 dateCreated: 2025-03-19T10:14:24.946Z
 ---
 
+> This version of BMCU is outdated. It is not recommended to assemble this version without special reasons.
+{.is-warning}
+
 # Preamble
 The tutorials on this page are adapted to the following models posted on my makerworkd. 
 
