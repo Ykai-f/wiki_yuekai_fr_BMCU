@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-06-17T20:33:06.473Z
+date: 2025-06-17T20:33:51.019Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -320,7 +320,7 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC_11 | PC4 pneumatic fitting 6mm           | 4        | Or 8 if you want to install both side                               |
 | MEC_12 | 5MM stainless steel balls           | 4        |                                                            |
 | MEC_13 | Spring 0.3\*4\*5mm - W0.3 OD4 L5 mm   | 4        | For steel ball                                                  |
-| MEC_14 | Spring 0.6\*4x10mm - W0.6 OD4 L10 mm                | 4        | For lever，in case insufficient pressure, replace by W0.6 OD4 L15 mm                                                  |
+| MEC_14 | Spring 0.6\*4x10mm - W0.6 OD4 L10 mm                | 4        | For lever，in case insufficient pressure and for P series, replace by W0.6 OD4 L15 mm                                                  |
 | MEC_15 | Spring 0.7\*12\*25mm - 	W0.7 OD12 L25 mm                 | 8        | For buffer，in case insufficient pressure, replace by D0.8           |
 | MEC_16 | M2*8 countersunk self-tapping screw | 51       |                                                            |
 | MEC_17 | 1.5mm optical fiber                 | 20cm       | or transparant PETG filament                                   |
