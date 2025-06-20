@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-06-16T10:37:53.220Z
+date: 2025-06-20T23:12:51.700Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -81,8 +81,8 @@ Firmware from this version adapted to BMCU-C
 | 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)       |      |                                                                                                   |
 | 4.20    | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.zip)     |      |                                                                                                   |
 | 4.23.3  | [bmcu_c_firmware_4_23_3.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_23_3.rar) |      |                                                                                                   |
-| 4.24    |                                                                                                                 |      | [not available](/assets/files/download_center/firmware_and_source_code/src-bmcu-c-4.24.zip) |
-| 0013    | [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip)     |      | [not available](/assets/files/download_center/firmware_and_source_code/src-BMCU-C-0013.zip) |
+| 4.24    |                                                                                                                 |      | [not available](/assets/files/download_center/firmware_and_source_code/000.zip) |
+| 0013    | [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip)     |      | [not available](/assets/files/download_center/firmware_and_source_code/000.zip) |
 
 </details>
 
