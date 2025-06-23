@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-06-17T14:14:37.462Z
+date: 2025-06-23T10:58:03.189Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -20,7 +20,7 @@ dateCreated: 2025-02-25T12:56:58.306Z
 # BMCU Assembling
 
 ## BMCU-C
-- [BMCU_Assembling_370_Hall](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_Hall)
+- [BMCU-C Hall version v0.2](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_Hall)
 {.links-list}
 
 ## BMCU-B
