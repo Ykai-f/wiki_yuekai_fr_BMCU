@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:27:27.717Z
+date: 2025-06-25T14:30:37.860Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -68,6 +68,14 @@ Try switching to another USB port or temporarily disabling port protection if yo
   <summary>Click to expend</summary>
   Solution:
   https://wiki.yuekai.fr/BMCU/BMCU_Tutorial/BMCU_Flashing#h-5-flash-the-firmware
+</details>
+
+
+### Abnormal Indicator Light Behavior
+
+<details>
+  <summary>Click to expend</summary>
+  Check Lighting content on the [BMCU_testing](/BMCU/BMCU_testing) page.
 </details>
 
 
@@ -234,17 +242,6 @@ This issue has been reported by some users, while others have not experienced it
 
 
 
-
-
-### Abnormal Indicator Light Behavior When Cover is Not Installed
-
-<details>
-  <summary>Click to expend</summary>
-  Solution:
-  - Incorrect PH2.0 wiring, requires reversed 10-pin 80mm cable.
-  - Check for loose socket connections.
-  - Short circuits on the secondary board (e.g., resistor/capacitor bridging).  
-</details>
 
 
 ### AMS Lite Hub / 5-way pop up
