@@ -2,13 +2,13 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-05-13T13:35:07.904Z
+date: 2025-06-25T14:00:44.781Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
 ---
 
-### 1️⃣ Printer Cannot Recognize AMS, or Main Board Shows Red Light 🚨
+### Printer Cannot Recognize AMS, or Main Board Shows Red Light 🚨
 
 <details>
   <summary>Click to expend</summary>
@@ -29,7 +29,7 @@ Worst case scenario, the AMS connector board or printer motherboard is damaged. 
 </details>
 
 
-### 2️⃣ No Material Inserted, but System Shows Material Present (Or filament led keeps on) 📏
+### No Material Inserted, but System Shows Material Present (Or filament led keeps on) 📏
 <details>
   <summary>Click to expand</summary>
 
@@ -96,7 +96,7 @@ This setup will ensure that when the primary spool is depleted, the system can d
 
 
 
-### 3️⃣ Material Feeds In and Then Retreats, Unable to Continue Feeding
+### Material Feeds In and Then Retreats, Unable to Continue Feeding
 
 <details>
   <summary>Click to expend</summary>
@@ -113,7 +113,7 @@ This setup will ensure that when the primary spool is depleted, the system can d
 </details>
 
 
-### 4️⃣ Device Manager Cannot Detect MainBoard or Downloader (USB to TTL) 
+### Device Manager Cannot Detect MainBoard or Downloader (USB to TTL) 
 
 <details>
   <summary>Click to expend</summary>
@@ -145,7 +145,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-### 5️⃣ Firmware Update Failed, PC Recognizes Device but Cannot Unlock or Flash Firmware
+### Firmware Update Failed, PC Recognizes Device but Cannot Unlock or Flash Firmware
 
 <details>
   <summary>Click to expend</summary>
@@ -154,7 +154,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-### 6️⃣ Feeder Motor Spins but Doesn't Feed Material Properly
+### Feeder Motor Spins but Doesn't Feed Material Properly
 
 <details>
   <summary>Click to expend</summary>
@@ -164,18 +164,44 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-### 7️⃣ Feeder Makes Loud Noise
+### Noise during feeding in particular BMCU-C
 
 <details>
   <summary>Click to expend</summary>
-  Solution:
+  
+  **For all the version：**
   - Check if screws are pressing against the motor shaft, causing friction.
   - Noise during feeding may be due to gear skipping, which is unavoidable.
   - Apply lubricant to reduce noise from misaligned gears.  
+  
+  **For BMCU-C :**
+We have observed that the Hall version is more prone to generating unexpected noise during the final stage of the feeding process. This typically manifests as follows:
+
+- After the filament has been successfully inserted into the printer's tool head, the BMCU continues the feeding action for approximately 0.5 seconds, causing noticeably louder gear noise.
+- During this phase, you may also notice that the buffer does not pop up, or does so with difficulty.
+  
+  **Root Cause**
+  The root cause of this issue is insufficient force to allow the buffer to pop up in time, which leads to the printer receiving the buffer arrival signal too late. Contributing factors include:
+
+1. Inadequate tension from the lever spring
+1. PTFE tube being too short, preventing the buffer from fully ejecting
+1. Excessive bending angle of the PTFE tube, causing increased friction between the buffer and the BMCU housing
+1. Potential firmware-related issues
+
+**Recommended Solutions:**
+1. Replace the latch spring – The originally recommended 0.6×4×10 spring is now considered too weak. We recommend replacing it with a 0.6×4×15 spring for stronger rebound force.
+1. Reposition the PTFE tube – Ensure the tube is of appropriate length and angle to reduce friction and allow proper buffer movement.
+1. Update to the latest 0013-Plus-Color-Noise-Heat-Improve firmware – This firmware reduces motor gripping force during the feeding process.
+
+**Final Notes:**
+This issue has been reported by some users, while others have not experienced it. The root causes appear to be multifactorial and may vary between setups. Further improvements to this component may be made in future updates.
+
+
 </details>
 
 
-### 8️⃣ Waste Material Inserted, Indicator Light On, but Printer Doesn't Detect It
+
+### Waste Material Inserted, Indicator Light On, but Printer Doesn't Detect It
 
 <details>
   <summary>Click to expend</summary>
@@ -186,7 +212,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-### 9️⃣ Abnormal Indicator Light Behavior When Cover is Not Installed
+### Abnormal Indicator Light Behavior When Cover is Not Installed
 
 <details>
   <summary>Click to expend</summary>
@@ -197,7 +223,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-### 🔟 AMS Lite Hub / 5-way pop up
+### AMS Lite Hub / 5-way pop up
 
 ![5_way_pop_up.gif](/assets/images/gif/5way_pop_up.gif =x300)
 
@@ -219,7 +245,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-###  1️⃣1️⃣ Slicing Software Issues
+### Slicing Software Issues
 <details>
   <summary>Click to expend</summary>
   
@@ -240,7 +266,7 @@ It affects both Windows and Mac versions:
 - Alternatively, using **Oracle Slicer** is another effective solution to avoid these problems.
 </details>
 
-### 1️⃣2️⃣ Single PTFE Tube Being Pulled Out
+### Single PTFE Tube Being Pulled Out
 <details>
   <summary>Click to expend</summary>
   
