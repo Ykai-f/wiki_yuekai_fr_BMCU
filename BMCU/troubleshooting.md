@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:03:02.011Z
+date: 2025-06-25T14:21:02.197Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -157,10 +157,15 @@ Try switching to another USB port or temporarily disabling port protection if yo
 ### Feeder Motor Spins but Doesn't Feed Material Properly
 
 <details>
-  <summary>Click to expend</summary>
-  Solution:
+  **For BMCU-A**:
+  
   - Triangular gear may be too tight, preventing engagement.
   - Precision errors in external parts may cause jamming.  
+  
+  **For BMCU-B/C:**
+  - The worm gear and the 182A gear may be worn, and you will have to replace the worm and gear.
+	- The worm may not mesh properly with the gear. This is more likely to happen with the BMCU-C. In the early version of the BMCU-C model v0.2, the motor was located too far away from the gear set, making it very likely that the worm did not mesh properly with the gear. In this case, re-seat the motor and manually push it towards the gear while it is being fixed.
+  
 </details>
 
 
