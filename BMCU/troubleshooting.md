@@ -2,13 +2,14 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:47:24.056Z
+date: 2025-06-25T15:02:54.075Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
 ---
 
 # PCB - Flashing - Connection
+
 
 
 
@@ -80,6 +81,39 @@ Try switching to another USB port or temporarily disabling port protection if yo
   Check Lighting content on this page : https://wiki.yuekai.fr/en/BMCU/BMCU_testing
 </details>
 
+
+### The motherboard suddenly stops working
+
+<details>
+  <summary>Click to expend</summary>
+  We have observed in practice that frequent short circuits or sudden disconnection and damage of the mainboard during operation may be related to the diode located at position D4 on the board. The following insight is provided by @Kongming:
+
+The new version of the board introduces a current protection mechanism. When a connection issue or a minor short circuit occurs between the BMCU and the printer, this mechanism protects the printer's interface by redirecting the potential damage to the BMCU board instead. Since the BMCU costs less than 30 units, this tradeoff is generally acceptable.
+
+However, this design also increases the risk of the power module on the new board being damaged by short circuits, which can result in the board suddenly failing—e.g., no lights or printer connection during normal use.
+
+**🔧 Recommended Solution:**
+Remove the diode at position D4 on the new board and short the pads using solder or a piece of copper wire, effectively bypassing the protection feature.
+This modification eliminates the current protection but should not raise concern about printer port damage, as such failures are extremely rare.
+
+**⚠️ Important Precautions:**
+Once the diode is removed (i.e., protection disabled), please strictly avoid the following:
+- Hot-plugging the BMCU while the printer is powered on — although not every instance leads to failure, hot-plugging always carries a risk of damaging both the BMCU and the printer's motherboard.
+- Moving the toolhead when the printer is powered off while the BMCU is connected — this can generate reverse current that may damage the BMCU board.
+</details>
+
+
+### The motherboard reboot during the prining
+<details>
+  <summary>Click to expend</summary>
+  
+  Some users have reported that the BMCU may restart unexpectedly during printing. Unlike the previously mentioned cases where the board is permanently damaged, this issue only results in a reboot. However, after restarting, the BMCU does not automatically resume operation—the buffer is no longer triggered, which significantly increases pressure on the filament and may lead to print failure.
+
+This issue is currently suspected to be related to the BMCU firmware, but its occurrence appears to be limited, and the exact cause remains unclear.
+
+**No known solution at this time. 😞**
+  
+</details>
 
 # Filament movement / Motor / Noise
 
