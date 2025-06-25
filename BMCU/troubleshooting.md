@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T15:02:54.075Z
+date: 2025-06-25T21:05:18.268Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -82,13 +82,13 @@ Try switching to another USB port or temporarily disabling port protection if yo
 </details>
 
 
-### The motherboard suddenly stops working
+### The motherboard suddenly stops working anymore
 
 <details>
   <summary>Click to expend</summary>
   We have observed in practice that frequent short circuits or sudden disconnection and damage of the mainboard during operation may be related to the diode located at position D4 on the board. The following insight is provided by @Kongming:
 
-The new version of the board introduces a current protection mechanism. When a connection issue or a minor short circuit occurs between the BMCU and the printer, this mechanism protects the printer's interface by redirecting the potential damage to the BMCU board instead. Since the BMCU costs less than 30 units, this tradeoff is generally acceptable.
+The new version of the board introduces a current protection mechanism. When a connection issue or a minor short circuit occurs between the BMCU and the printer, this mechanism protects the printer's interface by redirecting the potential damage to the BMCU board instead. Since the mainboard is relativly cheaper, this tradeoff is generally acceptable.
 
 However, this design also increases the risk of the power module on the new board being damaged by short circuits, which can result in the board suddenly failing—e.g., no lights or printer connection during normal use.
 
