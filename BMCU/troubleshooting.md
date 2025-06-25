@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:01:28.165Z
+date: 2025-06-25T14:02:11.907Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -192,7 +192,7 @@ We have observed that the Hall version is more prone to generating unexpected no
 
 **Recommended Solutions:**
   
-1. Replace the latch spring – The originally recommended 0.6×4×10 spring is now considered too weak. We recommend replacing it with a 0.6×4×15 spring for stronger rebound force.
+1. Replace the lever spring – The originally recommended 0.6×4×10 spring is now considered too weak. We recommend replacing it with a 0.6×4×15 spring for stronger rebound force.
 1. Reposition the PTFE tube – Ensure the tube is of appropriate length and angle to reduce friction and allow proper buffer movement.
 1. Update to the latest 0013-Plus-Color-Noise-Heat-Improve firmware – This firmware reduces motor gripping force during the feeding process.
 
