@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:46:48.183Z
+date: 2025-06-25T14:47:24.056Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -244,6 +244,9 @@ This issue has been reported by some users, while others have not experienced it
 
 
 
+# Other
+
+
 
 
 ### AMS Lite Hub / 5-way pop up
@@ -279,9 +282,6 @@ Some users reported that a **single PTFE tube** was pulled out, instead of the e
 - Ensure that the **metal clip** of the **AMS Lite Hub** properly secures the PTFE tube.
 - One user, **David**, reported frequent occurrences on a specific filament channel. After disabling the `Long Retraction During Cut` option, he observed significant improvement for that filament channel.
 </details>
-
-
-# Other
 
 ### Slicing Software Issues
 <details>
