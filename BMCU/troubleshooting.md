@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:02:11.907Z
+date: 2025-06-25T14:03:02.011Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -178,7 +178,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
   
 We have observed that the Hall version is more prone to generating unexpected noise during the final stage of the feeding process. This typically manifests as follows:
 
-- After the filament has been successfully inserted into the printer's tool head, the BMCU continues the feeding action for approximately 0.5 seconds, causing noticeably louder gear noise.
+- After the filament has been successfully inserted into the printer's tool head, the BMCU continues the feeding action for approximately 0.5 seconds, causing noticeably louder gear noise. The noise is from the BMG gear in the lever.
 - During this phase, you may also notice that the buffer does not pop up, or does so with difficulty.
   
 **Root Cause**
