@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:00:44.781Z
+date: 2025-06-25T14:01:28.165Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -174,13 +174,15 @@ Try switching to another USB port or temporarily disabling port protection if yo
   - Noise during feeding may be due to gear skipping, which is unavoidable.
   - Apply lubricant to reduce noise from misaligned gears.  
   
-  **For BMCU-C :**
+**For BMCU-C :**
+  
 We have observed that the Hall version is more prone to generating unexpected noise during the final stage of the feeding process. This typically manifests as follows:
 
 - After the filament has been successfully inserted into the printer's tool head, the BMCU continues the feeding action for approximately 0.5 seconds, causing noticeably louder gear noise.
 - During this phase, you may also notice that the buffer does not pop up, or does so with difficulty.
   
-  **Root Cause**
+**Root Cause**
+  
   The root cause of this issue is insufficient force to allow the buffer to pop up in time, which leads to the printer receiving the buffer arrival signal too late. Contributing factors include:
 
 1. Inadequate tension from the lever spring
@@ -189,11 +191,13 @@ We have observed that the Hall version is more prone to generating unexpected no
 1. Potential firmware-related issues
 
 **Recommended Solutions:**
+  
 1. Replace the latch spring – The originally recommended 0.6×4×10 spring is now considered too weak. We recommend replacing it with a 0.6×4×15 spring for stronger rebound force.
 1. Reposition the PTFE tube – Ensure the tube is of appropriate length and angle to reduce friction and allow proper buffer movement.
 1. Update to the latest 0013-Plus-Color-Noise-Heat-Improve firmware – This firmware reduces motor gripping force during the feeding process.
 
 **Final Notes:**
+  
 This issue has been reported by some users, while others have not experienced it. The root causes appear to be multifactorial and may vary between setups. Further improvements to this component may be made in future updates.
 
 
