@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T21:05:18.268Z
+date: 2025-06-25T21:06:44.812Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -18,7 +18,8 @@ dateCreated: 2025-02-25T12:08:58.045Z
 <details>
   <summary>Click to expend</summary>
 After connecting to the printer the motherboard shows a red light meaning that the BMCU and printer communication is NOT established, however power is successfully supplied to the BMCU.
-If you make your own molex 4 pin cable, check first if the AB wire sequence is wrong.
+
+If you are not sure about the wire sequence of your cable, check first if the AB wire sequence is wrong.
 
 Then check for possible PCB issues, such as:
 - Loose solder joints on components
