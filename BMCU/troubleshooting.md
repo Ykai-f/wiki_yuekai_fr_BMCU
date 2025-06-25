@@ -2,13 +2,15 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:44:50.961Z
+date: 2025-06-25T14:46:26.068Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
 ---
 
 # PCB - Flashing - Connection
+
+
 
 ### Printer Cannot Recognize AMS, or Main Board Shows Red Light 🚨
 
@@ -75,7 +77,7 @@ Try switching to another USB port or temporarily disabling port protection if yo
 
 <details>
   <summary>Click to expend</summary>
-  Check Lighting content on the [BMCU_testing](/BMCU/BMCU_testing) page.
+  Check Lighting content on this page : https://wiki.yuekai.fr/en/BMCU/BMCU_testing
 </details>
 
 
