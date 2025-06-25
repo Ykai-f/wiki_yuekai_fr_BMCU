@@ -1,3 +1,13 @@
+---
+title: BMCU_Assembling_370_Hall
+description: 
+published: true
+date: 2025-06-23T11:03:05.958Z
+tags: 
+editor: markdown
+dateCreated: 2025-06-17T13:28:36.330Z
+---
+
 Still todo
 
 # BMCU-C (370 Hall Version) Assembly Guide
@@ -11,10 +21,13 @@ This guide is written for BMCU-C v0.2 channel component assembly.
 
 Integration package for this tutorial: Coming soon, please check group files
 
-- A fully soldered BMCU `Hall version` circuit board, ensuring no soldering defects (cold joints, missing solder, bridges, wrong components, etc.). Firmware flashing tutorial is temporarily available in group files.
-- Flash the mainboard with Hall version compatible firmware. As of 25.4.16, the latest available firmware is `0013`
-- 3D printed housing
-- 3D printed [Magnet Polarity Detector](https://makerworld.com.cn/zh/models/1141340)
+- **A fully soldered BMCU `Hall version` circuit board**: ensuring no soldering defects (cold joints, missing solder, bridges, wrong components, etc.).
+- **Flash the mainboard with Hall version compatible firmware**. As of 23/06/25, the latest available firmware is `Test 0013`
+- **3D printed housing** : You can choose between 
+	[1. The original file from the author](https://makerworld.com/zh/models/1322913-bmcu-c-hall-sensor-version#profileId-1359453)
+  [2. Our optimized version](https://makerworld.com/zh/models/1539594-bmcu-c-v0-2-model-kongming-optimized-final-version#profileId-1615601)
+  **I strongly recommend you to use the optimized version!**
+- **Print this tool to check the polarity of magnets later** [Magnet Polarity Detector](https://makerworld.com.cn/zh/models/1141340)
 
 ![Magnet Polarity Detector](/assets/images/bmcu_c_hall/极性确定装置.jpg)
 

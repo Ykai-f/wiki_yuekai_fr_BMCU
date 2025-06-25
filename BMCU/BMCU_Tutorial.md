@@ -2,7 +2,7 @@
 title: BMCU Tutorial
 description: 
 published: true
-date: 2025-05-18T01:02:39.725Z
+date: 2025-06-23T10:58:03.189Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:56:58.306Z
@@ -20,32 +20,37 @@ dateCreated: 2025-02-25T12:56:58.306Z
 # BMCU Assembling
 
 ## BMCU-C
-nothing here yet to be updated.
+- [BMCU-C Hall version v0.2](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_Hall)
+{.links-list}
 
 ## BMCU-B
-- [📝370 version v2.5 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
-- [📝370 steel ball version edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
-- [📝370 mircoswitch edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
+
+- [📝BMCU-B v3.14 edited by Wanzi](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_steel_ball_by_wanzi)
+- [📝370X edited by XC (!Attention different PCB required!)](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_mircoswitch_by_xc)
 {.links-list}
 
 🎬An amazing assembleing video for the 370 steel ball version made by `@Lukas`!
 - https://www.youtube.com/watch?v=sP-fDCnXkro
 
+## Obsolete version
 
+We no longer recommend that you assemble or print these obsolete versions, except for specific reasons.
+
+<details>
+<summary>Click here to expend</summary>
+
+### BMCU-B
+- [Obsolete - 📝370 version v2.5 edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_370_v1_Yuekai.md)
+{.links-list}
 ## BMCU-A:130 and 180
 
-- [📝130 version edited by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
-- [📝130 version edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
-- [📝180 version edited by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
-- [🎬An assembling video for 130 version (In chinese)](https://www.bilibili.com/video/BV1PuPCehEP3/?vd_source=e9b8d46574a1915d5f3cd835b2b34359)
+### BMCU-A
+- [Obsolete - 📝130 version edited by QTBZ (Adjustable photoelectric sensing block)](/BMCU/BMCU_Tutorial/Assembling)
+- [Obsolete - 📝130 version edited by Yuekai](/BMCU/BMCU_Tutorial/BMCU_Assembling_130_Yuekai.md)
+- [Obsolete - 📝180 version edited by BXT](/BMCU/BMCU_Tutorial/BMCU_Assembling_180_by_bxt)
 {.links-list}
 
-
-
-
-
-  
-
+</details>
 
 # BMCU Bracket Installation
 - [BMCU Bracket Installation](/BMCU/BMCU_Tutorial/BMCU_Mounting)

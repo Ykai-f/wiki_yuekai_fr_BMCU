@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-05-09T21:50:07.329Z
+date: 2025-06-17T20:34:35.895Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -18,7 +18,7 @@ Just in case there are times when some common components are not recorded in the
 
 | No.    | Name                  | Quantity | Note |
 | ------ | --------------------- |  -------- |----|
-| COM_1  | PH2.0 10pin cable 80mm  | 4        |Recommended 1\*100mm+3\*80mm |
+| COM_1  | PH2.0 10pin cable 80mm  | 4        |Recommended 80mm |
 | COM_2  | MX3.0-4P Mirrored Cable   | 1        | |
 | COM_3  | Radial magnets 6\*2.5mm   | 4        | You can also use smaller ones such as 5\*2.5mm.|
 | COM_4  | Lubricating grease   | 1        |**DO NOT use liquid oil-based lubricants**. |
@@ -310,26 +310,26 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC_1  | MR85ZZ bearing                      | 8        |                                               |
 | MEC_2  | BMG gear kit                        | 4        |                                                            |
 | MEC_3  | D5x22mm shaft                       | 4        | This shaft has accuracy problems, pick a small tolerance before using it.                        |
-| MEC_4  | D2x20mm shaft                       | 16       |                                                |
-| MEC_5  | 182A gear                           | 12       | Better have some more for backup                                 |
+| MEC_4  | D2x20mm shaft                       | 12       |                                                |
+| MEC_5  | 182A gear                           | 8       | Better have some more for backup                                 |
 | MEC_6  | 682A worm gear                      | 4        |                                                |
 | MEC_7  | RS370 motor 24V 6000RPM             | 4        |                                                |
 | MEC_8  | M3*5 metric screw                   | 4        | For fixing the motor                                               |
 | MEC_9  | Wires                               | 8        | >=5cm                                                 |
-| MEC_10 | 62B shaft sleeve                    | 32       |                                                            |
+| MEC_10 | 62B shaft sleeve                    | 24       |                                                            |
 | MEC_11 | PC4 pneumatic fitting 6mm           | 4        | Or 8 if you want to install both side                               |
 | MEC_12 | 5MM stainless steel balls           | 4        |                                                            |
 | MEC_13 | Spring 0.3\*4\*5mm - W0.3 OD4 L5 mm   | 4        | For steel ball                                                  |
-| MEC_14 | Spring 0.6\*4x10mm - W0.6 OD4 L10 mm                | 4        | For lever                                                  |
+| MEC_14 | Spring 0.6\*4x10mm - W0.6 OD4 L10 mm                | 4        | For lever，in case insufficient pressure and for P series, replace by W0.6 OD4 L15 mm                                                  |
 | MEC_15 | Spring 0.7\*12\*25mm - 	W0.7 OD12 L25 mm                 | 8        | For buffer，in case insufficient pressure, replace by D0.8           |
-| MEC_16 | M2*8 countersunk self-tapping screw | 48       |                                                            |
+| MEC_16 | M2*8 countersunk self-tapping screw | 51       |                                                            |
 | MEC_17 | 1.5mm optical fiber                 | 20cm       | or transparant PETG filament                                   |
-| MEC_18 | N35 3*20mm cylindrical magnet       | 8        | You can also buy two 3*10 sucked together for future use with CMCUs |
-| MEC_19 | M2*8 countersunk self-tapping screw | 4        |                                  |
-| MEC_20 | M3*14 countersunk machine screw     | 4        |                                                            |
+| MEC_18 | N35 3*20mm cylindrical magnet       | 8        | You can also buy two 3*10 sucked together for future use with CMCUs |                                
+| MEC_19 | M3*14 machine screw     | 4        |                                                            |
+  | MEC_20 | M3*14 counter strike screw     | 2        |     For the bracket                                                       |
 | MEC_21 | M3 hex nut                          | 4        |                                                            |
 | MEC_22 | MX3.0-4P mirrored cable             | 1        |                                                            |
-| MEC_23 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1*100mm + 3*80mm                                                          |
+| MEC_23 | PH2.0 10pin cable 80mm             | 4        |   80mm                                                          |
 
 </details>
 
