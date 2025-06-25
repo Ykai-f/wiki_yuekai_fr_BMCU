@@ -2,7 +2,7 @@
 title: BMCU_Assembling_370_Hall
 description: 
 published: true
-date: 2025-06-23T11:03:05.958Z
+date: 2025-06-25T13:28:00.789Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T13:28:36.330Z
@@ -36,6 +36,13 @@ Integration package for this tutorial: Coming soon, please check group files
 ### Component Names
 
 ![Component Names](/assets/images/bmcu_c_hall/名称介绍.jpg =x300)
+
+1. Middle Frame
+2. Front Cover
+3. Bottom Frame
+4. Buffer Slider
+5. Filament Detection Slider
+6. Nut Plug
 
 ### Install Bushing
 
