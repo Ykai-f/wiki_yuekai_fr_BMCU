@@ -2,7 +2,7 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-06-25T21:09:28.457Z
+date: 2025-06-25T21:10:49.037Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
@@ -156,6 +156,11 @@ Open the `WCHISPTool` software and set the following options:
 
   Click : `Remove Protect` -> `Download` -> `Remove Protect` Again -> `Download` Again -> Repeat this loop until done(normolly the second download will be successful, if not check if you done something wrong)
   You might see some error messages during the first loop.
+  
+  
+# Using Mac / Linux
+
+todo
   
 # Testing  
 
