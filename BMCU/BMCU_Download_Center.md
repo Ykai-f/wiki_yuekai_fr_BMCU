@@ -49,7 +49,8 @@ Use EasyEDA to open .epro file
 ## Recommended firmware
 - **BMCU-A** : V0.2 [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)
 - **BMCU-B** : V3.14 [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)
-- **BMCU-C** : Test 0013 [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip)
+- **BMCU-C** : Test 0013 [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip) 
+or Noise-Color-Heat Improved version **(highly recommended)** [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)
 
 <details>
   <summary>Click to view all releases</summary>
@@ -81,8 +82,10 @@ Firmware from this version adapted to BMCU-C
 | 4.9     | [bmcu_c_firmware_4_9.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_9.rar)       |      |                                                                                                   |
 | 4.20    | [bmcu_c_firmware_4_20.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_20.zip)     |      |                                                                                                   |
 | 4.23.3  | [bmcu_c_firmware_4_23_3.rar](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_4_23_3.rar) |      |                                                                                                   |
-| 4.24    |                                                                                                                 |      | [not available](/assets/files/download_center/firmware_and_source_code/src-bmcu-c-4.24.zip) |
-| 0013    | [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip)     |      | [not available](/assets/files/download_center/firmware_and_source_code/src-BMCU-C-0013.zip) |
+| 4.24    |                                                                                                                 |      | [not available](/assets/files/download_center/firmware_and_source_code/abc.zip) |
+| 0013    | [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip)     |      | [not available](/assets/files/download_center/firmware_and_source_code/abc.zip) |
+| 0013-Plus-Color-Noise-Heat-Improve    | [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)     |      | |
+
 
 </details>
 
