@@ -2,11 +2,13 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-25T14:21:02.197Z
+date: 2025-06-25T14:27:27.717Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
 ---
+
+# PCB - Flashing - Connection
 
 ### Printer Cannot Recognize AMS, or Main Board Shows Red Light 🚨
 
@@ -28,8 +30,67 @@ Worst case scenario, the AMS connector board or printer motherboard is damaged. 
 
 </details>
 
+### Device Manager Cannot Detect MainBoard or Downloader (USB to TTL) 
 
-### No Material Inserted, but System Shows Material Present (Or filament led keeps on) 📏
+<details>
+  <summary>Click to expend</summary>
+🛠️ Troubleshooting Steps
+
+  #### Verify Downloader Recognition
+
+First, connect the USB-to-TTL downloader alone to your computer (without connecting to the mainboard).
+
+- If it appears as a serial device (e.g., COMx) in Device Manager, the driver is properly installed.
+- If no device appears, install the CH340 USB-to-Serial driver (commonly used in many USB-TTL modules).
+
+#### Check for Short Circuits on the Mainboard
+
+If the downloader is detected when connected alone, but disappears or disconnects when attached to the mainboard, this often indicates a short circuit, typically between 3.3V and GND.
+
+Carefully inspect the circuitry around the CH32V microcontroller for any solder bridges or damaged components.
+
+#### Ensure Correct Wire Connections
+
+Double-check the DuPont wire order: TX ↔ RX, RX ↔ TX, GND ↔ GND, and 3.3V.
+
+
+#### Disable USB Port Protection (if applicable)
+
+On some PCs, aggressive USB port protection or antivirus software may prevent the downloader from being recognized.
+
+Try switching to another USB port or temporarily disabling port protection if you're familiar with your system's settings.
+</details>
+
+
+### Firmware Update Failed, PC Recognizes Device but Cannot Unlock or Flash Firmware
+
+<details>
+  <summary>Click to expend</summary>
+  Solution:
+  https://wiki.yuekai.fr/BMCU/BMCU_Tutorial/BMCU_Flashing#h-5-flash-the-firmware
+</details>
+
+
+# Filament movement / Motor / Noise
+
+### Filament Inserted, Indicator Light On, but Printer Doesn't Detect It
+
+<details>
+  <summary>Click to expend</summary>
+  
+  This may be due to the following reasons:
+
+1. First, the magnet signal is missing, such as the magnet is forgotten to be installed or the AS5600 chip is faulty. In the absence of the magnet signal, the BMCU will not perform any operation to detect the consumables.
+1. Second, other faults at the welding level, such as the CH32V chip or PH10 socket is not welded properly
+  
+  Solution:
+  - Ensure the magnet is installed; 
+  - After installing the magnet, restart the device for detection.
+  - Check for loose PH2.0 socket connections or broken cables.  
+</details>
+
+
+### No filament Inserted, but System Shows Material Present (Or filament led keeps on) 📏
 <details>
   <summary>Click to expand</summary>
 
@@ -103,55 +164,17 @@ This setup will ensure that when the primary spool is depleted, the system can d
   Solution:
   This issue is often caused by:
   - Missing radial magnet
-  - Magnet holder not rotating with the shaft
-  - Ejected magnetic disc not installed properly
+  - Magnet not rotating with the shaft and bmg gear
 
   🛠️ Fixes:
   - Use a correctly sized and oriented radial magnet (6×2.5mm)
   - Check and ensure the AS5600 encoder chip is properly soldered
-  - Test magnetic polarity: Two magnet surfaces should attract each other. If they repel when rotated 180°, it's the wrong orientation 🔄  
+  - Make sure the magnets rotates sommthly and correctly.
+
 </details>
 
 
-### Device Manager Cannot Detect MainBoard or Downloader (USB to TTL) 
 
-<details>
-  <summary>Click to expend</summary>
-🛠️ Troubleshooting Steps
-
-  #### Verify Downloader Recognition
-
-First, connect the USB-to-TTL downloader alone to your computer (without connecting to the mainboard).
-
-- If it appears as a serial device (e.g., COMx) in Device Manager, the driver is properly installed.
-- If no device appears, install the CH340 USB-to-Serial driver (commonly used in many USB-TTL modules).
-
-#### Check for Short Circuits on the Mainboard
-
-If the downloader is detected when connected alone, but disappears or disconnects when attached to the mainboard, this often indicates a short circuit, typically between 3.3V and GND.
-
-Carefully inspect the circuitry around the CH32V microcontroller for any solder bridges or damaged components.
-
-#### Ensure Correct Wire Connections
-
-Double-check the DuPont wire order: TX ↔ RX, RX ↔ TX, GND ↔ GND, and 3.3V.
-
-
-#### Disable USB Port Protection (if applicable)
-
-On some PCs, aggressive USB port protection or antivirus software may prevent the downloader from being recognized.
-
-Try switching to another USB port or temporarily disabling port protection if you're familiar with your system's settings.
-</details>
-
-
-### Firmware Update Failed, PC Recognizes Device but Cannot Unlock or Flash Firmware
-
-<details>
-  <summary>Click to expend</summary>
-  Solution:
-  https://wiki.yuekai.fr/BMCU/BMCU_Tutorial/BMCU_Flashing#h-5-flash-the-firmware
-</details>
 
 
 ### Feeder Motor Spins but Doesn't Feed Material Properly
@@ -210,15 +233,7 @@ This issue has been reported by some users, while others have not experienced it
 
 
 
-### Waste Material Inserted, Indicator Light On, but Printer Doesn't Detect It
 
-<details>
-  <summary>Click to expend</summary>
-  Solution:
-  - Ensure the magnet is installed; it won't be recognized otherwise.
-  - After installing the magnet, restart the device for detection.
-  - Check for loose PH2.0 socket connections or broken ribbon cables.  
-</details>
 
 
 ### Abnormal Indicator Light Behavior When Cover is Not Installed
