@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-26T21:40:10.304Z
+date: 2025-06-26T21:40:39.701Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -239,7 +239,7 @@ This setup will ensure that when the primary spool is depleted, the system can d
 </details>
 
 
-### Noise during feeding in particular BMCU-C
+### Noise during feeding (espcially for BMCU-C)
 
 <details>
   <summary>Click to expend</summary>
