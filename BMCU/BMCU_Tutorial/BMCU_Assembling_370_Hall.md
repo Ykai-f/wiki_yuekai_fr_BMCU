@@ -2,13 +2,14 @@
 title: BMCU_Assembling_370_Hall
 description: 
 published: true
-date: 2025-06-25T13:28:00.789Z
+date: 2025-06-26T07:30:32.145Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T13:28:36.330Z
 ---
 
-Still todo
+New version is Still todo
+also check https://bmcu.wanzii.cn/doc/build/370hall.html
 
 # BMCU-C (370 Hall Version) Assembly Guide
 
