@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-26T21:40:39.701Z
+date: 2025-06-27T07:35:06.515Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -341,3 +341,21 @@ It affects both Windows and Mac versions:
 - Alternatively, using **Oracle Slicer** is another effective solution to avoid these problems.
 </details>
 
+### Display errors related to external spool
+<details>
+  <summary>Click to expend</summary>
+This error is mostly caused by a slicing error. Please update Bambu Studio.
+  
+</details>
+
+### MQTT and authentication errors
+<details>
+  <summary>Click to expend</summary>
+  
+It should be noted that this error is not caused by BMCU and does not affect the normal operation of BMCU. This is because BMCU works by simulating an AMS device, rather than communicating via the MQTT protocol.
+
+It is worth noting that Bambu Lab is gradually moving towards a more closed ecosystem. In recent firmware updates, additional security measures have been introduced to restrict the use of third-party software.
+
+Therefore, if you have updated to the latest firmware, it is necessary to also update **Bambu Studio** and **Bambu Handy** to eliminate this error message.
+  
+</details>
