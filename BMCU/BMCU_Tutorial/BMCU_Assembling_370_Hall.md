@@ -67,17 +67,17 @@ The pin with red dot is positive
 
 ### Determine Slider Magnet Polarity
 
-::: tip
-While there are many ways to determine magnetic polarity, we recommend using the [Magnet Polarity Detector](https://makerworld.com.cn/zh/models/1141340)
-:::
+> You can use the magnetic pole detection device designed by @Maruko to detect the magnetic poles of a magnet. 
+> [Magnet Polarity Detector - Link Makerworld](https://makerworld.com.cn/zh/models/1141340)
+{.is-info}
 
 Find a container (bowl, plate, etc.) and add water
 
-![Water Container](/assets/images/bmcu_c_hall/水.jpg =x300)
+![Water Container](/assets/images/bmcu_c_hall/Magnet_dirction.png =x300)
 
 Attach two D3*10 magnets together, place in the [Magnet Polarity Detector](https://makerworld.com.cn/zh/models/1141340), and float on water
 
-![Magnet Polarity](/assets/images/bmcu_c_hall/磁铁极性.jpg =x300)
+The geographic north pole is slightly different from the geomagnetic north pole, so just take the one with a similar direction.
 
 Once stable, the end pointing south is the south pole, the other end is north pole
 
@@ -85,7 +85,7 @@ Once stable, the end pointing south is the south pole, the other end is north po
 
 With slider oriented as shown, insert magnet with south pole down (south pole near pneumatic fitting location)
 
-![Install Magnet in Slider](/assets/images/bmcu_c_hall/滑块磁铁.jpg =x300)
+![Install Magnet in Slider](/assets/images/bmcu_c_hall/Insert_magnet.png =x300)
 
 Important: **Center the magnet in the slider's magnet mounting position**
 
@@ -113,11 +113,47 @@ Place M3 hex nut in recess and insert nut plug to secure
 
 ### Assemble BMG Drive Wheel
 
-Refer to 370 ball bearing version tutorial [relevant section](./370#安装bmg主动轮)
+
+These are all the parts included in the BMG gear set:
+
+![BMG Gear Set](/assets/images/build-370/components/BMG齿轮套装.jpg =x300)
+
+Take one **D5x22mm shaft** and two **MR85ZZ bearings**. Press the shaft into one bearing until flush.
+
+
+> Apply even force during installation. Install the shaft vertically to avoid damaging the bearing. Check shaft precision before use—some may not be perfect.
+{.is-warning}
+
+
+![BMG Drive Gear Step 1 - Bottom Bearing](/assets/images/build-370/components/组装bmg主动轮-1-底部轴承.jpg =x300)
+![BMG Drive Gear Step 2 - Bearing In Place](/assets/images/build-370/components/组装bmg主动轮-2-底部轴承安装到位.jpg =x300)
+
+Place the **BMG gear with set screw hole** as shown:
+
+![BMG Drive Gear Step 3 - Insert BMG Gear](/assets/images/build-370/components/组装bmg主动轮-3-bmg.jpg =x300)
+
+Insert the **set screw** using a hex key.
+
+![BMG Drive Gear Step 4 - Set Screw](/assets/images/build-370/components/组装bmg主动轮-4-顶丝.jpg =x300)
+
+Install the **top bearing**, ensuring it sits flush against the gear.
+
+![BMG Drive Gear Step 5 - Top Bearing](/assets/images/build-370/components/组装bmg主动轮-5-顶部轴承.jpg =x300)
+![BMG Drive Gear Step 6 - Completed](/assets/images/build-370/components/组装bmg主动轮-6-完成.jpg =x300)
+
+Place the assembled **BMG drive gear** into the back frame, gear facing upward.
+
+![Insert BMG Drive Gear](/assets/images/build-370/components/把bmg主动轮放入后盖.jpg =x300)
 
 ### Assemble BMG Driven Wheel
 
-Refer to 370 ball bearing version tutorial [relevant section](./370#组装bmg从动轮)
+Insert two **needle bearings** into the **Driven gear (no set screw hole)**.
+
+![Driven Gear Step 1 - Insert Needle Bearings](/assets/images/build-370/components/组装bmg从动轮-1-放入滚针轴承.jpg =x350)
+
+Place it into the **lever**, making sure the direction is correct, and insert the shaft from the BMG kit.
+
+![Driven Gear Step 2 - Insert into Lever](/assets/images/build-370/components/组装bmg从动轮-2-放入扳手-插入轴.jpg =x350)
 
 ### Install BMG Drive Wheel
 
@@ -134,6 +170,7 @@ Note slider orientation
 ![Install Filament Break Slider](/assets/images/bmcu_c_hall/断料滑块.jpg =x300)
 
 ### Apply Lubrication
+
 
 Lubricate gears (can remove to apply and reinstall, BMG doesn't need lubrication)
 
