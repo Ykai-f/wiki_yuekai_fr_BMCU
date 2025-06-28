@@ -2,7 +2,7 @@
 title: BMCU_Assembling_370_Hall
 description: 
 published: true
-date: 2025-06-28T20:31:50.231Z
+date: 2025-06-28T20:32:05.296Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T13:28:36.330Z
@@ -278,7 +278,7 @@ Screw pneumatic fitting onto slider
 | Channel selected (in use) | - | White | - |
 | No filament | Black | - | - |
 | Filament loaded | White | - | - |
-| Buffer pressed (slider) | Blue | - | If side LED red, reverse slider magnet |
-| Buffer pulled out (slider) | Red | - | If side LED blue, reverse slider magnet |
+| Buffer pressed (slider) | Blue | - | If red, reverse slider magnet |
+| Buffer pulled out (slider) | Red | - | If LED blue, reverse slider magnet |
 
 Mainboard: Blue for normal printer communication, red for abnormal, any other color indicates malfunction
