@@ -2,7 +2,7 @@
 title: BMCU_Assembling_370_Hall
 description: 
 published: true
-date: 2025-06-26T07:30:32.145Z
+date: 2025-06-28T20:31:50.231Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T13:28:36.330Z
@@ -51,7 +51,7 @@ Insert 62B bushing into back cover and middle frame as shown
 
 ![Install Bushing](/assets/images/bmcu_c_hall/轴套.jpg =x300)
 
-### Assemble D2*20 Shaft with 182A Gear
+### Assemble D2\*20 Shaft with 182A Gear
 
 Ensure both ends protrude approximately equal lengths
 
@@ -67,15 +67,15 @@ The pin with red dot is positive
 
 ### Determine Slider Magnet Polarity
 
-> You can use the magnetic pole detection device designed by @Maruko to detect the magnetic poles of a magnet. 
+> You can use the magnetic pole detection device designed by @Wanzi to detect the magnetic poles of a magnet. 
 > [Magnet Polarity Detector - Link Makerworld](https://makerworld.com.cn/zh/models/1141340)
 {.is-info}
 
-Find a container (bowl, plate, etc.) and add water
+Find a container and add water
 
 ![Water Container](/assets/images/bmcu_c_hall/Magnet_dirction.png =x300)
 
-Attach two D3*10 magnets together, place in the [Magnet Polarity Detector](https://makerworld.com.cn/zh/models/1141340), and float on water
+Attach two D3\*10 magnets or one single D3\*20 magnets, place in the [Magnet Polarity Detector](https://makerworld.com.cn/zh/models/1141340), and float on water
 
 The geographic north pole is slightly different from the geomagnetic north pole, so just take the one with a similar direction.
 
@@ -169,7 +169,12 @@ Note slider orientation
 
 ![Install Filament Break Slider](/assets/images/bmcu_c_hall/断料滑块.jpg =x300)
 
-### Apply Lubrication
+### Apply Grease
+
+> Here @Wanzi uses lubricant, but please note that we do not recommend the use of lubricant, but rather a grease with a certain viscosity, such as the one supplied with the Bambulab machine.
+>
+> But also, you should not choose a grease with too high a viscosity, for example, it is not recommended to use a grease for bicycles.
+{.is-warning}
 
 
 Lubricate gears (can remove to apply and reinstall, BMG doesn't need lubrication)
@@ -202,13 +207,13 @@ Secure with five M2*8 self-tapping screws
 
 ### Install Lever
 
-Place one `0.6*4*10 spring` in position, then install lever
+> If available, now we recommend 0.6*4*15 springs, currently 10 lengths are considered too weak!
+{.is-warning}
+
+
+Place one ~~`0.6*4*10`~~ `0.6*4*15 spring`in position, then install lever
 
 ![Install Lever 1](/assets/images/bmcu_c_hall/扳手1.jpg =x300)
-
-::: tip
-If your tubing and spool resistance is high, or you use a P1 printer, use [this model](https://makerworld.com.cn/zh/models/1167775) in the lever spring groove to increase grip
-:::
 
 Hold lever and insert D2*20 shaft
 
@@ -224,13 +229,15 @@ Attach D6*2.5 radial magnet above BMG drive wheel, ensuring it's not compressed 
 
 ![Install Radial Magnet](/assets/images/bmcu_c_hall/径向磁铁.jpg =x300)
 
-::: info Recommendation
-At this point, insert filament and power motor with 12v~24v to `test filament feeding`, `verify magnet rotation`, and `distribute lubricant`
-:::
 
-::: tip
-Insert fiber optic into small hole next to buffer slider, cut flush, for light guide
-:::
+> At this point, insert filament and power motor with 12v~24v to `test filament feeding`, `verify magnet rotation`, and `distribute lubricant`
+{.is-info}
+
+
+### Install Light Guider fiber
+
+Insert 1.5mm fiber optic or simply a transparant PETG filament into small hole next to buffer slider, cut flush, for light guide
+
 
 ### Install Sub-board
 
@@ -258,13 +265,7 @@ Screw pneumatic fitting onto slider
 
 ![Install Pneumatic Fitting](/assets/images/bmcu_c_hall/气动接头.jpg =x300)
 
-### Completion
 
-You can now connect to mainboard for basic feed/retract testing
-
-If 4020 WS2812B LEDs don't light up, check soldering orientation
-
-![Side-mounted 2812 Diagram](/assets/prepare/侧贴2812.jpg =x300)
 
 #### LED Status
 
@@ -278,6 +279,6 @@ If 4020 WS2812B LEDs don't light up, check soldering orientation
 | No filament | Black | - | - |
 | Filament loaded | White | - | - |
 | Buffer pressed (slider) | Blue | - | If side LED red, reverse slider magnet |
-| Buffer released (slider) | Red | - | If side LED blue, reverse slider magnet |
+| Buffer pulled out (slider) | Red | - | If side LED blue, reverse slider magnet |
 
 Mainboard: Blue for normal printer communication, red for abnormal, any other color indicates malfunction
