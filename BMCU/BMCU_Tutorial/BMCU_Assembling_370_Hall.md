@@ -1,8 +1,8 @@
 ---
-title: BMCU_Assembling_370_Hall
+title: BMCU-C (370 Hall Version) Assembly Guide
 description: 
 published: true
-date: 2025-06-28T20:32:05.296Z
+date: 2025-06-28T20:33:27.926Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T13:28:36.330Z
@@ -11,14 +11,13 @@ dateCreated: 2025-06-17T13:28:36.330Z
 New version is Still todo
 also check https://bmcu.wanzii.cn/doc/build/370hall.html
 
-# BMCU-C (370 Hall Version) Assembly Guide
 
-## Introduction
+# Introduction
 
 This guide is written for BMCU-C v0.2 channel component assembly.
 
 
-## Pre-assembly Preparation
+# Pre-assembly Preparation
 
 Integration package for this tutorial: Coming soon, please check group files
 
@@ -32,9 +31,9 @@ Integration package for this tutorial: Coming soon, please check group files
 
 ![Magnet Polarity Detector](/assets/images/bmcu_c_hall/极性确定装置.jpg =x300)
 
-## Main Content
+# Main Content
 
-### Component Names
+## Component Names
 
 ![Component Names](/assets/images/bmcu_c_hall/名称介绍.jpg =x300)
 
@@ -45,19 +44,19 @@ Integration package for this tutorial: Coming soon, please check group files
 5. Filament Detection Slider
 6. Nut Plug
 
-### Install Bushing
+## Install Bushing
 
 Insert 62B bushing into back cover and middle frame as shown
 
 ![Install Bushing](/assets/images/bmcu_c_hall/轴套.jpg =x300)
 
-### Assemble D2\*20 Shaft with 182A Gear
+## Assemble D2\*20 Shaft with 182A Gear
 
 Ensure both ends protrude approximately equal lengths
 
 ![Assemble Shaft and Gear](/assets/images/bmcu_c_hall/齿轮轴.jpg =x300)
 
-### Install Worm Gear on 370 Motor and Solder Wires
+## Install Worm Gear on 370 Motor and Solder Wires
 
 Align motor shaft with worm gear. Apply 502 glue if needed.
 
@@ -65,7 +64,7 @@ The pin with red dot is positive
 
 ![Install Worm Gear](/assets/images/bmcu_c_hall/蜗杆.jpg =x300)
 
-### Determine Slider Magnet Polarity
+## Determine Slider Magnet Polarity
 
 > You can use the magnetic pole detection device designed by @Wanzi to detect the magnetic poles of a magnet. 
 > [Magnet Polarity Detector - Link Makerworld](https://makerworld.com.cn/zh/models/1141340)
@@ -81,7 +80,7 @@ The geographic north pole is slightly different from the geomagnetic north pole,
 
 Once stable, the end pointing south is the south pole, the other end is north pole
 
-### Install Magnet in Slider
+## Install Magnet in Slider
 
 With slider oriented as shown, insert magnet with south pole down (south pole near pneumatic fitting location)
 
@@ -89,29 +88,29 @@ With slider oriented as shown, insert magnet with south pole down (south pole ne
 
 Important: **Center the magnet in the slider's magnet mounting position**
 
-### Secure Slider Magnet
+## Secure Slider Magnet
 
 Use M2*8 self-tapping screw to secure
 
 ![Secure Slider Magnet](/assets/images/bmcu_c_hall/滑块螺丝.jpg =x300)
 
-### Install Motor
+## Install Motor
 
 Place motor in position and secure with M3*5 machine screw
 
 ![Install Motor](/assets/images/bmcu_c_hall/电机螺丝.jpg =x300)
 
-### Install Nut and Nut Plug
+## Install Nut and Nut Plug
 
 Place M3 hex nut in recess and insert nut plug to secure
 
 ![Install Nut and Plug](/assets/images/bmcu_c_hall/螺母塞.jpg =x300)
 
-### Install Gear
+## Install Gear
 
 ![Install Gear](/assets/images/bmcu_c_hall/齿轮.jpg =x300)
 
-### Assemble BMG Drive Wheel
+## Assemble BMG Drive Wheel
 
 
 These are all the parts included in the BMG gear set:
@@ -155,21 +154,21 @@ Place it into the **lever**, making sure the direction is correct, and insert th
 
 ![Driven Gear Step 2 - Insert into Lever](/assets/images/build-370/components/组装bmg从动轮-2-放入扳手-插入轴.jpg =x350)
 
-### Install BMG Drive Wheel
+## Install BMG Drive Wheel
 
 ![Install BMG Drive Wheel](/assets/images/bmcu_c_hall/bmg.jpg =x300)
 
-### Install Ball Bearings
+## Install Ball Bearings
 
 ![Install Ball Bearings](/assets/images/bmcu_c_hall/钢珠.jpg =x300)
 
-### Install Filament Break Slider
+## Install Filament Break Slider
 
 Note slider orientation
 
 ![Install Filament Break Slider](/assets/images/bmcu_c_hall/断料滑块.jpg =x300)
 
-### Apply Grease
+## Apply Grease
 
 > Here @Wanzi uses lubricant, but please note that we do not recommend the use of lubricant, but rather a grease with a certain viscosity, such as the one supplied with the Bambulab machine.
 >
@@ -185,19 +184,19 @@ Lubricate slider (optional)
 
 ![Lubricate Slider](/assets/images/bmcu_c_hall/润滑滑块.jpg =x300)
 
-### Install Slider and Springs
+## Install Slider and Springs
 
 Place two `0.8*12*25 springs` at slider ends, secured in mounting positions
 
 ![Install Slider and Springs](/assets/images/bmcu_c_hall/滑块弹簧.jpg =x300)
 
-### Install Filament Break Slider Spring
+## Install Filament Break Slider Spring
 
 Place one `0.3*4*5 spring` above filament break slider
 
 ![Install Filament Break Spring](/assets/images/bmcu_c_hall/断料滑块弹簧.jpg =x300)
 
-### Install Middle Frame
+## Install Middle Frame
 
 Attach middle frame to back cover, ensuring magnet portion of slider passes through
 
@@ -205,7 +204,7 @@ Attach middle frame to back cover, ensuring magnet portion of slider passes thro
 
 Secure with five M2*8 self-tapping screws
 
-### Install Lever
+## Install Lever
 
 > If available, now we recommend 0.6*4*15 springs, currently 10 lengths are considered too weak!
 {.is-warning}
@@ -223,7 +222,7 @@ Press firmly to bottom, then use screwdriver to press into recess
 
 ![Install Lever 3](/assets/images/bmcu_c_hall/扳手3.jpg =x300)
 
-### Install Radial Magnet
+## Install Radial Magnet
 
 Attach D6*2.5 radial magnet above BMG drive wheel, ensuring it's not compressed and rotates with BMG (important)
 
@@ -234,12 +233,12 @@ Attach D6*2.5 radial magnet above BMG drive wheel, ensuring it's not compressed 
 {.is-info}
 
 
-### Install Light Guider fiber
+## Install Light Guider fiber
 
 Insert 1.5mm fiber optic or simply a transparant PETG filament into small hole next to buffer slider, cut flush, for light guide
 
 
-### Install Sub-board
+## Install Sub-board
 
 Place sub-board in position
 
@@ -253,13 +252,13 @@ Tuck excess wires here
 
 ![Organize Wires](/assets/images/bmcu_c_hall/整理线材.jpg =x300)
 
-### Install Front Cover
+## Install Front Cover
 
 Secure with four M2*8 self-tapping screws
 
 ![Install Front Cover](/assets/images/bmcu_c_hall/前盖.jpg =x300)
 
-### Install Pneumatic Fitting
+## Install Pneumatic Fitting
 
 Screw pneumatic fitting onto slider
 
@@ -267,7 +266,7 @@ Screw pneumatic fitting onto slider
 
 
 
-#### LED Status
+# LED Status
 
 > `-` in table indicates no effect on LED or unknown status
 
