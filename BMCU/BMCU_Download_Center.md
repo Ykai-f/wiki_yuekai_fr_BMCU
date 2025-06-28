@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-06-20T23:12:51.700Z
+date: 2025-06-28T13:00:24.006Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -190,6 +190,9 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 </details>
 
 ## BMCU-C
+
+- ❤️ **BMCU-C improved version (Highly recommended)**:
+[Link Makerworld](https://makerworld.com/zh/models/1539594-bmcu-c-v0-2-model-kongming-optimized-final-version#profileId-1615601)
 
 - 📢❤️ BMCU-C model release date 11/04/2025:
 [Link Makerworld](https://makerworld.com/zh/models/1322913-bmcu-c-hall-sensor-version#profileId-1359453)
