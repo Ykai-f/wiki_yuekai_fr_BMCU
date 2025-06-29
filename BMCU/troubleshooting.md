@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-29T20:45:47.532Z
+date: 2025-06-29T20:46:51.182Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -145,7 +145,7 @@ This will trigger a new round of automatic direction detection when the BMCU rec
 #### Solution 2: Trigger a redetection without flashing
 If you don’t have flashing tools on hand, you can manually force the BMCU to redetect motor direction by disconnecting and reconnecting the problematic channel. Follow these steps carefully:
 
-> ⚠️ Important: Always perform these operations with the printer powered off to avoid hardware damage.
+> ⚠️ Important: Never hot plugging or hot unplugging.
 {.is-warning}
 
 
