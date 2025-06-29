@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-27T07:35:06.515Z
+date: 2025-06-29T20:45:47.532Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -117,6 +117,51 @@ This issue is currently suspected to be related to the BMCU firmware, but its oc
 </details>
 
 # Filament movement / Motor / Noise
+
+### Motor rotates in the opposite direction
+
+<details>
+  <summary>Click to expend</summary>
+  
+  If you are experiencing a motor spinning in the wrong direction, here's the principle behind the issue and how to resolve it:
+
+Since firmware version 3.14, the BMCU is designed to automatically detect the motor rotation direction, which means you no longer need to worry about the polarity of the motor wires during assembly.
+
+However, this direction detection only happens the first time the BMCU connects to the printer after either:
+
+- A firmware flash
+- A disconnection and reconnection of the channel
+
+So, if you find that one or more channels are rotating in the wrong direction, here are some solutions:
+  
+#### Solution 1: Re-flash the firmware (recommended)
+This is the simplest and most effective method.
+
+- For BMCU-B, flash firmware version 3.14.
+- For BMCU-C, flash firmware 0013Plus or a newer version (last update: 29/06/2025).
+
+This will trigger a new round of automatic direction detection when the BMCU reconnects to the printer.
+  
+#### Solution 2: Trigger a redetection without flashing
+If you don’t have flashing tools on hand, you can manually force the BMCU to redetect motor direction by disconnecting and reconnecting the problematic channel. Follow these steps carefully:
+
+> ⚠️ Important: Always perform these operations with the printer powered off to avoid hardware damage.
+{.is-warning}
+
+
+1. Turn off the printer.
+1. Unscrew the bottom screws of the BMCU base and disconnect the cable of the problematic channel.
+1. Turn on the printer and wait for 10 seconds.
+1. Turn off the printer again.
+1. Reconnect the problematic channel to the BMCU.
+1. Turn the printer back on.
+
+At this point, the BMCU should reattempt direction detection for the reconnected channel. You can now test if the motor spins correctly.
+  
+#### Solution 3: Manually reverse motor polarity
+If the above methods do not work, which can happen in rare cases where direction detection consistently fails or always detects the wrong direction, you can simply manually swap the motor wires (i.e., reverse the positive and negative leads) connected to the BMCU for the problematic channel.
+
+</details>
 
 ### Filament Inserted, Indicator Light On, but Printer Doesn't Detect It
 
