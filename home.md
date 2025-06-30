@@ -2,13 +2,15 @@
 title: Home page
 description: 
 published: true
-date: 2025-06-13T12:31:35.319Z
+date: 2025-06-30T20:45:58.748Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
 ---
 
 # Welcome to yuekai's wiki - BMCU wiki
+
+Backup site that can be accessed in case of failure of this site ：wiki2.yuekai.fr
 
 You can contact me by
 Reddit : [u/Ok_Design6972](https://www.reddit.com/user/Ok_Design6972/)
