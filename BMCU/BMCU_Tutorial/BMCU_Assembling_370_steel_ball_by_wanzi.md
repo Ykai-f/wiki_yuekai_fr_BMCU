@@ -163,15 +163,15 @@ Place the assembled **BMG drive gear** into the back frame, gear facing upward.
 
 ---
 
-### Assembling the BMG Idler Gear
+### Assembling the BMG Driven Gear
 
-Insert two **needle bearings** into the **idler gear (no set screw hole)**.
+Insert two **needle bearings** into the **Driven gear (no set screw hole)**.
 
-![Idler Gear Step 1 - Insert Needle Bearings](/assets/images/build-370/components/组装bmg从动轮-1-放入滚针轴承.jpg =x350)
+![Driven Gear Step 1 - Insert Needle Bearings](/assets/images/build-370/components/组装bmg从动轮-1-放入滚针轴承.jpg =x350)
 
 Place it into the **lever**, making sure the direction is correct, and insert the shaft from the BMG kit.
 
-![Idler Gear Step 2 - Insert into Lever](/assets/images/build-370/components/组装bmg从动轮-2-放入扳手-插入轴.jpg =x350)
+![Driven Gear Step 2 - Insert into Lever](/assets/images/build-370/components/组装bmg从动轮-2-放入扳手-插入轴.jpg =x350)
 
 ---
 

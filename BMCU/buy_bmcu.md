@@ -2,7 +2,7 @@
 title: Buy BMCU
 description: 
 published: true
-date: 2025-04-29T15:07:22.374Z
+date: 2025-06-26T19:22:56.284Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T10:49:18.506Z
@@ -15,15 +15,35 @@ Reddit : u/Ok\_Design6972
 By mail : [contact@yuekai.fr](mailto:contact@yuekai.fr)
 
 
-**If you want to buy BMCU related products through me, I invite you to place your order through my shop [shop.yuekai.fr](http://shop.yuekai.fr).**
+**If you want to buy BMCU related products through me, I invite you to place your order through my shop**
+
+<a href="http://shop.yuekai.fr"
+   style="
+     display: inline-block;
+     padding: 14px 36px;
+     font-size: 28px;
+     font-weight: bold;
+     color: #fff;
+     background: #0078f5;
+     border-radius: 32px;
+     text-decoration: none;
+     box-shadow: 0 2px 8px rgba(0,120,245,0.15);
+     transition: background 0.2s, box-shadow 0.2s;
+     margin-top: 24px;
+   "
+   onmouseover="this.style.background='#005bbd';this.style.boxShadow='0 6px 16px rgba(0,91,189,0.17)'"
+   onmouseout="this.style.background='#0078f5';this.style.boxShadow='0 2px 8px rgba(0,120,245,0.15)'">shop.yuekai.fr
+</a>
+
+
+
+
+
+
 Sorry at the moment I can only ship to the EU and only customers in the EU can checkout.
 
 **If you prefer to communicate with me in real time, feel free to contact me using reddit**
     
-
-## Update of stock
-
-> Vacation time! be back 10th May :)
 
 ## Disclaimer
 
@@ -40,31 +60,8 @@ The purchaser may not use the BMCU for commercial purposes, and all use is subje
 
 For stability, functionality and official support, we recommend purchasing an official AMS Lite device for a more stable experience.
 
-# Price and options:
 
-## **Option "I AM THE ULTIMATE GEEK"** from 16€💶:  
-💡 Challenge your geek soul with the completely unsoldered version  
-This option includes unsoldered PCBs (1 main board + 4 sub-boards) and all the electronic patch components needed to solder.  
-https://shop.yuekai.fr/products/bmcu-option-pcb
-<div id="product-component-1742393065755"></div>
 
-## **Option PCB** from 30€💶
-The soldered PCBs included one main board + 4 sub-boards and connection cables.
-https://shop.yuekai.fr/products/bmcu-soldered-pcb-kit
-<div id="product-component-1742392676771"></div>
-
-## **Option Mechanical parts** from 30€💶
-All the mechanical parts accroding to the author's BOM sheet.
-https://shop.yuekai.fr/products/mechanical-parts-only
-<div id="product-component-1742393487102"></div>
-
-## **Option PCB + Mechanical parts bundle** from 60€💶
-https://shop.yuekai.fr/products/bmcu-soldered-pcb-mechanical-parts-bundle
-
-## **Option BMCU** from 85€💶 : 
-BMCU fully assembled and tested, ready to use.
-https://shop.yuekai.fr/products/bmcu-fully-assembled
-<div id="product-component-1742390644458"></div>
 
 
 ## After-sales, warranty
@@ -76,21 +73,5 @@ https://shop.yuekai.fr/products/bmcu-fully-assembled
 -   I do not guarantee the quality of the product itself, such as the PCB, accessories, or other components.
     
 -   I can't guarantee that Bambulab will block this BMCU one day.
-    
+  
 
-# Buy it yourself
-
-If you wish to purchase on your own, I still hope to be able to help you.  
-[Chinese goofish plateform with keyword BMCU](https://www.goofish.com/search?q=BMCU&spm=a21ybx.home.searchInput.0)
-
-This platform, `Goofish`, operates in China and requires a verified `Alipay` account for ordering.
-
-Therefore, you would need a Chinese citizen or a foreigner currently in China with a verified Chinese `Alipay` account to place an order
-
-Some third party platforms such as `superbuy` can help you to place an order from goofish for an extra fee. Then you pay the logistic fee to superbuy to get the shipment to you.
-
-Reference price : 1kg package shipping to France/UK about $25 (import tax may apply)  
-BMCU complete assembly reference weight : less than 1.5 kg
-
-
-<div id='product-component-1742390644458'></div>

@@ -2,13 +2,13 @@
 title: BMCU_Flashing
 description: 
 published: true
-date: 2025-06-05T22:49:33.392Z
+date: 2025-06-25T21:10:49.037Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-29T10:53:40.895Z
 ---
 
-# **BMCU Flashing Tutorial (Serial Port Flashing)**
+# **BMCU Flashing Tutorial**
 
 > Thanks to **Lukas** and **David** for providing some context and photos for this page.
 
@@ -33,7 +33,7 @@ A newer version : [download at WCH website](https://www.wch-ic.com/downloads/WCH
 
 
 
-# ForSerial Port 
+# Flashing with UART (TTL) using CH340
 
 ### 1. **Connect the BMCU Mainboard and USB Serial Tool**
 
@@ -135,7 +135,7 @@ Click the **Download** button.
 - The **red LED on the mainboard** should now light up.
 - 🎉 **Congratulations! Firmware flashing is complete!** 🎉
   
-# For Type-C interface
+# With Type-C interface
   
 ### Open the software
 ![1.png](/assets/images/bmcu_flashing/1.png)
@@ -156,6 +156,11 @@ Open the `WCHISPTool` software and set the following options:
 
   Click : `Remove Protect` -> `Download` -> `Remove Protect` Again -> `Download` Again -> Repeat this loop until done(normolly the second download will be successful, if not check if you done something wrong)
   You might see some error messages during the first loop.
+  
+  
+# Using Mac / Linux
+
+todo
   
 # Testing  
 
