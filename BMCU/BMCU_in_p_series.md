@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-06-30T21:09:58.623Z
+date: 2025-06-30T21:14:51.502Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -112,8 +112,8 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0
 
 
 You can simply connect the cables in parallel to split multiple 4-pin ports from a single 4-pin port, as shown below：
-![panda_branch_](/assets/images/public/panda_branch_.jpg =x300)
+![panda_branch](/assets/images/p_series/panda_branch.jpg =x300)
 
 You can also use e.g. BIGREETECH's Panda Branch or similar devices to connect multiple bmcu/AMS：
 
-![并联接线.png](/assets/images/public/并联接线.png =x300)
+![并联接线.png](/assets/images/p_series/并联接线.png =x300)
