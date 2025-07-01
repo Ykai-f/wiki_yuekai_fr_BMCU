@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-06-28T13:00:24.006Z
+date: 2025-07-01T16:30:43.001Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -146,6 +146,41 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 📢 - Official version from BMCU author `@4061`
 ❤️ - Recommended
 
+## BMCU-C
+
+- ❤️ **BMCU-C improved version (Highly recommended)**:
+[Link Makerworld](https://makerworld.com/zh/models/1539594-bmcu-c-v0-2-model-kongming-optimized-final-version#profileId-1615601)
+
+- 📢❤️ BMCU-C model release date 11/04/2025:
+[Link Makerworld](https://makerworld.com/zh/models/1322913-bmcu-c-hall-sensor-version#profileId-1359453)
+[Backup link](/assets/files/print_files/BMCU_C.3mf)
+
+- BMCU-C Higher torque version
+[Link Makerworld](https://makerworld.com/zh/models/1412302-bmcu-c-hall-370-high-torque-version?from=search#profileId-1493471)
+
+
+## BMCU-B
+
+- 📢❤️ 370 steel ball version v3.14:
+[Link Makerworld](https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1288934)
+[Backup link](/assets/files/print_files/370+v2.5+original.3mf)
+
+- 370X version by @星尘
+[Link Makerworld](https://makerworld.com/zh/models/1175070-bmcu-370x-surface-mount-micro-switch-glass-bead-tr?from=search#profileId-1184075)
+> The seller on AliExpress is selling his 370X model and circuit board without informing `@星尘`. If you'd like to support the developer, you can also choose to directly support his work and models.
+{.is-info}
+
+
+<details>
+  <summary>Click here to view more</summary>
+ 
+- 📢370 version official version V2.5:
+[Link Makerworld](https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559)
+[Backup link](/assets/files/print_files/370+v2.5+original.3mf)
+
+- 370 extended buffer version - based on v2.5
+</details>
+
 ## BMCU-A
 
 - ❤️ QTBZ version, adjustable photoelectric block, optimised triangle clutch
@@ -182,39 +217,7 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
   
  </details>
 
-## BMCU-B
 
-- 📢❤️ 370 steel ball version v3.14:
-[Link Makerworld](https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1288934)
-[Backup link](/assets/files/print_files/370+v2.5+original.3mf)
-
-- 370X version by @星尘
-[Link Makerworld](https://makerworld.com/zh/models/1175070-bmcu-370x-surface-mount-micro-switch-glass-bead-tr?from=search#profileId-1184075)
-> The seller on AliExpress is selling his 370X model and circuit board without informing `@星尘`. If you'd like to support the developer, you can also choose to directly support his work and models.
-{.is-info}
-
-
-<details>
-  <summary>Click here to view more</summary>
- 
-- 📢370 version official version V2.5:
-[Link Makerworld](https://makerworld.com/zh/models/1189069-bmcu-370-version-original-v2-5#profileId-1200559)
-[Backup link](/assets/files/print_files/370+v2.5+original.3mf)
-
-- 370 extended buffer version - based on v2.5
-</details>
-
-## BMCU-C
-
-- ❤️ **BMCU-C improved version (Highly recommended)**:
-[Link Makerworld](https://makerworld.com/zh/models/1539594-bmcu-c-v0-2-model-kongming-optimized-final-version#profileId-1615601)
-
-- 📢❤️ BMCU-C model release date 11/04/2025:
-[Link Makerworld](https://makerworld.com/zh/models/1322913-bmcu-c-hall-sensor-version#profileId-1359453)
-[Backup link](/assets/files/print_files/BMCU_C.3mf)
-
-- BMCU-C Higher torque version
-[Link Makerworld](https://makerworld.com/zh/models/1412302-bmcu-c-hall-370-high-torque-version?from=search#profileId-1493471)
 
 
 # F3D files
