@@ -52,9 +52,9 @@ Use EasyEDA to open .epro file
 - **BMCU-C** : Test 0013 [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip) 
 or Noise-Color-Heat Improved version **(highly recommended)** [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)
 
-## Test firmware
+## For P/X user
 
-- **BMCU-C** : 0016 [BMCU-C-V0.1-0016.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0016.zip) This version supports any number of combinations of BMCUs and AMS on the P/X-Series (maximum number 4)
+- **BMCU-C** : 0019 [BMCU-C-V0.1-0019.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0019.zip) This version supports any number of combinations of BMCUs and AMS on the P/X-Series (maximum number 4)
 
 ## All releases and update log
 
@@ -91,7 +91,8 @@ Firmware from this version adapted to BMCU-C
 | 4.24    |                                                                                                                 |      | [not available](/assets/files/download_center/firmware_and_source_code/abc.zip) |
 | 0013    | [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip)     |      | [not available](/assets/files/download_center/firmware_and_source_code/abc.zip) |
 | 0013-Plus-Color-Noise-Heat-Improve    | [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)     |      | |
-
+|0016|[BMCU-C-V0.1-0016.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0016.zip) |||
+|0019|[BMCU-C-V0.1-0019.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0019.zip)|||
 
 </details>
 
@@ -100,9 +101,11 @@ Firmware from this version adapted to BMCU-C
 
 ### Update log
 
-#### 0014 - 0018 
+#### 0014 - 0019 
 In these releases, support for multiple BMCUs and simultaneous BMCU/AMS use on the P-Series has been added.
 Possible issues : Motor driver chip AT8236 gets hot for no reason, same as original 0013, PID tuning may not be in place for now, possible motor overheating and gear wear problems.
+
+Fixed the issue that the BMCU could not switch the filament type under the new AMS protocol
 
 #### 0013-Plus-Color-Noise-Heat-Improve 
 
