@@ -1,18 +1,18 @@
+---
+title: BMCU with P/X series
+description: 
+published: true
+date: 2025-07-01T06:49:17.525Z
+tags: 
+editor: markdown
+dateCreated: 2025-03-20T14:42:09.077Z
+---
+
 This page still in progress because I don't have all the information for BMCU on P series.
 {.is-warning}
 
 
-> Update 5th May
-> In firmware versions :
-**01.08.00.00** for the **P series**
-**01.09.00.00 (20250429)** for the **X series**
->
->Bambulab has added support for the updated AMS model like AMS 2, which involved changes to the communication protocol between the AMS system and the printer. 
->
->As a result, BMCU currently does not function properly (e.g., unable to modify filament settings). It is unclear how soon BMCU's author will respond to these changes. If you intend to keep your P/X printer updated with the latest firmware, we recommend not relying on BMCU at this time.
-{.is-danger}
-
-> The adaptation programme for firmware 01.08.00.00 and newer has been initiated, waiting future updates from the author.
+> The problem of not being able to change filament on P/X printers has been successfully fixed in BMCU-C firmware version 0019.
 {.is-success}
 
 
