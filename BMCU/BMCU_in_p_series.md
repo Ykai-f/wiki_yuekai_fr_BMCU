@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-02T08:44:45.269Z
+date: 2025-07-02T08:44:58.015Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -33,7 +33,7 @@ This also means that, provided you have a compatible rewinder setup, you are fre
 
 ## With rewinder system
 
-With a rewind device, you can use any BMCU and any version of firmware, and the BMCU will perform similar behavioral logic as the AMS.
+With a rewind device, you can use any BMCU and any version of BMCU firmware, and the BMCU will perform similar behavioral logic as the AMS.
 
 ## Without rewinder system
 For setups without a rewinder, there are some special firmwares modified by `@XC`. Unlike the original firmware which relies on filament detection (e.g., optical or steel ball sensors), this version uses a time-based retraction mechanism to define the unloading distance.
