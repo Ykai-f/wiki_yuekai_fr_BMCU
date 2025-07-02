@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-07-02T07:25:35.371Z
+date: 2025-07-02T07:30:18.323Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -78,8 +78,7 @@ Most BMCU currently use this PCB.
 
 ### Mainboard with Enhanced Security Patch
 
-> It has been noticed that this Mainboard has a small chance of some unusual behaviour and the author is trying to fix these exceptions within the firmware. Building this board is not recommended at this time.
-If you wish to build the BMCU-C, you can also use the original Mainboard
+> We have noticed that this mainboard may exhibit some abnormal behavior. This could lead to unexpected reboots and even damage the 24V to 3.3V power conversion circuit. Our preliminary findings suggest that the issue may originate from the SS54 diode located at position D4 in the upper-right corner of the board. If you plan to produce this board, we recommend not soldering this diode. Instead, directly bridge the pads using copper wire, solder, or a resettable fuse.
 {.is-warning}
 
 
