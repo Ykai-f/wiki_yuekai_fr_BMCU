@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-02T12:09:50.280Z
+date: 2025-07-02T13:33:18.468Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -20,14 +20,16 @@ Use EasyEDA to open .epro file
 
 ## Mainboard
 
-> Some users have reported that **new versions of the mainboard** may have issues, such as unexpected reboots or certain channels malfunctioning despite proper soldering.
->
->The developer is currently working on software-level fixes to address these problems.
->
->If you’d like to try the Hall sensor version, for now you can also try to use the **original version of the mainboard**  with the **Hall sensor sub-board**.
+
+> **For Mainboard with Enhanced Security Patch**
+> We have noticed that this mainboard may exhibit some abnormal behavior. 
+> This could lead to unexpected reboots or even damage the 24V to 3.3V power conversion circuit. 
+> Our preliminary findings suggest that the issue may originate from the  **SS54 diode** located at position D4 in the upper-right corner of the board. 
+> If you plan to produce this board, we recommend not soldering this diode. Instead, directly bridge the pads using copper wire, solder, or a resettable fuse.
 {.is-warning}
 
-> We have initially identified the source of the instability problem with the new version of the motherboard, we recommend not installing the SS54 diode at position D4, you can short it directly
+> **For Mainboard with Enhanced Security Patch**
+> The small diode next to the 75176 chip is modeled in the wrong orientation in the soldering aid, please refer to the silkscreen on the mainboard。
 {.is-danger}
 
 
