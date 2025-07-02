@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-02T12:05:42.327Z
+date: 2025-07-02T12:07:51.283Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -175,9 +175,9 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 [Link Makerworld](https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1288934)
 [Backup link](/assets/files/print_files/370+v2.5+original.3mf)
 
-- 370X version by @星尘
+- 370X version by @XC
 [Link Makerworld](https://makerworld.com/zh/models/1175070-bmcu-370x-surface-mount-micro-switch-glass-bead-tr?from=search#profileId-1184075)
-> The seller on AliExpress is selling his 370X model and circuit board without informing `@星尘`. If you'd like to support the developer, you can also choose to directly support his work and models.
+> The seller on AliExpress is selling his 370X model and circuit board without informing `@XC`. If you'd like to support the developer, you can also choose to directly support his work and models.
 {.is-info}
 
 
