@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-02T12:07:51.283Z
+date: 2025-07-02T12:09:50.280Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -104,12 +104,12 @@ Firmware from this version adapted to BMCU-C
 #### 0014 - 0019 
 In these releases, support for multiple BMCUs and simultaneous BMCU/AMS use on the P-Series has been added.
   
-Possible issues : Motor driver chip AT8236 gets hot for no reason, same as original 0013, PID fine tuning by @XC is not in place for now, possible motor overheating and gear wear problems.
+Possible issues : Motor driver chip AT8236 gets hot for no reason, same as original 0013, PID fine tuning by `@XC` is not added for now, so possible motor overheating and gear wear problems .
 
 In the version 0019 : Fixed the issue that the BMCU could not switch the filament type under the new AMS protocol
 
 #### 0013-Plus-Color-Noise-Heat-Improve 
-This version is @XC's secondary development version based on 0013, optimized the following:
+This version is `@XC`'s secondary development version based on 0013, optimized the following:
 - Improved the problem of motor heating
 - Optimized the PID parameters
 - Optimized the strength of biting consumables
@@ -168,6 +168,7 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 - BMCU-C Higher torque version
 [Link Makerworld](https://makerworld.com/zh/models/1412302-bmcu-c-hall-370-high-torque-version?from=search#profileId-1493471)
 
+- BMCU-C Dual Micromotion Button Version By `@XC`
 
 ## BMCU-B
 
@@ -175,7 +176,7 @@ If this direction needs to be reset, it is necessary to re-flash or remove the m
 [Link Makerworld](https://makerworld.com/zh/models/1250311-bmcu-370-steel-ball-version-v3-14#profileId-1288934)
 [Backup link](/assets/files/print_files/370+v2.5+original.3mf)
 
-- 370X version by @XC
+- 370X version by `@XC`
 [Link Makerworld](https://makerworld.com/zh/models/1175070-bmcu-370x-surface-mount-micro-switch-glass-bead-tr?from=search#profileId-1184075)
 > The seller on AliExpress is selling his 370X model and circuit board without informing `@XC`. If you'd like to support the developer, you can also choose to directly support his work and models.
 {.is-info}
