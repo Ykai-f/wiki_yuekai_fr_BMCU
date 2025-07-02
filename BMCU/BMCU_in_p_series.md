@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-02T09:32:03.126Z
+date: 2025-07-02T09:39:57.542Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -85,12 +85,14 @@ Internal 5 way:
 > We are excited to announce that in the latest firmware release (currently available as version 0016), @4061 has introduced support for using multiple BMCUs alongside AMS units on P/X-series printers. With this update, combining BMCU and AMS has become simpler and more user-friendly than ever. Due to inherent limitations of the P-series system, you can now freely mix and use any combination of BMCUs and AMS units, as long as the total number of devices does not exceed four.
 {.is-success}
 
+
+- You can only use the BMCU-C for the following operations
 - You can use up to 4 devices, any number of combinations of AMS and BMCUs.
 - You can safely upgrade your P/X printer to the latest firmware
 - You will still need a rewind device to rewind the filament as it will exit quite a distance.
 - For multiple BMCUs, you will need to flash different firmware for each of the up to four BMCUs you own, number 1 to 4 respectively
 
-Current Known Issues:
+**Current Known Issues:**
 - Because BMCUs do not communicate with each other / between BMCUs and AMS, when switching filament, it is possible that BMCU1 is still retreiving but BMCU2 is starting to feed, so you need to make the BMCU-Penta distance much larger than the Penta-Printer distance
 - We have noticed that in the current 0016-0018 firmware, the AT8236 chip may heat up abnormally in an unworked state, waiting for the developer to fix it in a future release
 - In the current 0016-0018 versions of the firmware, the authors have not included the PID tuning parameters etc. developed by @XC for the time being, so there is a possibility that it may not be as good as the 0013Plus version in terms of gear wear/noise/heating issues
