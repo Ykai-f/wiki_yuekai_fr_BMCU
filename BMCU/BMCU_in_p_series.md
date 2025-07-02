@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-02T09:11:01.689Z
+date: 2025-07-02T09:13:40.808Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -141,3 +141,5 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0
 Connect the PTFE tubes as shown, please note that you need to ensure that the lengths of L1+L2 and L4 are much longer than L3.
 
 Since BMCU and other devices do not communicate with each other（but AMS do communicate with other AMS）, it can happen that BMCU1 is still withdrawing filament, but BMCU2 is starting to feed, so make sure to configure the PTFE tubes according to this logic.
+
+Another reason is that the AMS system will be much faster than the BMCUs.
