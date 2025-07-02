@@ -2,7 +2,7 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-06-17T20:34:35.895Z
+date: 2025-07-02T07:25:35.371Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
@@ -188,7 +188,82 @@ If you wish to build the BMCU-C, you can also use the original Mainboard
 
 # Mecanical parts
 
-## BMCU-A - 130 version:
+## BMCU-C - 370 motor + Hall sensor
+
+<details>
+
+<summary>Click here to expend</summary>
+
+| No.    | Name                                | Quantity | Note                                                       |
+|--------|-------------------------------------|----------|------------------------------------------------------------|
+| MEC_1  | MR85ZZ bearing                      | 8        |                                               |
+| MEC_2  | BMG gear kit                        | 4        |                                                            |
+| MEC_3  | D5x22mm shaft                       | 4        | This shaft has accuracy problems, pick a small tolerance before using it.                        |
+| MEC_4  | D2x20mm shaft                       | 12       |                                                |
+| MEC_5  | 182A gear                           | 8       | Better have some more for backup                                 |
+| MEC_6  | 682A worm gear                      | 4        |                                                |
+| MEC_7  | RS370 motor 24V 6000RPM             | 4        |                                                |
+| MEC_8  | M3*5 metric screw                   | 4        | For fixing the motor                                               |
+| MEC_9  | Wires                               | 8        | >=5cm                                                 |
+| MEC_10 | 62B shaft sleeve                    | 24       |                                                            |
+| MEC_11 | PC4 pneumatic fitting 6mm           | 4        | Or 8 if you want to install both side                               |
+| MEC_12 | 5MM stainless steel balls           | 4        |                                                            |
+| MEC_13 | Spring 0.3\*4\*5mm - W0.3 OD4 L5 mm   | 4        | For steel ball                                                  |
+| MEC_14 | Spring 0.6\*4x10mm - W0.6 OD4 L10 mm                | 4        | For lever，in case insufficient pressure and for P series, replace by W0.6 OD4 L15 mm                                                  |
+| MEC_15 | Spring 0.7\*12\*25mm - 	W0.7 OD12 L25 mm                 | 8        | For buffer，in case insufficient pressure, replace by D0.8           |
+| MEC_16 | M2*8 countersunk self-tapping screw | 51       |                                                            |
+| MEC_17 | 1.5mm optical fiber                 | 20cm       | or transparant PETG filament                                   |
+| MEC_18 | N35 3*20mm cylindrical magnet       | 8        | You can also buy two 3*10 sucked together for future use with CMCUs |                                
+| MEC_19 | M3*14 machine screw     | 4        |                                                            |
+  | MEC_20 | M3*14 counter strike screw     | 2        |     For the bracket                                                       |
+| MEC_21 | M3 hex nut                          | 4        |                                                            |
+| MEC_22 | MX3.0-4P mirrored cable             | 1        |                                                            |
+| MEC_23 | PH2.0 10pin cable 80mm             | 4        |   80mm                                                          |
+
+</details>
+
+## BMCU-B v3.14 - 370 motor + Photoelectric sensor + steel ball
+
+<details>
+
+<summary>Click here to expend</summary>
+
+| No.    | Name                                | Quantity | Note                                        |
+| ------ | ----------------------------------- | -------- | ------------------------------------------- |
+| MEC-1  | MR85ZZ Bearing                      | 8        |                                             |
+| MEC-2  | BMG Gear Set                        | 4        |                                             |
+| MEC-3  | D5x22mm Shaft                       | 4        |                                             |
+| MEC-5  | D2x20mm Shaft                     | 12       | Better have >20                             |
+| MEC-7  | 182A Gear                         | 12       | Updated to 12                               |
+| MEC-9  | 682A Worm Gear                      | 4        |                                             |
+| MEC-10 | 370 Motor                           | 4        | DC24V-6000RPM                               |
+| MEC-11 | Wire (5cm or longer)                | 8        |                                             |
+| MEC-12 | 62B Bushing                       | 30       | Better have >35                             |
+| MEC-13 | PC4 Pneumatic Head 6mm              | 4        |                                             |
+| MEC-14 | Spring 0.6\*4\*10 - W0.6 OD4 L10 mm                 | 4        | For lever, now spring is longer 10          |
+| MEC-15 | Spring 0.6\*10\*30 - W0.6 OD10 L30 mm                  | 4        | For buffer, 0.6\*12\*30 is also recommended |
+| MEC-17 | M2*8 Countersunk Self-tapping Screw | 36       | Better have >50                             |
+| MEC-18 | 1.75mm Transparent Filament         | 20cm     |                                             |
+| MEC-19 | M2\*4 or M2\*6 Self-tapping Screw   | 8        | For fixing sub-boards                       |
+| MEC-20 | M3\*14 Self-tapping Screw         | 2        | 2 for the bracket                           |
+| MEC-21 | M3\*14 Machine screws             | 4        | For fixing the extruder to the base         |
+| MEC-22 | M3 nuts                           | 4        | For locking extruder with machine screws    |
+| MEC-23 | MX3.0-4P Mirrored Cable             | 1        |                                             |
+| MEC-24 | 5mm steel balls                   | 4        |                                             |
+| MEC-25 | Spring 0.3\*4\*5 - W0.3 OD4 L5 mm                  | 4        | For steel balls                             |
+| MEC_26 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1\*100mm + 3\*80mm                                                          |
+
+</details>
+
+
+
+
+## Obsolete version
+> The following are obsolete versions, so if you are building your own BMCU for the first time, there is no point in choosing the following versions
+{.is-warning}
+
+
+### BMCU-A original version from author（130 version）:
 
 <details>
 
@@ -234,9 +309,8 @@ The 130 steel ball version is not an official version from the author, but in sh
 
 </details>
 
-## BMCU-B - 370 motor + Photoelectric sensor
 
-### BOM for BMCU-B v2.5 | 370 motors without steel ball
+### BMCU-B v2.5 | 370 motors without steel ball
 <details>
 
 <summary>Click here to expend</summary>
@@ -264,73 +338,3 @@ The 130 steel ball version is not an official version from the author, but in sh
 | MEC_19 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1\*100mm + 3\*80mm                                                          |
 
 </details>
-
-
-### BOM for BMCU-B v3.14 | 370 motors + steel ball
-
-<details>
-
-<summary>Click here to expend</summary>
-
-| No.    | Name                                | Quantity | Note                                        |
-| ------ | ----------------------------------- | -------- | ------------------------------------------- |
-| MEC-1  | MR85ZZ Bearing                      | 8        |                                             |
-| MEC-2  | BMG Gear Set                        | 4        |                                             |
-| MEC-3  | D5x22mm Shaft                       | 4        |                                             |
-| MEC-5  | D2x20mm Shaft                     | 12       | Better have >20                             |
-| MEC-7  | 182A Gear                         | 12       | Updated to 12                               |
-| MEC-9  | 682A Worm Gear                      | 4        |                                             |
-| MEC-10 | 370 Motor                           | 4        | DC24V-6000RPM                               |
-| MEC-11 | Wire (5cm or longer)                | 8        |                                             |
-| MEC-12 | 62B Bushing                       | 30       | Better have >35                             |
-| MEC-13 | PC4 Pneumatic Head 6mm              | 4        |                                             |
-| MEC-14 | Spring 0.6\*4\*10 - W0.6 OD4 L10 mm                 | 4        | For lever, now spring is longer 10          |
-| MEC-15 | Spring 0.6\*10\*30 - W0.6 OD10 L30 mm                  | 4        | For buffer, 0.6\*12\*30 is also recommended |
-| MEC-17 | M2*8 Countersunk Self-tapping Screw | 36       | Better have >50                             |
-| MEC-18 | 1.75mm Transparent Filament         | 20cm     |                                             |
-| MEC-19 | M2\*4 or M2\*6 Self-tapping Screw   | 8        | For fixing sub-boards                       |
-| MEC-20 | M3\*14 Self-tapping Screw         | 2        | 2 for the bracket                           |
-| MEC-21 | M3\*14 Machine screws             | 4        | For fixing the extruder to the base         |
-| MEC-22 | M3 nuts                           | 4        | For locking extruder with machine screws    |
-| MEC-23 | MX3.0-4P Mirrored Cable             | 1        |                                             |
-| MEC-24 | 5mm steel balls                   | 4        |                                             |
-| MEC-25 | Spring 0.3\*4\*5 - W0.3 OD4 L5 mm                  | 4        | For steel balls                             |
-| MEC_26 | PH2.0 10pin cable 80mm             | 4        |  Recommended 1\*100mm + 3\*80mm                                                          |
-
-</details>
-
-## BMCU-C - 370 motor + Hall sensor
-
-<details>
-
-<summary>Click here to expend</summary>
-
-| No.    | Name                                | Quantity | Note                                                       |
-|--------|-------------------------------------|----------|------------------------------------------------------------|
-| MEC_1  | MR85ZZ bearing                      | 8        |                                               |
-| MEC_2  | BMG gear kit                        | 4        |                                                            |
-| MEC_3  | D5x22mm shaft                       | 4        | This shaft has accuracy problems, pick a small tolerance before using it.                        |
-| MEC_4  | D2x20mm shaft                       | 12       |                                                |
-| MEC_5  | 182A gear                           | 8       | Better have some more for backup                                 |
-| MEC_6  | 682A worm gear                      | 4        |                                                |
-| MEC_7  | RS370 motor 24V 6000RPM             | 4        |                                                |
-| MEC_8  | M3*5 metric screw                   | 4        | For fixing the motor                                               |
-| MEC_9  | Wires                               | 8        | >=5cm                                                 |
-| MEC_10 | 62B shaft sleeve                    | 24       |                                                            |
-| MEC_11 | PC4 pneumatic fitting 6mm           | 4        | Or 8 if you want to install both side                               |
-| MEC_12 | 5MM stainless steel balls           | 4        |                                                            |
-| MEC_13 | Spring 0.3\*4\*5mm - W0.3 OD4 L5 mm   | 4        | For steel ball                                                  |
-| MEC_14 | Spring 0.6\*4x10mm - W0.6 OD4 L10 mm                | 4        | For lever，in case insufficient pressure and for P series, replace by W0.6 OD4 L15 mm                                                  |
-| MEC_15 | Spring 0.7\*12\*25mm - 	W0.7 OD12 L25 mm                 | 8        | For buffer，in case insufficient pressure, replace by D0.8           |
-| MEC_16 | M2*8 countersunk self-tapping screw | 51       |                                                            |
-| MEC_17 | 1.5mm optical fiber                 | 20cm       | or transparant PETG filament                                   |
-| MEC_18 | N35 3*20mm cylindrical magnet       | 8        | You can also buy two 3*10 sucked together for future use with CMCUs |                                
-| MEC_19 | M3*14 machine screw     | 4        |                                                            |
-  | MEC_20 | M3*14 counter strike screw     | 2        |     For the bracket                                                       |
-| MEC_21 | M3 hex nut                          | 4        |                                                            |
-| MEC_22 | MX3.0-4P mirrored cable             | 1        |                                                            |
-| MEC_23 | PH2.0 10pin cable 80mm             | 4        |   80mm                                                          |
-
-</details>
-
-
