@@ -2,14 +2,11 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-01T06:49:17.525Z
+date: 2025-07-02T08:17:42.975Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
 ---
-
-This page still in progress because I don't have all the information for BMCU on P series.
-{.is-warning}
 
 
 > The problem of not being able to change filament on P/X printers has been successfully fixed in BMCU-C firmware version 0019.
