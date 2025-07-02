@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-06-29T20:46:51.182Z
+date: 2025-07-02T07:57:10.760Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -159,7 +159,7 @@ If you don’t have flashing tools on hand, you can manually force the BMCU to r
 At this point, the BMCU should reattempt direction detection for the reconnected channel. You can now test if the motor spins correctly.
   
 #### Solution 3: Manually reverse motor polarity
-If the above methods do not work, which can happen in rare cases where direction detection consistently fails or always detects the wrong direction, you can simply manually swap the motor wires (i.e., reverse the positive and negative leads) connected to the BMCU for the problematic channel.
+If the above methods do not work, which can happen in rare cases where direction detection consistently fails or always detects the wrong direction, you can simply manually swap the motor wires (i.e., reverse the positive and negative leads) on the sub-board for the channel.
 
 </details>
 
