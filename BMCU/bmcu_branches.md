@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-06-04T21:40:04.861Z
+date: 2025-07-02T07:52:51.881Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -15,7 +15,9 @@ The AMCU is a first generation system, and the project has been discontinued and
 
 
 
-The BMCU is the author's second-generation system, and the author's official development actions will gradually shift to the CMCU once the 370 version has been stabilised.
+The BMCU is the author's second-generation system, and the author's official development actions will gradually shift to the CMCU once the BMCU-C version has been stabilised.
+
+
 
 The CMCU is in the early stages of development by the authors and their team. The CMCU is characterised by closed components similar to the AMS system, and the extruder mechanism will be integrated into a closed dryer box, but with a significant increase in the corresponding DIY cost.
 
