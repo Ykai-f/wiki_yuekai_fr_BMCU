@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-02T09:39:57.542Z
+date: 2025-07-02T09:43:43.249Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -81,8 +81,8 @@ Internal 5 way:
 
 # Using AMS + BMCU or more than one BMCU
 
-> Update on 30th June 2025:
-> We are excited to announce that in the latest firmware release (currently available as version 0016), @4061 has introduced support for using multiple BMCUs alongside AMS units on P/X-series printers. With this update, combining BMCU and AMS has become simpler and more user-friendly than ever. Due to inherent limitations of the P-series system, you can now freely mix and use any combination of BMCUs and AMS units, as long as the total number of devices does not exceed four.
+> **Update on 2nd July 2025**:
+> We are excited to announce that in the latest firmware release (currently available as version 0019), @4061 has introduced support for using multiple BMCUs alongside AMS units on P/X-series printers. With this update, combining BMCU and AMS has become simpler and more user-friendly than ever. Due to inherent limitations of the P-series system, you can now freely mix and use any combination of BMCUs and AMS units, as long as the total number of devices does not exceed four.
 {.is-success}
 
 
