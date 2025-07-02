@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-07-02T07:52:51.881Z
+date: 2025-07-02T08:09:04.398Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -153,14 +153,16 @@ todo
 https://makerworld.com/zh/models/1447789-bmcu-d-version-130#profileId-1507821
 
 
-# Should I get a BMCU-A or BMCU-B?
+# Should I get a BMCU-A or BMCU-B or BMCU-C?
 
+It is always recommended to assemble the BMCU-C directly. As of today (**update date: 02/07/2025**), there is no reason not to choose BMCU-C.
+By choosing BMCU-C, you get more features and longer-term maintenance support.
 
-| Feature              | 130/180 Version                           | 370 Version                               |
-|----------------------|---------------------------------|----------------------------------|
-| **Feeding Mechanism** | Passive feeding; remains quiet and stable as long as there is no resistance in filament feeding. | Active feeding; periodically pushes filament to the printer, which may generate some noise. However, many users report it is still quiet. |
-| **Noise Level**       | Generally quieter. Some noise during filament loading and unloading. | Potentially noisier due to active feeding, but user feedback indicates it is still relatively quiet. |
-| **Filament Loading/Unloading Speed** | Slower loading and unloading. With some noise. | Very fast loading and unloading but produces noticeable noise. |
-| **Assembly Difficulty** | Slightly more complex to assemble. | Easier to assemble. |
-| **Maintenance** | Risk of clutch wear over time. | Risk of cleaning of the filament hole. If using metal gears, may generate more black grease residue. |
-| **Disadvantages & Issues** | If not installed properly, it may cause the printer to get stuck at 99% after printing, continuously flushing material. | May push up the printer's five-way connector and could cause filament grinding, leading to clogging issues. |
+- **BMCU-A**: Unless you’re looking for a personal challenge.
+
+- **BMCU-B**: Although exceptionally well-designed, the author of BMCU, @4061N, will no longer release any firmware or enclosure updates for BMCU-B. However, since the source code is fully open, it might be a good starting point if you plan to develop your own AMS system.
+
+- **BMCU-C**: **The best BMCU to date** — there’s simply no reason not to go with it. However, the source code will remain closed for now. Please respect the author's decision.
+
+- **BMCU-D** (experimental): If you're a P-series user, choosing the D version could make sense although not neccesary. Note that as of the current update, it doesn’t support multiple BMCUs (as it's essentially a modified BMCU-A). More updates are planned in the future. Personally, I would only recommend this version to developers or hardcore enthusiasts.
+
