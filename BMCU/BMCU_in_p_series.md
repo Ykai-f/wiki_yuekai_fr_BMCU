@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-02T08:17:42.975Z
+date: 2025-07-02T08:42:55.732Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -82,7 +82,7 @@ Internal 5 way:
 {.is-success}
 
 - You can use up to 4 devices, any number of combinations of AMS and BMCUs.
-- Your printer firmware should be version 01.07.00.00 or earlier, otherwise you will not be able to switch the type of filament in the BMCU.
+- You can safely upgrade your P/X printer to the latest firmware
 - You will still need a rewind device to rewind the filament as it will exit quite a distance.
 - For multiple BMCUs, you will need to flash different firmware for each of the up to four BMCUs you own, number 1 to 4 respectively
 
