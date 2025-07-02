@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-07-01T06:50:24.932Z
+date: 2025-07-02T07:15:21.752Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -19,13 +19,14 @@ I also recommend asking your question directly in the Reddit forums to get respo
 
 
 >Update 4th June : 
->📢 Firmware Update Notice –**A Series** - **01.05.00.00**
+>📢 Printer Firmware Update Notice –**A Series** - **01.05.00.00**
 >✅ This update does not affect the functionality of BMCU. You can safely update your printer without concerns regarding BMCU compatibility.
 >⚠️ However, this firmware does impact third-party integrations such as Orca Slicer and Home Assistant.
 {.is-success}
 
 
 > Update on 1st July
+>📢 BMCU Firmware Update Notice –**BMCU-C 0019**
 > The problem of not being able to change filament on P/X printers has been successfully fixed in BMCU-C firmware version 0019.
 {.is-success}
 
