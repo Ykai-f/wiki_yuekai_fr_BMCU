@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: true
-date: 2025-07-02T07:57:10.760Z
+date: 2025-07-02T07:58:35.180Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:08:58.045Z
@@ -170,7 +170,7 @@ If the above methods do not work, which can happen in rare cases where direction
   
   This may be due to the following reasons:
 
-1. First, the magnet signal is missing, such as the magnet is forgotten to be installed or the AS5600 chip is faulty. In the absence of the magnet signal, the BMCU will not perform any operation to detect the consumables.
+1. First, the magnet signal may be missing, it can be the magnet is forgotten to be installed or the AS5600 chip is faulty. In the absence of the magnet signal, the BMCU will not perform any operation to detect the filament.
 1. Second, other faults at the welding level, such as the CH32V chip or PH10 socket is not welded properly
   
   Solution:
