@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-01T16:30:43.001Z
+date: 2025-07-02T09:44:18.414Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -105,7 +105,7 @@ Firmware from this version adapted to BMCU-C
 In these releases, support for multiple BMCUs and simultaneous BMCU/AMS use on the P-Series has been added.
 Possible issues : Motor driver chip AT8236 gets hot for no reason, same as original 0013, PID tuning may not be in place for now, possible motor overheating and gear wear problems.
 
-Fixed the issue that the BMCU could not switch the filament type under the new AMS protocol
+In the version 0019 : Fixed the issue that the BMCU could not switch the filament type under the new AMS protocol
 
 #### 0013-Plus-Color-Noise-Heat-Improve 
 
