@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-02T08:42:55.732Z
+date: 2025-07-02T08:44:45.269Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -13,13 +13,13 @@ dateCreated: 2025-03-20T14:42:09.077Z
 {.is-success}
 
 
-## BMCU Version Adaptation Status
+# BMCU Version Adaptation Status
 
 - **BMCU-A**: Not supported; no plans for future adaptation.
 - **BMCU-B**: Fully supported and running well on the P-Series.
 - **BMCU-C**: Fully supported and running well on the P-Series, Multi BMCU or BMCU+AMS supported.
 
-## Original BMCU firmware with P/X printer
+# Original BMCU firmware with P/X printer
 
 Starting from firmware version 2-6, the BMCU firmware is capable of identifying whether your printer belongs to the P/X series or A series. In the original firmware developed by `@4061N`, the logic for P/X series printers is as follows:
 
@@ -30,6 +30,10 @@ Starting from firmware version 2-6, the BMCU firmware is capable of identifying 
 Under this default behavior, a rewinder is required to take up the slack, as the filament will be pulled out by a significant length.
 
 This also means that, provided you have a compatible rewinder setup, you are free to upgrade your BMCU to any firmware version.
+
+## With rewinder system
+
+With a rewind device, you can use any BMCU and any version of firmware, and the BMCU will perform similar behavioral logic as the AMS.
 
 ## Without rewinder system
 For setups without a rewinder, there are some special firmwares modified by `@XC`. Unlike the original firmware which relies on filament detection (e.g., optical or steel ball sensors), this version uses a time-based retraction mechanism to define the unloading distance.
