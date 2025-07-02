@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-07-02T07:15:21.752Z
+date: 2025-07-02T07:18:42.924Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -84,12 +84,12 @@ Special thanks to all the members of the WIKI editorial team and the authors!
 
 # To do list for the updates
 
-- Hall version tutorials
+~~- Hall version tutorials~~
 - BMCU videos
 - BMCU Hub for multiple BMCU
 - BMCU D info
 - update version branch info
-- troubleshooting rebuild
+~~- troubleshooting rebuild~~
 - test rebuild
 - flashing -> linux and macos info
 - troubleshooting hall version -> squeezes / Mouse sounds
