@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-07-02T08:09:04.398Z
+date: 2025-07-02T13:29:24.754Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -124,9 +124,9 @@ The 180 version is a variant of the 130 version, which uses the 180 motor and ha
 
 # BMCU-B
 
-## 370 version
+## v2.5 - with out steel ball
 The 370 version means that its motor uses a `370 motor(24v 6000rpm)` instead of the original FF-130sh motor
-![370版本可视图2.png](/assets/images/bmcu_branch/370版本可视图2.png)
+![370版本可视图2.png](/assets/images/bmcu_branch/370版本可视图2.png =x350)
   
 The 370 version will run theoretically faster, and improves on the original 130 version's potential problems of getting stuck at 99% and feed pressure.
 > The 370 version has a different noise aspect than the 130 version, and because the 370 motor has more torque, the BMG gears mesh better, and there is a certain amount of ‘filament chewing’.
@@ -135,18 +135,28 @@ The 370 version will run theoretically faster, and improves on the original 130 
   
 Earlier versions of the 370 had the potential for five-pass explosion. The reason was that when the selected print speed was higher than 100%, the BMCU fed the material faster than the extruder, resulting in abnormal operation. The authors and developers have now improved the situation with a different structure of BMCU, but for now the 370 version is still in beta.
 
-## 370 steel ball version
-![bmcu_steel_ball_version.png](/assets/images/bmcu_branch/bmcu_steel_ball_version.png)
+## v3.14 - with steel ball
+![bmcu_steel_ball_version.png](/assets/images/bmcu_branch/bmcu_steel_ball_version.png =x350)
 
 The current steel ball version is an excellent version who better solves the problem of photoelectric sensors. It is usually recommended to assemble this version.
 
 # BMCU-C
-![hall_version.png](/assets/images/bmcu_branch/hall_version.png)
+![hall_version.png](/assets/images/bmcu_branch/hall_version.png =x350)
 
-The Hall version is an upgrade from the steel ball version of the BMCU-B, retaining the mechanism of using a steel ball to detect the presence of consumables and using a Hall sensor to detect the position of the buffer.
-This improvement was made to address the problem of five way being poped out that could occur with the original BMCU-B version.
+BMCU-C represents the latest generation of the BMCU. It is built upon the solid foundation of BMCU-B v3.14, incorporating significant improvements in both hardware and functionality.
 
-Currently BMCU-C is on test.
+BMCU-C uses a new subboard equipped with a Hall sensor. Unlike the one-way buffer mechanism in BMCU-B, BMCU-C introduces a bi-directional buffer system. This upgrade greatly reduces the risk of AMS Lite Hub ejection under pressure, a problem that occasionally occurred in previous designs.
+
+BMCU-C also brings several new smart features, such as:
+
+- Material insertion on buffer head press
+
+- Material retraction when the buffer head is pulled out
+
+- Multi-BMCU setups on P-series printers and also can be used with AMS systems
+
+If you're looking for the most stable, feature-rich, and future-ready BMCU experience, BMCU-C is the ultimate choice.
+
 
 # BMCU-D
 todo 
