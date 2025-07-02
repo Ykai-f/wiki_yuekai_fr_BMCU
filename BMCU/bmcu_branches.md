@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-07-02T13:29:24.754Z
+date: 2025-07-02T13:31:32.447Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -47,12 +47,13 @@ BMCU
 │    └── 180 version
 │
 ├── BMCU-B : 370 Motor/Photoelectric sensors
-│    └── 370 Original version
-│    ├── 370 Steel ball version
-│    └── Micro Button Version (Requires a completely different PCB)
+│    ├── 370 Original version v2.5
+│    ├── 370 Steel ball version v3.14
+│    └── 370X Microswitch version by @XC (Different sub-board!)
 │
 ├── BMCU-C : 370 Motor/Hall Sensor
-│    └── Been widly tested to verify its stability and is currently the most recommended version.
+│    └── Dual-Microswitch version by @XC and @ABin (Different sub-board!)
+│    
 │
 ├── BMCU-D : BMCU-A integrated with B1 rewind unit. (Updated 25/05/2025)
 │    └── Very early alpha test.
