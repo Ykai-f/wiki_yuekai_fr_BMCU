@@ -2,7 +2,7 @@
 title: BMCU
 description: 
 published: true
-date: 2025-07-02T08:14:57.285Z
+date: 2025-07-02T08:47:23.197Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T10:50:06.359Z
@@ -29,8 +29,11 @@ https://gitee.com/at_4061N/BMCU
 
 ## Introduction
 The BMCU is designed based on open source materials, according to the protocol introduction of bambubus on Github, and the reference data provided by users, so we designed a system to simulate the operation of AMS for A series printers.
-> Since firmware 2.16, the BMCU can be recognised by the P-Series as an AMS system, but using it on the P-Series still requires a little more finesse, for more information on the P-Series and the BMCU, please visit this page
-> [BMCU in P series](/BMCU/BMCU_in_p_series)
+> Since firmware version 2-16, the BMCU can recognize the connected printer as either a P/X series or an A series.
+> - When connected to P/X series -> Emulate AMS system 
+> - When connected to A series -> Emulate AMS Lite system
+> 
+> For specific information about how to use BMCU on the P/X series, please refer to this page : [BMCU in P series](/BMCU/BMCU_in_p_series)
 {.is-info}
 
 
