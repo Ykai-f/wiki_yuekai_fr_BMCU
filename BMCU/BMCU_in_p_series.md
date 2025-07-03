@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-02T09:43:43.249Z
+date: 2025-07-03T15:21:16.028Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -140,8 +140,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0
 ```
 
 
-
-
+*If you can't see the lines, it's probably because your browser doesn't fully support it, I invite you to use **chrome** to preview
 
 Connect the PTFE tubes as shown, please note that you need to ensure that the lengths of L1+L2 and L4 are much longer than L3.
 
