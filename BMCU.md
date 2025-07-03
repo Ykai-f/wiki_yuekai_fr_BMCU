@@ -2,13 +2,19 @@
 title: BMCU
 description: 
 published: true
-date: 2025-07-02T08:47:47.945Z
+date: 2025-07-03T15:46:05.729Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-26T10:50:06.359Z
 ---
 
 # What's BMCU
+
+
+> The content on this page is actually a bit old, waiting for an update - 03/07/2025
+{.is-info}
+---
+
 
 > Please note that BMCU is an unofficial third-party DIY component. Its stability and reliability cannot match those of the original official products. BMCU is still undergoing continuous iterations, which means that even if you purchase a BMCU, you may encounter issues in the near future that require self-repair. Additionally, new versions of firmware or enclosures may be released, and you may need to upgrade them on your own. We also cannot guarantee whether Bambu Lab will implement measures in the future that may block or restrict the use of BMCU.
 {.is-danger}
