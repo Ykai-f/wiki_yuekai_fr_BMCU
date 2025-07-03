@@ -2,7 +2,7 @@
 title: Home page
 description: 
 published: true
-date: 2025-07-03T15:46:43.166Z
+date: 2025-07-03T15:47:01.348Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-26T21:11:08.155Z
@@ -86,6 +86,7 @@ Special thanks to all the members of the WIKI editorial team and the authors!
 
 ~~- Hall version tutorials~~
 - New what's BMCU page
+- New first time use page
 - BMCU videos
 - BMCU Hub for multiple BMCU
 - BMCU D info
