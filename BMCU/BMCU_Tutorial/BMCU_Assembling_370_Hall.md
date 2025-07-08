@@ -72,7 +72,7 @@ The pin with red dot is positive
 
 Find a container and add water
 
-![Water Container](/assets/images/bmcu_c_hall/Magnet_dirction.png =x300)
+![Water Container.png](/assets/images/bmcu_c_hall/Magnet_dirction.png =x300)
 
 Attach two D3\*10 magnets or one single D3\*20 magnets, place in the [Magnet Polarity Detector](https://makerworld.com.cn/zh/models/1141340), and float on water
 
@@ -85,6 +85,8 @@ Once stable, the end pointing south is the south pole, the other end is north po
 With slider oriented as shown, insert magnet (south pole near pneumatic)
 
 Important: **Center the magnet in the slider's magnet mounting position**
+
+![Insert_magnet.png](/assets/images/bmcu_c_hall/Insert_magnet.png =x300)
 
 > Emergency withdrawal of the picture, previously shown with the wrong magnetic poles!
 {.is-danger}
