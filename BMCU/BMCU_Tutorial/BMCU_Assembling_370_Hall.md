@@ -2,7 +2,7 @@
 title: BMCU-C (370 Hall Version) Assembly Guide
 description: 
 published: true
-date: 2025-07-08T15:00:55.643Z
+date: 2025-07-08T15:01:49.003Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T13:28:36.330Z
@@ -85,6 +85,10 @@ Once stable, the end pointing south is the south pole, the other end is north po
 With slider oriented as shown, insert magnet (south pole near pneumatic)
 
 Important: **Center the magnet in the slider's magnet mounting position**
+
+> Emergency withdrawal of the picture, previously shown with the wrong magnetic poles!
+{.is-danger}
+
 
 ## Secure Slider Magnet
 
