@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-16T08:51:34.165Z
+date: 2025-07-16T08:52:46.208Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -93,8 +93,8 @@ Internal 5 way:
 - For multiple BMCUs, you will need to flash different firmware for each of the up to four BMCUs you own, number 1 to 4 respectively
 
 **Current Known Issues:**
-- Because BMCUs do not communicate with each other / between BMCUs and AMS, when switching filament, it is possible that BMCU1 is still retreiving but BMCU2 is starting to feed, so you need to make the BMCU-Penta distance much larger than the Penta-Printer distance
-- We have noticed that in the current 0016-0018 firmware, the AT8236 chip may heat up abnormally in an unworked state, waiting for the developer to fix it in a future release
+- Because BMCUs do not communicate with each other / between BMCUs and AMS, when switching filament, it is possible that BMCU1 is still retreiving but BMCU2 is starting to feed, so you need to make the BMCU-Hub distance much larger than the Hub-Printer distance
+- We have noticed that in the current 0016-0019 firmware, the AT8236 chip may heat up abnormally in an unworked state, waiting for the developer to fix it in a future release
 - In the current 0016-0018 versions of the firmware, the authors have not included the PID tuning parameters etc. developed by @XC for the time being, so there is a possibility that it may not be as good as the 0013Plus version in terms of gear wear/noise/heating issues
 
 ## Interface diagram
