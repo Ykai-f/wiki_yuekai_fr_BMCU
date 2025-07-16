@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-08T11:25:39.552Z
+date: 2025-07-16T08:51:34.165Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -16,10 +16,10 @@ dateCreated: 2025-03-20T14:42:09.077Z
 # BMCU Version Adaptation Status
 
 - **BMCU-A**: Not supported; no plans for future adaptation.
-- **BMCU-B**: Fully supported and running well on the P-Series.
+- **BMCU-B**: Starting from firmware version 01.08.00.00, the switching filament parameter is no longer available, meaning filament switching in the AMS (BMCU) system cannot be configured. All versions below 01.08.00.00 are fully supported. Currently, there is no update planned to reintroduce this feature.
 - **BMCU-C**: Fully supported and running well on the P-Series, Multi BMCU or BMCU+AMS supported.
 
-# Original BMCU firmware with P/X printer
+# BMCU firmware with P/X printer
 
 Starting from firmware version 2-6, the BMCU firmware is capable of identifying whether your printer belongs to the P/X series or A series. In the original firmware developed by `@4061N`, the logic for P/X series printers is as follows:
 
