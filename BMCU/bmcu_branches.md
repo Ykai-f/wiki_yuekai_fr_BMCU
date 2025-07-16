@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-07-02T13:33:45.859Z
+date: 2025-07-16T09:44:10.778Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -52,7 +52,7 @@ BMCU
 │    └── 370X Microswitch version by @XC (Different sub-board!)
 │
 ├── BMCU-C : 370 Motor/Hall Sensor
-│    └── Dual-Microswitch version by @XC and @ABin (Different sub-board!)
+│    └── Two-Microswitch version by @XC and @ABin (Different sub-board!)
 │    
 │
 ├── BMCU-D : BMCU-A integrated with B1 rewind unit. (Updated 25/05/2025)
@@ -67,19 +67,27 @@ BMCU
 │
 ├── Mainboard
 │   ├── Default version
+│   ├── Front Type-C version (replace the original pin location with Type-C)
+│   ├── Side Type-C version by @XC
 │   └── Minor security patch version (small update with enhanced safety)
 │
 └── Sub-board
     ├── V1 Photoelectric sensors 
+    │   └── Micro Switch version by @XC
     └── V2 Hall sensors
+        └── Two-Microswitch version by @XC and @ABin
 
 ```
 
 ### Mainboard
 
-Both versions of the mainboard are universal and can be used for all BMCU versions. 
+All mainboard versions are universal and compatible with any version of the BMCU — they are fully interchangeable.
 
-The difference is that the new version adds more protection to the circuits and reduces the possibility of burning in case of hot-plugging or other accidents (although hot-plugging is still not recommended).
+The newer official version, which includes additional protection circuits, is designed to reduce the risk of damage during hot-plugging or similar accidents (although hot-plugging is still not recommended). However, we’ve observed that this version may occasionally experience issues. Therefore, we recommend not soldering the SS54 diode located next to the 5050 LED in the upper right corner; instead, you may directly short it for better reliability.
+
+Alternatively, you can also consider using @XC’s side-mounted Type-C mainboard, which has proven to be an excellent choice as well.
+
+
 
 #### Original version
 ![mainboard_origina_version.png](/assets/images/bmcu_branch/mainboard_origina_version.png =x300)
