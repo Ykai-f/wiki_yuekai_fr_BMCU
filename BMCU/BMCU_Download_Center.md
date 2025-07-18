@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-18T21:45:19.005Z
+date: 2025-07-18T21:45:31.362Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -60,7 +60,7 @@ or Noise-Color-Heat Improved version  [0013-Plus-Color-Noise-Heat-Improve.zip](/
 Please read carefully the README.md in the zip file.
 
 <details>
-  <summary>Click to view the README.MD for P/X user</summary>
+  <summary>Click to view the README.md for P/X user</summary>
   
 # 📂 BMCU-C Firmware v0020
 
