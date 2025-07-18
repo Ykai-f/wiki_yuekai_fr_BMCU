@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-18T21:47:03.327Z
+date: 2025-07-18T21:47:59.557Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -94,21 +94,6 @@ Here are some common usage scenarios and the corresponding firmware to flash:
 - 🟢 **For P1S using two BMCUs with external 5-way hubs**:  
   - Flash `BMCU-C-0020-P-X-Series-Ext-Hub-A.bin` on BMCU #1  
   - Flash `BMCU-C-0020-P-X-Series-Ext-Hub-B.bin` on BMCU #2
-
-
-##### 🗓️ Firmware Update – July 25, 2025 (v0020)
-
-**BMCU-C v0020 Changelog:**
-
-- 🛠️ Fixed incorrect LED behavior where some statuses failed to light up
-- ⚙️ Resolved issue with unexpected channel online status
-- 🔧 Corrected anti-disconnection mechanism (previously ineffective)
-- 💡 Completely reworked the LED system:
-  - Fixed flickering issues
-  - Reduced LED refresh rate to improve performance
-- 🔁 When a channel error is detected, the system now retries lighting up the red LED every 3 seconds.  
-  This ensures that channels inserted **after** the BMCU has entered working state will still be detected visually.
-
 
 If you have any questions or suggestions, feel free to reach out to the community or our support group.  
 We’re committed to continuously improving the BMCU firmware experience.
