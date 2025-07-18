@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-18T21:45:53.016Z
+date: 2025-07-18T21:47:03.327Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -62,7 +62,7 @@ Please read carefully the README in the zip file.
 <details>
   <summary>Click to view the README.md for P/X user</summary>
   
-# 📂 BMCU-C Firmware v0020
+#### 📂 BMCU-C Firmware v0020
 
 This folder contains the **v0020 universal firmware** for **all BMCU-C boards**, including the upcoming dual microswitch Hall sensor version.
 
@@ -70,9 +70,7 @@ This folder contains the **v0020 universal firmware** for **all BMCU-C boards**,
 > The choice of sub-board does not matter; for P1, just ensure the pipe length is configured correctly to choose **internal** or **external** version.  
 > A1 is configured as internal by default and does not require adjustment.
 
----
-
-## 🔤 Firmware Naming (A/B/C/D)
+##### 🔤 Firmware Naming (A/B/C/D)
 
 The files named `BMCU-C-0020-P-X-Series-Int/Ext-Hub-A/B/C/D` are specifically for **P1 series**:
 
@@ -80,9 +78,7 @@ The files named `BMCU-C-0020-P-X-Series-Int/Ext-Hub-A/B/C/D` are specifically fo
 - The suffix `A`, `B`, `C`, `D` determines the printer’s ability to recognize up to 4 devices.
 - For A1, you can **directly flash `BMCU-C-0020-A Series Printer.bin`** without concern.
 
----
-
-## 🔧 Practical Examples
+##### 🔧 Practical Examples
 
 Here are some common usage scenarios and the corresponding firmware to flash:
 
@@ -100,7 +96,7 @@ Here are some common usage scenarios and the corresponding firmware to flash:
   - Flash `BMCU-C-0020-P-X-Series-Ext-Hub-B.bin` on BMCU #2
 
 
-## 🗓️ Firmware Update – July 25, 2025 (v0020)
+##### 🗓️ Firmware Update – July 25, 2025 (v0020)
 
 **BMCU-C v0020 Changelog:**
 
@@ -114,29 +110,8 @@ Here are some common usage scenarios and the corresponding firmware to flash:
   This ensures that channels inserted **after** the BMCU has entered working state will still be detected visually.
 
 
-**BMCU-C v0019 Changelog:**
-
-- ✅ **16-color support** for P1/X1 printers (requires flashing the new firmware)
-- 🛠️ Fixed the issue where **filament info could not be saved** on the latest P1 firmware (`00.01.06.62`) and slicing software (`2.1.1.52`)
-- ⚙️ Refined online channel logic to prevent incorrect status detection in edge cases
-- ⚡ Improved motor control: separate logic for high and low voltage scenarios
-
----
-
-## 💡 Changes Compared to Previous v0013 (Anti-Overheat Light Optimization)
-
-- 🌙 Mainboard LED Behavior:
-  - Red breathing light when not connected to printer
-  - White breathing light when working normally
-- 🔅 Further reduced LED brightness for buffer and mainboard to prevent overheating
-- 🔁 Ejection behavior revised: removed A1-specific retraction control for broader compatibility
-
----
-
 If you have any questions or suggestions, feel free to reach out to the community or our support group.  
 We’re committed to continuously improving the BMCU firmware experience.
-
----
   
   </details>
   
