@@ -51,8 +51,8 @@ Use EasyEDA to open .epro file
 ## Recommended firmware
 - **BMCU-A** : V0.2 [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)
 - **BMCU-B** : V3.14 [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)
-- **BMCU-C** : Test 0013 [bmcu_c_firmware_0013.zip](/assets/files/download_center/firmware_and_source_code/bmcu_c_firmware_0013.zip) 
-or Noise-Color-Heat Improved version **(highly recommended)** [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)
+- **BMCU-C** : V0020 **(highly recommended)** [BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip) 
+or Noise-Color-Heat Improved version  [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)
 
 ## For P/X user
 
@@ -95,6 +95,7 @@ Firmware from this version adapted to BMCU-C
 | 0013-Plus-Color-Noise-Heat-Improve    | [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)     |      | |
 |0016|[BMCU-C-V0.1-0016.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0016.zip) |||
 |0019|[BMCU-C-V0.1-0019.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0019.zip)|||
+|0020|[BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip)|||
 
 </details>
 
@@ -103,12 +104,23 @@ Firmware from this version adapted to BMCU-C
 
 ### Update log
 
-#### 0014 - 0019 
-In these releases, support for multiple BMCUs and simultaneous BMCU/AMS use on the P-Series has been added.
-  
-Possible issues : Motor driver chip AT8236 gets hot for no reason, same as original 0013, PID fine tuning by `@XC` is not added for now, so possible motor overheating and gear wear problems .
+#### 0020
 
-In the version 0019 : Fixed the issue that the BMCU could not switch the filament type under the new AMS protocol
+- 🛠️ Fixed incorrect LED behavior where some statuses failed to light up
+- ⚙️ Resolved issue with unexpected channel online status
+- 🔧 Corrected anti-disconnection mechanism (previously ineffective)
+- 💡 Completely reworked the LED system:
+  - Fixed flickering issues
+  - Reduced LED refresh rate to improve performance
+- 🔁 When a channel error is detected, the system now retries lighting up the red LED every 3 seconds.  
+  This ensures that channels inserted **after** the BMCU has entered working state will still be detected visually.
+
+
+#### 0014 - 0019 
+- ✅ **16-color support** for P1/X1 printers (requires flashing the new firmware)
+- 🛠️ Fixed the issue where **filament info could not be saved** on the latest P1 firmware (`00.01.06.62`) and slicing software (`2.1.1.52`)
+- ⚙️ Refined online channel logic to prevent incorrect status detection in edge cases
+- ⚡ Improved motor control: separate logic for high and low voltage scenarios
 
 #### 0013-Plus-Color-Noise-Heat-Improve 
 This version is `@XC`'s secondary development version based on 0013, optimized the following:
