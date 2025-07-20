@@ -2,7 +2,7 @@
 title: BMCU Branches
 description: 
 published: true
-date: 2025-07-16T09:44:10.778Z
+date: 2025-07-20T17:21:33.864Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:43:52.883Z
@@ -173,7 +173,7 @@ If you're looking for the most stable, feature-rich, and future-ready BMCU exper
 
 # BMCU-D
 todo 
-https://makerworld.com/zh/models/1447789-bmcu-d-version-130#profileId-1507821
+https://makerworld.com/zh/models/1464490-bmcu-d-version-130-integrated-rewind-extruder-fila?from=search#profileId-1527520
 
 
 # Should I get a BMCU-A or BMCU-B or BMCU-C?
