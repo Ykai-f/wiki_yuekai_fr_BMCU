@@ -2,7 +2,7 @@
 title: BMCU Download Center
 description: 
 published: true
-date: 2025-07-18T21:47:59.557Z
+date: 2025-07-20T19:30:10.855Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T14:08:05.158Z
@@ -51,16 +51,12 @@ Use EasyEDA to open .epro file
 ## Recommended firmware
 - **BMCU-A** : V0.2 [firmwarev0.2.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_v0.2.zip)
 - **BMCU-B** : V3.14 [bmcu_firmware_3_14.zip](/assets/files/download_center/firmware_and_source_code/bmcu_firmware_3_14.zip)
-- **BMCU-C** : V0020 **(highly recommended)** [BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip) 
-or Noise-Color-Heat Improved version  [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)
+- **BMCU-C** : V0020 [BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip) 
 
-## For P/X user
-
-- **BMCU-C** : V0020 **(highly recommended)** [BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip)
-Please read carefully the README in the zip file.
-
+> For v0020: Please read carefully the README in the zip file espically for P/X series user
+{.is-info}
 <details>
-  <summary>Click to view the README.md for P/X user</summary>
+  <summary>Click to view the README.md for v0020</summary>
   
 #### 📂 BMCU-C Firmware v0020
 
