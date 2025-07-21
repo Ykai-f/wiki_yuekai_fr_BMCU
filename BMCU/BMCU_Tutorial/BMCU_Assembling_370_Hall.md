@@ -2,7 +2,7 @@
 title: BMCU-C (370 Hall Version) Assembly Guide
 description: 
 published: true
-date: 2025-07-13T13:03:51.206Z
+date: 2025-07-21T20:36:17.787Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-17T13:28:36.330Z
@@ -22,7 +22,7 @@ This guide is written for BMCU-C v0.2 channel component assembly.
 Integration package for this tutorial: Coming soon, please check group files
 
 - **A fully soldered BMCU `Hall version` circuit board**: ensuring no soldering defects (cold joints, missing solder, bridges, wrong components, etc.).
-- **Flash the mainboard with Hall version compatible firmware**. As of 23/06/25, the latest available firmware is `Test 0013`
+- **Flash the mainboard with Hall version compatible firmware**. As of 21/07/25, the latest available firmware is `v0020`
 - **3D printed housing** : You can choose between 
 	[1. The original file from the author](https://makerworld.com/zh/models/1322913-bmcu-c-hall-sensor-version#profileId-1359453)
   [2. BMCU-C improved version by @Kongmingn](https://makerworld.com/zh/models/1539594-bmcu-c-v0-2-model-kongming-optimized-final-version#profileId-1615601)
