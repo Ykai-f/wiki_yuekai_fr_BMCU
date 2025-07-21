@@ -2,7 +2,7 @@
 title: BMCU with P/X series
 description: 
 published: true
-date: 2025-07-16T08:52:46.208Z
+date: 2025-07-21T20:22:22.619Z
 tags: 
 editor: markdown
 dateCreated: 2025-03-20T14:42:09.077Z
@@ -77,7 +77,7 @@ Internal 5 way:
 ##### Using internal 5 way
 - [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)
 
-- (Not recommend to use anymore) ~~[P_Hall_4_24_Int5Way.bin.zip](/assets/files/download_center/p_series/P_Hall_4_24_Int5Way.bin.zip) -  **Different springs required: `WD0.6 OD12 L30 mm` for buffer and `WD0.6 OD4 L15` for lever**~~
+- [BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip)
 
 # Using AMS + BMCU or more than one BMCU
 
