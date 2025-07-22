@@ -2,15 +2,15 @@
 title: BMCU bill of materials
 description: 
 published: true
-date: 2025-07-02T07:33:04.598Z
+date: 2025-07-22T15:54:46.909Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T09:58:01.713Z
 ---
 
 # Common components
-> *Note：You will always need FOUR `6x2.5mm` radial magnets, they are in fact included with the AS5600 chips in the BOM sheet of the PCB, so the author didn't list them in the mechanical sheet.
-> Some of the finished PCBs do not come with this magnet. They are VERY important and BMCU can't work without them. You must purchase `RADIAL MAGNETS`.
+> *Note：You will always need FOUR `6x2.5mm` diametrically magnetized disc magnet, they are in fact included with the AS5600 chips in the BOM sheet of the PCB, so the author didn't list them in the mechanical sheet.
+> Some of the finished PCBs do not come with this magnet. They are VERY important and BMCU can't work without them. You must purchase `diametrically magnetized disc magnet`.
 >  ![magnet-axe.png](/assets/images/bom_sheet/magnet-axe.png =x100)  NO!!!       ![magnet-rad.png](/assets/images/bom_sheet/magnet-rad.png =x100)  YES!!!  
 {.is-warning}
 
