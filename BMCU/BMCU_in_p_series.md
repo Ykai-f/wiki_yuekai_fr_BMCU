@@ -149,3 +149,10 @@ Connect the PTFE tubes as shown, please note that you need to ensure that the le
 Since BMCU and other devices do not communicate with each other（but AMS do communicate with other AMS）, it can happen that BMCU1 is still withdrawing filament, but BMCU2 is starting to feed, so make sure to configure the PTFE tubes according to this logic.
 
 Another reason is that the AMS system will be much faster than the BMCUs.
+
+
+# Photo Gallary
+
+![bmcu_on_p_1.png](/assets/images/p_series/bmcu_on_p_1.png =x300)
+
+![bmcu_on_p_2.png](/assets/images/p_series/bmcu_on_p_2.png =x300)
