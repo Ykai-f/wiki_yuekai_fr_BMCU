@@ -133,7 +133,7 @@ Firmware from this version adapted to BMCU-C
 | 0013-Plus-Color-Noise-Heat-Improve    | [0013-Plus-Color-Noise-Heat-Improve.zip](/assets/files/download_center/firmware_and_source_code/0013-Plus-Color-Noise-Heat-Improve.zip)     |      | |
 |0016|[BMCU-C-V0.1-0016.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0016.zip) |||
 |0019|[BMCU-C-V0.1-0019.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0019.zip)|||
-|0020|[BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip)|||
+|0020|[BMCU-C-V0.1-0020.zip](/assets/files/download_center/firmware_and_source_code/BMCU-C-V0.1-0020.zip)||[src-BMCU-C-0020-Hall.zip](/assets/files/download_center/firmware_and_source_code/src-BMCU-C-0020-Hall.zip)|
 
 </details>
 
