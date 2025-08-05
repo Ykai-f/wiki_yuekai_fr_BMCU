@@ -2,7 +2,7 @@
 title: BMCU Testing
 description: 
 published: true
-date: 2025-05-18T00:59:51.689Z
+date: 2025-08-05T09:08:23.442Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-25T12:11:39.883Z
@@ -14,7 +14,7 @@ dateCreated: 2025-02-25T12:11:39.883Z
 > Do not hot-plug or unplug the connection cable between the BMCU and the printer while the printer is powered on.
 {.is-warning}
 
-> The status of the indicator is different in the ABC version, this page will be reset soon.
+> This page is outdate, the status of the indicator is different in the ABC version, this page will be reset soon.
 {.is-danger}
 
 
